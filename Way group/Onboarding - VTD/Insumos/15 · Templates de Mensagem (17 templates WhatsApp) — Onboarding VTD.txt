@@ -1,0 +1,93 @@
+5. TEMPLATES DE MENSAGEM — Biblioteca-mestre (WhatsApp)
+Variáveis: {nome} · {link_area_membros} · {link_aula} · {contato_suporte} · {link_comunidade} · {link_pesquisa}. Tom (todas): humano, direto, próximo — amigo mais experiente que já vende na Amazon. Sempre 1º nome. Frases curtas, 1 pergunta por vez, máx. 1 emoji por mensagem. Nunca renda passiva/dinheiro fácil — enquadramento sempre negócio real com passo a passo.
+Cross-check: todo código citado no Fluxo (Seção 1) está abaixo, com o mesmo código. Onde o Fluxo pede uma função (ex. "antídoto paralisia", "reforço da decisão"), ela está mapeada a um destes 17 templates.
+VTD_ONB_01 — Boas-vindas + entrega de acesso (T0 — recomendado 5–15 min pós-acesso · [A DEFINIR: timing exato])
+Oi {nome}! Aqui é da equipe do Lucas Arruda 👋
+Seu acesso ao Venda Todo Dia já está liberado. Parabéns pela decisão — você acabou de dar o primeiro passo pra vender na Amazon do jeito certo, com método e passo a passo.
+Vou te acompanhar nos primeiros dias pra você começar sem se perder. Combinado?
+Bora fazer simples: hoje você só precisa logar e assistir 1 aula curta. Te mando o caminho agora.
+VTD_ONB_02 — Como acessar (passo a passo do login) (em seguida à 01, ou quando o cliente responde)
+{nome}, seu acesso funciona assim:
+1. Abra este link 👉 {link_area_membros}
+2. Entre com o e-mail que você usou na compra
+3. [A DEFINIR: senha — gerada automática (chega no e-mail) ou criada na hora]
+Se o e-mail de liberação não apareceu, dá uma olhada em Spam e na aba Promoções.
+Conseguiu entrar? Me responde com um ✅ que eu te mostro por onde começar.
+VTD_ONB_03 — Confirmou o login? (check-in proativo +2h)
+{nome}, conseguiu logar? Me fala aqui '✅' que eu já te mostro por onde começar. Se travou em alguma coisa, me conta que a gente resolve juntos, sem enrolação.
+VTD_ONB_04 — Confirmou login (micro-vitória) + empurrão pra 1ª aula (cliente responde "✅")
+Boa, {nome}! Já tá dentro 🎯
+Agora começa do jeito leve: assiste a aula "Porque vender na Amazon". São poucos minutos, sem lição de casa — é ela que vai te mostrar o porquê de tudo e por que essa decisão faz sentido.
+👉 {link_aula}
+Assiste hoje ainda e me fala o que achou. Fechou?
+VTD_ONB_05 — Resgate técnico (travou no login) (cliente diz que não conseguiu)
+Sem estresse, {nome} — isso resolve rápido.
+Me responde só isso: você chegou a abrir o link {link_area_membros} e digitar o e-mail da compra?
+- Se deu "e-mail não encontrado", provável que a compra tenha sido em outro e-mail. Me manda qual você usou.
+- Se for a senha, [A DEFINIR: instrução de recuperar senha — depende se é gerada ou criada].
+Se preferir, chama o suporte que resolve na hora: {contato_suporte}. A gente não te deixa travado.
+VTD_ONB_06 — Resgate de acesso (não achou o e-mail) (não logou / sem resposta em ~24h)
+{nome}, não achou o e-mail de acesso? Dá uma olhada no Spam e na aba Promoções — ele costuma cair lá. Procura por "[A DEFINIR: remetente/assunto do e-mail de acesso]".
+Não apareceu? Me confirma o e-mail que você usou na compra que eu peço pra equipe reenviar agora. Bora destravar isso juntos.
+VTD_ONB_07 — Empurrão pra 1ª aula (não confirmou login ainda) (~1–3h após a 02, ainda no Dia 0)
+{nome}, deixa eu te tirar da dúvida mais comum: você não precisa assistir tudo hoje.
+Começa por 1 aula só — "Porque vender na Amazon". É curta e é a que reacende o motivo que te trouxe até aqui.
+👉 {link_aula}
+Dá o play agora enquanto tá fresco. Depois a gente vai passo a passo.
+VTD_ONB_08 — Follow-up de quem NÃO acessou em 24h (quebra de medo)
+Oi {nome}, passando aqui de novo 👋
+Sei como é: a compra fica pra "depois eu vejo" e a rotina engole. Mas 5 minutos hoje já mudam o jogo.
+E olha — se o que te trava é achar que "não entende de Amazon", relaxa. A plataforma é simples e a primeira aula é só o porquê, zero parte técnica. A gente vai junto.
+Só me diz: você já conseguiu logar? Responde sim ou não que eu te ajudo a partir daí.
+VTD_ONB_09 — Acessou mas não assistiu (antídoto paralisia por volume) (login detectado, 0 aula em ~24–48h)
+{nome}, vi que você já entrou na área de membros — boa! 👊
+Falta o passo mais fácil: dar o play na primeira aula. Esquece as 15 aulas por enquanto — hoje é só UMA, e é a mais leve de todas. Não precisa de "maratona".
+Quer que eu te mande o link direto dela? 👉 {link_aula}
+VTD_ONB_10 — Celebração da 1ª aula + próxima aula (1ª vitória concreta) (1ª aula concluída, +48h)
+Boa, {nome}! Primeira aula assistida = primeiro passo dado ✅
+É exatamente assim que quem vende todo dia começou. Sem pular etapa.
+Próxima é a "CNPJ gratuito e taxa zero" — aqui você já sai com algo prático: como abrir seu CNPJ com taxa zero e começar como vendedor profissional. (Pra novos vendedores tem até apoio pra abrir o CNPJ e 10 produtos pra começar — sujeito às condições do programa; se rolar, a gente te explica.)
+👉 {link_aula}
+VTD_ONB_11 — Check-in de valor no meio da semana (+ 3ª aula: Modelos logísticos) (Dia 3–4, quem progride)
+E aí {nome}, como tá indo por aí?
+Se você já passou pelas primeiras aulas, você já entende de Amazon mais do que a maioria de quem só "pensa em começar".
+A próxima parte é onde fica bom: "Modelos logísticos da Amazon" (FBA, FBM e DBA) — é o que te faz enxergar como a operação roda sem você embalar pedido por pedido.
+👉 {link_aula}
+Me conta: rolou alguma dúvida até agora?
+VTD_ONB_12 — Prova social / reforço da decisão (ceticismo) (Dia 2–3, perfil cético)
+{nome}, se ficou aquela pulga atrás da orelha de "será que funciona?", é justo — muita gente já se queimou com promessa de internet.
+Por isso o enquadramento aqui é outro: negócio real, dentro da estrutura da Amazon, com o método de um Embaixador Amazon Brasil e +1.200 alunos que já aplicaram. Gente comum, começando do zero.
+Não é sorte, é passo a passo. E você já está fazendo o seu. Continua.
+VTD_ONB_13 — Convite pra comunidade (após 1ª aula assistida)
+{nome}, uma coisa que ajuda muito nessa fase: não ficar sozinho.
+Entra na nossa comunidade de alunos do VTD — é onde a galera que tá começando junto tira dúvida, mostra as primeiras vitórias e se puxa pra frente. Gente que começou igual você — do zero, com pouco capital.
+👉 {link_comunidade}
+Chega, se apresenta e diz de onde você é. Vai te dar aquele empurrão.
+VTD_ONB_14 — Micro-pesquisa de perfil (Dia 7 / após 2–3 aulas)
+{nome}, me responde 6 perguntinhas rápidas? Assim eu entendo seu momento e te mostro exatamente o próximo passo certo pra você — nada genérico. Leva 1 minutinho 👇
+👉 {link_pesquisa}
+(Se preferir no chat, versão curta:) Hoje, seu momento com a Amazon é qual? 1 — Ainda entendendo o caminho, sem capital agora · 2 — Já quero começar, tenho um valor pra colocar · 3 — Quero fazer isso pra valer / escalar. Responde só o número.
+VTD_ONB_15 — Reengajamento de inativo (7 dias) (sem login ou sem progresso)
+Oi {nome}, não quero que você perca o que já pagou 🙂
+Seu acesso ao Venda Todo Dia continua ativo aqui: {link_area_membros}
+Que tal a gente recomeçar do jeito mais fácil? Só 1 aula curta hoje — "Porque vender na Amazon". Depois disso o resto flui.
+👉 {link_aula}
+Se travou em alguma coisa (login, senha, tempo), me conta o que foi que a gente resolve juntos.
+VTD_ONB_16 — Ponte suave pra mentoria (só a semente) (gatilho por SINAL, nunca antes de 48h)
+{nome}, sério: você já entende mais de Amazon que 90% de quem só fica pensando em começar.
+O VTD te deu o mapa — produto, margem, fornecedor, conta, operação. A partir daqui é execução.
+Se em algum momento você quiser fazer isso com acompanhamento de perto — capital certo, um mentor te ajudando a validar o produto antes de gastar seu dinheiro e a estrutura pronta pra você não ficar sozinho — existe um caminho pra isso.
+Sem pressa e sem pressão. Quer que eu te conte quando fizer sentido pro seu momento?
+
+Nota de escopo [A DEFINIR: escopo da IA na ponte pra mentoria — só plantar semente, ofertar o FAS (R$2k) como próximo degrau, ou fazer handoff pro comercial? Definir gatilho e formato do handoff antes de ativar].
+VTD_ONB_17 — Handoff pro suporte humano (acesso travado / reembolso / financeiro / reclamação) — usar a variante conforme o gatilho (Seção 3.1):
+Variante 1 — Acesso travado (gatilho 2):
+{nome}, não quero te deixar travado nisso. Vou te conectar agora com uma pessoa da nossa equipe que resolve seu acesso rapidinho 🙌 Pra agilizar, me confirma o e-mail que você usou na compra? Já passo tudo pra eles.
+Variante 2 — Reembolso / cancelamento (gatilho 1):
+Entendi, {nome}. Esse assunto quem cuida é uma pessoa do nosso time de suporte, pra te atender direitinho e sem enrolação. Vou te encaminhar agora — pode falar tudo com eles por aqui: {contato_suporte}.
+Variante 3 — Financeiro / cobrança (gatilho 3):
+Boa que você me avisou, {nome}. Cobrança e pagamento quem resolve é o time de suporte, que tem acesso ao sistema da compra. Vou te passar pra eles agora: {contato_suporte}.
+Variante 4 — Reclamação / cliente irritado (gatilho 4):
+Sinto muito por isso, {nome}, e quero que seja resolvido de verdade. Já estou te passando pra uma pessoa do nosso time que vai olhar seu caso com atenção agora. Você não vai ficar sem resposta.
+Variante 5 — Fora do escopo / dúvida específica (gatilhos 5 e 6):
+Essa é boa, {nome} — e pra te dar a resposta certa (e não um chute), quem te ajuda melhor é uma pessoa da equipe. Vou te conectar. Enquanto isso, se quiser, já adianta a [aula que faz sentido] que ela toca bem nesse ponto 👇Observações de automação: VTD_ONB_04/VTD_ONB_05 são mutuamente exclusivas (confirmou vs. travou). VTD_ONB_08 (não acessou 24h) e VTD_ONB_09 (acessou não assistiu) dependem de telemetria do Memberkit — [A DEFINIR: se o Memberkit expõe evento de login / aula-assistida]; sem ela, substituir por pergunta direta ("já logou? sim/não"). Evitei "5 produtos validados" como isca porque na LP está "Adicional" — [A DEFINIR: se o Lucas confirmar que está na compra base, ela vira uma isca de dopamina melhor que "Modelos logísticos"].

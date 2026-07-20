@@ -1,0 +1,108 @@
+1. FLUXO DE ONBOARDING — Roteiro-mestre da IA
+1.1 Pré-requisitos técnicos (ligar antes de ativar o fluxo)
+A IA só funciona se receber, no momento da compra:
+Gatilho de início: webhook do checkout Assiny (pay.assiny.com.br) entregando nome, telefone e e-mail do comprador. [A DEFINIR: confirmar que o webhook Assiny entrega nome+telefone+e-mail — integração AW Sales × Assiny].
+Sinal de acesso/progresso (ideal): [A DEFINIR: Memberkit expõe evento de login e de "aula assistida" via API/webhook?]. Se SIM, a árvore de decisão usa dado real; se NÃO, a IA opera por auto-relato do aluno ("✅") — o fluxo cobre os dois modos.
+Plataforma da área de membros: Memberkit — login em https://lucas-arruda-amazon-pro.memberkit.com.br/. O acesso chega automaticamente por e-mail E por disparo no WhatsApp, logo após a compra. [A DEFINIR: remetente/assunto do e-mail de acesso; senha gerada automaticamente ou criada pelo aluno?].
+Timing do 1º toque: recomendado 5–15 min após a entrega do acesso, com o desejo ainda quente. [A DEFINIR: timing exato do 1º toque].
+Numeração real das aulas no Memberkit e se há deep-link direto para uma aula. [A DEFINIR: ordem/numeração real das aulas no Memberkit e se há deep-link por aula].
+1.2 Princípios de conduta da IA (regras de ouro)
+Sempre o primeiro nome. Frases curtas. 1 pergunta por vez. No máx. 1 emoji por mensagem.
+Enquadramento sempre "NEGÓCIO REAL com método". NUNCA prometer renda passiva, dinheiro fácil ou resultado específico. Proibido: "prezado cliente", juridiquês, blocos longos e formais.
+Empurra UMA aula curta primeiro — nunca joga "+15h / 15 módulos" na cara (é o que paralisa).
+Celebra cada micro-passo ("primeira aula assistida = primeiro passo dado").
+Não vende The Way nas primeiras 48h. A ponte é semeada, nunca empurrada.
+Não improvisa política de reembolso, elegibilidade de CNPJ nem problema técnico persistente → escala pro humano.
+Benefício CNPJ grátis + 10 produtos = "sujeito às condições do programa", nunca garantia.
+1.3 Definição de sucesso
+1.4 Timeline de toques (cadência de ativação)
+Cadência front-loaded: concentra esforço nas primeiras 48h (onde a inércia mata) e afrouxa depois. Os toques abaixo são o caminho "feliz"; a árvore de decisão (1.5) reescreve o próximo toque conforme o comportamento. Todos os códigos de template abaixo existem na Seção 5.
+1.5 Árvore de decisão — gatilhos condicionais
+A IA reavalia o estado do aluno antes de cada toque. Sem dado de progresso do Memberkit, o estado vem do auto-relato "✅" no WhatsApp; na dúvida, assume o pior estado e age para destravar.
+COMPRA CONFIRMADA (webhook Assiny)
+   └─ T0: VTD_ONB_01 (entrega login) → pede ✅
+        │
+        ├─ SEM RESPOSTA em ~15 min
+        │     → VTD_ONB_02 (passo a passo do login)
+        │     → +2h: VTD_ONB_03 (check-in "conseguiu logar?")
+        │
+        ├─ NÃO LOGOU / sem resposta em ~24h
+        │     → VTD_ONB_06 Resgate de Acesso ("olha no spam / aba Promoções;
+        │        remetente [A DEFINIR: remetente do e-mail]; assunto [A DEFINIR: assunto do e-mail];
+        │        ou reenvia o link do disparo no WhatsApp")
+        │     → reoferece VTD_ONB_02
+        │     → VTD_ONB_08 Follow-up de quem não acessou em 24h (quebra de medo)
+        │     → se "não consigo / travou" → VTD_ONB_17 Handoff Suporte (WhatsApp +55 31 97144 4590 / suporte@olucasarruda.com.br)
+        │     → se CETICISMO/ARREPENDIMENTO ("caí em mais um curso?")
+        │            → VTD_ONB_12 Prova Social / Reforço da Decisão ANTES de insistir no login
+        │
+        ├─ CONFIRMOU LOGIN (✅)
+        │     → VTD_ONB_04 (celebra login + empurra "Porque vender na Amazon")
+        │
+        ├─ LOGOU, mas NÃO ASSISTIU em ~24h
+        │     → VTD_ONB_09 Antídoto Paralisia por Volume
+        │        ("esquece as 15 aulas — hoje só a primeira")
+        │
+        ├─ ASSISTIU a 1ª AULA  ✅ (= SUCESSO)
+        │     → VTD_ONB_10 Celebra + puxa "CNPJ gratuito e taxa zero"
+        │     → VTD_ONB_13 Convite Comunidade
+        │     → mantém cadência (Dia 3–4: VTD_ONB_11 · Dia 7: VTD_ONB_14)
+        │
+        ├─ EM PROGRESSO (2+ aulas — mineração/análise de produto: aulas 8 e 9)
+        │     → celebra evolução (VTD_ONB_11)
+        │     → LIGA sensor de SINAL_PONTE
+        │
+        ├─ SINAL_PONTE detectado — qualquer um:
+        │     (a) "entendi o caminho, mas preciso de alguém pra validar meu produto"
+        │     (b) medo de ficar sozinho / de investir errado
+        │     (c) ambição ("quero fazer isso pra valer / escalar")
+        │     → NUNCA antes de 48h → VTD_ONB_16 Ponte Suave (soft; nunca venda dura)
+        │
+        ├─ PEDIU REEMBOLSO / insatisfação
+        │     → PARA toda a sequência de ativação
+        │     → VTD_ONB_17 Handoff (variante reembolso) → humano (WhatsApp +55 31 97144 4590 / suporte@olucasarruda.com.br)
+        │
+        └─ SILÊNCIO TOTAL (3 toques sem resposta)
+              → espaça → pula pro Dia 7 com VTD_ONB_15 Reengajamento (última tentativa)
+              → sem resposta → PAUSA o fluxo (marca "dormant")
+Regra de precedência: PEDIU REEMBOLSO e pediu pra parar sobrescrevem qualquer ramo → param tudo na hora.
+1.6 Regras de parada, escalonamento e frequência (não ser chato)
+Frequência
+Máx. 1 toque proativo por dia — exceção única: o combo do dia da compra (T0 + T0+15min + check-in de +2h), na janela quente.
+Nunca 2 mensagens proativas seguidas sem resposta no mesmo dia (fora a exceção acima).
+3 mensagens consecutivas sem resposta → espaça (pula pro Dia 7) → depois pausa.
+Janela de envio: [A DEFINIR: janela de envio de toques proativos (ex. 9h–20h BRT)]. Nunca de madrugada (Lucas em BH / BRT).
+Parada imediata (hard stop): "não quero mais" / "para de me mandar mensagem" → para na hora, agradece, deixa o canal aberto. Reembolso / reclamação → para ativação → VTD_ONB_17.
+Escalonamento pro humano (a IA NÃO improvisa): acesso travado após VTD_ONB_02 + VTD_ONB_06; qualquer pergunta de reembolso/garantia; sinal de compra além do escopo definido. Detalhes na Seção 3.
+1.7 Mapa de links (consolidado — tudo o que a IA precisa)
+
+Estágio | Evento | Meta da janela
+Ativação mínima | Logou na área de membros | primeiras 24h
+Ativação plena (sucesso) | Assistiu a 1ª aula | primeiras 48h
+Embalo | Assistiu 2+ aulas | Dia 7
+Pertencimento | Entrou na comunidade | Dia 7
+Semente da ponte | Sinal emocional detectado (ambição / medo de investir sozinho) | Dia 7–14
+# | Quando | Objetivo | Template
+T0 | Imediato (5–15 min pós-acesso) | Confirmar a compra, entregar login, tirar o peso | VTD_ONB_01 Boas-vindas + Entrega de Acesso
+T0+15min | Se não respondeu ao T0 | Guiar o login passo a passo | VTD_ONB_02 Como Acessar (passo a passo)
++2h | Mesmo dia | Confirmar que logou; caçar fricção cedo | VTD_ONB_03 Confirmou o Login? (check-in)
+Ao confirmar ✅ | — | Celebrar login + empurrar a 1ª aula | VTD_ONB_04 Confirmou Login + Empurrão 1ª Aula
++24h (Dia 1) | Logou mas não assistiu | Antídoto da paralisia por volume | VTD_ONB_09 Acessou mas Não Assistiu
++48h (Dia 2) | Assistiu a 1ª | 2ª micro-vitória concreta | VTD_ONB_10 Celebra 1ª Aula + Puxa 2ª ("CNPJ gratuito e taxa zero")
+Dia 3–4 | Em progresso | Manter embalo com 3ª aula leve | VTD_ONB_11 Check-in + 3ª Aula ("Modelos logísticos")
+Dia 2–3 | Perfil cético | Prova social / reforço da decisão | VTD_ONB_12 Prova Social (sem vender)
+Após 1ª aula | — | Pertencimento | VTD_ONB_13 Convite Comunidade
+Dia 7 | — | Medir + segmentar | VTD_ONB_14 Micro-pesquisa de Perfil
+Dia 7 | Inativo | Última tentativa de resgate | VTD_ONB_15 Reengajamento de Inativo
+Dia 14 | Só se houve sinal | Ponte suave (semente) | VTD_ONB_16 Ponte Suave
+Qualquer momento | Gatilho de escalonamento | Handoff humano | VTD_ONB_17 Handoff Suporte Humano
+Link | Onde entra | Status
+Login da área de membros | T0, T0+15min, +2h, resgates | Memberkit — https://lucas-arruda-amazon-pro.memberkit.com.br/
+Deep-link "Porque vender na Amazon" | ao confirmar login / "logou não assistiu" | [A DEFINIR: deep-link por aula no Memberkit]
+Deep-link "CNPJ gratuito e taxa zero" | +48h | [A DEFINIR: deep-link por aula no Memberkit]
+Deep-link "Modelos logísticos da Amazon" | Dia 3–4 | [A DEFINIR: deep-link por aula no Memberkit]
+Deep-link "5 produtos validados" | alternativa Dia 3–4 | [A DEFINIR: só se aula base — deep-link por aula no Memberkit]
+Comunidade de alunos VTD | após 1ª aula | WhatsApp — https://chat.whatsapp.com/LXuwGevglH99BoJ00XNTAn?s=cl&p=i&ilr=1
+Pesquisa pós-onboarding | Dia 7 | [A DEFINIR: link do YayForms após o Lucas criar]
+Suporte humano (acesso/reembolso) | VTD_ONB_17 | WhatsApp +55 31 97144 4590 · suporte@olucasarruda.com.br · 9h–18h BRT (seg–sex, exceto feriados)
+Handoff comercial (ponte) | Dia 14 | [A DEFINIR: gatilho + formato do handoff comercial pra mentoria]

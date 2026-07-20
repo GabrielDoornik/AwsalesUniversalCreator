@@ -1,0 +1,23 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Vitor Rabelo;;;
+FN:Vitor Rabelo
+TEL;waid=553171845472:+55 31 97184-5472
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:Ker | Way;Arthur;;;
+FN:Arthur Ker | Way
+TEL;waid=553191526165:+55 31 99152-6165
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;Pedro Grenfell PH - Business;;;
+FN:Pedro Grenfell PH - Business
+X-WA-BIZ-NAME:Pedro Grenfell
+X-WA-BIZ-DESCRIPTION:Founder at Way Group
+TEL;waid=553171811249:+55 31 97181-1249
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;João Betti | Olympos;;;
+FN:João Betti | Olympos
+TEL;waid=553195949555:+55 31 99594-9555
+END:VCARD

@@ -286,6 +286,14 @@ São DIFERENTES dos 3 bônus de fechamento (Sintonização Individual / Desperta
 
 - (em construção — preencher após primeiras otimizações pós go-live)
 
+## Cliente Way Group — funil VTD (estado vivo)
+
+Cliente Way Group (Lucas Arruda, Amazon FBA). 4 campanhas: REC de vendas VTD, Onboarding VTD, SDR pós-compra e SDR pós-aula 2. 3 bases de conhecimento (REC / Onboarding / SDR compartilhada pelos 2 SDRs).
+
+Estado (2026-07-20): Fases 1 e 2 completas, 12 testes conversacionais rodados, fixes aplicados nos checkpoints locais. Bloqueio atual: tool de agendamento SDR depende de "Private Integrations" do HighLevel (admin do cliente precisa ativar no Labs). Falta ainda: subir checkpoints/FAQs corrigidos na plataforma, FUPs. Sempre ler `Way group/MEMÓRIA - Way Group.md` primeiro.
+
+**How to apply:** Se o usuário mencionar "Way group", "VTD", "Lucas Arruda", "FAS" ou "CNPJ gratuito", ler PRIMEIRO `Way group/MEMÓRIA - Way Group.md` (estado vivo e próximos passos) e `Way group/DADOS OPERACIONAIS - Way Group.md` (links, preços, contatos, funil, CRM, regras do agente SDR). Não recriar nada sem checar o que já existe nas pastas das campanhas.
+
 ## Campanha SDR Lucas Firmino — D'Leon (estado vivo)
 
 Campanha "SDR - Lucas Firmino" (D'Leon By Lucas Firmino, BH) — agendamento de avaliação presencial gratuita para Lentes de Porcelana. Agente da plataforma: Qualify & Schedule. Tipo: receptiva (lead inicia).

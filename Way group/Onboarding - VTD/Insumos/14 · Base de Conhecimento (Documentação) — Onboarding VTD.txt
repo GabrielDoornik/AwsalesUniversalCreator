@@ -1,0 +1,76 @@
+4. BASE DE CONHECIMENTO — Estrutura e manutenção
+Propósito: definir a estrutura da base de conhecimento que alimenta a IA. A IA não improvisa — ela responde e conduz a partir destes documentos. Organize por camadas de urgência de ativação: P0/P1 consultados em quase toda conversa; P2/P3 sob demanda.
+4.1 Estrutura recomendada (por prioridade)
+🔴 P0 — Sobrevivência do onboarding
+🟠 P1 — Ativação e resgate
+🟡 P2 — Aprofundamento e relacionamento
+🟢 P3 — Ponte para a mentoria e medição
+4.2 Modelo pronto: 00-tutorial-acesso.md
+Documento-fonte que a IA lê para guiar o login. Escrito no tom da marca, pronto para virar mensagens fatiadas.
+Plataforma: Memberkit · URL de login: https://lucas-arruda-amazon-pro.memberkit.com.br/ · Como o acesso é entregue: automaticamente por e-mail e por disparo no WhatsApp, logo após a compra. Remetente/assunto do e-mail: [A DEFINIR: remetente e assunto exatos do e-mail]. Senha: [A DEFINIR: senha gerada ou criada]. · Origem do dado do comprador: Assiny (pay.assiny.com.br) → [A DEFINIR: webhook do Assiny entrega nome+telefone+e-mail? integração AW Sales × Assiny].
+Passo a passo (a IA conduz, uma etapa por vez):
+Confirme o e-mail de compra: "Chegou um e-mail com seu acesso, de [A DEFINIR: remetente], assunto [A DEFINIR: assunto]. Achou aí?"
+Se não achou: peça para olhar Promoções e Spam e buscar por [A DEFINIR: palavra-chave de busca no e-mail].
+Abra o link → leva a https://lucas-arruda-amazon-pro.memberkit.com.br/.
+Faça login: "Seu login é o e-mail da compra. A senha [A DEFINIR: senha gerada ou criada]."
+Se esqueceu a senha: "Esqueci minha senha" → link no e-mail.
+Entrou? "Me manda um ✅ que eu te mostro por onde começar."
+Vá para a primeira aula: [A DEFINIR: título/ordem exata da 1ª aula de ativação no Memberkit — provável "Porque vender na Amazon"]. "Clica no play — poucos minutos. Só isso hoje."
+Celebre: "Boa, [Nome]! Primeira aula assistida = primeiro passo dado."
+Roteiro de resgate rápido: "Não recebi nada" → confirmar e-mail → spam/promoções → escalar. · "Login não funciona" → e-mail da compra → reset de senha → escalar. · "É muita aula" → "Esquece as 15; hoje é só uma." · "Não entendo de tecnologia" → "A plataforma é simples, tipo Netflix — você só aperta o play. E eu tô do seu lado."
+Regra dura: se qualquer [A DEFINIR] deste tutorial não estiver confirmado, não invente — diga que vai confirmar e acione o suporte.
+4.3 Modelo de "resumo de aula" (template) + mapa das 15
+O template de resumo de aula deve conter: Nº na LP / ordem Memberkit · Duração · Tipo (base/adicional) · Pré-requisito · Carga cognitiva · Objetivo (1 frase) · O que o aluno aprende · Micro-vitória/entregável · Ganchos de conversa (antes/depois) · Perguntas de engajamento · Termos que assustam → tradução · Objeções comuns + reframe · Ponte pra mentoria (só se gatilho) · CTA pra próxima aula. As descrições oficiais de cada aula já existem na LP e são a base do campo "O que o aluno aprende".
+4.4 As 9 fricções de iniciante + reframe (playbook 06-fricoes-e-respostas.md)
+Não achou o e-mail de acesso (spam/Promoções, remetente/plataforma desconhecidos) → fricção nº1. Reframe: guiar login passo a passo, resgatar via VTD_ONB_06.
+Arrependimento/ceticismo ("caí em mais um curso?") → VTD_ONB_12 (prova: método real, +1.200 alunos, Embaixador Amazon) antes de insistir.
+Paralisia por volume ("+15h / 15 módulos") → empurrar UMA aula curta (VTD_ONB_09).
+Procrastinação/inércia ("depois eu vejo") → cadência front-loaded, "5 minutos hoje já mudam o jogo".
+Medo de tecnologia ("não sei mexer") → "a plataforma é simples, a gente vai junto".
+"Preciso de muito dinheiro/estoque já" → reframe central: VTD é pra APRENDER o caminho ANTES de investir.
+Confusão CPF x CNPJ / burocracia → apontar Aula 4, "sem burocracia".
+Medo de ficar sozinho depois de comprar → é a dor que a mentoria resolve (plantar só no gatilho).
+Insegurança sobre garantia/reembolso → garantia de resultado de 120 dias (não faturar R$10k + loja ativa = 100% de volta) + 7 dias de arrependimento (CDC); escalar detalhes.
+4.5 Como manter a base atualizada
+Fonte única por tema (evita contradição): preço só na 01-ficha; garantia só na 15-politica; ordem das aulas só no 02-mapa. Os outros referenciam, não copiam.
+Cabeçalho de versão em todo .md: Última atualização · Responsável · Status [confirmado | A DEFINIR]. A IA desconfia de qualquer dado com status A DEFINIR.
+Rito quinzenal de caça-placeholders. Nenhum P0 pode ficar com dado [A DEFINIR] com a IA no ar.
+Gatilhos de atualização por evento: mudou LP/oferta → 01+08; trocou plataforma/fluxo de e-mail → 00-tutorial antes de qualquer disparo; aula nova → 05+10; mudou checkout/webhook → 07.
+Ciclo de aprendizado: revisar conversas semanalmente, medir taxa de login e de "assistiu a 1ª aula"; onde a maioria trava, vira item novo em 06-fricoes.
+
+Documento | O que contém
+00-tutorial-acesso.md | Passo a passo de login, onde chega o acesso (e-mail + disparo no WhatsApp), remetente/assunto do e-mail, o que fazer se não achou, reset de senha. (Modelo na 4.2.)
+01-ficha-produto-VTD.md | Preço (R$47,90 à vista ou 8x de R$6,82), acesso de 1 ano às aulas e materiais, o que está incluso, garantia de resultado de 120 dias (não faturar R$10k E loja ativa = 100% de volta) + 7 dias de arrependimento (CDC), benefício CNPJ+10 ("sujeito às condições" — [A DEFINIR: elegibilidade exata do benefício CNPJ grátis + 10 produtos]), o que não precisa (site/estoque/audiência).
+02-mapa-de-ativacao.md | Qual aula empurrar 1ª/2ª/3ª; ordem real Memberkit vs. briefing; base vs. "Adicional".
+03-escalonamento-e-suporte.md | Contato do suporte (WhatsApp +55 31 97144 4590 · suporte@olucasarruda.com.br · 9h–18h BRT, seg–sex, exceto feriados), quando escalar, o que a IA NÃO resolve (= Seção 3 deste doc).
+04-tom-de-voz-e-guardrails.md | Regras de tom, frases-modelo, frases PROIBIDAS, limites (não vender nas 48h).
+Documento | O que contém
+05-resumos-das-15-aulas.md | Resumo estruturado de cada aula — objetivo, o que aprende, micro-vitória, ganchos de conversa, glossário local. (Modelo na 4.3.)
+06-fricoes-e-respostas.md | As 9 fricções de iniciante → cada uma com reframe (= Seção 4.4).
+07-sequencia-de-mensagens.md | Cadência de disparos (= Seção 1 + Seção 5).
+08-faq-comprador.md | FAQ do comprador (= Seção 2 deste doc).
+Documento | O que contém
+09-glossario-amazon.md | FBA, FBM, DBA, ASIN, buy box, mineração, marca própria, margem, ERP, marketplace, seller central — em linguagem simples.
+10-transcricoes-das-aulas.md | Texto integral de cada aula para RAG. [A DEFINIR: exportar transcrições do Memberkit].
+11-prova-social.md | Banco de casos (Willer R$5,2M · Gustavo David R$3,1M "não sabia escalar" · Agnaldo Silva farmacêutico R$1,8M em 7 meses · Lucas Gualtieri R$2,1M · Daniel Rangel R$360k · André Santos, nunca trabalhou online).
+12-comunidade.md | Sim, existe comunidade — grupo de WhatsApp. Link de convite: https://chat.whatsapp.com/LXuwGevglH99BoJ00XNTAn?s=cl&p=i&ilr=1 (o cliente entra pelo link após a compra).
+Documento | O que contém
+13-escada-de-valor.md | VTD → FAS (R$2k) → Starter (R$5k) → Scale (R$15k). Enquadramento da ponte. [A DEFINIR: escopo da IA na ponte — só plantar semente OU pode ofertar FAS/The Way? gatilho e formato do handoff comercial].
+14-pesquisa-pos-onboarding.md | Formulário de diagnóstico (= Seção 6.2). [A DEFINIR: criar formulário no YayForms — link pendente].
+15-politica-reembolso.md | Garantia de resultado de 120 dias (não faturar R$10k E loja ativa → reembolso 100%) + arrependimento de 7 dias (CDC, reembolso total sem precisar justificar). As duas coexistem.
+Aula (ordem LP) | Título | Semente do resumo | Tipo
+1 | CNPJ gratuito e taxa zero | Abrir CNPJ com taxa zero e empreender profissional | Base · 1ª vitória concreta
+2 | Porque vender na Amazon | Por que a Amazon é a estrutura pronta | Base · âncora de motivação (empurrar 1ª)
+3 | Modelos logísticos da Amazon | FBA, FBM e DBA | Base · leve/conceitual (3ª aula)
+4 | CPF ou CNPJ: qual escolher | Limites, impostos e formalização | Base
+5 | Infraestrutura ideal da loja | Conta, ERP, banco digital, estoque | Base
+6 | Como encontrar bons fornecedores | Avaliar preço, qualidade, prazo e estoque | Base
+7 | Quais tipos de produtos vender | Popularidade, margem, demanda, concorrência | Base
+8 | Processo de mineração de produtos | Garimpar oportunidades reais | Base
+9 | Analisando produto na prática | Validar margem e demanda sem achismo | Base · gatilho de ponte
+10 | Anunciar seu primeiro produto | Criar o 1º anúncio | Base
+11 | Escalar sua loja com agilidade | Crescer com consistência | Base
+12 | Amazon 100K: o plano de escala | Plano de escala | Adicional · [A DEFINIR: base tem acesso às aulas 12–15 ou são order bump pago à parte?]
+13 | Planilha de marca própria | Planilha pronta | Adicional · [A DEFINIR: base tem acesso?]
+14 | Do zero à primeira venda na prática | Passo a passo até a 1ª venda | Adicional · [A DEFINIR: base tem acesso?]
+15 | 5 produtos validados | Lista de 5 produtos prontos | Adicional · quick win — só isca se base tiver acesso · [A DEFINIR: base tem acesso?]

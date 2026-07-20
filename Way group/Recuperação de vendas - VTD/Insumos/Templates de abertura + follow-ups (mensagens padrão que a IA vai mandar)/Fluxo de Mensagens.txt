@@ -1,0 +1,125 @@
+﻿Roteiro Comercial
+Mentoria Way Scale
+Guia de primeiro contato, qualificação e agendamento
+
+
+Parte 1 — Primeiros Contatos
+Sequência de mensagens da abordagem inicial, enviadas até o lead responder. Substitua os campos entre colchetes: [Nome], { } (seu nome).
+Mensagem 1 — Identificação
+Fala, [Nome]! Tudo bem?
+Meu nome é { }, sou especialista Amazon pelo Lucas Arruda.
+Vi seu cadastro aqui e preciso confirmar só 2 infos rápidas contigo antes de liberar a próxima etapa !!
+Prefere que eu te ligue ou quer falar por aqui mesmo?
+Mensagem 2 — Prioridade
+Fala, [Nome]!
+Passei aqui porque seu cadastro entrou como prioridade e preciso validar isso contigo antes de avançar.
+Consegue falar agora ou prefere um horário melhor?
+Observação (uso interno): Sempre ofereça 2 horários — um no turno da manhã e um à tarde — e sempre em horário picado (11:15, 11:45… 15:15… 15:25). Nesse formato parece uma brecha na agenda, foge do padrão e aumenta a chance de o cliente lembrar.
+Lembre-se: ESPECIALISTA não tem agenda o tempo todo — você guia o cliente.
+Caso ele não consiga nesses horários, peça uma sugestão e, no horário que ele falar, diga que vai ver se consegue encaixá-lo. Assim o cliente tem a sensação de que muita gente está tentando horário para entender sobre o produto/oportunidade.
+Mensagem 3 — Escassez
+Oi, [Nome]!
+Tive bastante procura esses dias e estou organizando os atendimentos por ordem de resposta.
+Me confirma se ainda faz sentido pra você avançar, que já te encaixo aqui.
+Mensagem 4 — Pré-call
+[Nome], vi aqui que seu perfil tem potencial pra próxima etapa
+Só preciso confirmar 2 coisas rápidas contigo (leva 3 min mesmo).
+Vou tentar te ligar às 18h — se não for um bom horário, me fala um melhor
+Mensagem 5 — Encerramento
+[Nome], vou ser direto contigo.
+Como não tive retorno, entendi que isso não é prioridade agora — e tá tudo certo
+Vou encerrar por aqui pra não travar a fila.
+Se ainda fizer sentido, me responde aqui que eu consigo te puxar de volta hoje.
+A mensagem de encerramento costuma ter a maior taxa de resposta da sequência — a sensação de que a porta vai fechar faz o lead reagir.
+
+
+Parte 1.1 — Mensagens Complementares
+Mensagens de apoio para situações específicas fora da sequência principal.
+Reengajamento — respondeu e sumiu
+Use quando o lead chegou a responder algumas perguntas e parou de responder.
+[Nome], tudo bem? A gente tinha começado a conversar e acabou parando.
+Retomo de onde paramos? Faltava pouco pra eu conseguir te mostrar o caminho certo pro seu caso.
+Confirmação de agendamento
+Enviar logo após marcar a conversa com o especialista.
+Combinado, [Nome]! Sua conversa com o especialista está reservada para [dia] às [hora].
+Deixei o horário separado aqui pra você. Se surgir algum imprevisto, me avisa com antecedência que a gente remaneja.
+Lembrete no dia da call
+Enviar algumas horas antes do horário marcado.
+Bom dia, [Nome]! Passando pra lembrar da nossa conversa hoje às [hora].
+Vai ser rápido e direto — separa uns 30 minutos sem correria pra gente aproveitar bem. Confirma pra mim que está de pé?
+No-show — não compareceu
+Enviar logo após o horário, caso o lead não apareça.
+[Nome], tudo bem? Fiquei te aguardando no horário que tínhamos combinado e acabamos não conseguindo conversar.
+Sei que imprevisto acontece. Quer que eu tente te reencaixar ainda hoje ou amanhã? Me diz o melhor horário que eu vejo aqui.
+
+
+Parte 2 — Roteiro de Qualificação
+Aplicado após o primeiro contato. A pergunta de abertura define qual dos dois caminhos seguir.
+Pergunta de abertura (define o caminho)
+Para eu entender melhor o seu momento: você já vende atualmente ou está começando do zero?
+“Começando do zero” → Caminho A     |     “Já tenho operação” → Caminho B
+Caminho A — Começando do zero
+1. E o que você busca com esse negócio: uma renda extra para complementar o que já ganha, ou algo que se torne sua renda principal?
+2. Hoje, qual você diria que é o seu maior obstáculo? Aquilo que, se fosse resolvido, mudaria bastante o seu cenário.
+3. O que fez isso se tornar uma prioridade para você neste momento?
+4. Onde você gostaria de chegar? Qual resultado faria todo o esforço valer a pena para você?
+5. E em quanto tempo você gostaria de alcançar esse resultado? Já tem um prazo em mente?
+6. Antes de seguirmos: você já conhece como funciona o modelo de vendas FBA da Amazon?
+Se não conhecer, use a explicação da Parte 3.
+7. Pensando na sua rotina atual, quantas horas por semana você conseguiria dedicar a esse projeto?
+8. Você já tem uma ideia, ainda que aproximada, de quanto pretende investir para resolver isso?
+↳ Se não souber:  Sem problema. Então deixa eu perguntar de outro jeito: quando você pensa na Amazon como uma nova fonte de renda, qual seria uma expectativa de ganho que faria sentido para você?
+9. Se mostrarmos um caminho claro, com um passo a passo do ponto onde você está até onde quer chegar, você se sentiria pronto para começar?
+10. Por fim: essa decisão é só sua ou há mais alguém envolvido, como um sócio ou cônjuge?
+Caminho B — Já tem operação
+1. Que ótimo que você já está rodando. Me conta um pouco: há quanto tempo você vende e como está a operação hoje em termos de faturamento mensal?
+2. E hoje você opera dentro do FBA da Amazon ou faz a logística por conta própria?
+3. Qual é o principal obstáculo que está travando seu crescimento hoje? O que te impede de vender mais do que já vende?
+4. Onde você quer levar essa operação? Tem um número ou um patamar em mente que faria essa virada valer a pena?
+5. E em quanto tempo você gostaria de chegar lá?
+6. Você já tentou resolver esse gargalo de alguma forma antes?
+7. Pensando em destravar esse próximo nível, você já tem uma ideia de quanto pretende investir para isso acontecer?
+↳ Se não souber:  Sem problema. Então me diz: qual seria o próximo patamar de faturamento que faria todo sentido perseguir agora?
+8. Por fim: essa decisão é só sua ou tem mais alguém envolvido, como um sócio?
+
+
+Parte 3 — Explicação do FBA
+Versão curta, para usar quando o lead não conhece o modelo.
+FBA (Fulfillment by Amazon) é quando a Amazon cuida da logística pra você: você manda os produtos pro centro de distribuição dela e, a cada venda, ela armazena, embala, entrega e atende o cliente. Você foca em escolher bons produtos e anunciar; o resto é com ela — ainda com o selo Prime de entrega rápida, que gera mais confiança e mais vendas.
+
+
+Parte 4 — Dúvidas Frequentes
+Respostas padrão para o time. Sempre confirme valores, condições de pagamento e benefícios vigentes no contrato atual antes de afirmar ao lead — os detalhes podem mudar.
+Sobre vender na Amazon (modelo FBA)
+P: Preciso ter CNPJ para vender na Amazon?
+Sim, para vender de forma profissional e escalável é necessário ter um CNPJ. Mas isso não é obstáculo: a abertura é simples e você é orientado em todo o processo. Inclusive, o programa oferece como benefício arcar com os custos da abertura do seu CNPJ
+
+P: Quanto preciso investir para começar?
+O valor recomendado de partida varia muito de acordo com os seus objetivos com a operação. O mais importante de vc entender é que o investimento na operação está diretamente relacionado com o resultado da operação, além de permitir negociações melhores com fornecedores.
+P: Preciso ter experiência ou conhecimento técnico?
+Hoje nós trabalhamos com os dois perfis aqui, tanto quem já tem uma operação, quanto quem ainda não trabalha e pretende começar.
+P: Em quanto tempo eu começo a ter resultado?
+Depende da sua dedicação e execução. Para te dar um norte, hoje contabilizamos de duas a três semanas para que você tenha uma operação pronta para vender. Vale ser transparente: é um negócio real, que exige trabalho — não é enriquecimento rápido.
+P: Quantas horas por semana preciso dedicar?
+Você não precisa largar seu emprego para começar. Dá para tocar em paralelo, dedicando algumas horas por semana de forma consistente. Quanto mais tempo e constância, mais rápido tende a ser o progresso.
+P: Onde eu guardo os produtos? Preciso de espaço em casa?
+Não. No modelo FBA, os produtos ficam no centro de distribuição da Amazon. Existe ainda a opção de Prep Centers, que preparam e enviam sua mercadoria
+P: Preciso lidar com envio, Correios, embalagem e atendimento ao cliente?
+Não. Essa é a grande vantagem do FBA: a Amazon armazena, embala, entrega e atende o cliente por você. Você foca na estratégia — escolher bons produtos e cuidar dos anúncios.
+P: E se o meu produto não vender? Vou ter prejuízo?
+Todo negócio tem risco, e por isso a escolha de produto é o ponto mais trabalhado na mentoria. A metodologia ensina a validar produtos com demanda real antes de investir pesado, o que reduz bastante a chance de estoque parado. Além disso, hoje existem diversas estratégias que podemos utilizar para te ajudar, mesmo nas situações mais críticas.
+P: Preciso aparecer, gravar vídeos ou ter rede social?
+Não. Vender na Amazon não depende de você criar conteúdo ou ter audiência. Quem compra procura o produto direto na Amazon.
+P: Funciona morando em qualquer cidade do Brasil?
+Sim. É um negócio 100% online — você pode operar de qualquer lugar, bastando ter computador e internet.
+P: Preciso importar produtos da China?
+Não necessariamente. Existe estratégia com fornecedores nacionais, e você tem acesso a uma planilha completa de fornecedores dentro do programa.
+Sobre a mentoria Way Scale
+P: O que está incluído na mentoria?
+São 6 meses de acompanhamento com um mentor certificado pela Amazon, encontros de hotseat com o Lucas Arruda, reuniões individuais de checkpoint com o mentor, grupo exclusivo de networking, planilha completa de fornecedores, treinamento de alta performance e o treinamento Formação Profissão Amazon Seller. Somam-se os benefícios de custeio da abertura do CNPJ e 90 dias de Prep Center.
+P: O Lucas Arruda acompanha pessoalmente?
+O Lucas participa dos encontros de hotseat, que são em grupo. Já o acompanhamento individual e os checkpoints são conduzidos por um mentor certificado pela Amazon designado para você. Vale deixar isso claro para alinhar a expectativa do lead desde o início.
+P: Existe algum tipo de garantia?
+Sim. O contrato prevê uma garantia condicional de resultado: se o mentorado cumprir integralmente os requisitos do programa (presença nas reuniões, conclusão das aulas, inclusão de produtos, investimento em estoque e reinvestimento) e ainda assim não atingir o faturamento previsto no período, tem direito ao reembolso integral do valor da mentoria. As condições exatas estão na Cláusula Sétima do contrato.
+P: Como funciona o valor e o pagamento?
+Antes de falar em preço, reforce o valor: o que está incluído, os benefícios e a garantia. Na hora de apresentar o investimento, confirme sempre o valor e as condições de pagamento vigentes e conduza com segurança — você está oferecendo a construção de uma nova fonte de renda, não um curso avulso.
