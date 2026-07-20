@@ -67,13 +67,15 @@ porta e acompanhamento médico contínuo por WhatsApp. Não exige seguro, não h
 surpresa; é preço fixo conforme plano e medicamento. Os valores exatos de cada plano/medicamento, as
 condições de desconto e os cupons ficam no checkpoint da campanha em uso (não citar números na FAQ).
 
-## Como funciona a cobrança (o $0 agora)
+## Como funciona a cobrança (pré-autorização; comunicação oficial desde 16/07)
 
-No checkout não se cobra nada: registra-se o cartão e reserva-se o pedido para a revisão médica. O
-primeiro cobro só acontece SE o médico licenciado aprovar a receita. Se não aprovarem, não há nenhum
-cobro. Começar é sem risco e transparente. Regra de linguagem: explicar sempre na lógica de AGORA
-("ahora no pagas nada; solo se cobra si el médico aprueba tu receta"), nunca como "hoje" nem janela de
-24 horas (as 24h são o tempo da revisão médica, não janela de pagamento).
+A consulta médica, o envio e o acompanhamento são grátis; paga-se somente o valor da medicação. No
+checkout é feita uma PRÉ-AUTORIZAÇÃO no cartão para validá-lo e enviar o caso ao médico: não é um cobro —
+o valor fica retido temporariamente e a transação só se confirma SE o médico licenciado aprovar a receita.
+Se não aprovar, o valor é liberado por completo. NUNCA comunicar como "grátis" ou "no pagas nada" seco
+(gera a percepção errada de que o tratamento inteiro é grátis): sempre separar o que é grátis (consulta,
+envio, acompanhamento) do que se paga (a medicação). Nunca falar em "hoje" nem janela de 24 horas para o
+cobro (as 24h são o tempo da revisão médica, não janela de pagamento).
 
 ## Garantia de 12 meses
 

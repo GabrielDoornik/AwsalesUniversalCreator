@@ -28,10 +28,26 @@ isolado, botão de resposta rápida. Nome: `nrx_[campanha]_fup[n]_[angulo]`.
 
 ## Recuperação de Vendas — recuperar o checkout para VENDER
 
-Abertura já enviada (ref.): "Hola, tu tratamiento en Nuestra RX quedó reservado y a un paso de
-terminar. Ahora no pagas nada; solo se cobra si el médico aprueba tu receta. ¿Damos el último paso?"
+ATUALIZAÇÃO 16/07 (pedido do cliente — comunicação de PRÉ-AUTORIZAÇÃO): parar de comunicar "$0 / no
+pagas nada" (leads entendendo que o tratamento é grátis). Nova narrativa: consulta/envio/acompanhamento
+grátis; paga-se só a medicação; no checkout há uma pré-autorização que só se confirma se o médico
+aprovar (senão, libera). Os templates fup2 e fup3 abaixo foram REESCRITOS e precisam de NOVA APROVAÇÃO
+Meta (utility). O fup3 antigo ("tu reserva está por vencer... empezar de cero") está PROIBIDO: escassez
+inventada, foi a 18 leads entre 03-10/07 — não reaprovar nem reutilizar.
 
-### nrx_venta_fup1_confirmar  (Utility — momentum)
+Abertura atual (ref.): "Hola, tu tratamiento en Nuestra RX quedó reservado y a un paso de terminar.
+Ahora no pagas nada; solo se cobra si el médico aprueba tu receta. ¿Damos el último paso?"
+
+Abertura NOVA proposta (submeter à aprovação Meta; substitui a atual quando aprovada):
+```
+Hola, tu tratamiento en Nuestra RX quedó reservado y a un paso de terminar.
+
+La consulta médica es gratis; solo pagas la medicación si el médico aprueba tu receta.
+
+¿Damos el último paso?
+```
+
+### nrx_venta_fup1_confirmar  (Utility — momentum; sem mudança, segue aprovado)
 ```
 Hola, tu tratamiento sigue reservado y a un solo paso de quedar confirmado.
 
@@ -40,22 +56,22 @@ Es cuestión de un minuto terminar y aseguras tu lugar.
 ¿Lo confirmamos ahora?
 ```
 
-### nrx_venta_fup2_sinriesgo  (Utility — risco zero)
+### nrx_venta_fup2_sinriesgo_v2  (Utility — risco zero; REESCRITO 16/07, submeter à aprovação)
 ```
-Sé que dar el paso da respeto, así que tranquilo: no se cobra nada hasta que un médico apruebe tu receta, y tienes garantía.
+Sé que dar el paso da respeto, así que tranquilo: la consulta es gratis y el valor solo se confirma si un médico aprueba tu receta; si no, se libera.
 
 Tu tratamiento sigue reservado a tu nombre.
 
 ¿Lo dejamos confirmado hoy?
 ```
 
-### nrx_venta_fup3_vence  (Utility — urgência real + valor incluído)
+### nrx_venta_fup3_progreso  (Utility — progresso real; SUBSTITUI o fup3_vence proibido, submeter à aprovação)
 ```
-Tu reserva no queda abierta para siempre y está por vencer.
+Tu evaluación ya quedó completa y tu tratamiento sigue reservado; solo falta confirmar.
 
-Si la confirmas hoy aseguras tu tratamiento con la consulta médica, el envío prioritario y el soporte ya incluidos; si vence, tendrías que empezar de cero.
+En cuanto lo confirmes, el médico revisa tu caso, normalmente en menos de 24 horas.
 
-¿La aseguramos ahora?
+¿Lo dejamos listo?
 ```
 
 ---
