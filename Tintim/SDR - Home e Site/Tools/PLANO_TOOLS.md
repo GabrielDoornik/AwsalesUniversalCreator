@@ -56,7 +56,7 @@ Observações importantes:
 
 ### Rota MQL — Cal.com
 
-STATUS: IMPLEMENTADO via gateway n8n em 2026-07-14 (não foi a chamada direta descrita abaixo). Documentação real e reproduzível das duas tools em CONFIG_TOOLS_CAL.md. As specs diretas abaixo ficam como referência da API do Cal.
+STATUS: IMPLEMENTADO via gateway n8n em 2026-07-14 (não foi a chamada direta descrita abaixo). Documentação real e reproduzível das duas tools em `Integrações n8n/Cal.com/CONFIG_TOOLS_CAL.md`. As specs diretas abaixo ficam como referência da API do Cal.
 
 #### Tool 1 — Consultar horários disponíveis  (@consultar_horarios_disponiveis)
 - Objetivo (descrição para a IA): consultar os horários livres da agenda de reuniões do Programa de Parceiros antes de propor um horário ao lead. Chamar sempre que o lead MQL demonstrar interesse em agendar ou perguntar por horários. Informar a data desejada.
@@ -64,7 +64,7 @@ STATUS: IMPLEMENTADO via gateway n8n em 2026-07-14 (não foi a chamada direta de
 - URL: `https://api.cal.com/v2/slots`
 - Header customizado: `cal-api-version: 2024-09-04`
 - Query params:
-  - `eventTypeId` (Number, Fixo) — 424760 (Reunião de 30 min, agenda do Junior Faria). VALIDADO 2026-07-14. Config detalhada em CONFIG_TOOLS_CAL.md.
+  - `eventTypeId` (Number, Fixo) — 424760 (Reunião de 30 min, agenda do Junior Faria). VALIDADO 2026-07-14. Config detalhada em `Integrações n8n/Cal.com/CONFIG_TOOLS_CAL.md`.
   - `start` (String, IA, Req) — início do intervalo de busca (ISO 8601, ex: 2026-07-15). Se o lead disse "quinta", calcular a próxima ocorrência a partir da data atual.
   - `end` (String, IA, Req) — fim do intervalo de busca (ISO 8601). Normalmente o mesmo dia ou a semana pedida.
   - `timeZone` (String, Fixo) — `America/Sao_Paulo`.
@@ -76,7 +76,7 @@ STATUS: IMPLEMENTADO via gateway n8n em 2026-07-14 (não foi a chamada direta de
 - URL: `https://api.cal.com/v2/bookings`
 - Header customizado: `cal-api-version: 2024-08-13`
 - Body:
-  - `eventTypeId` (Number, Fixo) — 424760 (mesmo da Tool 1). VALIDADO. Config detalhada em CONFIG_TOOLS_CAL.md.
+  - `eventTypeId` (Number, Fixo) — 424760 (mesmo da Tool 1). VALIDADO. Config detalhada em `Integrações n8n/Cal.com/CONFIG_TOOLS_CAL.md`.
   - `start` (String, IA, Req) — horário escolhido, ISO 8601 com timezone.
   - `attendee.name` (String, IA, Req) — nome do lead.
   - `attendee.email` (String, IA, Req) — e-mail do lead (Cal.com exige e-mail do participante; o SDR precisa coletar antes de agendar).
@@ -88,7 +88,7 @@ Nota: a estrutura aninhada (`attendee.name`, `metadata.src`) precisa ser validad
 
 ### CRM — Kommo (as duas rotas)
 
-STATUS: IMPLEMENTADO via gateway n8n em 2026-07-15, com UMA tool única (`@atualizar_card_no_crm`) que faz buscar + criar-ou-mover, e não com as tools separadas descritas abaixo. Documentação real e reproduzível em CONFIG_TOOLS_KOMMO.md. As specs diretas abaixo ficam como referência da API do Kommo.
+STATUS: IMPLEMENTADO via gateway n8n em 2026-07-15, com UMA tool única (`@atualizar_card_no_crm`) que faz buscar + criar-ou-mover, e não com as tools separadas descritas abaixo. Documentação real e reproduzível em `Integrações n8n/Kommo/CONFIG_TOOLS_KOMMO.md`. As specs diretas abaixo ficam como referência da API do Kommo.
 
 #### Tool 3 — Buscar card do lead  (@buscar_card_no_crm)
 - Objetivo (descrição para a IA): localizar o card do lead no CRM pelo telefone para obter o id antes de mover de etapa. Chamar antes de mover o card quando o id do lead não vier no contexto.

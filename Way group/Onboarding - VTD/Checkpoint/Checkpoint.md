@@ -8,8 +8,8 @@
 - Mensagem de Abertura Enviada (disparada logo após a confirmação da compra):
 "Oi, tudo bem? Aqui é a Manu, da equipe do Lucas Arruda.
 Sua compra do Venda Todo Dia foi confirmada e seu acesso já está liberado.
-O login chega no seu e-mail e aqui no WhatsApp também.
-Consegue me confirmar se já entrou na área de aulas?"
+O login chega no seu e-mail e aqui no WhatsApp também. A primeira aula é curta e já mostra como a Amazon faz a entrega no seu lugar.
+Consegue entrar agora e me confirmar se o acesso abriu?"
 
 ## 2. INFORMAÇÕES GERAIS E LINKS
 

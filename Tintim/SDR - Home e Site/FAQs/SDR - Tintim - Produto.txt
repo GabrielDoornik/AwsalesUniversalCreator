@@ -1,10 +1,10 @@
 --- PAGINA 1 ---
 SDR - Tintim
-Produto 15 documentos
+Produto 11 documentos
 Editar Excluir
 Busca Semântica
 Buscar
-Documentos (15)Selecionar Todos Adicionar Documento
+Documentos (11)Selecionar Todos Adicionar Documento
 Status Tags Ordenar por
 Ordem
 Limpar filtros
@@ -14,155 +14,112 @@ Buscar documentos por co
 Todos Todas as tags
  Data de criação
 Desc
-Qual é o objetivo da reunião do Programa de
-Parceiros para este lead?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
+Quando devo oferecer a reunião e quem
+deve participar?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 4
+vezes • Ativo
+Ofereça quando o lead for gestor de tráfego ou dono de agência e atender 3 ou mais clie
+ntes. Valide de forma natural perguntando sobre a função dele e o tamanho da carteira. E
+mpresas e profissionais que querem medir o próprio WhatsApp (um único negócio) segu
+em para a rota de vendas, sem agendar a reunião. Vários números de uma mesma empres
+a não configuram MQL.
+Qual é o objetivo da reunião do Programa
+de Parceiros para este lead?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 11
+vezes • Ativo
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 1/5
+
+--- PAGINA 2 ---
 É uma conversa consultiva para entender o perfil e a carteira do lead, verificar se ele se en
 caixa como parceiro e mostrar como o Tintim ajuda agências e gestores a provar, com da
 dos, quais campanhas geram conversas e vendas por cliente, reduzindo trabalho manual.
 O consultor também apresenta as condições do Programa de Parceiros, que dependem d
 o volume. Dura cerca de 30 minutos, online. Vale pelo diagnóstico ao vivo e pelas condiçõ
 es alinhadas à operação, algo que não entregamos por texto.
-Quando devo oferecer a reunião e quem deve
-participar?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-14/07/2026, 20:24 Dashboard
-https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 1/6
-
---- PAGINA 2 ---
-Ofereça quando o lead for gestor de tráfego ou dono de agência e atender 3 ou mais clie
-ntes. Valide de forma natural perguntando sobre a função dele e o tamanho da carteira. E
-mpresas e profissionais que querem medir o próprio WhatsApp (um único negócio) segu
-em para a rota de vendas, sem agendar a reunião. Vários números de uma mesma empres
-a não configuram MQL.
-O que será apresentado na reunião para um lead
-MQL?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-Mostramos, ao vivo, como o Tintim mede conversas no WhatsApp, identifica vendas, audi
-ta atendimentos e gera relatórios por cliente. Se fizer sentido, mostramos como integrar e
-ventos com Meta e Google Ads. O consultor mapeia a operação do lead e apresenta as co
-ndições do Programa de Parceiros conforme o volume. Não passamos valores por texto; c
-ondições são tratadas na conversa.
-Quanto tempo dura e como funciona a logística
-da reunião?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-A conversa é online, por videochamada, com duração aproximada de 30 minutos. A agen
-da é integrada ao time comercial: o lead escolhe o horário, recebe o link da reunião e a co
-nfirmação automática. Enviamos lembrete e, no dia, reforçamos a presença para reduzir n
-o-show.
-Como resumo o que o Tintim oferece sem entrar
-em valores?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-O Tintim organiza e mede conversas do WhatsApp, identifica vendas e gera relatórios. O
-Plano Inicial foca mensuração para 1 número. O Plano Escala inclui integrações via webho
-ok para Meta e Google Ads. Para agências/gestores com vários clientes, o Programa de Pa
-rceiros é consultivo, com condições ligadas ao volume e apoio de implementação. Eu não
-fecho venda nem coto valores aqui; planos e condições são detalhados na rota correta.
 Como valido se ele é MQL sem parecer
 interrogatório?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-14/07/2026, 20:24 Dashboard
-https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 2/6
-
---- PAGINA 3 ---
+Criado em Jul 14,
+2026, 08:24 PM • Usado 4
+vezes • Ativo
 Conduza a conversa pelo contexto: pergunte qual é o papel dele (dono de agência ou ges
 tor), quantos clientes atende hoje e o que está tentando medir ou integrar. Explore se bus
 ca condições de parceiro para escalar vários clientes. Se confirmar 3+ clientes e interesse
 em mensuração por carteira, convide para a reunião. Se o foco for um único negócio, dire
 cione para a rota de vendas.
-Quais sinais mostram que o lead está pronto para
-a reunião?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-Diz que atende 3+ clientes, quer provar ROI por cliente/campanha, reclama do trabalho m
-anual de coletar vendas do WhatsApp, pergunta sobre integrações com Meta/Google e d
-emonstra urgência em organizar a mensuração. Se pede condições do Programa de Parce
-iros, é um sinal forte. Nesse cenário, ofereça o próximo horário disponível.
-Quais red flags desqualificam para a reunião e
-exigem handoff?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
+Como faço o handoff do não-MQL na
+prática?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 0
+vezes • Ativo
+Responda brevemente a dúvida dele, avise que o time comercial de vendas do Tintim vai
+seguir para apresentar os planos self-service e o melhor caminho para começar, compartil
+he o link de handoff indicado no checkpoint e mova o card no CRM para a etapa correta.
+Não envie checkout nem negocie preço; a venda assume a partir daí.
+Quais red flags desqualificam para a
+reunião e exigem handoff?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 0
+vezes • Ativo
 Ser empresa ou infoprodutor querendo medir o próprio WhatsApp, ter vários números m
 as de uma única operação, buscar apenas preço por mensagem, recusar conversa ao vivo
 ou rejeitar o Programa de Parceiros. Nesses casos, responda a dúvida imediata de forma b
 reve, explique que o time comercial de vendas seguirá com ele e faça o handoff pela rota
 do checkpoint, movendo o card no CRM.
-Como respondo quando o lead pede preço por
-aqui?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
+Como respondo quando o lead pede
+preço por aqui?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 2
+vezes • Ativo
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 2/5
+
+--- PAGINA 3 ---
 Explique que os planos self-service têm valores no checkpoint da campanha e que as con
 dições do Programa de Parceiros variam com o volume e são apresentadas na reunião. Co
 mo SDR, não coto números nem prometo desconto. Se o lead for MQL, convide para a co
 nversa para alinhar condições. Se não for MQL, encaminhe para a rota de vendas, onde os
 planos são detalhados.
-Como lido com a objeção “não tenho tempo para
-call”?
+Quais sinais mostram que o lead está
+pronto para a reunião?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 2
+vezes • Ativo
+Diz que atende 3+ clientes, quer provar ROI por cliente/campanha, reclama do trabalho m
+anual de coletar vendas do WhatsApp, pergunta sobre integrações com Meta/Google e d
+emonstra urgência em organizar a mensuração. Se pede condições do Programa de Parce
+iros, é um sinal forte. Nesse cenário, ofereça o próximo horário disponível.
+O que devo pedir ao lead para preparar
+uma reunião produtiva?
 Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-14/07/2026, 20:24 Dashboard
-https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 3/6
-
---- PAGINA 4 ---
-Mostre que é uma conversa objetiva de cerca de 30 minutos que costuma poupar horas d
-e tentativas às cegas. Diga que o consultor foca direto nos clientes e canais que mais imp
-ortam e que as condições de parceiro só fazem sentido com esse diagnóstico rápido. Ofer
-eça os próximos horários disponíveis. Se recusar e for MQL, pode seguir para a rota de ve
-ndas, sem prometer condição de parceiro.
-Como lido com “prefiro informações por escrito”?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-Diga que por texto não conseguimos calibrar o volume nem mostrar, na prática, como pr
-ovar vendas por cliente e discutir condições de parceiro baseadas na operação. Envie um
-resumo do que veremos e convide para a conversa ao vivo. Se insistir em texto, responda
-o básico e faça o handoff para a rota de vendas.
-Como respondo “não gosto de vendas por
-telefone”?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-Esclareça que não é telemarketing. É uma videochamada consultiva, sem fechamento na h
-ora, focada em dados e processos. Podemos manter a câmera fechada e ir direto ao que i
-mporta para a carteira dele. O objetivo é avaliar fit e, se fizer sentido, apresentar condiçõe
-s. Se ainda assim não quiser, encaminhamos para o time de vendas continuar por texto.
-E se o lead disser “preciso consultar alguém
-antes”?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-Sugira reservar um horário provisório e convide o decisor para a call. Explique que a conv
-ersa alinha, em 30 minutos, como medir vendas por cliente e quais condições de parceiro
-se aplicam ao volume deles. Se preferir alinhar internamente primeiro, combine um retorn
-o e, se a decisão demorar, direcione para a rota de vendas para não perder o ritmo.
-O que devo pedir ao lead para preparar uma
-reunião produtiva?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
+08:24 PM • Usado 1
+vez • Ativo
 Peça um panorama da carteira (quantos clientes ativos), quais canais usa (Meta, Google) e
 como hoje mede vendas do WhatsApp. Pergunte quais ferramentas-chave utiliza (CRM, a
 utomação) para checarmos compatibilidade; onde não houver homologação confirmada,
-14/07/2026, 20:24 Dashboard
-https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 4/6
+avisamos que vamos validar. Sugira trazer 1–2 contas como exemplo para olharmos junto
+s na call.
+O que será apresentado na reunião para
+um lead MQL?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 10
+vezes • Ativo
+Mostramos, ao vivo, como o Tintim mede conversas no WhatsApp, identifica vendas, audi
+ta atendimentos e gera relatórios por cliente. Se fizer sentido, mostramos como integrar e
+ventos com Meta e Google Ads. O consultor mapeia a operação do lead e apresenta as co
+ndições do Programa de Parceiros conforme o volume. Não passamos valores por texto; c
+ondições são tratadas na conversa.
+Como resumo o que o Tintim oferece sem
+entrar em valores?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 15
+vezes • Ativo
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 3/5
 
---- PAGINA 5 ---
+--- PAGINA 4 ---
 Informações
 ID da Base
 b19bff13-eb63-4865-9a79-4bfab58c9224
@@ -176,22 +133,29 @@ Criado em
 Jul 14, 2026, 08:23 PM
 Última atualização
 Jul 14, 2026, 08:24 PM
+Campanhas em uso
+Lembrete - Tintim
+O Tintim organiza e mede conversas do WhatsApp, identifica vendas e gera relatórios. O
+Plano Inicial foca mensuração para 1 número. O Plano Escala inclui integrações via webho
+ok para Meta e Google Ads. Para agências/gestores com vários clientes, o Programa de Pa
+rceiros é consultivo, com condições ligadas ao volume e apoio de implementação. Eu não
+fecho venda nem coto valores aqui; planos e condições são detalhados na rota correta.
+Quanto tempo dura e como funciona a
+logística da reunião?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 5
+vezes • Ativo
+A conversa é online, por videochamada, com duração aproximada de 30 minutos. A agen
+da é integrada ao time comercial: o lead escolhe o horário, recebe o link da reunião e a co
+nfirmação automática. Enviamos lembrete e, no dia, reforçamos a presença para reduzir n
+o-show.
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 4/5
+
+--- PAGINA 5 ---
+SDR - Tintim
 Fontes de Conhecimento
 # Texto Complementar — PRODUTO Campanha: SDR Home/...
-avisamos que vamos validar. Sugira trazer 1–2 contas como exemplo para olharmos junto
-s na call.
-Como faço o handoff do não-MQL na prática?
-Criado em Jul 14, 2026,
-08:24 PM • Usado 0
-vezes • Inativo
-Responda brevemente a dúvida dele, avise que o time comercial de vendas do Tintim vai
-seguir para apresentar os planos self-service e o melhor caminho para começar, compartil
-he o link de handoff indicado no checkpoint e mova o card no CRM para a etapa correta.
-Não envie checkout nem negocie preço; a venda assume a partir daí.
-14/07/2026, 20:24 Dashboard
-https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 5/6
-
---- PAGINA 6 ---
-14/07/2026, 20:24 Dashboard
-https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 6/6
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 5/5
 

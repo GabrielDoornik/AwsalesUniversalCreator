@@ -70,6 +70,16 @@ Pendente: confirmar que a Assiny captura UTM (compra teste).
 - Bifurcação por capital declarado: <R$ 1.500 desqualifica p/ CNPJ · R$ 1.500-3.000 FAS venda direta · R$ 5.000+ agendamento
 - Não quebrar objeção de: desempregado/endividado, luto/doença, pediu 2x pra não ser contatado (LGPD), irritado (escalar), expectativa irreal (corrigir)
 - Pendências do doc: autonomia de desconto do FAS (tem link de checkout com desconto — falta regra de quando usar), como comunicar R$ 360/mês contabilidade na venda direta FAS, resposta para "você é uma IA?", zonas cinzentas de capital (R$ 1.000-1.500, R$ 3.000-5.000, R$ 10.000-15.000), validação jurídica da fala de garantia condicional
+
+## Decisões nossas para a seção 9 bloqueada do doc de objeções (2026-07-20)
+
+O doc "Quebra de Objeções FAS - agente IA.txt" deixou a seção 9 (venda direta do FAS) em branco pedindo 3 definições. Decidido por nós, sem esperar o cliente:
+
+- Preço do FAS é FIXO: 12x R$ 300,50 ou R$ 2.997 à vista. A IA nunca negocia, nunca insinua margem, nunca diz "vejo o que consigo".
+- Desconto é carta única, não faixa. O `link_fas_desconto` só sai com as duas condições juntas: lead objetou preço 2 vezes de verdade (perguntar "quanto custa?" não conta) E sinalizou fechamento agora. A IA nunca anuncia que existe desconto; manda o link como condição já aplicada.
+- A IA NÃO informa o valor com desconto (não sabemos quanto é e o Response Auditor derruba número não literal). Manda o link e diz que a condição está aplicada lá dentro. Mesmo padrão do boleto TMB no FDS.
+- Contabilidade R$ 360/mês: revelar se o lead perguntar sobre custo/CNPJ, e obrigatoriamente antes de mandar o checkout quando a decisão dele passar pelo "CNPJ grátis". Nunca depois da compra. Mesma regra vale na campanha de CNPJ (lá com os R$ 460/mês somando prep center).
+- Escassez: só forma genérica ("vagas limitadas"). Proibido número de vagas, "estou segurando sua vaga", "você foi selecionado" e "passo sua vaga para outra pessoa" — os scripts do insumo foram escritos para SDR humano ao telefone e não se sustentam por escrito em escala.
 - Docs complementares citados e NÃO recebidos: "Base de Conhecimento de Produto (v1.4)" e "Simulações de Conversa (v1.0)"
 
 ## Funil CNPJ (Way Econt)

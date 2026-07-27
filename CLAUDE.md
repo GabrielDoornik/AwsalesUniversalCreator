@@ -22,6 +22,12 @@ Este projeto é um sistema universal para criação de campanhas na plataforma A
 
 **Regras críticas:** Zero asteriscos/emojis no checkpoint, FAQs em linguagem coloquial do lead (busca semântica), links como variáveis no checkpoint (`{{link_vendas}}`), preço parcelado antes do preço à vista, Tools referenciadas como `@tool_name`.
 
+## Formato das respostas no chat
+
+Respostas curtas e objetivas. Nada de textão a cada interação: o usuário trabalha em ciclos rápidos de teste e ajuste, e resposta longa atrasa em vez de ajudar.
+
+**How to apply:** entregar o que foi pedido, dizer o essencial em poucas linhas e parar. Sem recapitular o que já foi combinado, sem repetir no chat o conteúdo que já está no arquivo, sem seções e tabelas quando bastam 3 linhas. Explicação longa só quando o usuário pedir o porquê de alguma coisa. Pedido em 2026-07-27.
+
 ## Orquestração real dos agentes AWSales
 
 O checkpoint é o artefato mais decisivo porque funciona como roteador da cadeia inteira, não apenas como script de etapas.
@@ -122,6 +128,14 @@ FAQs na plataforma AWSales nunca devem conter valores de produto, parcelas, form
 - Todos os valores numéricos, links de checkout, regras de desconto, bônus específicos da oferta e janelas de venda vão no Checkpoint.
 - Vale também para FAQs de objeção de preço (ex: "Como abordar quem acha caro?"): manter o contorno comportamental, mas tirar os valores literais e remeter ao checkpoint.
 - Ao otimizar uma campanha que altere valores, sempre alertar o usuário sobre o impacto cross-campanha das FAQs compartilhadas antes de aplicar.
+
+## Resposta de FAQ precisa conter o fato, nunca só a proibição
+
+Toda resposta de FAQ é acionada por busca semântica a partir da mensagem do LEAD, resumida pelo Information Manager e entregue ao Copywriter como matéria-prima da resposta. Portanto, ela tem que carregar o FATO e o ENQUADRAMENTO que respondem à pergunta. Resposta composta só de regra ("nenhum valor deve ser citado a partir desta base", "nunca estime de cabeça", "consulte o checkpoint") não responde nada e faz o agente sair evasivo exatamente na pergunta mais decisiva da campanha.
+
+**Why:** Confundir os dois artefatos. FAQ é o que o agente SABE; Checkpoint é como o agente AGE. Instrução negativa e regra de comportamento pertencem ao checkpoint, que é lido a cada turno pelo Copywriter e pelo Integration Manager. Uma FAQ vazia de conteúdo ainda ocupa um dos 5 lugares que a busca semântica retorna, ou seja, além de não responder, ela empurra para fora a FAQ que responderia.
+
+**How to apply:** Quando um valor não puder morar na FAQ (base compartilhada entre campanhas com ofertas diferentes), escreva a explicação completa do tema — o que é o custo, por que existe, como se paga, qual o enquadramento comercial — e remeta APENAS o número ao Checkpoint. Padrão correto, visto na FAQ "O que não é gratuito e quais compromissos a pessoa assume?" (Venda CNPJ, Way Group): explica contabilidade e Prep Center, diz que sai do lucro da operação e não do salário, e fecha com "os valores exatos estão no Checkpoint". Antes de entregar qualquer FAQ reescrita, ler a resposta fingindo ser o lead que fez a pergunta: se ela não responde, está errada. Caso real: Venda CNPJ Way Group, 2026-07-20, corrigido pelo CS.
 
 ## Prompts de Extração — Recuperação == Venda Direta
 
@@ -286,13 +300,38 @@ São DIFERENTES dos 3 bônus de fechamento (Sintonização Individual / Desperta
 
 - (em construção — preencher após primeiras otimizações pós go-live)
 
+## Falcão das Milhas — Onboardings pós-compra (estado vivo)
+
+Três campanhas de onboarding que rodam DEPOIS da compra aprovada do Buscador Automático (R$ 297, anual), na sequência da campanha de Recuperação de Vendas. As três usam a MESMA base de conhecimento da campanha de Suporte (Produto 49 docs + Playbook 30 docs), sem duplicar base.
+
+**How to apply:** Se o usuário mencionar "onboarding do Falcão", "onboarding 1/2/3" ou "pós-compra do Buscador", ler PRIMEIRO `Falcão das milhas/Onboarding pós-compra (Buscador Automático)/CONTEXTO_ONBOARDINGS.md` — é o estado vivo (escopo de cada onboarding, fatos operacionais da base de Suporte, grade do que a AWSales consegue e não consegue fazer, pendências). Escopo dos três ainda pendente em 2026-07-27; o CS vai enviar prints/contexto.
+
 ## Cliente Way Group — funil VTD (estado vivo)
 
-Cliente Way Group (Lucas Arruda, Amazon FBA). 4 campanhas: REC de vendas VTD, Onboarding VTD, SDR pós-compra e SDR pós-aula 2. 3 bases de conhecimento (REC / Onboarding / SDR compartilhada pelos 2 SDRs).
-
-Estado (2026-07-20): Fases 1 e 2 completas, 12 testes conversacionais rodados, fixes aplicados nos checkpoints locais. Bloqueio atual: tool de agendamento SDR depende de "Private Integrations" do HighLevel (admin do cliente precisa ativar no Labs). Falta ainda: subir checkpoints/FAQs corrigidos na plataforma, FUPs. Sempre ler `Way group/MEMÓRIA - Way Group.md` primeiro.
-
 **How to apply:** Se o usuário mencionar "Way group", "VTD", "Lucas Arruda", "FAS" ou "CNPJ gratuito", ler PRIMEIRO `Way group/MEMÓRIA - Way Group.md` (estado vivo e próximos passos) e `Way group/DADOS OPERACIONAIS - Way Group.md` (links, preços, contatos, funil, CRM, regras do agente SDR). Não recriar nada sem checar o que já existe nas pastas das campanhas.
+
+## Ambientes n8n da AWSales
+
+- **Dev:** `n8n.nonprod.awsales.io` — onde os fluxos são montados e testados.
+- **Produção:** `flow.awsales.io` — recebe os fluxos via push/pull a partir do dev.
+
+**How to apply:** a URL configurada na tool da AWSales é SEMPRE a de produção (`https://flow.awsales.io/webhook/<path>`). Durante o desenvolvimento, apontar temporariamente para `https://n8n.nonprod.awsales.io/webhook-test/<path>` com o "Listen for test event" ligado — a URL `/webhook/` (sem `-test`) só responde com o workflow Active. Ao documentar um fluxo, registrar o path e as duas bases. Atenção: o `Tintim/Integrações n8n/README.md` registra a base como `n8n.nonprod` — ou seja, aquelas tools estão apontando para dev; conferir antes de considerar o Tintim pronto para produção.
+
+## Tools via gateway n8n — padrão de resposta
+
+Toda tool da AWSales que passa por webhook n8n deve responder **sempre HTTP 200**, com o resultado em uma flag `ok` no corpo. Nunca propagar erro HTTP da API de destino para a plataforma.
+
+**Why:** erro HTTP chega ao agente como falha técnica de tool e pode disparar handoff ou fazer a IA tratar o erro como resposta de negócio (ex: confundir instabilidade da API de agenda com "agenda vazia" e encerrar o atendimento). Com 200 + `ok:false`, o Checkpoint Manager trata como caminho conversacional normal. Vale também para falhas lógicas que a API devolve com 200 — verificar o campo que prova o sucesso (ex: `appointmentId`), não o status.
+
+**How to apply:**
+- Nó Webhook com `Respond = Using 'Respond to Webhook' Node`.
+- Nó HTTP Request com `On Error = Continue (using error output)`; ramo de erro vai para um `Respond to Webhook` com JSON `{ok:false, mensagem}` e Response Code 200.
+- Ramo de sucesso passa por um Code node que monta o contrato `{ok, ..., mensagem}` — a `mensagem` é instrução em linguagem natural para o Copywriter, incluindo o que NÃO concluir (ex: "isto não é agenda vazia").
+- Separar falha técnica (`ok:false`) de resultado de negócio vazio (`tem_horario:false`): são caminhos diferentes no checkpoint.
+- Posicionar o nó de Respond acima dos demais no canvas — a ordem de execução v1 do n8n é de cima para baixo, então a IA responde antes de o fluxo terminar o resto.
+- Antes de disparar um evento de output (que encerra o objetivo da campanha), validar que a ação aconteceu de fato. Um `return []` no Code node corta o ramo sem precisar de nó IF.
+
+Casos de referência: `Lucas Firmino/Integrações n8n/` (2026-07-23) e `CR Treinamentos/Suporte - EQJC/Tool personalizada/`.
 
 ## Campanha SDR Lucas Firmino — D'Leon (estado vivo)
 
@@ -300,7 +339,11 @@ Campanha "SDR - Lucas Firmino" (D'Leon By Lucas Firmino, BH) — agendamento de 
 
 Estado (última atualização 2026-04-28): checkpoint reescrito (47% menor) e validado contra regras de formatação + formato `@tool`. Adicionada 1 FAQ nova no Playbook ("atendimento por texto") — aguardando o usuário aplicar na plataforma. Acompanhar custo em 7 dias para confirmar redução projetada (~R$ 280-370 nos próximos 19 dias).
 
-Tools da campanha (Plataforma Uno): `@consultar_horarios_disponiveis`, `@registrar_lead_no_rp`, `@criar_agendamento`. Variáveis do checkpoint: `{{foto_antes_depois_1}}`, `{{foto_antes_depois_2}}`, `{{link_suporte}}`.
+Tools da campanha: `@consultar_horarios_disponiveis`, `@registrar_lead_no_rp`, `@criar_agendamento` (+ `@registrar_solicitacao_sdr`, da Planilha SDR). Variáveis do checkpoint: `{{foto_antes_depois_1}}`, `{{foto_antes_depois_2}}`, `{{link_suporte}}`.
+
+**Migração das tools para n8n (2026-07-23):** as 3 tools da Plataforma UNO deixaram de bater direto na API e passaram por webhooks n8n (`lucasfirmino-horarios`, `lucasfirmino-output`, `lucasfirmino-lead`). Motivo: monitoramento pelo histórico de execuções do n8n. Credenciais UNO saíram das conexões da AWSales e ficaram server-side; `serviceId`, `tagId` e `originId` saíram das tools e viraram valor fixo no n8n. O fluxo de agendamento também dispara o output `agendamento-realizado-dleon`. Ganho colateral: a grade de horários da UNO (~1.400 registros/dia, um por sala x slot de 10 min) é achatada no n8n para ~24 horários redondos, e o filtro de expediente saiu do checkpoint. Arquitetura, credenciais e código dos nós em `Lucas Firmino/Integrações n8n/README.md`; campos das tools em `Lucas Firmino/SDR/CONFIG_TOOLS.md`.
+
+Pendência com o cliente: quanto dura a avaliação e qual o último horário realmente agendável (a grade da UNO oferece até 19:40 seg-sex e 11:40 sáb).
 
 Decisão pendente sobre Smart FUP: estimativa atual ~13-17% do gasto total, esperado cair para ~7-10% após otimização do checkpoint. Reavaliar substituição por FUP estático apenas se ainda for >15% após 1 semana.
 

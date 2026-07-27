@@ -1,0 +1,294 @@
+--- PAGINA 1 ---
+IA de Suporte - Falcão das Milhas (Onboarding)
+Produto20 documentos Editar
+Busca Semântica
+Buscar
+Documentos (20)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Ativos Todas as tags
+ Data de criação
+Desc
+Como orientar quando o cliente relata erro 404
+na área de membros?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Valide o problema e pergunte em qual link, botão ou tela o cliente clicou antes do erro 40
+4. O acesso oficial do Buscador é https://novo.buscadorautomatico.com.br/ e a área de m
+embros é https://buscadorautomatico.memberclass.com.br/login; confira se ele está usan
+do o link correto. Oriente uma tentativa simples: atualizar a página, limpar cache, testar ab
+a anônima, outro navegador e outro dispositivo. Se persistir, peça o e-mail usado na com
+pra e encaminhe para o time humano com o contexto. Não envie formulário de reembols
+o e não prometa reset ou ajuste de acesso pela IA.
+Como orientar quando o Buscador apresenta erro
+técnico ou tela não carrega?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Oriente um protocolo simples antes de encaminhar humano: 1. Verificar a conexão de inte
+rnet. 2. Atualizar a página. 3. Limpar cache do navegador. 4. Tentar em aba anônima. 5. Te
+star outro navegador. 6. Testar outro dispositivo. Se o problema persistir, peça o e-mail de
+compra e uma descrição objetiva do erro, incluindo em qual tela aconteceu e qual mensa
+gem apareceu. Se precisar de evidência para o time humano, peça print para encaminhar,
+sem prometer análise visual pela IA.
+Onde encontro as melhores tarifas no Buscador?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Oriente que o maior valor do Buscador costuma estar nas Tarifas Awards, a área com opor
+tunidades já encontradas pelo sistema. Explique que a busca manual serve para pesquisas
+mais específicas, mas pode trazer preços parecidos com buscadores comuns quando orig
+27/07/2026, 18:11 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/3be720b8-608b-4e85-a98f-ac934cd258b8 1/6
+
+--- PAGINA 2 ---
+em, destino e data estão muito rígidos. Em ambas as versões do Buscador, as passagens fi
+cam disponíveis nos cards, na área de Tarifas Awards. A Busca Manual fica no final do site.
+Oriente o cliente a comparar as oportunidades já disponíveis nos cards.
+Como orientar quando o cliente está
+preso na área de membros ou numa tela
+mobile e não consegue chegar ao
+Buscador?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 1
+vez • Ativo
+Se o cliente está na área de membros e não acha o Buscador, o caminho mais curto não é
+procurar lá dentro. O Buscador tem endereço próprio, em https://novo.buscadorautomati
+co.com.br/, e é por ali que ele entra, com o e-mail usado na compra. A área de membros,
+em https://buscadorautomatico.memberclass.com.br/login, é onde ficam cursos, planilhas
+e bônus. São endereços diferentes. Oriente a abrir o link do Buscador direto, de preferênci
+a em aba anônima, sem usar link salvo nem histórico. Se a tela travar ou ficar em branco,
+oriente atualizar a página, testar outro navegador ou tentar pelo computador. Reforce qu
+e o aplicativo não funciona hoje: o acesso é sempre pelo navegador. Se depois de uma ori
+entação clara ele ainda não conseguir, não repita a mesma instrução: colete o e-mail de c
+ompra e encaminhe para humano.
+Não consigo acessar ou criar minha conta. O que
+faço?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Primeiro tente acessar usando exatamente o e-mail da compra, em https://novo.buscador
+automatico.com.br/. Se for senha, use "Esqueci minha senha" e confira caixa de entrada, s
+pam e lixo eletrônico. Se aparecer "Error signing in", confira se o e-mail está digitado corr
+etamente. Se aparecer "não foi possível concluir o cadastro", confira se o e-mail é o mesm
+o usado na compra, porque às vezes a pessoa digitou um e-mail na compra e tenta acess
+ar com outro. Se nada resolver, me diga a mensagem exata que aparece e confirme o e-m
+ail da compra para eu encaminhar.
+Perdi o celular ou ele foi roubado e perdi o
+acesso. O que faço?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+No Buscador existe a opção "Esqueci minha senha". Acesse https://novo.buscadorautoma
+tico.com.br/, clique nessa opção e você recebe um e-mail de redefinição de senha no e-m
+ail da compra. Confira caixa de entrada, spam e lixo eletrônico. Se o e-mail não chegar, m
+e passe o e-mail usado na compra que eu encaminho para o time resetar o acesso.
+Tem grupo de promoções? Como faço para
+entrar?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Sim! O Buscador inclui dois grupos bônus gratuitos no WhatsApp, e é só entrar pelo link:• Alerta de passagens: https://chat.whatsapp.com/Ig7XvXUWjxC1qNLuSfRGuz
+• Alerta de promoções de acúmulo: https://chat.whatsapp.com/Dry5XbApkRWKBWBtGQ2
+WfF
+Importante: se o cliente mencionar o grupo Alerta Prioritário, esse é um produto pago e n
+ão faz parte dos bônus gratuitos. Caso ele tenha dúvida sobre a cobrança desse item, peç
+a o e-mail usado na compra e encaminhe para o time conferir.
+27/07/2026, 18:11 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/3be720b8-608b-4e85-a98f-ac934cd258b8 2/6
+
+--- PAGINA 3 ---
+Quais bônus ou benefícios vêm junto com o
+Buscador? (ouvi falar em 8 benefícios)
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+O Buscador Automático vem com bônus, que funcionam como um overdelivery. Na área
+de membros ficam os cursos e planilhas, os itens que alguns clientes chamam de 8 benefí
+cios. Além disso, o cliente tem acesso a dois grupos bônus gratuitos no WhatsApp: o de a
+lerta de passagens e o de alerta de promoções de acúmulos, cujos links ficam na FAQ de
+grupos. Oriente o cliente a entrar na área de membros para ver os materiais. Se algum bô
+nus não aparecer mesmo acessando a área de membros, trate como urgente, peça o e-m
+ail da compra e encaminhe para humano. Atenção: o grupo Alerta Prioritário é pago e nã
+o faz parte dos bônus gratuitos.
+O que fazer quando não encontrei meu
+bônus ou benefício?
+Criado em Jul 27,
+2026, 04:58 PM• Usado 0
+vezes • Ativo
+Os bônus ficam na área de membros, em https://buscadorautomatico.memberclass.com.b
+r/login. O Buscador é outro endereço, em https://novo.buscadorautomatico.com.br/, e ser
+ve para pesquisar passagem, não para acessar bônus. Confirme qual bônus ou material o
+cliente procura antes de tratar como problema genérico de login, e oriente que ele entre
+na área de membros para procurar por lá. Se mesmo acessando a área de membros o bô
+nus não aparecer, trate como urgente: peça o e-mail usado na compra e encaminhe para
+o time humano revisar e, se preciso, resetar o acesso. Não envie formulário de reembolso.
+Como faço para aumentar as chances de
+encontrar passagens melhores?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+O que mais ajuda é flexibilizar a busca. Teste datas próximas, aeroportos maiores como G
+RU, GIG ou VCP, diferentes programas de milhas e compare a busca manual com Tarifas A
+wards. Em milhas, disponibilidade muda bastante, então uma rota muito fechada pode li
+mitar os resultados.
+Não consigo acessar o Buscador e a recuperação
+de senha não funciona. O que faço?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Entendo a dificuldade. Primeiro tente "Esqueci minha senha" em https://novo.buscadoraut
+omatico.com.br/ usando o mesmo e-mail da compra e confira caixa de entrada, spam e lix
+o eletrônico. Se o e-mail de redefinição não chegar nem no spam, o acesso precisa ser res
+etado pelo time. Me envie o e-mail usado na compra que eu encaminho para o time reset
+ar e te dar retorno. Não consigo resetar por aqui, mas deixo tudo encaminhado com o co
+ntexto.
+Como o cliente pode não perder oportunidades
+usando o monitoramento?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Explique que o monitoramento avisa quando surgem novas oportunidades na rota de inte
+resse. Oriente de forma geral: dentro de uma promoção ou rota, ative o monitoramento p
+ara receber os avisos e, ao ser avisado, acesse rápido porque as tarifas award são concorri
+das e temporárias. Como existem duas versões do Buscador em uso, não afirme a posição
+exata do botão na tela. Se o cliente disser que não encontra a opção, oriente uma vez de f
+27/07/2026, 18:11 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/3be720b8-608b-4e85-a98f-ac934cd258b8 3/6
+
+--- PAGINA 4 ---
+orma geral e, se ainda assim não localizar, peça o e-mail de compra e encaminhe para o ti
+me conferir, sem repetir a instrução várias vezes.
+Como funcionam os cards de promoção e a
+emissão da passagem?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Explique que os cards aparecem na seção Tarifas Awards e representam oportunidades já
+encontradas pelo sistema. No card, o cliente vê informações da oportunidade e há quanto
+tempo ela foi publicada. Ao abrir, ele pode verificar datas disponíveis, quantidade de pass
+ageiros e detalhes exibidos pela promoção. Ao seguir para emissão, o cliente é direcionad
+o para a companhia aérea ou parceiro responsável. Taxas, bagagem, regras tarifárias e dis
+ponibilidade final são confirmadas fora do Buscador. Se a passagem já foi comprada ou h
+ouve erro de emissão, coletar e-mail de compra e encaminhar suporte especializado.
+Como orientar o cliente a usar a busca manual?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+A Busca Manual fica no final do site Explique que a busca manual serve para uma pesquis
+a mais específica. Oriente o cliente a preencher todos os campos exigidos pela tela: orige
+m, destino, data ou período, quantidade de passageiros, classe e programa de milhas, qua
+ndo aparecerem. Depois alinhe a expectativa: quanto mais específica a combinação, meno
+r a chance de aparecer uma tarifa award muito vantajosa. Se os preços ficarem parecidos
+com Skyscanner ou outros buscadores, oriente a comparar a área de Tarifas Awards, onde
+ficam as oportunidades já encontradas pelo sistema.
+Como o cliente realiza a primeira busca no filtro
+principal do buscador?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Antes de orientar, identifique se o cliente está na área de Tarifas Awards ou na Busca Man
+ual. A busca principal do site é a de Tarifas Awards: em ambas as versões do Buscador, as
+oportunidades já encontradas pelo sistema ficam disponíveis nos cards. A Busca Manual fi
+ca no final do site, serve para pesquisas específicas e normalmente tem menos desconto.
+Na Busca Manual, oriente a preencher os campos pedidos pela tela: origem, destino quan
+do aparecer, data ou período, classe, programa de milhas, quantidade de passageiros e d
+emais filtros. Peça para conferir se tudo foi preenchido antes de concluir que houve erro.
+As tarifas que mais valem a pena ficam nos cards das Tarifas Awards. Evite dizer que existe
+busca flexível automática; use "datas alternativas que você aceitaria" ou "período em que
+você pode viajar.
+Como explico ao cliente o que é e o que não é o
+Buscador Automático?
+Criado em Jul 27, 2026,04:58 PM • Usado 0vezes • Ativo
+Diga que o Buscador monitora tarifas award (passagens com milhas) em tempo real e mo
+stra oportunidades reais do mercado. Ele não cria promoções, não altera preços e não em
+ite passagens. 1. O cliente usa os filtros para achar oportunidades. 2. Ao escolher uma pro
+moção, é redirecionado para a companhia aérea para emitir. 3. Valores podem mudar rápi
+do porque a disponibilidade é limitada e dinâmica. Reforce que flexibilidade de datas e or
+igem aumenta as chances de economia.
+Por que o primeiro filtro não tem destino e como
+devo explicar isso ao cliente?
+27/07/2026, 18:11 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/3be720b8-608b-4e85-a98f-ac934cd258b8 4/6
+
+--- PAGINA 5 ---
+Informações
+ID da Base
+Criado em Jul 27, 2026,
+04:58 PM • Usado 0
+vezes • Ativo
+Use esta explicação apenas quando a dúvida for sobre a área de oportunidades ou Tarifas
+Awards, não sobre a busca manual. Na busca manual, o destino deve ser preenchido quan
+do a tela exigir. Explique que as Tarifas Awards não funcionam como um buscador comum
+preso a uma combinação exata: mostram oportunidades já encontradas pelo sistema, co
+m base em disponibilidade real de tarifas award. Se o cliente quer uma rota específica, po
+de usar a busca manual. Se quer maior chance de economia, deve analisar as oportunidad
+es das Tarifas Awards.
+O que responder quando o cliente pede
+para falar com uma pessoa?
+Criado em Jul 27,
+2026, 04:58 PM• Usado 0
+vezes • Ativo
+Acolha e faça uma tentativa objetiva de ajuda antes de transferir. Ofereça o menu de triag
+em apenas com o que faz sentido para quem acabou de comprar: acesso ao Buscador, ca
+dastro do perfil, bônus e grupos, ou cobrança. Nunca cite cancelamento, reembolso ou co
+tação de viagem como opção, porque sugerir esses caminhos a um cliente novo cria uma
+intenção que ele não tinha. Se ele insistir, estiver irritado ou o caso depender de conferên
+cia interna, peça o e-mail de compra completo e o nome completo e encaminhe com o c
+ontexto resumido.
+O que é o Buscador Automático?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 1
+vez • Ativo
+O Buscador Automático é uma plataforma online para encontrar passagens promocionais
+com emissão por milhas ou fazer buscas manualmente. Diariamente novas passagens são
+cadastradas e comunicadas no grupo bônus de WhatsApp. É ótimo para quem quer auto
+nomia e gosta de buscar economia por conta própria. Ele tem a busca manual, para pesq
+uisas mais específicas, e a área de Tarifas Awards, com oportunidades já encontradas pelo
+sistema. O Buscador não emite passagens, não altera preços e não cria promoções: organi
+za oportunidades reais e direciona o cliente para a companhia ou parceiro na hora de emi
+tir. O acesso ao Buscador é em https://novo.buscadorautomatico.com.br/, usando o e-mai
+l da compra. A área de membros, em https://buscadorautomatico.memberclass.com.br/lo
+gin, é outro endereço e é onde ficam cursos, planilhas e bônus.
+Como interpretar cada mensagem de erro
+de acesso e qual o próximo passo certo,
+sem repetir testes genéricos?
+Criado em Jul 27, 2026,
+04:58 PM • Usado 1
+vez • Ativo
+Antes de orientar, identifique a mensagem de erro exata. "E-mail não cadastrado" ou "Error signing in": confirme se o e-mail é exatamente o da compra, sem espaço ou erro de di
+gitação. "Senha incorreta" ou "User has not set a password yet": oriente "Esqueci minha se
+nha" com o e-mail da compra e checar spam. "Não autorizado": confirme se o produto co
+mprado é o mesmo que o cliente tenta acessar. "Assinatura expirada": pergunte se o paga
+mento foi concluído e peça comprovante. "Plataforma sem conteúdo" ou "não encontram
+os sua área de membros": é erro de endereço, quase sempre porque ele abriu a área de
+membros querendo o Buscador; reenvie https://novo.buscadorautomatico.com.br/ e orien
+te aba anônima. "Não foi possível concluir o cadastro": confirme se o e-mail do cadastro é
+o mesmo da compra. Se o erro persistir após o passo indicado, colha e-mail de compra e
+nome completo e encaminhe, sem repetir o mesmo teste.
+27/07/2026, 18:11 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/3be720b8-608b-4e85-a98f-ac934cd258b8 5/6
+
+--- PAGINA 6 ---
+3be720b8-608b-4e85-a98f-ac934cd258b8
+Tipo
+Produto
+Tipo de Agente
+Suporte
+Organização
+Falcão das Milhas
+Criado em
+Jul 27, 2026, 04:58 PM
+Última atualização
+Jul 27, 2026, 04:59 PM
+Campanha em uso
+Harpya | Onboarding 1
+Fontes de Conhecimento
+27/07/2026, 18:11 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/3be720b8-608b-4e85-a98f-ac934cd258b8 6/6
+

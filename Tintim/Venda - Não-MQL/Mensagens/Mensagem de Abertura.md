@@ -4,21 +4,13 @@ Campanha ativa: a IA abre a janela. É template (HSM), precisa de aprovação da
 
 Reconecta pelo interesse registrado, sem fingir lembrar da conversa do SDR. CTA isolado no fim.
 
-## Opção A (recomendada)
+## Abertura oficial (validar com o cliente antes de submeter à Meta)
 
 Oi! Aqui é a Ana, do Tintim.
 
 Você demonstrou interesse em acompanhar de onde vêm as suas vendas no WhatsApp, e o nosso time ficou de te ajudar a dar o próximo passo.
 
 Posso te mostrar em poucos minutos qual plano faz mais sentido pro seu caso?
-
-## Opção B (variação para teste)
-
-Oi! Aqui é a Ana, do Tintim.
-
-Ficou de sequência aqui com o nosso time o seu interesse em enxergar quais anúncios e conversas estão virando venda no seu WhatsApp.
-
-Quer que eu te ajude a começar a medir isso?
 
 ## Observações
 

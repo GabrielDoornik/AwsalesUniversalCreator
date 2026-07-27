@@ -242,6 +242,10 @@ A Abertura e os FUPs são o segundo artefato mais crítico da campanha. Se a abe
 - Cumprimento natural (nunca começar direto com "Tudo bem?")
 - Não usar emoji na abertura de janela/template inicial
 - CTA isolado no último parágrafo
+- **CTA da abertura NUNCA pode ser pergunta de sim ou não.** Um "não" encerra a conversa antes de a IA conseguir diagnosticar, tratar objeção ou ofertar. Duas saídas válidas, nesta ordem de preferência:
+  - Alternativa sobre FATO, quando as opções forem exaustivas e o lead só puder estar em uma delas: "você já vende hoje ou está começando do zero?", "já chegou a abrir CNPJ ou nunca mexeu com isso?". Funciona porque não sobra terceira resposta possível.
+  - Convite aberto com oferta de ajuda, quando a pergunta for sobre MOTIVO: "me conta o que te impediu de finalizar que eu te ajudo a resolver por aqui". Nunca listar dois motivos como se fossem os únicos ("foi dúvida ou foi o pagamento?"), porque motivo é campo aberto e o lead cujo motivo não está na lista fica sem o que responder.
+  - Lead quente ignora a pergunta e pede o link do mesmo jeito, então não se perde conversão em nenhum dos dois formatos. Exceção: campanhas de suporte/onboarding, onde o "não consegui" é justamente o caso que a campanha quer capturar. Atenção que o exemplo de abandono de carrinho abaixo ("Quer ajuda para garantir sua vaga?") viola esta regra e não deve ser copiado como está
 - Se houver deadline de preço: use preço + urgência
 - Se ticket for perpétuo/fixo: reconexão emocional primeiro, preço depois
 
