@@ -1,0 +1,23 @@
+Audio 1:
+"
+– Tá, seguinte. Eh... IA de venda e recuperação de venda em geral, como que vai funcionar? Link padrão é Assiny, sempre. A gente tem outros dois... duas plataformas de checkout: Hotmart e TMB. Hotmart é só, só se a pessoa falar "Ó, não tô conseguindo comprar no link da Assiny" ou então se a pessoa perguntar de como que paga com cartão internacional, " moro fora do Brasil, como é que eu faço para pagar", eh... "no checkout da Assiny não tô conseguindo preencher meu telefone"... esses casos a gente joga para a Hotmart, ou qualquer outro tipo de atrito de compra nesse sentido. TMB, só e somente só se a pessoa citar explicitamente o nome "boleto", tipo assim: "Eu quero boleto parcelado". "Tem boleto parcelado?". Se ela citar o nome "boleto", aí a gente manda o link da TMB, que é o do boleto parcelado. Eh... TMB tá configurada 12 parcelas de 
+
+
+E aí tem uma observação muito importante aqui a nível de recuperação de vendas: caso dê pagamento... eh... qual que é a...?
+– A gente vai rodar da IA... Tem uma funcionalidade da Assiny que é chamada 3DS. Que que é essa funcionalidade? Ela é uma validação do banco da pessoa. Não quer dizer que vai acontecer em todas as transações, mas, basicamente, nas transações que o banco da pessoa ia dar um cartão recusado, ele muda e manda uma notificação para essa pessoa. Tipo assim, essa notificação vem em formato ou de notificação no celular por SMS ou dentro do aplicativo do banco dela. Então a IA tem que estar instruída a orientar a pessoa a aprovar isso, entendeu?
+– Tá.
+– É basicamente isso. Você já viu quando você compra alguma coisa e aí pede pra você entrar no aplicativo pra aceitar?
+– Você reconhece a compra?
+– Entendi. Tá. É isso.
+– Exato. Porque senão a oferta... a compra ia ser recusada, entendeu?
+– Tá.
+– Não é sempre que vai acontecer, mas pode ser que aconteça algumas vezes.
+– Tá.
+– Na Assiny ou na TMB, cê falou?
+– Não, na Assiny. A oferta que a IA vai mandar, ela tem essa funcionalidade ativa, entendeu?
+– É isso?
+– É isso."
+
+Áudio 2:
+
+"Quebra de objeção, no último caso você pode citar isso de boleto parcelado. Agora um ponto importante. Vai ter um link para a pessoa falar com um consultor humano. Esse é tipo assim, último caso, no caso de tentativa de pagamento. Se a IA identificar que a pessoa já tentou várias vezes comprar e não conseguiu, é para escoar para o link que eu vou mandar de consultor. Mas é o último caso mesmo."

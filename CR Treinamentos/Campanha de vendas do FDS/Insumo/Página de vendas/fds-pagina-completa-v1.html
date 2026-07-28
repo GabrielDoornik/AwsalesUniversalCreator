@@ -1,0 +1,2248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fundamentos da Sintonização · Paulo Aguiar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-soft: #F8FAFC;
+    --text: #0F172A;
+    --text-muted: #475569;
+    --text-faint: #64748B;
+    --navy: #1E3A8A;
+    --royal: #2563EB;
+    --royal-hover: #1D4ED8;
+    --silver: #94A3B8;
+    --silver-light: #CBD5E1;
+    --silver-faint: #E2E8F0;
+    --blue-glow: rgba(37, 99, 235, 0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ────────────────────────────────────────
+     NAV
+     ──────────────────────────────────────── */
+  nav {
+    padding: 28px 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--silver-faint);
+  }
+
+  .nav-mark {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--navy);
+  }
+
+  .nav-method {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--silver);
+  }
+
+  /* ────────────────────────────────────────
+     HERO
+     ──────────────────────────────────────── */
+  .hero {
+    padding: 110px 6vw 130px;
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .hero-grid {
+    display: block;
+    max-width: 880px;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 36px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    width: 32px;
+    height: 1px;
+    background: var(--silver-light);
+  }
+
+  .hero-headline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(38px, 5.6vw, 64px);
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin-bottom: 24px;
+    max-width: 18ch;
+  }
+
+  .hero-headline .num {
+    font-style: italic;
+    color: var(--navy);
+    font-weight: 500;
+  }
+
+  .hero-headline .em {
+    font-style: italic;
+    color: var(--royal);
+    font-weight: 500;
+  }
+
+  .hero-headline .product {
+    color: var(--navy);
+    font-weight: 500;
+  }
+
+  .hero-objection {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: clamp(17px, 2vw, 22px);
+    line-height: 1.4;
+    color: var(--text-muted);
+    margin-bottom: 36px;
+    max-width: 42ch;
+  }
+
+  .hero-sub {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--text-muted);
+    margin-bottom: 48px;
+    max-width: 52ch;
+  }
+
+  /* CTA stack */
+  .cta-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .cta-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--royal);
+    color: #FFFFFF;
+    padding: 18px 36px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 8px 24px var(--blue-glow);
+  }
+
+  .cta-primary:hover {
+    background: var(--royal-hover);
+    transform: translateY(-1px);
+  }
+
+  .cta-primary .arrow {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .cta-meta {
+    display: flex;
+    gap: 24px;
+    align-items: baseline;
+    font-family: 'Mulish', sans-serif;
+    color: var(--text-faint);
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .cta-price {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .cta-price em {
+    font-style: italic;
+    color: var(--text-muted);
+  }
+
+  .cta-divider {
+    width: 1px;
+    height: 14px;
+    background: var(--silver-light);
+  }
+
+  /* ── Aside: badges ── */
+  .hero-aside {
+    border-left: 1px solid var(--silver-faint);
+    padding-left: 40px;
+    padding-top: 12px;
+  }
+
+  @media (max-width: 919px) {
+    .hero-aside {
+      border-left: none;
+      border-top: 1px solid var(--silver-faint);
+      padding-left: 0;
+      padding-top: 40px;
+      margin-top: 8px;
+    }
+  }
+
+  .aside-label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 20px;
+  }
+
+  .aside-stat {
+    display: block;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--silver-faint);
+  }
+
+  .aside-stat:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .aside-stat-value {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    color: var(--navy);
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .aside-stat-label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  /* ── Frequency line: visual element ── */
+  .freq-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--silver-light) 20%, var(--royal) 50%, var(--silver-light) 80%, transparent);
+    opacity: 0.5;
+  }
+
+  /* ────────────────────────────────────────
+     REUSABLE: containers and section heads
+     ──────────────────────────────────────── */
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 6vw;
+  }
+
+  .section-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 28px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    width: 32px;
+    height: 1px;
+    background: var(--silver-light);
+  }
+
+  .section-headline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(34px, 4.8vw, 52px);
+    line-height: 1.1;
+    letter-spacing: -0.018em;
+    color: var(--text);
+    margin-bottom: 28px;
+    max-width: 22ch;
+  }
+
+  .section-headline .em {
+    font-style: italic;
+    color: var(--royal);
+    font-weight: 500;
+  }
+
+  .section-lead {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--text-muted);
+    max-width: 56ch;
+    margin-bottom: 64px;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 2 / PROOF BAR
+     ──────────────────────────────────────── */
+  .proof-bar {
+    background: var(--bg-soft);
+    padding: 90px 0;
+    border-top: 1px solid var(--silver-faint);
+    border-bottom: 1px solid var(--silver-faint);
+  }
+
+  .proof-eyebrow {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--silver);
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .proof-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  @media (min-width: 760px) {
+    .proof-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px;
+    }
+  }
+
+  .proof-card {
+    position: relative;
+    padding-left: 24px;
+    border-left: 2px solid var(--royal);
+  }
+
+  @media (min-width: 760px) {
+    .proof-card {
+      border-left: none;
+      border-top: 2px solid var(--royal);
+      padding-left: 0;
+      padding-top: 24px;
+    }
+  }
+
+  .proof-quote {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.4;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+  }
+
+  .proof-name {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: var(--navy);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .proof-meta {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--text-faint);
+    line-height: 1.5;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 3 / AS 7 ÁREAS (90 dias)
+     ──────────────────────────────────────── */
+  .seven-areas {
+    padding: 130px 0 140px;
+  }
+
+  .areas-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    border-top: 1px solid var(--silver-faint);
+  }
+
+  @media (min-width: 720px) {
+    .areas-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1020px) {
+    .areas-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .area-card {
+    padding: 40px 32px 44px 0;
+    border-bottom: 1px solid var(--silver-faint);
+    position: relative;
+  }
+
+  @media (min-width: 720px) {
+    .area-card {
+      padding: 44px 36px 48px;
+      border-right: 1px solid var(--silver-faint);
+    }
+    .area-card:nth-child(2n) {
+      border-right: none;
+    }
+  }
+
+  @media (min-width: 1020px) {
+    .area-card {
+      padding: 48px 40px 52px;
+    }
+    .area-card:nth-child(2n) {
+      border-right: 1px solid var(--silver-faint);
+    }
+    .area-card:nth-child(3n) {
+      border-right: none;
+    }
+  }
+
+  .area-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: var(--silver);
+    margin-bottom: 18px;
+    letter-spacing: 0.04em;
+  }
+
+  .area-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    color: var(--navy);
+    margin-bottom: 18px;
+  }
+
+  .area-outcome {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-muted);
+  }
+
+  .area-outcome strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 5 / O MÉTODO EM 3 ETAPAS
+     ──────────────────────────────────────── */
+  .method-map {
+    padding: 130px 0 150px;
+    background: var(--bg);
+    border-top: 1px solid var(--silver-faint);
+    position: relative;
+  }
+
+  .map-stages {
+    margin-top: 80px;
+    position: relative;
+  }
+
+  /* Connecting line / desktop only */
+  .map-line {
+    display: none;
+  }
+
+  @media (min-width: 880px) {
+    .map-line {
+      display: block;
+      position: absolute;
+      top: 16px;
+      left: 16.66%;
+      right: 16.66%;
+      height: 2px;
+      background: var(--royal);
+      z-index: 1;
+    }
+  }
+
+  .map-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 56px;
+    position: relative;
+    z-index: 2;
+  }
+
+  @media (min-width: 880px) {
+    .map-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+  }
+
+  .map-stage {
+    text-align: left;
+    position: relative;
+    padding-left: 48px;
+  }
+
+  /* Mobile vertical line */
+  .map-stage::before {
+    content: '';
+    position: absolute;
+    top: 32px;
+    bottom: -56px;
+    left: 15px;
+    width: 2px;
+    background: var(--royal);
+  }
+
+  .map-stage:last-child::before {
+    display: none;
+  }
+
+  @media (min-width: 880px) {
+    .map-stage {
+      text-align: center;
+      padding: 0 16px;
+    }
+    .map-stage::before {
+      display: none;
+    }
+  }
+
+  .map-marker {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--royal);
+    margin-bottom: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.12);
+  }
+
+  @media (min-width: 880px) {
+    .map-marker {
+      position: relative;
+      margin: 0 auto 36px;
+    }
+  }
+
+  .map-stage-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--royal);
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+  }
+
+  .map-stage-name {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--navy);
+    margin-bottom: 22px;
+  }
+
+  .map-stage-promise {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  .map-stage-promise strong {
+    color: var(--navy);
+    font-weight: 600;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 6 / REVEAL DO PRODUTO
+     ──────────────────────────────────────── */
+  .reveal {
+    padding: 130px 0 140px;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--silver-faint);
+    border-bottom: 1px solid var(--silver-faint);
+    text-align: center;
+  }
+
+  .reveal-eyebrow {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 36px;
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .reveal-eyebrow::before,
+  .reveal-eyebrow::after {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: var(--silver-light);
+  }
+
+  .reveal-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(44px, 7vw, 88px);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    color: var(--navy);
+    margin-bottom: 36px;
+    max-width: 14ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reveal-title .em {
+    font-style: italic;
+    color: var(--royal);
+    font-weight: 500;
+  }
+
+  .reveal-lead {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--text-muted);
+    max-width: 56ch;
+    margin: 0 auto 64px;
+  }
+
+  .reveal-features {
+    margin-top: 24px;
+  }
+
+  .reveal-feat {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 44px 0;
+    border-top: 1px solid var(--silver-light);
+    text-align: left;
+  }
+
+  .reveal-feat:last-of-type {
+    border-bottom: 1px solid var(--silver-light);
+    margin-bottom: 64px;
+  }
+
+  @media (min-width: 880px) {
+    .reveal-feat {
+      grid-template-columns: 0.95fr 1.6fr;
+      gap: 56px;
+      padding: 56px 0;
+      align-items: start;
+    }
+  }
+
+  .reveal-feat-head {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .reveal-feat-num {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--royal);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .reveal-feat-num::before {
+    content: '';
+    width: 28px;
+    height: 1px;
+    background: var(--royal);
+  }
+
+  .reveal-feat-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(22px, 2.4vw, 28px);
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    color: var(--navy);
+    max-width: 18ch;
+  }
+
+  .reveal-feat-spec {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--text-faint);
+    margin-top: 6px;
+  }
+
+  .reveal-feat-promise {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--text);
+  }
+
+  .reveal-feat-promise strong {
+    color: var(--navy);
+    font-weight: 600;
+  }
+
+  .reveal-cta-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .reveal-cta-meta {
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    color: var(--text-faint);
+    letter-spacing: 0.02em;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 8 / BÔNUS
+     ──────────────────────────────────────── */
+  .bonuses {
+    padding: 130px 0 140px;
+    background: var(--bg);
+  }
+
+  .bonus-list {
+    margin-top: 24px;
+  }
+
+  .bonus-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 56px 0;
+    border-top: 1px solid var(--silver-light);
+  }
+
+  .bonus-row:last-child {
+    border-bottom: 1px solid var(--silver-light);
+  }
+
+  @media (min-width: 880px) {
+    .bonus-row {
+      grid-template-columns: 0.85fr 2.4fr;
+      gap: 56px;
+      padding: 64px 0;
+      align-items: start;
+    }
+  }
+
+  .bonus-head {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .bonus-marker {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--royal);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .bonus-marker::before {
+    content: '';
+    width: 28px;
+    height: 1px;
+    background: var(--royal);
+  }
+
+  .bonus-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(26px, 3vw, 34px);
+    line-height: 1.15;
+    letter-spacing: -0.018em;
+    color: var(--navy);
+    max-width: 16ch;
+  }
+
+  .bonus-original-price {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 4px;
+  }
+
+  .bonus-original-price-label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--silver);
+  }
+
+  .bonus-original-price-amount {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: var(--silver);
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--silver);
+    letter-spacing: -0.01em;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 9 / PREÇO
+     ──────────────────────────────────────── */
+  .pricing {
+    padding: 130px 0 140px;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--silver-faint);
+    border-bottom: 1px solid var(--silver-faint);
+  }
+
+  .pricing-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .price-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 36px;
+  }
+
+  .price-eyebrow::before,
+  .price-eyebrow::after {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: var(--silver-light);
+  }
+
+  .price-anchor {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    max-width: 60ch;
+    margin: 0 auto 48px;
+  }
+
+  .price-anchor strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .price-box {
+    background: var(--bg);
+    border: 1px solid var(--silver-light);
+    padding: 56px 40px;
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: 720px) {
+    .price-box {
+      padding: 72px 64px;
+    }
+  }
+
+  .price-tier-main {
+    margin-bottom: 8px;
+  }
+
+  .price-tier-label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 16px;
+  }
+
+  .price-tier-amount {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(54px, 8vw, 92px);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: var(--navy);
+  }
+
+  .price-multiplier {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.5em;
+    color: var(--text-muted);
+    margin-right: 14px;
+    vertical-align: 0.18em;
+    letter-spacing: -0.01em;
+  }
+
+  .price-tier-meta {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--text-faint);
+    margin-top: 14px;
+  }
+
+  .price-divider {
+    width: 64px;
+    height: 1px;
+    background: var(--silver-light);
+    margin: 36px auto;
+  }
+
+  .price-tier-secondary {
+    margin-bottom: 8px;
+  }
+
+  .price-tier-secondary-label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 8px;
+  }
+
+  .price-tier-secondary-amount {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .price-trust {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--silver-faint);
+    list-style: none;
+    padding-left: 0;
+  }
+
+  @media (min-width: 720px) {
+    .price-trust {
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+
+  .price-trust li {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    color: var(--text-muted);
+    justify-content: center;
+  }
+
+  .price-trust-mark {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--royal);
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .price-cta-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .cta-primary.cta-large {
+    padding: 22px 44px;
+    font-size: 16px;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 10 / GARANTIA
+     ──────────────────────────────────────── */
+  .guarantee {
+    padding: 130px 0 140px;
+    background: var(--bg);
+    text-align: center;
+  }
+
+  .guarantee-inner {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .guarantee-seal {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 56px;
+    display: block;
+  }
+
+  .guarantee-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 28px;
+  }
+
+  .guarantee-eyebrow::before,
+  .guarantee-eyebrow::after {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: var(--silver-light);
+  }
+
+  .guarantee-headline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(34px, 4.8vw, 48px);
+    line-height: 1.1;
+    letter-spacing: -0.018em;
+    color: var(--navy);
+    margin-bottom: 32px;
+  }
+
+  .guarantee-body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    color: var(--text-muted);
+    max-width: 56ch;
+    margin: 0 auto 36px;
+  }
+
+  .guarantee-body strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .guarantee-closing {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(20px, 2.4vw, 24px);
+    line-height: 1.4;
+    color: var(--navy);
+    padding-top: 36px;
+    border-top: 1px solid var(--silver-faint);
+    max-width: 36ch;
+    margin: 0 auto;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 11 / BIO
+     ──────────────────────────────────────── */
+  .bio {
+    padding: 130px 0 140px;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--silver-faint);
+    border-bottom: 1px solid var(--silver-faint);
+  }
+
+  .bio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  @media (min-width: 880px) {
+    .bio-grid {
+      grid-template-columns: 0.85fr 1.6fr;
+      gap: 80px;
+    }
+  }
+
+  .bio-portrait-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .bio-portrait {
+    aspect-ratio: 4 / 5;
+    background: var(--bg);
+    border: 1px solid var(--silver-light);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .bio-portrait::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(135deg, rgba(148, 163, 184, 0.08) 25%, transparent 25%, transparent 50%, rgba(148, 163, 184, 0.08) 50%, rgba(148, 163, 184, 0.08) 75%, transparent 75%, transparent);
+    background-size: 16px 16px;
+    opacity: 0.6;
+  }
+
+  .bio-portrait-label {
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--silver);
+  }
+
+  .bio-caption {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .bio-content {
+  }
+
+  .bio-quote {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(28px, 3.6vw, 38px);
+    line-height: 1.2;
+    letter-spacing: -0.018em;
+    color: var(--navy);
+    margin: 28px 0 24px;
+    max-width: 22ch;
+  }
+
+  .bio-attribution {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--silver-faint);
+  }
+
+  .bio-body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--text-muted);
+  }
+
+  .bio-body p {
+    margin-bottom: 22px;
+  }
+
+  .bio-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .bio-body strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .bio-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 56px;
+    padding-top: 36px;
+    border-top: 1px solid var(--silver-faint);
+  }
+
+  .bio-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .bio-stat-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(28px, 3.4vw, 36px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--navy);
+  }
+
+  .bio-stat-label {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--text-faint);
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 12 / CASCATA DE DEPOIMENTOS
+     ──────────────────────────────────────── */
+  .testimonials {
+    padding: 130px 0 140px;
+    background: var(--bg);
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  @media (min-width: 720px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+  }
+
+  .testimonial-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--silver-faint);
+    padding: 40px 36px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+  }
+
+  .testimonial-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 2px;
+    background: var(--royal);
+  }
+
+  .testimonial-quote {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.45;
+    color: var(--text);
+    letter-spacing: -0.005em;
+  }
+
+  .testimonial-attribution {
+    margin-top: auto;
+    padding-top: 24px;
+    border-top: 1px solid var(--silver-faint);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .testimonial-name {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--navy);
+  }
+
+  .testimonial-tag {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--text-faint);
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 13 / FAQ
+     ──────────────────────────────────────── */
+  .faq {
+    padding: 130px 0 140px;
+    background: var(--bg-soft);
+    border-top: 1px solid var(--silver-faint);
+  }
+
+  .faq-list {
+    margin-top: 24px;
+    max-width: 880px;
+  }
+
+  .faq-item {
+    border-top: 1px solid var(--silver-light);
+  }
+
+  .faq-item:last-child {
+    border-bottom: 1px solid var(--silver-light);
+  }
+
+  .faq-question {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: clamp(17px, 2vw, 19px);
+    line-height: 1.4;
+    color: var(--navy);
+    padding: 28px 56px 28px 0;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    transition: color 0.2s;
+  }
+
+  .faq-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question:hover {
+    color: var(--royal);
+  }
+
+  .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: var(--royal);
+    transition: transform 0.2s ease;
+    line-height: 1;
+  }
+
+  .faq-item[open] .faq-question::after {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .faq-answer {
+    padding: 0 56px 32px 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--text-muted);
+  }
+
+  .faq-answer p {
+    margin-bottom: 14px;
+  }
+
+  .faq-answer p:last-child {
+    margin-bottom: 0;
+  }
+
+  .faq-answer strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* ────────────────────────────────────────
+     SECTION 14 / FINAL CTA
+     ──────────────────────────────────────── */
+  .final-cta {
+    padding: 130px 0 150px;
+    background: var(--bg);
+    text-align: center;
+    border-top: 1px solid var(--silver-faint);
+  }
+
+  .final-cta-inner {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .final-cta-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 36px;
+  }
+
+  .final-cta-eyebrow::before,
+  .final-cta-eyebrow::after {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: var(--silver-light);
+  }
+
+  .final-cta-headline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(38px, 5.6vw, 64px);
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin-bottom: 20px;
+    max-width: 22ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .final-cta-headline .num {
+    font-style: italic;
+    color: var(--navy);
+    font-weight: 500;
+  }
+
+  .final-cta-headline .em {
+    font-style: italic;
+    color: var(--royal);
+    font-weight: 500;
+  }
+
+  .final-cta-objection {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: clamp(17px, 2vw, 21px);
+    line-height: 1.4;
+    color: var(--text-muted);
+    margin-bottom: 56px;
+  }
+
+  .final-cta-recap {
+    margin: 0 auto 48px;
+    padding: 28px 36px;
+    background: var(--bg-soft);
+    border: 1px solid var(--silver-light);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .final-cta-recap-line {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  .final-cta-recap-price {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--navy);
+    letter-spacing: -0.01em;
+    margin-top: 6px;
+  }
+
+  .final-cta-recap-price-secondary {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    color: var(--text-faint);
+  }
+
+  .final-cta-trust {
+    margin-top: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    color: var(--text-faint);
+    letter-spacing: 0.02em;
+  }
+
+  .bonus-body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--text-muted);
+  }
+
+  .bonus-body p {
+    margin-bottom: 18px;
+  }
+
+  .bonus-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .bonus-body strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .bonus-body em {
+    font-style: italic;
+    color: var(--navy);
+    font-weight: 500;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav>
+  <div class="nav-mark">Fundamentos da Sintonização</div>
+  <div class="nav-method">Método Paulo Aguiar</div>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="hero-grid">
+
+    <!-- LEFT: copy -->
+    <div class="hero-main">
+
+      <p class="hero-eyebrow">Programa de Sintonização Guiada</p>
+
+      <h1 class="hero-headline">
+        Conquiste a vida que você deseja em <span class="num">90 dias</span> ou menos.
+      </h1>
+
+      <p class="hero-objection">
+        (mesmo que você já tenha tentado antes e não tenha conseguido)
+      </p>
+
+      <p class="hero-sub">
+        O <strong style="color: var(--navy); font-weight: 600;">Fundamentos da Sintonização</strong> é o método completo de Paulo Aguiar para sintonizar e sustentar, todos os dias, a identidade que entrega o que você quiser viver nas 7 áreas da vida.
+      </p>
+
+      <div class="cta-stack">
+        <a href="#oferta" class="cta-primary">
+          Quero sintonizar a vida ideal
+          <span class="arrow">→</span>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="freq-line"></div>
+</section>
+
+<!-- ═══════════ SEÇÃO 2 / PROOF BAR ═══════════ -->
+<section class="proof-bar">
+  <div class="container">
+
+    <p class="proof-eyebrow">Resultados de alunos do método</p>
+
+    <div class="proof-grid">
+
+      <div class="proof-card">
+        <p class="proof-quote">"Me visualizei com 30 pessoas no meu time. Nos dias seguintes, fechei três vendas de R$ 100 mil cada."</p>
+        <p class="proof-name">Laysa</p>
+        <p class="proof-meta">Empresária · resultado em 60 dias</p>
+      </div>
+
+      <div class="proof-card">
+        <p class="proof-quote">"Comprei a casa com o valor exato que tinha disponível. No mesmo dia, recebi a mensagem do interessado na outra. Sem imobiliária."</p>
+        <p class="proof-name">Sandra</p>
+        <p class="proof-meta">Compra de casa após sintonização guiada</p>
+      </div>
+
+      <div class="proof-card">
+        <p class="proof-quote">"Saí de R$ 3.500 em dois empregos para R$ 12.000 no meu negócio próprio."</p>
+        <p class="proof-name">Adriana Santiago</p>
+        <p class="proof-meta">Sinop, MT · faturamento multiplicado</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 3 / AS 7 ÁREAS EM 90 DIAS ═══════════ -->
+<section class="seven-areas">
+  <div class="container">
+
+    <p class="section-eyebrow">As 7 áreas da vida</p>
+
+    <h2 class="section-headline">
+      O que muda em <span class="em">90 dias.</span>
+    </h2>
+
+    <p class="section-lead">
+      Sete áreas operando na frequência da identidade que você sintonizou. Não é mudança de comportamento. É o campo se reorganizando por correspondência.
+    </p>
+
+    <div class="areas-grid">
+
+      <article class="area-card">
+        <div class="area-num">01</div>
+        <h3 class="area-title">Dinheiro</h3>
+        <p class="area-outcome">O dinheiro entra com mais leveza. A conta apertada respira. <strong>O teto invisível que sempre te segurou na mesma faixa sai do lugar.</strong> A identidade que sustentava esse teto não está mais lá.</p>
+      </article>
+
+      <article class="area-card">
+        <div class="area-num">02</div>
+        <h3 class="area-title">Relacionamento</h3>
+        <p class="area-outcome">Em casa, conversa difícil sai sem briga. Brigas antigas perdem combustível. <strong>Quem fica, fica em outra frequência. Quem sai, sai sem destruição.</strong></p>
+      </article>
+
+      <article class="area-card">
+        <div class="area-num">03</div>
+        <h3 class="area-title">Profissão</h3>
+        <p class="area-outcome">Decisões profissionais que você adiava há anos saem do papel: pedir demissão, abrir o negócio paralelo, recusar trabalho que não te leva a lugar nenhum, cobrar pelo que vale. <strong>O que você investiu em você começa a voltar.</strong></p>
+      </article>
+
+      <article class="area-card">
+        <div class="area-num">04</div>
+        <h3 class="area-title">Saúde</h3>
+        <p class="area-outcome">O sono melhora. Aparece tônus vital, aquela energia firme que você lembra de ter tido um dia e achou que era só "idade". <strong>A procrastinação que você achava que era falta de vontade se revela falta de energia.</strong></p>
+      </article>
+
+      <article class="area-card">
+        <div class="area-num">05</div>
+        <h3 class="area-title">Família</h3>
+        <p class="area-outcome">O ciclo termina em você. Os filhos absorvem outra frequência. As reuniões de família param de te tirar do eixo. <strong>Você vira referência onde antes era o "diferente da família". Sem precisar convencer ninguém.</strong></p>
+      </article>
+
+      <article class="area-card">
+        <div class="area-num">06</div>
+        <h3 class="area-title">Espiritualidade</h3>
+        <p class="area-outcome">Para de implorar e começa a sintonizar. Some o desespero de "Deus me esqueceu". <strong>Coincidências começam a chegar com mais frequência e timing exato.</strong> Você para de empurrar a vida e começa a conduzi-la.</p>
+      </article>
+
+      <article class="area-card">
+        <div class="area-num">07</div>
+        <h3 class="area-title">Inteligência<br>Emocional</h3>
+        <p class="area-outcome">Em vez de explodir, você percebe. Em vez de calar, você responde. <strong>A esposa, o filho, o chefe percebem a diferença antes de você dizer qualquer coisa.</strong> Você responde à vida em vez de reagir a ela.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 5 / O MÉTODO EM 3 ETAPAS ═══════════ -->
+<section class="method-map">
+  <div class="container">
+
+    <p class="section-eyebrow">O método em 3 etapas</p>
+
+    <h2 class="section-headline">
+      Três etapas para conquistar a vida que você quer <span class="em">viver.</span>
+    </h2>
+
+    <p class="section-lead">
+      Catarse, Reescrita e Sintonização. Cada etapa entrega uma virada concreta. As três juntas, a vida que você sintonizou.
+    </p>
+
+    <div class="map-stages">
+
+      <div class="map-line"></div>
+
+      <div class="map-grid">
+
+        <div class="map-stage">
+          <div class="map-marker"></div>
+          <div class="map-stage-num">01</div>
+          <div class="map-stage-name">Catarse</div>
+          <p class="map-stage-promise">Você se livra dos bloqueios que travam a sua vida há décadas: escassez, culpa, trauma, abandono e padrões herdados da família.</p>
+        </div>
+
+        <div class="map-stage">
+          <div class="map-marker"></div>
+          <div class="map-stage-num">02</div>
+          <div class="map-stage-name">Reescrita</div>
+          <p class="map-stage-promise">Você reescreve a sua identidade nas <strong>7 áreas da vida</strong>: dinheiro, relacionamento, profissão, saúde, família, espiritualidade e inteligência emocional.</p>
+        </div>
+
+        <div class="map-stage">
+          <div class="map-marker"></div>
+          <div class="map-stage-num">03</div>
+          <div class="map-stage-name">Sintonização</div>
+          <p class="map-stage-promise">Você atrai, todos os dias, a vida que sintonizou. <strong>Casa, cargo, dinheiro e relacionamento começam a chegar.</strong></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 6 / REVEAL DO PROGRAMA ═══════════ -->
+<section class="reveal">
+  <div class="container">
+
+    <p class="reveal-eyebrow">O Programa</p>
+
+    <h2 class="reveal-title">
+      Fundamentos da <span class="em">Sintonização</span>
+    </h2>
+
+    <p class="reveal-lead">
+      O método completo de Paulo Aguiar para sintonizar e sustentar a nova identidade nas 7 áreas da vida, em até 90 dias. Veja o que está dentro:
+    </p>
+
+    <div class="reveal-features">
+
+      <article class="reveal-feat">
+        <div class="reveal-feat-head">
+          <h3 class="reveal-feat-title">5 eventos de catarse ao vivo com o Paulo</h3>
+          <p class="reveal-feat-spec">Encontros quinzenais conduzidos pelo Paulo trabalhando os 5 núcleos de interferência mais comuns: escassez/capacidade, abuso/trauma, luto/abandono, culpa/religião, perdão/traição.</p>
+        </div>
+        <p class="reveal-feat-promise">
+          Você se livra dos bloqueios que carrega há décadas. <strong>Reações automáticas perdem força.</strong> Pessoas e situações que disparavam reação automática chegam e não te movem mais. Decisões antigas perdem peso. O peito abre.
+        </p>
+      </article>
+
+      <article class="reveal-feat">
+        <div class="reveal-feat-head">
+          <h3 class="reveal-feat-title">7 módulos de reescrita das áreas da vida</h3>
+          <p class="reveal-feat-spec">Módulos gravados de ~50min cada, um por área: dinheiro, relacionamento, profissão, saúde, família, espiritualidade e inteligência emocional.</p>
+        </div>
+        <p class="reveal-feat-promise">
+          Você reescreve a identidade dessintonizada em cada uma das 7 áreas. <strong>O teto financeiro que sempre te segurou na mesma faixa sai do lugar.</strong> Conversa difícil sai sem briga. A decisão profissional que adiava há anos sai do papel. O ciclo de família termina em você.
+        </p>
+      </article>
+
+      <article class="reveal-feat">
+        <div class="reveal-feat-head">
+          <h3 class="reveal-feat-title">Ritual diário de sintonização + protocolos</h3>
+          <p class="reveal-feat-spec">Áudio guiado em estado Alfa de ~20min/dia. 21 dias de imersão + acesso permanente. Inclui Protocolo de Sintonização de Conquistas (a casa, o carro, a viagem dos sonhos), Protocolo de Sustentação 30/60/90 dias e o módulo Como Usar o Magnetismo.</p>
+        </div>
+        <p class="reveal-feat-promise">
+          Você atrai, todos os dias, a vida que sintonizou. <strong>Casa, cargo, dinheiro e relacionamento começam a chegar.</strong> As pessoas começam a comentar a sua energia diferente antes de você dizer qualquer coisa. Coincidências boas se acumulam. O que parecia trancado começa a se mover.
+        </p>
+      </article>
+
+      <article class="reveal-feat">
+        <div class="reveal-feat-head">
+          <h3 class="reveal-feat-title">Suporte vivo 24h durante 3 meses</h3>
+          <p class="reveal-feat-spec">3 canais fechados no WhatsApp com áudios diários do Paulo · Tutorias ao vivo com o time treinado por ele · IA Consultor disponível 24h por 3 meses.</p>
+        </div>
+        <p class="reveal-feat-promise">
+          Você não fica sozinha durante a imersão. <strong>A dúvida que normalmente seria adiada para a meditação do dia seguinte se resolve agora.</strong> A noite das três da manhã com pensamento pesado deixa de ser solitária. Você toma decisões mais limpas porque tem onde checar antes.
+        </p>
+      </article>
+
+      <article class="reveal-feat">
+        <div class="reveal-feat-head">
+          <h3 class="reveal-feat-title">Nivelamento metodológico</h3>
+          <p class="reveal-feat-spec">4 módulos gravados que ensinam o mecanismo antes da aplicação: O Mapa Invisível · Os Paradigmas · Porquê a Sintonização · Desconstrução do Medo.</p>
+        </div>
+        <p class="reveal-feat-promise">
+          Você entende o jogo antes de jogar. <strong>A frase "sempre acontece comigo" sai da boca e o livre-arbítrio volta para o peito.</strong> Você reconhece o ciclo no momento em que ele começa. E esse é o primeiro lugar onde dá pra interromper.
+        </p>
+      </article>
+
+    </div>
+
+    <div class="reveal-cta-wrap">
+      <a href="#oferta" class="cta-primary">
+        Quero sintonizar a vida ideal
+        <span class="arrow">→</span>
+      </a>
+      <span class="reveal-cta-meta">7 dias de garantia incondicional</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 8 / BÔNUS ═══════════ -->
+<section class="bonuses">
+  <div class="container">
+
+    <p class="section-eyebrow">Bônus inclusos</p>
+
+    <h2 class="section-headline">
+      Mais dois conteúdos que <span class="em">entram junto.</span>
+    </h2>
+
+    <p class="section-lead">
+      Conteúdo complementar que aprofunda áreas específicas e te dá ferramentas para os meses depois do programa. Sem custo adicional.
+    </p>
+
+    <div class="bonus-list">
+
+      <article class="bonus-row">
+        <div class="bonus-head">
+          <span class="bonus-marker">Bônus 01</span>
+          <h3 class="bonus-title">Confronto 2.0</h3>
+          <div class="bonus-original-price">
+            <span class="bonus-original-price-label">Valor avulso</span>
+            <span class="bonus-original-price-amount">R$ 1.997</span>
+          </div>
+        </div>
+        <div class="bonus-body">
+          <p>Curso completo em dois blocos para confrontar o que está travando a sua vida: a identidade instalada, os padrões herdados, as marcas do passado e a forma como você se vê. Trabalha corpo, emoção e mente ao mesmo tempo.</p>
+          <p><em>Bloco 1. A reconstrução do mapa.</em> Você passa pelo processo da Torre de Controle, Roda da Vida, Sala Secreta e do Espelho. Vê onde está, o que carrega e de onde veio.</p>
+          <p><em>Bloco 2. O renascimento.</em> Respiração circular guiada, ativação de identidade com os arquétipos do Leão, da Águia e do Tubarão, e instalação de um novo padrão no lugar do antigo.</p>
+          <p><strong>A identidade que estava no banco do carona, deixando memórias antigas e padrões herdados dirigirem, passa para o seu controle.</strong> Você sai sabendo onde está, para onde quer ir e o que estava te impedindo. As áreas travadas revelam a causa real: a forma como você se vê e o que acredita merecer.</p>
+        </div>
+      </article>
+
+      <article class="bonus-row">
+        <div class="bonus-head">
+          <span class="bonus-marker">Bônus 02</span>
+          <h3 class="bonus-title">Jornada da Transformação de 17 Dias</h3>
+          <div class="bonus-original-price">
+            <span class="bonus-original-price-label">Valor avulso</span>
+            <span class="bonus-original-price-amount">R$ 997</span>
+          </div>
+        </div>
+        <div class="bonus-body">
+          <p>17 aulas progressivas dadas ao vivo durante o lançamento, com acesso permanente. Vão sair do YouTube quando a janela fechar. Cada aula trabalha uma camada do método: consciência da frequência, paradigmas mentais, mecânica da sintonização, reprogramação subconsciente e as áreas da vida.</p>
+          <p>Você usa de duas formas: como <em>revisão</em> depois do programa principal, para reabrir uma porta que talvez tenha passado rápido demais; ou como <em>porta de entrada</em> para reapresentar o trabalho a alguém da família.</p>
+          <p><strong>Quando o cônjuge ou o filho perguntar "do que se trata isso?", você tem o material exato para mostrar.</strong> Não precisa explicar, é só compartilhar o link.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 9 / PREÇO ═══════════ -->
+<section class="pricing" id="oferta">
+  <div class="container">
+    <div class="pricing-inner">
+
+      <p class="price-eyebrow">Acesso ao programa</p>
+
+      <p class="price-anchor">
+        <strong>Catarse ao vivo, 7 módulos de reescrita, sintonização diária, suporte 24h por 3 meses.</strong> Mais Confronto 2.0 e a Jornada da Transformação inclusos. Tudo isso entra por:
+      </p>
+
+      <div class="price-box">
+
+        <div class="price-tier-main">
+          <p class="price-tier-label">Parcelado em 12 vezes</p>
+          <p class="price-tier-amount">
+            <span class="price-multiplier">12×</span>R$ 247
+          </p>
+          <p class="price-tier-meta">sem juros no cartão</p>
+        </div>
+
+        <div class="price-divider"></div>
+
+        <div class="price-tier-secondary">
+          <p class="price-tier-secondary-label">Ou à vista por</p>
+          <p class="price-tier-secondary-amount">R$ 2.497</p>
+        </div>
+
+        <ul class="price-trust">
+          <li><span class="price-trust-mark">✓</span> Acesso imediato após o pagamento</li>
+          <li><span class="price-trust-mark">✓</span> 7 dias de garantia incondicional</li>
+        </ul>
+
+      </div>
+
+      <div class="price-cta-wrap">
+        <a href="#" class="cta-primary cta-large">
+          Quero sintonizar a vida ideal
+          <span class="arrow">→</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 10 / GARANTIA ═══════════ -->
+<section class="guarantee">
+  <div class="container">
+    <div class="guarantee-inner">
+
+      <svg class="guarantee-seal" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="seal-curve-top" d="M 100, 100 m -76, 0 a 76,76 0 1,1 152,0" fill="none"/>
+          <path id="seal-curve-bottom" d="M 100, 100 m -78, 0 a 78,78 0 1,0 156,0" fill="none"/>
+        </defs>
+        <circle cx="100" cy="100" r="92" fill="none" stroke="#2563EB" stroke-width="1.5"/>
+        <circle cx="100" cy="100" r="80" fill="none" stroke="#CBD5E1" stroke-width="1"/>
+        <text font-family="Mulish, sans-serif" font-size="10" font-weight="700" letter-spacing="4" fill="#2563EB">
+          <textPath href="#seal-curve-top" startOffset="50%" text-anchor="middle">GARANTIA · INCONDICIONAL</textPath>
+        </text>
+        <text x="100" y="115" text-anchor="middle" font-family="Fraunces, serif" font-size="64" font-weight="500" fill="#1E3A8A" letter-spacing="-2">7</text>
+        <text x="100" y="140" text-anchor="middle" font-family="Mulish, sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#94A3B8">DIAS</text>
+      </svg>
+
+      <p class="guarantee-eyebrow">Garantia</p>
+
+      <h2 class="guarantee-headline">
+        Você tem 7 dias para decidir.
+      </h2>
+
+      <p class="guarantee-body">
+        Entre, comece e sinta. Se em 7 dias você não sentir que esse é o caminho, escreve um e-mail e a gente devolve cada centavo. <strong>Sem perguntas. Sem julgamento.</strong>
+      </p>
+
+      <p class="guarantee-closing">
+        O risco é nosso. A decisão é sua.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 11 / BIO ═══════════ -->
+<section class="bio">
+  <div class="container">
+    <div class="bio-grid">
+
+      <div class="bio-portrait-wrap">
+        <div class="bio-portrait">
+          <span class="bio-portrait-label">Foto editorial</span>
+        </div>
+        <p class="bio-caption">Paulo Aguiar</p>
+      </div>
+
+      <div class="bio-content">
+        <p class="section-eyebrow">Quem desenvolveu o método</p>
+
+        <h2 class="section-headline" style="margin-bottom: 48px;">
+          Paulo Aguiar.
+        </h2>
+
+        <div class="bio-body">
+          <p>Paulo Aguiar é o autor da Teoria da Interferência, a metodologia que explica por que as pessoas travam, regridem e repetem ciclos mesmo quando sabem o que precisam fazer.</p>
+          <p>Cruza física quântica, neurociência, psicologia do desenvolvimento e escrituras sagradas para identificar como a identidade dessintonizada é instalada, e como pode ser reescrita. <strong>Não é opinião. É estrutura.</strong></p>
+        </div>
+
+        <div class="bio-stats">
+          <div class="bio-stat">
+            <div class="bio-stat-num">15.000+</div>
+            <div class="bio-stat-label">alunos formados no método</div>
+          </div>
+          <div class="bio-stat">
+            <div class="bio-stat-num">12</div>
+            <div class="bio-stat-label">países alcançados</div>
+          </div>
+          <div class="bio-stat">
+            <div class="bio-stat-num">7</div>
+            <div class="bio-stat-label">áreas da vida reorganizadas</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 12 / CASCATA DE DEPOIMENTOS ═══════════ -->
+<section class="testimonials">
+  <div class="container">
+
+    <p class="section-eyebrow">Vozes do método</p>
+
+    <h2 class="section-headline">
+      O que muda quando a sintonização <span class="em">se sustenta.</span>
+    </h2>
+
+    <p class="section-lead">
+      Resultados reais de alunos que aplicaram o método. Cada um numa área diferente da vida.
+    </p>
+
+    <div class="testimonials-grid">
+
+      <article class="testimonial-card">
+        <p class="testimonial-quote">"Me visualizei com 30 pessoas no meu time. Nos dias seguintes, fechei três vendas de R$ 100 mil cada. Nos últimos 60 dias, tive resultado que não tive em um ano inteiro."</p>
+        <div class="testimonial-attribution">
+          <span class="testimonial-name">Laysa</span>
+          <span class="testimonial-tag">Empresária</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <p class="testimonial-quote">"Saí de dois empregos somando R$ 3.500 para um negócio próprio que fatura R$ 12.000 por mês. Comecei a entender que muito do que travava vinha de muito antes da minha vida adulta."</p>
+        <div class="testimonial-attribution">
+          <span class="testimonial-name">Adriana Santiago</span>
+          <span class="testimonial-tag">Sinop, MT</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <p class="testimonial-quote">"Carregava traumas acumulados, muitos nãos da vida, peso de história triste. Bebia. Larguei completamente a bebida. O dinheiro começou a fluir junto com as aulas. Faturamento novo entre R$ 16 e R$ 20 mil."</p>
+        <div class="testimonial-attribution">
+          <span class="testimonial-name">Orlando</span>
+          <span class="testimonial-tag">Autônomo</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <p class="testimonial-quote">"Aos 44 anos saí do CLT. Estou terminando de construir o escritório próprio para trabalhar com mentorias individuais e em grupo. Antes eu fazia pós em psicologia procurando o que encontrei aqui."</p>
+        <div class="testimonial-attribution">
+          <span class="testimonial-name">Edilene</span>
+          <span class="testimonial-tag">Saída do CLT aos 44</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <p class="testimonial-quote">"Eu carregava a crença de que dinheiro era sujo, que vinha da família. Quando essa crença caiu, fui chamado para a escola da cidade ganhando o dobro do salário."</p>
+        <div class="testimonial-attribution">
+          <span class="testimonial-name">Evandro</span>
+          <span class="testimonial-tag">Professor, zona rural</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <p class="testimonial-quote">"Em menos de 24 horas caiu uma quantia inesperada na minha conta. Coisa que eu não esperava receber, e muito menos com a velocidade que veio."</p>
+        <div class="testimonial-attribution">
+          <span class="testimonial-name">Marizete</span>
+          <span class="testimonial-tag">Imperatriz, MA</span>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 13 / FAQ ═══════════ -->
+<section class="faq">
+  <div class="container">
+
+    <p class="section-eyebrow">Perguntas frequentes</p>
+
+    <h2 class="section-headline">
+      O que você precisa saber antes de entrar.
+    </h2>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary class="faq-question">Vai funcionar pra mim?</summary>
+        <div class="faq-answer">
+          <p>Funciona pra quem aplica. O método é estrutural, não depende de talento ou predisposição. Se você praticar a sintonização diária e participar das catarses ao vivo, o resultado é mecânico.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Quanto tempo por dia eu preciso dedicar?</summary>
+        <div class="faq-answer">
+          <p>O ritual diário em estado Alfa é em torno de 20 minutos. Os módulos gravados você consome no seu próprio ritmo. As catarses ao vivo e as tutorias são agendadas, e você participa quando puder. As que perder ficam disponíveis depois.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Não fiz A Ruptura. Posso entrar direto no Fundamentos?</summary>
+        <div class="faq-answer">
+          <p>Sim. A Ruptura intensifica a primeira camada da catarse, mas o Fundamentos contém os 5 eventos completos de catarse ao vivo. Você não perde nenhuma etapa do método.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Por quanto tempo tenho acesso ao programa?</summary>
+        <div class="faq-answer">
+          <p><strong>Acesso permanente</strong> aos módulos gravados de Nivelamento, Reescrita e Sintonização, e ao ritual diário em Alfa.</p>
+          <p>Os 5 eventos ao vivo de catarse acontecem ao longo de 3 meses (a cada 15 dias). Comunidade no WhatsApp, tutorias ao vivo e IA Consultor disponíveis durante 3 meses ativos.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Como funciona a garantia de 7 dias?</summary>
+        <div class="faq-answer">
+          <p>Incondicional. Você entra, testa e sente. Se em 7 dias não sentir que é o caminho, escreve um e-mail e a gente devolve cada centavo. Sem perguntas. Sem julgamento.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Tem encontro presencial obrigatório?</summary>
+        <div class="faq-answer">
+          <p>Não. O programa inteiro acontece online. Os eventos ao vivo de catarse, as tutorias e o ritual diário funcionam 100% à distância.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Como funciona o pagamento?</summary>
+        <div class="faq-answer">
+          <p>12× de R$ 247 sem juros no cartão de crédito. Ou R$ 2.497 à vista, no Pix ou cartão. Acesso ao programa é liberado imediatamente após a confirmação do pagamento.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">Em quanto tempo começo a ver resultado?</summary>
+        <div class="faq-answer">
+          <p>A primeira virada costuma aparecer entre o 7º e o 21º dia de prática diária. A consolidação completa acontece ao longo dos 90 dias do programa, quando a nova identidade está instalada e o campo já se reorganizou.</p>
+        </div>
+      </details>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ SEÇÃO 14 / CTA FINAL ═══════════ -->
+<section class="final-cta">
+  <div class="container">
+    <div class="final-cta-inner">
+
+      <p class="final-cta-eyebrow">A virada começa hoje</p>
+
+      <h1 class="final-cta-headline">
+        Conquiste a vida que você deseja em <span class="num">90 dias</span> ou menos.
+      </h1>
+
+      <p class="final-cta-objection">
+        (mesmo que você já tenha tentado antes e não tenha conseguido)
+      </p>
+
+      <div class="final-cta-recap">
+        <p class="final-cta-recap-line">Programa completo + Confronto 2.0 + Jornada da Transformação inclusos.</p>
+        <p class="final-cta-recap-price">12× R$ 247</p>
+        <p class="final-cta-recap-price-secondary">sem juros, ou R$ 2.497 à vista</p>
+      </div>
+
+      <a href="#" class="cta-primary cta-large">
+        Quero sintonizar a vida ideal
+        <span class="arrow">→</span>
+      </a>
+
+      <p class="final-cta-trust">
+        Acesso imediato · 7 dias de garantia incondicional
+      </p>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

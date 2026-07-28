@@ -1,0 +1,223 @@
+[
+  {
+    "headers": {
+      "x-forwarded-for": "2a06:98c0:3600::103, 172.71.234.235",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "n8n-dev.awsales.io",
+      "x-amzn-trace-id": "Root=1-6a22ffb4-60b7a39b40299a8816951aa4",
+      "content-length": "3847",
+      "accept-encoding": "gzip, br",
+      "content-type": "application/json",
+      "cf-ray": "a070b5c3de6a1ac1-GRU",
+      "cf-ew-via": "15",
+      "cdn-loop": "cloudflare; loops=1; subreqs=1",
+      "x-nrx-source": "webhook.nuestrarx.com",
+      "user-agent": "NuestraRx-Intake-Proxy/1.1",
+      "cf-worker": "nuestrarx.com",
+      "cf-connecting-ip": "2a06:98c0:3600::103",
+      "cf-ipcountry": "BR",
+      "cf-visitor": "{\"scheme\":\"https\"}"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "event": "intake_progress",
+      "event_version": "1.0",
+      "submitted_at": "2026-06-05T16:56:20.326Z",
+      "source": {
+        "page": "evaluacion",
+        "url": "https://nuestrarx.com/evaluacion",
+        "lang": "es",
+        "referrer": "https://nuestrarx.com/",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+      },
+      "resume": {
+        "available": true,
+        "url": "https://nuestrarx.com/evaluacion?resume=1&lang=es",
+        "stage": "beluga",
+        "step": "recentHistory",
+        "updated_at": "2026-06-05T16:56:19.158Z",
+        "same_browser_only": false,
+        "cross_device_token": "e7d4ea0a-c976-4637-beaf-9f80246cee63",
+        "note": "Local-browser autosave via ?resume=1. Worker also mints cross_device_token + cross_device_url for WhatsApp follow-up.",
+        "cross_device_url": "https://nuestrarx.com/evaluacion?lt=e7d4ea0a-c976-4637-beaf-9f80246cee63&lang=es",
+        "cross_device_ttl_seconds": 604800
+      },
+      "tracking": {
+        "utm_source": null,
+        "utm_medium": null,
+        "utm_campaign": null,
+        "utm_content": null,
+        "utm_term": null,
+        "gclid": null,
+        "fbclid": null,
+        "ttclid": null,
+        "msclkid": null,
+        "session_id": "nrx_1780669017365_qejndg",
+        "fbp": null,
+        "fbc": null,
+        "dosable_lead_id": 246253,
+        "dosable_session_id": "aaa30723-45f0-4947-b3ce-8a5a6ed9b951"
+      },
+      "contact": {
+        "first_name": "awsales",
+        "last_name": "testando",
+        "email": "awsales@testando.com",
+        "phone_e164": "+14314512334",
+        "phone_country": "US",
+        "whatsapp_url": "https://wa.me/14314512334"
+      },
+      "address": {
+        "state_code": "DE",
+        "zip": null,
+        "country": "US"
+      },
+      "demographics": {
+        "biological_sex": "male",
+        "age_range": "18-29",
+        "dob": "08/02/1997"
+      },
+      "biometrics": {
+        "height_cm": 186,
+        "height_display": "6'1\"",
+        "weight_kg": 90,
+        "weight_lbs": "198",
+        "bmi": "26.0",
+        "bmi_class": "overweight"
+      },
+      "goals": {
+        "weight_loss_goal": "80",
+        "previous_attempts": null
+      },
+      "medical_history": {
+        "conditions_quick": null,
+        "conditions_detail": null,
+        "current_medications": [
+          "diabetes"
+        ],
+        "no_medications": false,
+        "allergies": [
+          "codeine"
+        ],
+        "no_allergies": false,
+        "drug_allergies_glp1": [
+          "none"
+        ],
+        "prior_glp1_use": null,
+        "pregnancy_status": null,
+        "gastric_bypass_recent": null,
+        "can_self_inject": false,
+        "thyroid_men2_safety": null
+      },
+      "treatment_selection": {
+        "medication": "tirzepatida",
+        "plan": "quarterly"
+      },
+      "consent": {
+        "informed_consent": false,
+        "self_injection_ack": false
+      },
+      "eligibility": {
+        "qualified": false,
+        "state_supported": false
+      },
+      "meta": {
+        "form_version": "evaluacion-v3-2026-05"
+      },
+      "raw_answers": {
+        "intake": {
+          "sexo": "m",
+          "edad": "18-29",
+          "cm": 186,
+          "kg": 90,
+          "height": "6'1\"",
+          "weightLbs": "198",
+          "bmi": "26.0",
+          "fname": "awsales",
+          "lname": "testando",
+          "stateCode": "DE",
+          "phone": "+14314512334",
+          "phoneCountry": "US",
+          "whatsappUrl": "https://wa.me/14314512334",
+          "email": "awsales@testando.com",
+          "dosableSessionId": "aaa30723-45f0-4947-b3ce-8a5a6ed9b951",
+          "dosableLeadId": 246253,
+          "treatment": "tirzepatida",
+          "plan": "quarterly",
+          "planPrice": 266
+        },
+        "beluga": {
+          "takesRxMeds": "yes",
+          "rxMeds": [
+            "diabetes"
+          ],
+          "rxMedsOther": "",
+          "hasAllergies": "yes",
+          "allergiesList": [
+            "codeine"
+          ],
+          "allergiesOther": "",
+          "sex": "male",
+          "dobMonth": "08",
+          "dobDay": "02",
+          "dobYear": "1997",
+          "pregnancy": null,
+          "pregnancyConsent": null,
+          "highestWeight": "110",
+          "highestWeightUnit": "kg",
+          "heightUnit": "metric",
+          "heightFt": "",
+          "heightIn": "",
+          "heightCm": "186",
+          "weightUnit": "kg",
+          "weightLb": "",
+          "weightKg": "90",
+          "goalWeight": "80",
+          "goalWeightUnit": "kg",
+          "bmi": 26,
+          "bmiConsent": "accept",
+          "approach": "some",
+          "conditions": [
+            "none"
+          ],
+          "gallstoneConsent": null,
+          "cholecystectomyConsent": null,
+          "thyroidConsent": null,
+          "gastricBypass": null,
+          "priorWLS": null,
+          "opiates": null,
+          "bp": null,
+          "hr": null,
+          "drugAllergies": [
+            "none"
+          ],
+          "currentMeds": null,
+          "injectionAbility": null,
+          "lastDoseTiming": null,
+          "doseDecreaseConsent": null,
+          "restartConsent": null,
+          "lastDoseDate": "",
+          "lastDoseMatch": null,
+          "medForm": null,
+          "compoundDetails": "",
+          "sideEffects": [],
+          "responseToMed": null,
+          "dosePreference": null,
+          "rxPhoto": null,
+          "rxPhotoConsent": null,
+          "otherQuestions": "",
+          "individualizedConsent": null,
+          "truthfulnessConsent": null,
+          "glpConsent": null,
+          "email": "awsales@testando.com",
+          "phone": "+14314512334",
+          "prefilledFromLead": true
+        }
+      },
+      "progress_trigger": "visibility_hidden"
+    },
+    "webhookUrl": "https://n8n.nonprod.awsales.io/webhook/nuestra-forms-site",
+    "executionMode": "production"
+  }
+]

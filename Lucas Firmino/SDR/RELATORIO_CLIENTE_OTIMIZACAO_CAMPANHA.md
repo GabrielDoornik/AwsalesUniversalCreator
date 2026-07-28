@@ -1,0 +1,65 @@
+# Plano de Ação — Campanha SDR Lentes D'Leon
+
+Cliente: Clínica D'Leon - Lucas Firmino
+Campanha: 2026 O Ano da Transformação
+Objetivo único: aumentar o número de leads que agendam a avaliação presencial gratuita.
+
+## Base da análise
+
+Lemos as conversas reais da campanha, lead a lead. Os ajustes abaixo saem direto desse comportamento observado, não de suposição.
+
+- 252 leads únicos e 3.561 mensagens analisadas.
+- 164 leads entraram com a mensagem padrão do anúncio
+- O que os leads mais trazem: dor estética com o sorriso (125), preço e parcelamento (101), agendamento e horário (65), dúvida técnica sobre o procedimento (62), localização e distância (47), o Dr. Lucas (15).
+- Ponto central: cerca de 30% dos leads (76) enviaram apenas a mensagem inicial e não avançaram na conversa. É a maior oportunidade de ganho — destravar esse começo puxa mais gente para o agendamento.
+
+A campanha atrai interesse real. O foco das evoluções é converter mais desse interesse em avaliação agendada.
+
+## 1. Primeira mensagem mais fácil de responder
+
+O que vimos: a maior concentração de leads que param acontece logo no início, justamente entre os que entram com a mensagem genérica do anúncio (164 leads) e os 30% que não passam da primeira troca.
+
+Ajuste: abrir com uma escolha simples em vez de uma pergunta ampla:
+
+"Hoje você pensa mais em melhorar a cor, o formato/tamanho ou os espaços entre os dentes?"
+
+Por quê: a escolha exige menos esforço que uma pergunta aberta. Mais leads respondem e seguem para o agendamento.
+
+## 2. Todo lead com interesse real vai para a avaliação
+
+O que vimos: 27 leads citaram cárie, dente quebrado ou perda de dentes. São pessoas com intenção que não podem ser descartadas nem receber promessa de resultado.
+
+Ajuste: nesses casos a atendente não promete resultado, mas conduz para a avaliação gratuita, onde o profissional define o melhor plano. Nenhum lead com intenção é perdido por dúvida — todos viram oportunidade de agenda.
+
+## 3. O atendimento do Dr. Lucas como diferencial
+
+O que vimos: 15 leads citaram ou perguntaram pelo Dr. Lucas. É um atrativo claro da campanha.
+
+Ajuste: manter e destacar. Quando o lead demonstra interesse, a atendente reforça que ele pode pedir a presença do Dr. Lucas na avaliação. Isso aumenta o desejo de comparecer e ajuda a fechar o agendamento.
+
+## 4. Distância tratada como logística, não como "não"
+
+O que vimos: 47 leads tocaram em localização, distância ou logística, vários de fora de BH e alguns que só conseguem sábado.
+
+Ajuste: quem é de fora não é descartado de cara. A atendente pergunta se há alguma data em que o lead venha a BH e segue para o agendamento quando houver possibilidade. Encerra apenas quando não há mesmo como comparecer.
+
+## 5. Follow-up sempre puxando o próximo passo
+
+O que vimos: preço (101 leads) e horário (65 leads) são as pendências concretas mais comuns — ganchos perfeitos para retomar a conversa.
+
+Ajuste: cada follow-up retoma exatamente o ponto onde o lead parou (valor, foto, horário ou distância) e leva direto ao agendamento. O objetivo de toda retomada é marcar a avaliação.
+
+## O que mantemos igual
+
+- Avaliação gratuita como porta de entrada.
+- Prova social ao longo da conversa.
+- Preço apenas quando o lead pergunta; negociação só na clínica.
+- Posicionamento da campanha 2026 O Ano da Transformação.
+
+## Para alinhar (rápido)
+
+- A clínica pode priorizar horários de sábado para leads que vêm de fora de BH? Isso aumenta o agendamento desse perfil (47 leads tocaram em distância).
+
+## Próximo passo
+
+Aplicamos os ajustes e medimos os agendamentos na sequência para comparar a evolução.

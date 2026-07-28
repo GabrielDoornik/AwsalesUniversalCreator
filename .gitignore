@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.pyc
+.claude/projects/
+
+# Segredos e credenciais (NUNCA versionar — tokens de API, Bearer, senhas)
+**/SEGREDOS-*.md
+*.secret
+
+# Binarios pesados Way group (conteudo extraido em .txt; OneDrive sincroniza os originais)
+Way group/SDR pós-VTD/Insumos/FAS 2026 - página de vendas.pdf
+Way group/Conversas/**/*.mp4
+Way group/Conversas/**/*.opus

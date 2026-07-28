@@ -1,0 +1,181 @@
+[
+  {
+    "headers": {
+      "x-forwarded-for": "3.130.218.162",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "n8n.nonprod.awsales.io",
+      "x-amzn-trace-id": "Root=1-6a26e3ac-1c17eced59ac002125a57cf7",
+      "content-length": "3247",
+      "content-type": "application/json",
+      "authorization": "Bearer EKSqZLZXgARMrY9l9eDOreI_aNH4u9ebkwRBYyuMRSM",
+      "x-datadog-trace-id": "5647367463336596910, 5647367463336596910",
+      "x-datadog-parent-id": "8768534737299530884, 5211779047216206660",
+      "x-datadog-sampling-priority": "-1, -1",
+      "x-datadog-tags": "_dd.p.tid=6a26e35800000000, _dd.p.tid=6a26e35800000000",
+      "traceparent": "00-6a26e358000000004e5f7ac97046d5ae-79b017e2c9696484-00, 00-6a26e358000000004e5f7ac97046d5ae-4853f56e25255344-00",
+      "tracestate": "dd=t.tid:6a26e35800000000;t.dm:-3;s:-1;p:79b017e2c9696484, dd=t.tid:6a26e35800000000;t.dm:-3;s:-1;p:4853f56e25255344",
+      "accept": "*/*",
+      "accept-language": "*",
+      "sec-fetch-mode": "cors",
+      "user-agent": "node",
+      "accept-encoding": "br, gzip, deflate"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "product": "semaglutide",
+      "plan": "quarterly",
+      "contact": {
+        "first_name": "samuel",
+        "last_name": "jackson",
+        "email": "daviawsales@gmail.com",
+        "phone": "5531988203120",
+        "lead_state": "FL",
+        "gender": "Male",
+        "date_of_birth": "08/02/2001"
+      },
+      "answers": {
+        "6400": {
+          "value": "08/02/2001",
+          "question": "Fecha de nacimiento"
+        },
+        "6401": {
+          "value": "Ninguno",
+          "question": "Medicamentos recetados actualmente"
+        },
+        "6402": {
+          "value": "Ninguno",
+          "question": "Alergias conocidas"
+        },
+        "6403": {
+          "value": "Male",
+          "question": "Sexo biológico"
+        },
+        "6404": {
+          "value": "Yes",
+          "question": "Elegibilidad calificada"
+        },
+        "6406": {
+          "value": 120,
+          "question": "Peso más alto"
+        },
+        "6407": {
+          "value": "5'11\"",
+          "question": "Altura"
+        },
+        "6408": {
+          "value": 198,
+          "question": "Peso actual"
+        },
+        "6410": {
+          "value": "Some efforts",
+          "question": "Enfoque actual con el peso"
+        },
+        "6411": {
+          "value": "None of the above",
+          "question": "Condiciones médicas"
+        },
+        "6415": {
+          "value": "No",
+          "question": "Bypass gástrico en los últimos 6 meses"
+        },
+        "6416": {
+          "value": "None of the above",
+          "question": "Alergia a medicamentos GLP-1"
+        },
+        "6417": {
+          "value": "None of these",
+          "question": "Uso reciente de GLP-1"
+        },
+        "6418": {
+          "value": "Yes",
+          "question": "Capacidad de auto-inyección"
+        },
+        "6431": {
+          "value": "aceptado",
+          "question": "Consentimiento de tratamiento individualizado"
+        },
+        "6432": {
+          "value": "aceptado",
+          "question": "Consentimiento de veracidad"
+        },
+        "6433": {
+          "value": "aceptado",
+          "question": "Consentimiento GLP-1"
+        }
+      },
+      "metadata": {
+        "bmi": "27.8",
+        "dob": "08/02/2001",
+        "age_range": "30-44",
+        "allergies": [
+          "Ninguno"
+        ],
+        "bmi_class": "overweight",
+        "height_cm": 180,
+        "nrx_event": "intake_abandoned",
+        "weight_kg": 90,
+        "event_kind": "form_abandonment_confirmed",
+        "lead_state": "FL",
+        "session_id": "nrx_1780928959913_nvg9f8",
+        "source_url": "https://nuestrarx.com/evaluacion",
+        "weight_lbs": "198",
+        "goal_weight": "77",
+        "resume_step": "vitals",
+        "source_lang": "es",
+        "source_page": "evaluacion",
+        "form_version": "evaluacion-v3-2026-05",
+        "lead_country": "US",
+        "whatsapp_url": "https://wa.me/5531988203120",
+        "answers_count": 18,
+        "phone_country": "BR",
+        "recovery_type": "form_abandonment_confirmed",
+        "abandon_reason": "inactivity_timeout",
+        "biological_sex": "Hombre",
+        "height_display": "5'11\"",
+        "highest_weight": "120",
+        "lead_last_name": "jackson",
+        "dosable_lead_id": 247334,
+        "form_resume_url": "https://nuestrarx.com/evaluacion?lt=6b14d9f1-2c09-4a8f-824d-b94b4a7430c1&lang=es",
+        "lead_first_name": "samuel",
+        "source_referrer": "https://nuestrarx.com/",
+        "goal_weight_unit": "kg",
+        "progress_trigger": "pagehide",
+        "abandon_last_step": "vitals",
+        "nrx_event_version": "1.0",
+        "resume_step_label": "Signos vitales",
+        "resume_updated_at": "2026-06-08T14:30:45.077Z",
+        "abandon_last_event": "intake_progress",
+        "dosable_session_id": "b4783718-14a6-4ccc-b580-d15042481f7a",
+        "medical_conditions": [
+          "Ninguno"
+        ],
+        "abandon_detected_at": "2026-06-08T14:50:54.677Z",
+        "current_medications": [
+          "Ninguno"
+        ],
+        "glp1_drug_allergies": [
+          "Ninguno"
+        ],
+        "highest_weight_unit": "kg",
+        "abandon_idle_seconds": 1200,
+        "eligibility_qualified": false,
+        "recommended_recovery_url": "https://nuestrarx.com/evaluacion?lt=6b14d9f1-2c09-4a8f-824d-b94b4a7430c1&lang=es",
+        "resume_cross_device_token": "6b14d9f1-2c09-4a8f-824d-b94b4a7430c1",
+        "can_self_inject_normalized": false,
+        "weight_management_approach": "some",
+        "eligibility_state_supported": false,
+        "resume_cross_device_ttl_seconds": 604800
+      },
+      "form_answers": [],
+      "source": {
+        "channel": "whatsapp",
+        "agent": "awsales-bot",
+        "captured_at": "2026-06-08T12:44:35"
+      }
+    },
+    "webhookUrl": "https://n8n.nonprod.awsales.io/webhook/debug-awsales-tool",
+    "executionMode": "production"
+  }
+]

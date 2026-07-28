@@ -1,0 +1,238 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "82b9bb4c-75ba-46c5-950d-20d50b09fad9",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "dd37bf3e-4ba8-49ee-b629-9c92f7ebad5e",
+      "name": "Webhook",
+      "webhookId": "82b9bb4c-75ba-46c5-950d-20d50b09fad9"
+    },
+    {
+      "parameters": {
+        "url": "=https://vortex.mgcapitalpromotora.com.br/api/v1/lookup?{{ $json.body.cpf ? 'cpf=' + $json.body.cpf : 'telefone=' + $json.body.telefone }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer oat_MQ.NE5DbHJKMUVBazhWcWFPS2FGcFIweWYwc2dWM3FtUmFhNWhvWXI3azQyMjg1ODUwNzA"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        208,
+        0
+      ],
+      "id": "0a106b39-9492-49dd-8db9-af991fb34eee",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "5a4b98ac-8749-4be8-99f6-fe2f0882fe21",
+              "name": "produto",
+              "value": "={{ $json.clients[0].proposals[0].product }}",
+              "type": "string"
+            },
+            {
+              "id": "f428a5e7-be56-43b5-85b0-83752ede54b4",
+              "name": "link",
+              "value": "={{ $json.clients[0].proposals[0].link }}",
+              "type": "string"
+            },
+            {
+              "id": "01ca461c-1a97-40e9-a656-d69129dc247e",
+              "name": "status",
+              "value": "={{ $json.clients[0].proposals[0].statusLabel }}",
+              "type": "string"
+            },
+            {
+              "id": "2cb34551-fb5c-414d-9a30-b72f5a69cc28",
+              "name": "acaoCliente",
+              "value": "={{ $json.clients[0].proposals[0].clientAction }}",
+              "type": "string"
+            },
+            {
+              "id": "7617e369-0c44-4a9b-95fd-0851e94aa705",
+              "name": "valor",
+              "value": "={{ $json.clients[0].proposals[0].netValue }}",
+              "type": "string"
+            },
+            {
+              "id": "6e36c892-c145-444f-8dc5-1ee72f491ba4",
+              "name": "banco",
+              "value": "={{ $json.clients[0].proposals[0].source }}",
+              "type": "string"
+            },
+            {
+              "id": "b58cc6e6-577f-4765-ac81-c85b2d4d8b56",
+              "name": "nomeCliente",
+              "value": "={{ $json.clients[0].fullName }}",
+              "type": "string"
+            },
+            {
+              "id": "1551bf2e-21f0-43d1-9921-dd77c871a454",
+              "name": "cpf",
+              "value": "={{ $json.clients[0].cpf }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        624,
+        -64
+      ],
+      "id": "1b442066-6098-4281-8c15-0f0871e4c35e",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        832,
+        -64
+      ],
+      "id": "980e9e13-703b-420e-8e33-3d915b973adf",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "48823fb2-55b1-4e9c-8f9f-c27e82d6250b",
+              "leftValue": "={{ $json.clients.length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        416,
+        0
+      ],
+      "id": "2f0856f5-0c2b-402e-9ca3-c7781f05d693",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{\n  \"status\": \"nao_encontrado\",\n  \"mensagem\": \"Telefone nao localizado na base. Solicitar o CPF ao cliente.\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        624,
+        128
+      ],
+      "id": "20544a66-710a-4703-a8cb-380427a3b4e5",
+      "name": "Respond to Webhook1"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "instanceId": "1d8c4fcce3b235cedb7195245b58293ed96b5a173643187403d9e0a8758e60af"
+  }
+}

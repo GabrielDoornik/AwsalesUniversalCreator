@@ -1,0 +1,185 @@
+[
+  {
+    "product": "tirzepatide",
+    "plan": "quarterly",
+    "first_name": "Matheus",
+    "last_name": "Freire",
+    "email": "matfreire95@gmail.com",
+    "phone": "19732826268",
+    "lead_state": "FL",
+    "gender": "Female",
+    "birthday": "06/26/1995",
+    "date_of_birth": "06/26/1995",
+    "contact": {
+      "first_name": "Matheus",
+      "last_name": "Freire",
+      "email": "matfreire95@gmail.com",
+      "phone": "19732826268",
+      "lead_state": "FL",
+      "gender": "Female",
+      "date_of_birth": "06/26/1995",
+      "date_of_birth_iso": "1995-06-26",
+      "birthday": "06/26/1995"
+    },
+    "answers": {
+      "6400": {
+        "value": "None"
+      },
+      "6401": {
+        "value": "None"
+      },
+      "6402": {
+        "value": "None"
+      },
+      "6403": {
+        "value": "Female"
+      },
+      "6404": {
+        "value": "06/26/1995"
+      },
+      "6406": {
+        "value": "80"
+      },
+      "6407": {
+        "value": "5'7\""
+      },
+      "6408": {
+        "value": "80"
+      },
+      "6410": {
+        "value": "Aun no he empezado un plan claro"
+      },
+      "6411": {
+        "value": [
+          "None of the above"
+        ]
+      },
+      "6415": {
+        "value": "No"
+      },
+      "6416": {
+        "value": [
+          "None of the above"
+        ]
+      },
+      "6417": {
+        "value": [
+          "None of these"
+        ]
+      },
+      "6418": {
+        "value": "Yes, I can inject myself or have reliable help"
+      },
+      "6431": {
+        "value": "I have read and understand the above information and I do consent and wish to move forward with this treatment plan"
+      },
+      "6432": {
+        "value": "I have read the above information and I do consent and wish to move forward"
+      },
+      "6433": {
+        "value": "I have read and understand the above information and I wish to continue"
+      }
+    },
+    "source": {
+      "channel": "whatsapp",
+      "agent": "awsales-bot",
+      "captured_at": "2026-06-08T18:46:22Z"
+    },
+    "outbound": {
+      "product": "tirzepatide",
+      "plan": "quarterly",
+      "first_name": "Matheus",
+      "last_name": "Freire",
+      "email": "matfreire95@gmail.com",
+      "phone": "19732826268",
+      "lead_state": "FL",
+      "gender": "Female",
+      "birthday": "06/26/1995",
+      "date_of_birth": "06/26/1995",
+      "contact": {
+        "first_name": "Matheus",
+        "last_name": "Freire",
+        "email": "matfreire95@gmail.com",
+        "phone": "19732826268",
+        "lead_state": "FL",
+        "gender": "Female",
+        "date_of_birth": "06/26/1995",
+        "date_of_birth_iso": "1995-06-26",
+        "birthday": "06/26/1995"
+      },
+      "answers": {
+        "6400": {
+          "value": "None"
+        },
+        "6401": {
+          "value": "None"
+        },
+        "6402": {
+          "value": "None"
+        },
+        "6403": {
+          "value": "Female"
+        },
+        "6404": {
+          "value": "06/26/1995"
+        },
+        "6406": {
+          "value": "80"
+        },
+        "6407": {
+          "value": "5'7\""
+        },
+        "6408": {
+          "value": "80"
+        },
+        "6410": {
+          "value": "Aun no he empezado un plan claro"
+        },
+        "6411": {
+          "value": [
+            "None of the above"
+          ]
+        },
+        "6415": {
+          "value": "No"
+        },
+        "6416": {
+          "value": [
+            "None of the above"
+          ]
+        },
+        "6417": {
+          "value": [
+            "None of these"
+          ]
+        },
+        "6418": {
+          "value": "Yes, I can inject myself or have reliable help"
+        },
+        "6431": {
+          "value": "I have read and understand the above information and I do consent and wish to move forward with this treatment plan"
+        },
+        "6432": {
+          "value": "I have read the above information and I do consent and wish to move forward"
+        },
+        "6433": {
+          "value": "I have read and understand the above information and I wish to continue"
+        }
+      },
+      "source": {
+        "channel": "whatsapp",
+        "agent": "awsales-bot",
+        "captured_at": "2026-06-08T18:46:22Z"
+      }
+    },
+    "outbound_json": "{\"product\":\"tirzepatide\",\"plan\":\"quarterly\",\"first_name\":\"Matheus\",\"last_name\":\"Freire\",\"email\":\"matfreire95@gmail.com\",\"phone\":\"19732826268\",\"lead_state\":\"FL\",\"gender\":\"Female\",\"birthday\":\"06/26/1995\",\"date_of_birth\":\"06/26/1995\",\"contact\":{\"first_name\":\"Matheus\",\"last_name\":\"Freire\",\"email\":\"matfreire95@gmail.com\",\"phone\":\"19732826268\",\"lead_state\":\"FL\",\"gender\":\"Female\",\"date_of_birth\":\"06/26/1995\",\"date_of_birth_iso\":\"1995-06-26\",\"birthday\":\"06/26/1995\"},\"answers\":{\"6400\":{\"value\":\"None\"},\"6401\":{\"value\":\"None\"},\"6402\":{\"value\":\"None\"},\"6403\":{\"value\":\"Female\"},\"6404\":{\"value\":\"06/26/1995\"},\"6406\":{\"value\":\"80\"},\"6407\":{\"value\":\"5'7\\\"\"},\"6408\":{\"value\":\"80\"},\"6410\":{\"value\":\"Aun no he empezado un plan claro\"},\"6411\":{\"value\":[\"None of the above\"]},\"6415\":{\"value\":\"No\"},\"6416\":{\"value\":[\"None of the above\"]},\"6417\":{\"value\":[\"None of these\"]},\"6418\":{\"value\":\"Yes, I can inject myself or have reliable help\"},\"6431\":{\"value\":\"I have read and understand the above information and I do consent and wish to move forward with this treatment plan\"},\"6432\":{\"value\":\"I have read the above information and I do consent and wish to move forward\"},\"6433\":{\"value\":\"I have read and understand the above information and I wish to continue\"}},\"source\":{\"channel\":\"whatsapp\",\"agent\":\"awsales-bot\",\"captured_at\":\"2026-06-08T18:46:22Z\"}}",
+    "should_call_http": true,
+    "tool_response": null,
+    "tool_response_json": null,
+    "diagnostics": {
+      "ready_for_http": true,
+      "missing_required_contact_fields": [],
+      "missing_required_answer_ids": []
+    }
+  }
+]

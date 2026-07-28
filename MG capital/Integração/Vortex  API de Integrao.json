@@ -1,0 +1,471 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Vortex — API de Integração",
+    "version": "1.0.0",
+    "description": "O Vortex agrega e normaliza propostas de crédito consignado de várias Fontes (bancos) sob um único modelo. Esta API permite consultar, por CPF ou telefone, as propostas ativas de um cliente — já com status canônico, rótulo legível e a ação sugerida ao cliente. As respostas são desenhadas para consumo direto por agentes de IA: identificadores em inglês/camelCase, valores em pt-BR (moeda, datas e rótulos prontos para uso).\n"
+  },
+  "servers": [
+    {
+      "url": "https://vortex.mgcapitalpromotora.com.br/api/v1",
+      "description": "Produção"
+    }
+  ],
+  "security": [
+    {
+      "consumerKey": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Lookup",
+      "description": "Consulta unificada de propostas por cliente.",
+      "x-scalar-order": [
+        "vortex-api-de-integração/tag/lookup/GET/lookup"
+      ]
+    },
+    {
+      "name": "Proposals",
+      "description": "Inspeção de uma proposta específica pela chave estável (source, externalId).",
+      "x-scalar-order": [
+        "vortex-api-de-integração/tag/proposals/GET/proposals/{source}/{externalId}"
+      ]
+    }
+  ],
+  "paths": {
+    "/lookup": {
+      "get": {
+        "tags": [
+          "Lookup"
+        ],
+        "operationId": "lookup",
+        "summary": "Consulta propostas ativas de um cliente por CPF ou telefone",
+        "description": "Faz fan-out em paralelo em todas as Fontes configuradas, agrega as propostas por CPF e devolve apenas as propostas ativas (canceladas não aparecem aqui — use a inspeção por ID para vê-las). Informe exatamente um entre `cpf` e `telefone`.\n",
+        "parameters": [
+          {
+            "name": "cpf",
+            "in": "query",
+            "required": false,
+            "description": "CPF do cliente (somente dígitos). Mutuamente exclusivo com `telefone`.",
+            "schema": {
+              "type": "string"
+            },
+            "examples": {
+              "default": {
+                "value": "89094077353"
+              }
+            }
+          },
+          {
+            "name": "telefone",
+            "in": "query",
+            "required": false,
+            "description": "Telefone do cliente. Aceita variações de DDI e do 9º dígito — a normalização é feita pelo Vortex. Mutuamente exclusivo com `cpf`. Pode resolver para mais de um CPF.\n",
+            "schema": {
+              "type": "string"
+            },
+            "examples": {
+              "default": {
+                "value": "5511987654321"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Resultado da consulta (pode vir com `clients` vazio).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LookupResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "422": {
+            "$ref": "#/components/responses/ValidationError"
+          }
+        }
+      }
+    },
+    "/proposals/{source}/{externalId}": {
+      "get": {
+        "tags": [
+          "Proposals"
+        ],
+        "operationId": "inspectProposal",
+        "summary": "Inspeciona uma proposta pela chave estável (source, externalId)",
+        "description": "Devolve o snapshot persistido de uma proposta específica. Diferente do `/lookup`, não filtra por status (retorna mesmo se cancelada) e expõe o status cru da Fonte.\n",
+        "parameters": [
+          {
+            "name": "source",
+            "in": "path",
+            "required": true,
+            "description": "Slug da Fonte (ex.: `facta`, `daycoval`).",
+            "schema": {
+              "type": "string"
+            },
+            "examples": {
+              "default": {
+                "value": "facta"
+              }
+            }
+          },
+          {
+            "name": "externalId",
+            "in": "path",
+            "required": true,
+            "description": "Identificador da proposta na Fonte.",
+            "schema": {
+              "type": "string"
+            },
+            "examples": {
+              "default": {
+                "value": "121315253"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Snapshot da proposta, incluindo os campos crus da Fonte.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProposalInspection"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "consumerKey": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Chave de API de integração (token opaco) emitida pela equipe Vortex, enviada como `Authorization: Bearer <chave>`. Pode ser revogada a qualquer momento (efeito imediato).\n"
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "Chave ausente, inválida, expirada ou revogada.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/MessageError"
+            },
+            "examples": {
+              "default": {
+                "value": {
+                  "message": "Unauthorized"
+                }
+              }
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "Nenhuma proposta para o par (source, externalId).",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/MessageError"
+            }
+          }
+        }
+      },
+      "ValidationError": {
+        "description": "Parâmetros inválidos — nenhum ou ambos os identificadores informados no lookup.\n",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ValidationError"
+            }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "CanonicalStatus": {
+        "type": "string",
+        "description": "Status canônico do Vortex. `CANCELADO` nunca aparece no `/lookup`; só na inspeção por ID. `INDETERMINADO` indica um status de Fonte ainda não mapeado.\n",
+        "enum": [
+          "EM_ANDAMENTO",
+          "PENDENTE",
+          "CONCLUIDO",
+          "CANCELADO",
+          "INDETERMINADO"
+        ]
+      },
+      "Proposal": {
+        "type": "object",
+        "description": "Proposta no shape mastigado retornado pelo `/lookup`.",
+        "required": [
+          "source",
+          "externalId",
+          "status",
+          "statusLabel",
+          "clientAction",
+          "netValue",
+          "netValueCents",
+          "product",
+          "link",
+          "updatedAt"
+        ],
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Slug da Fonte de origem.",
+            "examples": [
+              "facta"
+            ]
+          },
+          "externalId": {
+            "type": "string",
+            "description": "ID estável da proposta na Fonte.",
+            "examples": [
+              "121315253"
+            ]
+          },
+          "status": {
+            "$ref": "#/components/schemas/CanonicalStatus"
+          },
+          "statusLabel": {
+            "type": "string",
+            "description": "Rótulo legível em pt-BR.",
+            "examples": [
+              "Aguardando assinatura digital"
+            ]
+          },
+          "clientAction": {
+            "type": "string",
+            "description": "Próxima ação sugerida ao cliente, pronta para exibir/falar.",
+            "examples": [
+              "Assine seu contrato pelo link para dar andamento."
+            ]
+          },
+          "netValue": {
+            "type": "string",
+            "description": "Valor líquido formatado em BRL (apenas para exibição).",
+            "examples": [
+              "R$ 853,00"
+            ]
+          },
+          "netValueCents": {
+            "type": "integer",
+            "description": "Valor líquido em centavos (use para cálculos).",
+            "examples": [
+              85300
+            ]
+          },
+          "product": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Produto.",
+            "examples": [
+              "RMC"
+            ]
+          },
+          "link": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Link de ação da Fonte (assinatura etc.), quando houver.",
+            "examples": [
+              "https://facta.ly/..."
+            ]
+          },
+          "updatedAt": {
+            "type": "string",
+            "description": "Última atualização na Fonte, formato `dd/mm/aaaa hh:mm`.",
+            "examples": [
+              "26/05/2026 08:16"
+            ]
+          }
+        }
+      },
+      "ProposalInspection": {
+        "description": "Proposta retornada pela inspeção por ID — todos os campos de `Proposal` mais os campos crus da Fonte.\n",
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Proposal"
+          },
+          {
+            "type": "object",
+            "required": [
+              "notifiable",
+              "rawStatusCode",
+              "rawStatusDescription"
+            ],
+            "properties": {
+              "notifiable": {
+                "type": "boolean",
+                "description": "Se a proposta dispara notificação/webhook na mudança de status.",
+                "examples": [
+                  true
+                ]
+              },
+              "rawStatusCode": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Código de status cru da Fonte, antes da normalização.",
+                "examples": [
+                  "50"
+                ]
+              },
+              "rawStatusDescription": {
+                "type": "string",
+                "description": "Descrição de status cru da Fonte.",
+                "examples": [
+                  "CANCELADO PELO CLIENTE"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "Client": {
+        "type": "object",
+        "description": "Cliente identificado por CPF, com suas propostas ativas agrupadas.",
+        "required": [
+          "cpf",
+          "fullName",
+          "proposals"
+        ],
+        "properties": {
+          "cpf": {
+            "type": "string",
+            "examples": [
+              "89094077353"
+            ]
+          },
+          "fullName": {
+            "type": "string",
+            "examples": [
+              "MARIA ALVES DA SILVA"
+            ]
+          },
+          "proposals": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Proposal"
+            }
+          }
+        }
+      },
+      "SourceStatus": {
+        "type": "string",
+        "description": "Estado de uma Fonte no fan-out da consulta.",
+        "enum": [
+          "ok",
+          "unavailable"
+        ]
+      },
+      "LookupResponse": {
+        "type": "object",
+        "description": "Resultado do lookup. Sem envelope `data`. `sourcesStatus` traz a transparência do fan-out — distinga \"nada encontrado\" (`ok` + lista vazia) de \"Fonte fora\" (`unavailable`).\n",
+        "required": [
+          "clients",
+          "sourcesStatus"
+        ],
+        "properties": {
+          "clients": {
+            "type": "array",
+            "description": "0 a N clientes (um telefone pode resolver mais de um CPF).",
+            "items": {
+              "$ref": "#/components/schemas/Client"
+            }
+          },
+          "sourcesStatus": {
+            "type": "object",
+            "description": "Mapa slug-da-Fonte → estado nesta consulta.",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/SourceStatus"
+            },
+            "examples": [
+              {
+                "facta": "ok",
+                "daycoval": "unavailable"
+              }
+            ]
+          }
+        }
+      },
+      "MessageError": {
+        "type": "object",
+        "required": [
+          "message"
+        ],
+        "properties": {
+          "message": {
+            "type": "string",
+            "examples": [
+              "Unauthorized"
+            ]
+          }
+        }
+      },
+      "ValidationError": {
+        "type": "object",
+        "required": [
+          "errors"
+        ],
+        "properties": {
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "message"
+              ],
+              "properties": {
+                "field": {
+                  "type": "string",
+                  "examples": [
+                    "cpf"
+                  ]
+                },
+                "message": {
+                  "type": "string",
+                  "examples": [
+                    "The cpf field is required"
+                  ]
+                },
+                "rule": {
+                  "type": "string",
+                  "examples": [
+                    "requiredIfMissing"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-scalar-watch-mode": false,
+  "x-scalar-order": [
+    "vortex-api-de-integração/description/introduction",
+    "vortex-api-de-integração/tag/lookup",
+    "vortex-api-de-integração/tag/proposals",
+    "vortex-api-de-integração/models"
+  ]
+}

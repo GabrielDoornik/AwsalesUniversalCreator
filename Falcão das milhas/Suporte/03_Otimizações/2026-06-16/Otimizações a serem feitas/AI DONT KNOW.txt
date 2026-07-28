@@ -1,0 +1,221 @@
+--- PAGINA 1 ---
+Perguntas  para  Cliente  —  Suporte  Falcão  das  Milhas
+ 
+Versão  completa  corrigida  —  mantendo  todas  as  perguntas  e  respostas  do  documento  original  
+Objetivo:  levantar  informações  que  não  apareceram  com  segurança  nas  FAQs,  snapshots  ou  tickets  da  
+campanha,
+ 
+no
+ 
+período
+ 
+de
+ 
+21/05
+ 
+a
+ 
+02/06/2026.
+ 
+As
+ 
+respostas
+ 
+abaixo
+ 
+devem
+ 
+virar
+ 
+fonte
+ 
+oficial
+ 
+para
+ 
+atualizar
+ 
+a
+ 
+base
+ 
+de
+ 
+conhecimento
+ 
+e
+ 
+reduzir
+ 
+handoffs
+ 
+por
+ 
+AI_DONT_KNOW.
+ 
+1.  Links  e  canais  oficiais  1.  Qual  é  o  link  oficial  de  acesso  ao  Buscador  Automático  para  clientes  já  cadastrados?  
+https://novo.buscadorautomatico.com.br/  
+2.  Existe  link  oficial  de  área  de  membros  ou  plataforma  que  a  IA  pode  enviar  com  segurança?  
+O  acesso  é  enviado  por  e-mail  e  pelo  WhatsApp  para  o  mesmo  endereço  eletrônico  informado  pelo  cliente  
+no
+ 
+momento
+ 
+da
+ 
+compra.
+ 
+O  link  oficial  da  página  de  membros  é:  https://falcaodasmilhas.memberclass.com.br/login  
+3.  Qual  canal  oficial  deve  ser  usado  quando  o  cliente  pede  suporte  da  Oner?  
+O  canal  oficial  de  suporte  da  Oner  é  o  WhatsApp:  +55  11  4506-7676.  
+4.  Qual  canal  oficial  deve  ser  usado  para  acesso  ao  grupo  do  Balcão  de  Milhas?  
+Pedimos  que  o  cliente  assine  o  contrato  virtual:  
+https://app.clicksign.com/fluxia/970a37b3-7f08-4945-ae55-4716448dd992
+ 
+Depois,  enviamos  uma  mensagem  solicitando  os  documentos  do  cliente  pelo  e-mail:  
+balcaodasmilhas@falcaodasmilhas.com.br
+ 
+5.  Existe  canal  oficial  de  suporte  para  o  grupo  de  promoções?  
+Temos  grupos  no  WhatsApp  e  no  Telegram  para  envio  de  promoções  e  promoções  de  passagens.  
+WhatsApp:  
+●  Passagens:  https://chat.whatsapp.com/H60sesTZM2oAkr5FpC5ucJ  ●  Promoções:  https://chat.whatsapp.com/LQo1RGqZQN624uGROAdnga  
+Telegram:  
+●  Passagens:  https://t.me/+X-zoVwqLlR40OWQ5  ●  Promoções:  https://t.me/+MPPOySvzZxo5ZTFh  
+6.  Quando  a  IA  deve  encaminhar  para  humano  dentro  da  plataforma  e  quando  deve  orientar  outro  
+canal?
+ 
+Em  casos  de  reembolso  ou  problemas  de  acesso,  a  IA  pode  encaminhar  para  atendimento  humano.  
+Em  casos  de  passagens  já  emitidas  dentro  da  plataforma,  a  IA  precisa  encaminhar  para  o  suporte  da  
+Oner:
+ 
++55
+ 
+11
+ 
+4506-7676.
+ 
+
+--- PAGINA 2 ---
+2.  Preço,  teste  e  compra  7.  Qual  é  o  preço  atual  do  Buscador  Automático?  
+O  Buscador  Automático  é  comercializado  atualmente  pelo  valor  de  R$  297,00.  
+8.  Existe  opção  de  teste  ou  período  gratuito  do  Buscador  Automático?  
+Não.  O  cliente  possui  direito  de  arrependimento  de  7  dias  para  compras  online,  previsto  no  CDC.  Esse  é  o  “período  de  teste”.  
+Quando  o  cliente  pede  cancelamento  e  reembolso  dentro  dos  7  dias,  ele  tem  direito  ao  dinheiro  de  volta.  Quando  o  pedido  é  feito  fora  dos  7  dias,  não  reembolsamos;  apenas  cancelamos  a  assinatura.  
+9.  Se  existe  teste,  qual  é  o  valor,  duração  e  condição  de  acesso?  
+Não  existe  teste.  
+10.  Quando  o  lead  pergunta  “como  faço  o  pagamento?”,  qual  orientação  oficial  a  IA  deve  dar?  
+A  IA  pode  avisar  que  o  pagamento  é  anual,  no  valor  de  R$  297,00,  e  enviar  o  link  caso  o  lead  tenha  interesse.  
+Pedimos  que,  assim  que  fizer  o  pagamento,  o  cliente  envie  o  comprovante  acompanhado  do  e-mail  de  compra.  Depois  disso,  a  IA  deve  transferir  para  um  atendente  humano  para  conferirmos  o  acesso  do  cliente.  
+11.  A  IA  pode  enviar  link  de  compra  ou  pagamento?  Se  sim,  qual  é  o  link  oficial?  
+Sim.  Os  links  oficiais  são:  
+●  Buscador  Automático:  https://pay.hub.la/LrkO2DIV9UsmAiQ9uPeH  ●  Balcão  de  Milhas:  https://pay.hub.la/GZSiM71IFLNj4HsUDuHY  ●  Consultoria:  https://pay.hub.la/1pK57Ggb5NwW3TEANAJ2  
+12.  O  que  dizer  quando  o  lead  recebeu  e-mail  inicial  sem  instrução  de  cobrança  ou  pagamento?  
+Transferir  para  um  atendente  humano.  
+3.  Benefícios,  bônus  e  pacote  comprado  13.  Quais  são  exatamente  os  benefícios  inclusos  no  pacote  atual  do  Buscador  Automático?  
+O  Buscador  Automático  hoje  possui  uma  parte  de  bônus,  que  inclui  alguns  cursos  e  planilhas  disponibilizados  na  MemberClass.  
+Isso  funciona  como  um  overdelivery:  a  pessoa  compra,  acessa  a  MemberClass  e  encontra  os  bônus  disponíveis.  
+14.  Alguns  clientes  mencionaram  “8  benefícios”.  Quais  são  esses  8  itens?  
+São  os  bônus  que  aparecem  na  MemberClass:  https://falcaodasmilhas.memberclass.com.br/login  
+15.  Onde  o  cliente  acessa  cada  benefício?  Existe  um  link  ou  área  específica  para  cada  um?  
+Na  MemberClass:  https://falcaodasmilhas.memberclass.com.br/login  
+
+--- PAGINA 3 ---
+16.  Quais  bônus  existem  hoje  e  como  o  cliente  deve  acessá-los  (link,  grupo,  plataforma)?  
+Os  bônus  devem  ser  acessados  pela  MemberClass:  https://falcaodasmilhas.memberclass.com.br/login  
+17.  Se  o  bônus  não  aparece  após  o  acesso,  qual  é  o  procedimento  oficial  antes  de  transferir  para  humano?  
+O  bônus  deve  aparecer  após  a  pessoa  acessar  a  MemberClass,  e  não  diretamente  o  Buscador  Automático.  São  coisas  diferentes:  o  Buscador  Automático  está  dentro  da  MemberClass.  
+Se  o  bônus  não  aparecer  quando  a  pessoa  acessar  a  MemberClass,  a  IA  deve  transferir  para  um  ser  humano.  Nesse  caso,  deve  informar  que  um  humano  irá  revisar  o  acesso  e  talvez  resetá-lo.  
+Esse  é  um  problema  sério  e  deve  ser  tratado  como  urgente.  
+18.  Qual  é  o  preço  atual  da  Consultoria  Individual?  
+Atualmente,  o  preço  da  Consultoria  Individual  é  R$  997,00.  Porém,  ela  pode  ser  enviada  de  forma  gratuita  para  o  cliente  como  forma  de  retenção.  
+4.  Acesso,  login  e  segurança  19.  Quando  a  recuperação  de  senha  não  chega  nem  no  spam  após  múltiplas  tentativas,  qual  é  o  procedimento  oficial?  
+Redefinimos  o  acesso  do  cliente  no  próprio  site  do  Buscador.  Nessa  situação,  a  IA  precisa  transferir  para  um  atendente  humano.  
+20.  Para  o  erro  específico  “Error  signing  in”,  existe  algum  passo  técnico  adicional  além  de  limpar  cache  e  trocar  navegador?  
+Sim.  Revisar  se  o  e-mail  está  correto.  
+21.  Para  o  erro  “não  foi  possível  concluir  o  cadastro”,  há  algum  passo  técnico  antes  do  humano?  
+Sim.  Conferir  se  o  e-mail  está  de  acordo  com  o  e-mail  de  compra,  porque  às  vezes  a  pessoa  escreve  o  e-mail  errado  no  momento  da  compra  e  o  cadastro  fica  vinculado  ao  e-mail  incorreto,  ou  vice-versa.  
+22.  A  IA  deve  coletar  apenas  e-mail  de  compra  ou  também  outro  dado,  como  CPF  ou  telefone?  O  que  é  permitido?  
+Pedimos  e-mail  de  compra,  nome  completo  e  print  do  extrato  da  fatura  que  mostre  em  qual  plataforma  o  cliente  comprou.  Isso  facilita  a  localização  quando  não  encontramos  a  compra  por  outros  dados.  
+23.  Em  caso  de  celular  roubado  ou  perdido  e  perda  de  acesso,  qual  orientação  segura  a  IA  deve  dar?  
+No  Buscador  existe  a  opção  “Esqueci  minha  senha”.  O  cliente  deve  clicar  nela  para  receber  um  e-mail  de  redefinição  de  senha.  
+24.  Existe  SLA  ou  frase  oficial  para  casos  de  ajuste  manual  de  acesso?  
+Em  geral,  o  prazo  de  resolução  de  acesso  costuma  ser  muito  rápido.  A  partir  do  momento  em  que  visualizamos  a  mensagem,  a  resolução  demora  no  máximo  5  minutos.  
+
+--- PAGINA 4 ---
+5.  Cancelamento,  reembolso  e  renovação  25.  Qual  é  a  política  oficial  de  cancelamento  dentro  dos  7  dias?  
+Quando  o  cliente  entra  em  contato  pelos  canais  oficiais  de  atendimento  e  suporte,  como  e-mail  e  WhatsApp,  dentro  dos  7  dias,  é  direito  do  consumidor,  previsto  pelo  CDC,  e  obrigação  da  empresa  realizar  o  reembolso.  
+O  que  fazemos  é  a  oferta  de  produtos,  como  a  Consultoria  Individual,  para  tentar  reter  o  cliente.  
+26.  Qual  é  a  política  oficial  de  cancelamento  fora  dos  7  dias?  
+Fora  dos  7  dias  de  arrependimento,  conforme  previsto  pelo  CDC,  a  empresa  não  tem  obrigação  de  reembolsar  o  valor  integral,  podendo  apenas  cancelar  a  assinatura  do  cliente.  
+Nesse  caso,  também  entramos  com  o  fluxo  de  retenção  para  o  cliente.  
+27.  A  IA  pode  mencionar  a  garantia  de  7  dias?  Em  quais  condições  exatas?  
+Sim.  No  momento  da  compra  feita  pelo  cliente,  a  IA  pode  avisar  que  ele  possui  a  garantia  de  7  dias  prevista  pelo  CDC.  
+28.  Depois  que  o  cliente  preenche  o  formulário  de  reembolso,  o  que  acontece?  Qual  é  o  fluxo  oficial?  
+É  pedido  que  o  cliente  nos  avise  que  o  formulário  foi  preenchido,  para  que  possamos  verificar  se  ele  realmente  foi  enviado.  
+Depois  disso,  o  atendimento  deve  ser  transferido  para  um  humano,  que  realizará  o  cancelamento  acompanhado  do  reembolso.  
+29.  Existe  prazo  oficial  para  análise  do  formulário  de  reembolso?  
+O  prazo  máximo  é  de  72  horas  úteis  para  atender  o  cliente  após  o  atendimento  feito  pela  IA.  
+30.  Se  o  cliente  diz  que  já  preencheu  o  formulário  e  não  teve  retorno,  qual  é  o  procedimento  correto?  
+Avisar  que,  em  breve,  um  atendente  humano  irá  atendê-lo  da  melhor  forma  possível.  
+31.  Como  explicar  a  renovação  automática  de  forma  oficial?  A  IA  pode  detalhar  condições  e  como  desativar?  
+A  renovação  automática  ocorre  após  12  meses  da  contratação.  
+No  momento  da  compra,  o  cliente  concorda  com  essa  condição  ao  aceitar  os  termos  de  uso.  Além  disso,  enviamos  uma  notificação  com  aproximadamente  30  dias  de  antecedência,  informando  sobre  a  renovação  e  disponibilizando  tempo  hábil  para  solicitar  o  cancelamento,  caso  não  tenha  interesse  em  continuar  com  a  assinatura.  
+32.  Em  cobrança  duplicada,  contestação,  chargeback  ou  suspeita  de  fraude,  qual  orientação  a  IA  deve  dar  antes  do  humano?  
+Resposta  não  informada  no  documento  original.  
+
+--- PAGINA 5 ---
+6.  Produtos  e  direcionamento  33.  Quando  indicar  The  Travel  e  qual  é  o  processo  para  o  cliente  contratar?  
+Atualmente,  não  estamos  vendendo  o  The  Travel.  O  produto  foi  descontinuado.  
+34.  Quando  indicar  Black  Falcon  e  qual  é  o  processo  para  o  cliente  contratar?  
+O  Black  Falcon  deve  ser  indicado  quando  o  cliente  se  qualificar  nas  perguntas  qualificatórias.  
+O  processo  é  o  time  comercial  marcar  um  onboarding  com  o  cliente  e  verificar  se  realmente  é  viável  tê-lo  conosco.  
+Perguntas:  
+●  Em  média,  quantas  vezes  por  ano  você  viaja  para  fora  do  Brasil?  ●  Nessas  viagens,  você  costuma  voar  mais  de  econômica  ou  executiva?  ●  Suas  viagens  são  mais  a  lazer  ou  a  trabalho?  ●  Você  tem  flexibilidade  de  datas?  Exemplo:  se  aparecesse  uma  oportunidade  muito  boa  fora  do  planejamento  inicial,  conseguiria  aproveitar?  
+Respostas  esperadas:  
+●  2  ou  mais  vezes  por  ano.  ●  Executiva.  ●  Lazer.  ●  Sim.  
+35.  Quando  indicar  Balcão  de  Milhas  e  qual  é  o  link  ou  canal  de  acesso?  
+Quando  o  cliente  falar:  “não  possuo  milhas”.  
+O  link  de  pagamento  é:  https://pay.hub.la/GZSiM71IFLNj4HsUDuHY  
+Após  o  pagamento  ser  confirmado,  o  cliente  é  direcionado  para  o  preenchimento  do  contrato:  https://app.clicksign.com/fluxia/970a37b3-7f08-4945-ae55-4716448dd992  
+Depois  disso,  nós  o  chamamos  por  e-mail  para  a  validação  dos  documentos.  
+36.  Quando  indicar  Consultoria  Individual  e  qual  é  o  canal  ou  link  de  contratação?  
+A  Consultoria  Individual  é  utilizada  como  forma  de  retenção.  Então,  após  o  primeiro  contato  com  o  cliente,  se  ele  afirmar  que  quer  o  cancelamento  por  qualquer  motivo,  enviamos  a  opção  da  Consultoria  Individual  de  forma  gratuita.  
+Caso  o  cliente  aceite,  o  link  é:  https://emeo1uhrjwf.typeform.com/to/SMEYLynR  
+Ela  é  vendida  por  R$  997,00  em  caso  de  dúvidas  ao  mexer  e/ou  encontrar  passagens  no  Buscador  Automático.  
+Caso  o  cliente  queira  o  link  de  pagamento,  é:  https://pay.hub.la/1pK57Ggb5NwW3TEANAJ2  
+37.  Quando  uma  cotação  específica  tem  taxa?  A  IA  pode  informar  o  valor  da  taxa?  Se  sim,  qual  é?  
+As  taxas  de  cotações  dependem  de  cada  passagem.  Não  existe  uma  taxa  fixa.  Pedimos  que  não  informem  valores.  
+
+--- PAGINA 6 ---
+38.  Qual  é  a  diferença  oficial  entre  cotação,  emissão,  suporte  operacional  e  orientação  de  uso  do  Buscador?  
+Cotação:  quando  o  cliente  não  encontra  a  passagem  desejada  no  Buscador,  um  atendente  entra  em  contato  para  realizar  uma  busca  personalizada  e  encontrar  a  melhor  opção  disponível,  buscando  o  menor  valor  possível  de  forma  mais  eficiente.  
+Emissão:  ocorre  quando  o  cliente  encontra  uma  passagem  vantajosa  por  meio  do  Buscador  e  realiza  a  emissão  diretamente  junto  à  companhia  aérea.  
+Suporte  operacional:  atendimento  prestado  para  questões  relacionadas  aos  serviços  da  empresa,  como  dificuldades  de  acesso,  cancelamentos,  reembolsos  e  outras  demandas  operacionais.  
+Orientação  de  uso  do  Buscador:  quando  a  dúvida  é  simples,  um  analista  de  atendimento  fornece  orientações  detalhadas,  acompanhadas  de  prints  e  passo  a  passo  para  auxiliar  na  utilização  da  ferramenta.  
+Para  casos  que  exigem  acompanhamento  mais  aprofundado,  disponibilizamos  a  Consultoria  Individual,  um  serviço  personalizado  no  valor  de  R$  997,00,  no  qual  um  especialista  auxilia  o  cliente  de  forma  mais  completa  e  estratégica  na  utilização  do  Buscador  e  na  busca  por  oportunidades.  
+7.  Passagem  emitida  e  suporte  operacional  39.  Se  o  cliente  comprou  passagem  errada,  qual  é  o  canal  ou  procedimento  oficial?  
+O  procedimento  oficial  é  encaminhar  a  mensagem  abaixo:  
+Olá!  Tudo  bem?  
+Entendo  sua  frustração  com  o  problema  ocorrido  e  sentimos  muito  por  essa  situação.  
+Para  esse  tipo  de  caso,  temos  um  time  especializado  em  suporte  de  passagens  aéreas,  que  consegue  analisar  sua  emissão  com  mais  profundidade  e  te  orientar  da  melhor  forma  possível.  
+Você  pode  entrar  em  contato  diretamente  por  este  número:  
++55  11  4506-7676  
+Quando  enviar  a  mensagem,  se  possível,  já  encaminhe:  
+•  localizador  da  reserva;  
+•  print  do  erro/problema;  
+•  e-mail  utilizado  na  emissão.  
+Isso  ajuda  o  time  a  agilizar  bastante  a  análise.  
+Assim  que  eles  receberem  seu  contato,  irão  verificar  o  caso  e  seguir  com  o  atendimento.  
+Atenciosamente,  
+Suporte  Falcão  das  Milhas.  
+
+--- PAGINA 7 ---
+40.  Se  o  cliente  precisa  alterar,  remarcar  ou  cancelar  passagem  já  emitida,  qual  orientação  deve  receber?  
+Sempre  que  houver  problemas  com  passagens  já  emitidas,  pedimos  que  enviem  a  mensagem  direcionando  o  cliente  para  o  suporte  da  Oner:  +55  11  4506-7676.  
+41.  Se  o  cliente  comprou  pelo  app/Buscador  e  não  localiza  a  reserva,  qual  é  o  procedimento?  
+A  reserva  geralmente  fica  disponível  no  site  da  companhia  aérea  responsável  pela  emissão  da  passagem,  e  não  no  site  do  Buscador  Automático.  
+42.  A  IA  pode  pedir  código  localizador?  Se  sim,  em  quais  casos?  
+Não.  
+ 
+Total  de  perguntas  mantidas  no  documento:  42.  
+

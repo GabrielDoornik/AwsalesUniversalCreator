@@ -1,0 +1,161 @@
+--- PAGINA 1 ---
+SDR - Tintim
+Produto 11 documentos
+Editar Excluir
+Busca Semântica
+Buscar
+Documentos (11)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Todos Todas as tags
+ Data de criação
+Desc
+Quando devo oferecer a reunião e quem
+deve participar?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 4
+vezes • Ativo
+Ofereça quando o lead for gestor de tráfego ou dono de agência e atender 3 ou mais clie
+ntes. Valide de forma natural perguntando sobre a função dele e o tamanho da carteira. E
+mpresas e profissionais que querem medir o próprio WhatsApp (um único negócio) segu
+em para a rota de vendas, sem agendar a reunião. Vários números de uma mesma empres
+a não configuram MQL.
+Qual é o objetivo da reunião do Programa
+de Parceiros para este lead?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 11
+vezes • Ativo
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 1/5
+
+--- PAGINA 2 ---
+É uma conversa consultiva para entender o perfil e a carteira do lead, verificar se ele se en
+caixa como parceiro e mostrar como o Tintim ajuda agências e gestores a provar, com da
+dos, quais campanhas geram conversas e vendas por cliente, reduzindo trabalho manual.
+O consultor também apresenta as condições do Programa de Parceiros, que dependem d
+o volume. Dura cerca de 30 minutos, online. Vale pelo diagnóstico ao vivo e pelas condiçõ
+es alinhadas à operação, algo que não entregamos por texto.
+Como valido se ele é MQL sem parecer
+interrogatório?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 4
+vezes • Ativo
+Conduza a conversa pelo contexto: pergunte qual é o papel dele (dono de agência ou ges
+tor), quantos clientes atende hoje e o que está tentando medir ou integrar. Explore se bus
+ca condições de parceiro para escalar vários clientes. Se confirmar 3+ clientes e interesse
+em mensuração por carteira, convide para a reunião. Se o foco for um único negócio, dire
+cione para a rota de vendas.
+Como faço o handoff do não-MQL na
+prática?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 0
+vezes • Ativo
+Responda brevemente a dúvida dele, avise que o time comercial de vendas do Tintim vai
+seguir para apresentar os planos self-service e o melhor caminho para começar, compartil
+he o link de handoff indicado no checkpoint e mova o card no CRM para a etapa correta.
+Não envie checkout nem negocie preço; a venda assume a partir daí.
+Quais red flags desqualificam para a
+reunião e exigem handoff?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 0
+vezes • Ativo
+Ser empresa ou infoprodutor querendo medir o próprio WhatsApp, ter vários números m
+as de uma única operação, buscar apenas preço por mensagem, recusar conversa ao vivo
+ou rejeitar o Programa de Parceiros. Nesses casos, responda a dúvida imediata de forma b
+reve, explique que o time comercial de vendas seguirá com ele e faça o handoff pela rota
+do checkpoint, movendo o card no CRM.
+Como respondo quando o lead pede
+preço por aqui?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 2
+vezes • Ativo
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 2/5
+
+--- PAGINA 3 ---
+Explique que os planos self-service têm valores no checkpoint da campanha e que as con
+dições do Programa de Parceiros variam com o volume e são apresentadas na reunião. Co
+mo SDR, não coto números nem prometo desconto. Se o lead for MQL, convide para a co
+nversa para alinhar condições. Se não for MQL, encaminhe para a rota de vendas, onde os
+planos são detalhados.
+Quais sinais mostram que o lead está
+pronto para a reunião?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 2
+vezes • Ativo
+Diz que atende 3+ clientes, quer provar ROI por cliente/campanha, reclama do trabalho m
+anual de coletar vendas do WhatsApp, pergunta sobre integrações com Meta/Google e d
+emonstra urgência em organizar a mensuração. Se pede condições do Programa de Parce
+iros, é um sinal forte. Nesse cenário, ofereça o próximo horário disponível.
+O que devo pedir ao lead para preparar
+uma reunião produtiva?
+Criado em Jul 14, 2026,
+08:24 PM • Usado 1
+vez • Ativo
+Peça um panorama da carteira (quantos clientes ativos), quais canais usa (Meta, Google) e
+como hoje mede vendas do WhatsApp. Pergunte quais ferramentas-chave utiliza (CRM, a
+utomação) para checarmos compatibilidade; onde não houver homologação confirmada,
+avisamos que vamos validar. Sugira trazer 1–2 contas como exemplo para olharmos junto
+s na call.
+O que será apresentado na reunião para
+um lead MQL?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 10
+vezes • Ativo
+Mostramos, ao vivo, como o Tintim mede conversas no WhatsApp, identifica vendas, audi
+ta atendimentos e gera relatórios por cliente. Se fizer sentido, mostramos como integrar e
+ventos com Meta e Google Ads. O consultor mapeia a operação do lead e apresenta as co
+ndições do Programa de Parceiros conforme o volume. Não passamos valores por texto; c
+ondições são tratadas na conversa.
+Como resumo o que o Tintim oferece sem
+entrar em valores?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 15
+vezes • Ativo
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 3/5
+
+--- PAGINA 4 ---
+Informações
+ID da Base
+b19bff13-eb63-4865-9a79-4bfab58c9224
+Tipo
+Produto
+Tipo de Agente
+SDR
+Organização
+Tintim
+Criado em
+Jul 14, 2026, 08:23 PM
+Última atualização
+Jul 14, 2026, 08:24 PM
+Campanhas em uso
+Lembrete - Tintim
+O Tintim organiza e mede conversas do WhatsApp, identifica vendas e gera relatórios. O
+Plano Inicial foca mensuração para 1 número. O Plano Escala inclui integrações via webho
+ok para Meta e Google Ads. Para agências/gestores com vários clientes, o Programa de Pa
+rceiros é consultivo, com condições ligadas ao volume e apoio de implementação. Eu não
+fecho venda nem coto valores aqui; planos e condições são detalhados na rota correta.
+Quanto tempo dura e como funciona a
+logística da reunião?
+Criado em Jul 14,
+2026, 08:24 PM • Usado 5
+vezes • Ativo
+A conversa é online, por videochamada, com duração aproximada de 30 minutos. A agen
+da é integrada ao time comercial: o lead escolhe o horário, recebe o link da reunião e a co
+nfirmação automática. Enviamos lembrete e, no dia, reforçamos a presença para reduzir n
+o-show.
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 4/5
+
+--- PAGINA 5 ---
+SDR - Tintim
+Fontes de Conhecimento
+# Texto Complementar — PRODUTO Campanha: SDR Home/...
+23/07/2026, 19:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/b19bff13-eb63-4865-9a79-4bfab58c9224 5/5
+

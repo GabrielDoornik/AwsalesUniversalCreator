@@ -1,0 +1,207 @@
+--- PAGINA 1 ---
+Onboarding 4 - Acompanhamento
+Produto15 documentos
+Editar Ex
+Busca Semântica
+Buscar
+Documentos (15)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Todos Todas as tags
+ Data de criação
+Desc
+O cliente pergunta quanto deve aplicar ou
+qual é a dose; o que posso dizer?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 2
+vezes • Ativo
+Não informe dose, unidades, mg, ml, concentração ou titulação. Diga que essa decisão é i
+ndividual e pertence à equipe médica. Proceda: 1) Explique de forma humana que não po
+de calcular nem confirmar a dose. 2) Pergunte se deseja falar com a equipe médica. 3) Enc
+aminhe pelo canal configurado se houver concordância. 4) Registre a solicitação e siga dis
+ponível para apoio operacional.
+O cliente já aplicou; o que devo checar no
+acompanhamento?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 11
+vezes • Ativo
+Reconheça sem assumir dose, dia ou quantidade e faça uma única pergunta sobre como f
+oi a experiência ou se ficou alguma dúvida operacional. Não interrogue sobre sintomas, p
+eso, medidas ou evolução clínica quando o paciente não trouxe esses temas. Se estiver be
+m e sem dúvidas, encerre brevemente. Se relatar espontaneamente sintoma, aplicação es
+quecida ou dúvida clínica, explique que a equipe médica deve avaliar e pergunte se quer r
+eceber o canal de suporte. Se aceitar, compartilhe o canal configurado uma vez.
+13/07/2026, 16:55 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/519d5f46-ef91-4272-90ae-66266e82910c 1/5
+
+--- PAGINA 2 ---
+O cliente quer misturar com insulina ou
+outro injetável; como orientar?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 0
+vezes • Ativo
+Oriente que o medicamento não deve ser misturado na mesma aplicação com insulina ne
+m com outros injetáveis; cada medicamento deve ser aplicado separadamente conforme s
+ua própria orientação. Não defina horários, locais, doses ou combinações para o caso indi
+vidual. Se houver dúvida sobre interação, sequência ou segurança, pergunte se o paciente
+quer receber o canal de suporte. Se aceitar, compartilhe o canal uma vez. Em emergência,
+oriente 911.
+O cliente não percebeu resultado e quer
+aumentar a dose; como respondo?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 7
+vezes • Ativo
+Não prometa resultado nem sugira ajuste. Explique que evolução e mudança de dose não
+podem ser avaliadas neste atendimento. Pergunte se o paciente quer receber o canal de s
+uporte. Se aceitar, compartilhe o canal configurado uma vez. Mantenha o acompanhamen
+to acolhedor e sem transformar a dúvida em conversa comercial.
+O cliente pediu o vídeo de aplicação;
+como enviar corretamente?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 3
+vezes • Ativo
+Só envie o vídeo se o paciente pedir. Ao enviar, não apresente como oficial nem como co
+nteúdo próprio da Nuestra RX. Use o canal configurado no checkpoint. Se o paciente estiv
+er inseguro, ofereça condução passo a passo por texto. Registre o envio e permaneça disp
+onível para dúvidas operacionais.
+Como orientá-lo sobre pausa,
+cancelamento ou reembolso do plano?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 0
+vezes • Ativo
+Aja conforme a política: mensal requer pedido de cancelamento com pelo menos 7 dias d
+e antecedência da renovação. No trimestral, meses não enviados podem ser reembolsado
+s conforme política; meses já enviados são recalculados pelo valor mensal padrão; um mê
+s que já saiu da farmácia não é reembolsável. Não prometa exceções, datas de reembolso
+ou novo envio sem confirmação. Encaminhe ao suporte quando necessário e registre o pe
+dido.
+O acompanhamento semanal significa que
+hoje é o dia de aplicar para o cliente?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 6
+vezes • Ativo
+13/07/2026, 16:55 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/519d5f46-ef91-4272-90ae-66266e82910c 2/5
+
+--- PAGINA 3 ---
+Não. Uma mensagem de acompanhamento não confirma o dia escolhido pelo paciente p
+ara aplicar. Não assuma que houve aplicação nem diga que hoje é o dia. Pergunte em que
+ponto ele está: ainda não começou, já aplicou, teve dificuldade ou precisa de ajuda. Se m
+encionar espontaneamente o dia que escolheu, use apenas como contexto da conversa e
+não apresente o contato como lembrete de dose. Qualquer dúvida individual sobre calen
+dário, atraso ou mudança do dia deve ser confirmada com a equipe médica.
+O cliente quer antecipar, repetir ou
+compensar uma aplicação; como
+proceder?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 1
+vez • Ativo
+Não informe, confirme ou ajuste dose e não autorize antecipar, repetir ou compensar um
+a aplicação. Explique que a decisão exige avaliação individual e não pode ser feita neste a
+tendimento. Não calcule intervalo nem use uma regra geral como resposta. Pergunte se o
+paciente quer receber o canal de suporte. Se aceitar, envie o canal configurado uma vez.
+Como explico o que ele recebeu e os
+limites de comparação com marcas?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 0
+vezes • Ativo
+Explique que o paciente pode ter recebido Semaglutida composta ou Tirzepatida compos
+ta, preparadas por farmácia 503A licenciada nos EUA, prescritas após avaliação médica. A
+Nuestra RX coordena telemedicina e acompanhamento em espanhol; decisões clínicas sã
+o da equipe médica. Não diga que é igual, equivalente ou bioequivalente a Ozempic, Weg
+ovy, Rybelsus, Mounjaro, Zepbound, Saxenda ou Trulicity, nem afirme aprovação direta da
+FDA. Dúvidas clínicas individuais devem ser encaminhadas.
+Como instruo o cliente sobre conservação
+do medicamento e descarte das agulhas?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 0
+vezes • Ativo
+Diga para manter sempre refrigerado e não invente temperatura ou prazos fora da gelade
+ira. Se ficou quente, congelou, vazou, mudou de aparência ou houve risco à cadeia de fri
+o, oriente a não aplicar e encaminhe ao suporte para avaliação. Agulhas usadas devem ser
+descartadas imediatamente em recipiente rígido para perfurocortantes, fora do alcance d
+e crianças e animais. Não reutilizar nem compartilhar.
+Quando devo encaminhar o cliente para a
+equipe médica, para o suporte ou para o
+911?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 9
+vezes • Ativo
+Ofereça o canal de suporte para dúvidas de dose, concentração, titulação, aplicação esqu
+ecida ou fora do dia, sintomas não emergenciais, interação, contraindicação, ausência de r
+esultado, interrupção do medicamento, cadeia de frio, entrega, cobrança, plano, pausa, ca
+13/07/2026, 16:55 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/519d5f46-ef91-4272-90ae-66266e82910c 3/5
+
+--- PAGINA 4 ---
+ncelamento, reembolso, portal ou pedido de atendimento humano. Em situação não crític
+a, pergunte antes se o paciente quer receber o canal. Em emergência, risco imediato ou pi
+ora importante, oriente ligar para o 911.
+Como devo orientar o cliente que ainda
+não fez a primeira aplicação?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 3
+vezes • Ativo
+Passe a sequência operacional sem falar de dose: 1) Manter o medicamento refrigerado.
+2) Antes de aplicar, deixar chegar à temperatura ambiente. 3) Lavar as mãos e separar o m
+aterial. 4) Higienizar a pele e deixar secar. 5) Aplicar por via subcutânea conforme a técnic
+a ensinada na consulta. 6) Descartar a agulha com segurança. 7) Guardar o medicamento
+de volta na geladeira. 8) Alternar a região na próxima aplicação. Se estiver ansioso, condu
+za passo a passo. Só envie vídeo se ele pedir e sem dizer que é oficial da Nuestra RX.
+O acompanhamento muda entre o plano
+mensal e o trimestral?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 0
+vezes • Ativo
+Não. A frequência de aplicação e o padrão de acompanhamento semanal são os mesmos
+em ambos. Não use o plano para inferir dose, quantidade, data de aplicação ou evolução
+clínica. Ambos incluem consulta médica, medicamento composto, envio refrigerado e aco
+mpanhamento por WhatsApp. Evite transformar dúvidas de adesão em conversa comercia
+l.
+O cliente relata náusea, tontura ou algo
+diferente; qual a conduta?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 6
+vezes • Ativo
+Náusea e tontura podem ocorrer no início, mas não diagnostique nem indique tratament
+o. Pergunte brevemente como o paciente está. Qualquer sintoma persistente, intenso, for
+a do normal ou que o preocupe não pode ser conduzido neste atendimento. Em situação
+não emergencial, pergunte se quer receber o canal de suporte; se aceitar, compartilhe o c
+anal uma vez. Em emergência ou risco imediato, oriente ligar para o 911.
+Se o cliente esqueceu, atrasou ou aplicou
+fora do dia, o que respondo?
+Criado em Jul 2, 2026,
+07:29 PM • Usado 9
+vezes • Ativo
+Não oriente aplicar agora, esperar, repetir, pular, compensar nem alterar quantidade. Expli
+que que essa dúvida não pode ser resolvida neste atendimento. Pergunte se o paciente q
+uer receber o canal de suporte. Se aceitar, envie o canal configurado uma vez.
+13/07/2026, 16:55 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/519d5f46-ef91-4272-90ae-66266e82910c 4/5
+
+--- PAGINA 5 ---
+Informações
+ID da Base
+519d5f46-ef91-4272-90ae-66266e82910c
+Tipo
+Produto
+Tipo de Agente
+Customer Success
+Organização
+Nuestra Rx
+Criado em
+Jul 2, 2026, 07:27 PM
+Última atualização
+Jul 2, 2026, 07:29 PM
+Campanhas em uso
+Onboarding 4 - Mensal
+Onboarding 4 - Trimestral
+Fontes de Conhecimento
+# Texto Complementar — Produto ## Nuestra RX — On...
+13/07/2026, 16:55 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/519d5f46-ef91-4272-90ae-66266e82910c 5/5
+

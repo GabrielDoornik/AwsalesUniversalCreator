@@ -1,0 +1,90 @@
+--- PAGINA 1 ---
+Onboarding - Aguardando aprovação do médico - Nuestra
+Produto14 documentos
+Busca Semântica
+Buscar
+Documentos (14)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Todos Todas as tags
+ Data de criação
+Desc
+¿Cómo debe conservar el paciente elmedicamento al recibirlo?
+Criado em Jun 10, 2026,07:42 PM • Usado 1vez • Ativo
+Debe mantenerse refrigerado entre 2 y 8 °C, sin congelar y protegido de la luz. 1. Indiqueguardar en el refrigerador al recibirlo. 2. Explique que las instrucciones completas de conservación y aplicación llegan con el primer envío. 3. Recalque que el seguimiento de dosisy efectos lo realiza el equipo médico por WhatsApp.
+¿Cuándo se realiza el primer cobro alpaciente?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+El primer cobro ocurre solo después de que el médico aprueba el caso. En el checkout seregistró la tarjeta con $0 hoy. 1. Si el médico aprueba, se cobra el plan elegido y el pedidopasa a la farmacia. 2. Si el médico no aprueba, no hay ningún cobro. 3. Para informar el valor, consulta el monto del plan elegido antes de responder; nunca se cobra antes de la aprobación.
+¿Qué incluye el plan que el pacientereservó?
+Criado em Jun 10, 2026,07:42 PM • Usado 1vez • Ativo
+Incluye la consulta médica, el medicamento compuesto, el envío refrigerado y el seguimiento médico continuo por WhatsApp. 1. Aclare que todo está cubierto en el plan reservado. 2. Reitere que el primer cobro solo ocurre tras la aprobación. 3. No hay copagos sorpresa.
+¿Puede el paciente cancelar mientrasespera la revisión o el envío?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Sí. 1. Verifique si el medicamento ya fue enviado; si no, cancele sin costo y sin cobro previo. 2. Si ya se envió, ese mes no es reembolsable por regulación FDA de compuestos. 3. Ofr
+14/06/2026, 15:14 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/e6ecf399-297e-4244-81c8-ac7e58d05084 1/4
+
+--- PAGINA 2 ---
+ezca pausar hasta 90 días como alternativa. 4. Registre la solicitud y confirme la cancelación al paciente.
+¿Qué debe hacer el paciente ahora trascompletar el checkout?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Nada obligatorio. 1. Explique que su caso está en revisión médica (menos de 24 horas). 2.Tranquilice: ya hizo su parte al reservar. 3. Si desea, puede consultar su portal para seguirel estado, pero no debe subir documentos ni realizar verificaciones en esta campaña.
+¿Cómo accede el paciente al portal paraseguir su pedido?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+El paciente entra a su portal con el enlace que recibió al finalizar el checkout por correo yWhatsApp. 1. Pídale que abra ese mensaje y toque el enlace. 2. Accede con el mismo correo usado en el checkout. 3. Si no lo encuentra, pídale revisar spam o promociones y confirmar su correo. En el portal verá el estado de la revisión médica y del envío en tiempo real.Si aun así no logra entrar, escala a soporte para reenviarle el acceso.
+¿Puede el paciente pausar su suscripción ypor cuánto tiempo?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Sí, puede pausarla hasta 90 días sin perder su lugar. 1. Confirme la próxima fecha de renovación. 2. Aplique la pausa y comunique la nueva fecha de reactivación. 3. Aclare que paraevitar el próximo cobro debe gestionarse con al menos 7 días de anticipación.
+¿En cuánto tiempo llega el medicamentotras la aprobación?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Una vez aprobado por el médico, la farmacia 503A compone y envía el medicamento refrigerado en 3 a 5 días hábiles. 1. El plazo cuenta desde la aprobación, no desde el checkout. 2. El envío es gratis y con rastreo en tiempo real en el portal. 3. Evite prometer fecha exacta, ya que depende de la logística y la composición.
+¿Quiénes participan en el proceso deatención del paciente?
+Criado em Jun 10, 2026,07:42 PM • Usado 1vez • Ativo
+NuestraRx es la plataforma de telemedicina en español que coordina el proceso. Los médicos licenciados de Beluga Health revisan y aprueban los casos. Las farmacias 503A componen y envían el medicamento. NuestraRx no es farmacia ni proveedor de salud.
+¿Qué sucede si el médico no aprueba elcaso del paciente?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Si el médico determina que el tratamiento no es apropiado, no se realiza ningún cobro y se informa el motivo al paciente. 1. Aclare que la aprobación depende del criterio clínico. 2.Tranquilice indicando que no perderá dinero por intentarlo. 3. Oriente a revisar el portal para ver la resolución cuando esté disponible.
+¿Cómo evita el paciente el próximo cobrode renovación?
+14/06/2026, 15:14 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/e6ecf399-297e-4244-81c8-ac7e58d05084 2/4
+
+--- PAGINA 3 ---
+Informações
+ID da Base
+e6ecf399-297e-4244-81c8-ac7e58d05084
+Tipo
+Produto
+Tipo de Agente
+Customer Success
+Organização
+Nuestra Rx
+Criado em
+Jun 10, 2026, 07:41 PM
+Última atualização
+Jun 10, 2026, 07:42 PM
+Campanha em uso
+Nuestra Rx - Onboarding Pós-Pagamento (Aguardando Médico)
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Debe solicitar la cancelación o pausa al menos 7 días antes de la fecha de renovación. 1. Verifique la fecha exacta en el portal. 2. Procese la solicitud y confirme por correo o WhatsApp. 3. Informe que, si ya se envió el compuesto, ese ciclo no es reembolsable.
+¿Cómo sabrá el paciente que su caso fueaprobado?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Le avisaremos por WhatsApp y por correo cuando haya novedades y, además, puede verel estado en su portal en cualquier momento. 1. Pida que esté atento a esas notificaciones. 2. Si no las ve, confirme su correo y teléfono y oriente a revisar el portal. 3. Recalque que no necesita hacer nada hasta recibir el aviso.
+¿Qué debe hacerse si el medicamentollega dañado o sin cadena de frío?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Se repone sin costo si se reporta dentro de 48 horas de la entrega. 1. Pida fotos del empaque y del pack de frío si es posible. 2. Registre el incidente y verifique el número de pedido. 3. Gestione el reenvío prioritario y confirme al paciente los próximos pasos.
+¿Cuál es la política de reembolso si elmedicamento no se ha enviado?
+Criado em Jun 10,2026, 07:42 PM• Usado 0vezes • Ativo
+Hay reembolso total dentro de 14 días posteriores al pago si el medicamento aún no fueenviado. 1. Confirme la fecha de pago y el estado del envío. 2. Procese el reembolso y envíe confirmación. 3. En planes trimestrales, el reembolso se acredita en 5 a 10 días hábiles.4. Si el médico no aprueba, se reembolsa todo lo pagado.
+14/06/2026, 15:14 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/e6ecf399-297e-4244-81c8-ac7e58d05084 3/4
+
+--- PAGINA 4 ---
+Fontes de Conhecimento
+# Texto Complementario — PRODUCTO (NuestraRx · Onb...
+14/06/2026, 15:14 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/e6ecf399-297e-4244-81c8-ac7e58d05084 4/4
+

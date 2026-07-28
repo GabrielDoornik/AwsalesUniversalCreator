@@ -1,0 +1,172 @@
+INSUMOS RESERVA — PROTOCOLO DE IMPLANTES + HOF
+Separado para inserção futura após validação do MVP de Lentes de Porcelana
+Base: Scripts SDR, Mensagens de Confirmação, Briefings D'Leon
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+1. FLUXO DE QUALIFICAÇÃO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+FLUXO — PROTOCOLO DE IMPLANTES
+
+Abertura:
+"Olá, {{nome}}! Aqui é a [SDR] da D'Leon. Você se interessou pelo Protocolo de Implantes, certo? Posso te explicar como funciona?"
+
+[SE SIM] → Verificação:
+"Você já conhece o Protocolo? Já chegou a pesquisar alguma coisa sobre implantes?"
+
+Critérios de qualificação:
+- Perdeu dentes ou tem dentes comprometidos? → QUALIFICADO: Sim | DESQUALIFICADO: Não (interesse especulativo)
+- Tem disponibilidade para a consulta de avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Impossível nos próximos meses
+- Busca solução definitiva/fixa? → QUALIFICADO: Sim | DESQUALIFICADO: Prefere removível ou não sabe
+- Disponível para avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+
+[LEAD QUALIFICADO] → Agendar avaliação presencial gratuita
+
+
+────────────────────────────────────────
+
+
+FLUXO — HOF (HARMONIZAÇÃO OROFACIAL)
+
+Abertura:
+"Olá, {{nome}}! Sou da equipe D'Leon. Vi seu interesse em Harmonização Facial. Posso te apresentar o que oferecemos?"
+
+Critérios de qualificação:
+- Quer melhorar contornos faciais ou rejuvenescer? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+- Tem disponibilidade para a consulta de avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Impossível nos próximos meses
+- Tem interesse em preenchedores ou botox? → QUALIFICADO: Sim | DESQUALIFICADO: Medo/recusa total
+- Disponível para consulta? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+
+[LEAD QUALIFICADO] → Agendar avaliação presencial gratuita
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+2. INFORMAÇÕES DOS PRODUTOS
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+PROTOCOLO DE IMPLANTES (Dentes fixos em 24 horas)
+- O que é: Prótese dentária fixa, implantada no mesmo dia da cirurgia
+- Indicação: Pacientes que perderam todos ou vários dentes
+- Diferenciais:
+  - Dentes fixos em 24 horas
+  - Durabilidade: +20 anos
+  - Alta satisfação mastigatória
+  - Sorriso com segurança
+- Processo: 3 consultas | Cicatrização: 6 meses (unitário) / 12 meses (protocolo)
+- Preço:
+  - Protocolo completo: R$ 9.990,00 à vista (de ~R$ 17.500,00)
+  - Implante unitário: R$ 2.500,00
+- Parcelamento:
+  - Máximo 20 parcelas
+  - Entrada de R$ 2.390,00
+  - Parcela de R$ 590,00
+  - Formas de pagamento: cartão, cheque e boleto
+  - Em caso de não ter a entrada ou optar por mais parcelas, a negociação é na clínica.
+
+
+────────────────────────────────────────
+
+
+HARMONIZAÇÃO OROFACIAL (HOF)
+- O que é: Conjunto de técnicas estéticas (ácido hialurônico, Botox, Fios de PDO)
+- Indicação: Quem busca rejuvenescimento, contornos faciais, autoestima elevada
+- Diferenciais:
+  - Resultado durável até 18 meses
+  - Apenas 2 consultas (aplicação + retoque)
+  - Combate envelhecimento precoce
+- Preço:
+  - Preenchedor 1ml: R$ 790,00 (de R$ 1.400,00)
+  - Combo (4ml + Botox): R$ 800 entrada + 12x R$ 220,83
+- Parcelamento:
+  - Máximo 12 vezes
+  - Entrada de R$ 800,00
+  - Parcela de R$ 262,50
+  - Formas de pagamento: cartão, cheque e boleto
+  - Em caso de não ter a entrada ou optar por mais parcelas, a negociação é na clínica.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+3. FAQ — PERGUNTAS FREQUENTES
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+PROTOCOLO DE IMPLANTES
+P: Fico sem dente? R: Não. Dentes fixos no mesmo dia da cirurgia.
+P: Cicatrização? R: 6 meses (unitário) / 12 meses (protocolo).
+P: Quantas consultas? R: 3 consultas.
+P: Posso parcelar? R: Sim, até 20 vezes. Entrada de R$ 2.390,00 e parcelas de R$ 590,00. Formas: cartão, cheque ou boleto.
+
+
+HOF
+P: Dói? R: Desconforto mínimo.
+P: Quanto dura? R: Até 18 meses.
+P: Quantas sessões? R: 2 consultas.
+P: É seguro? R: Sim, técnicas aprovadas por especialistas.
+P: Posso parcelar? R: Sim, em até 12 vezes. Entrada de R$ 800,00 e parcelas de R$ 262,50. Formas: cartão, cheque ou boleto.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+4. TEMPLATES DE ABERTURA + FOLLOW-UPS
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+ABERTURA — PROTOCOLO
+"Olá {{nome}}! Aqui é a Fran da D'Leon. Vi seu interesse no Protocolo de Implantes. Posso te contar como funciona dentes fixos no mesmo dia?"
+
+ABERTURA — HOF
+"Oi {{nome}}! Aqui é a Fran da D'Leon. Vi que você se interessou em Harmonização Facial. Posso te apresentar as opções?"
+
+(Follow-ups, confirmação e resgate: mesma estrutura do fluxo de Lentes — adaptar nome do procedimento)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+5. PROVAS SOCIAIS
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+PROTOCOLO DE IMPLANTES (3 imagens)
+https://drive.google.com/uc?id=1Gw-v5eodDULIr9bcfi-NuIC7nbyO0Yrn
+https://drive.google.com/uc?id=1hz5DxeK-bjHFx_liNu1c_qk3-IEeYpiY
+https://drive.google.com/uc?id=1UhJT34P6krQC30UZNHTqbOWaNevjMEsU
+
+
+HARMONIZAÇÃO OROFACIAL — HOF (9 imagens)
+https://drive.google.com/uc?id=1j0-0HYG4OAUnH5-_gM55rTX64g8JPx7J
+https://drive.google.com/uc?id=17WWO3SBVfxuEWVJ5V0hIfacgWu9l_0tB
+https://drive.google.com/uc?id=1FVR9ltGViVP97ztsWELxx0G_NjHBeOR6
+https://drive.google.com/uc?id=1G8whe5lHDTOgQG-trWjvizCtWf3ikmdJ
+https://drive.google.com/uc?id=17fbpbnK5MEEyToTWxB9S_pk4s5XuS4Ol
+https://drive.google.com/uc?id=14e7jq2wQ1o_hc3-2sYRoiq89UKWWFL4-
+https://drive.google.com/uc?id=14o0CijnMDuZuJofvxhegMG-8L6EfoSzj
+https://drive.google.com/uc?id=1_H2oD3SAFgYs-i_0xEbM9LK78yrFpeb6
+https://drive.google.com/uc?id=17_4WJmV8fzB6PoO6-7P5rnDETxOgT5sA
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+NOTA: Dados da clínica, profissionais, contraindicações e informações gerais
+já constam no insumo principal de Lentes e são compartilhados entre todos os procedimentos.

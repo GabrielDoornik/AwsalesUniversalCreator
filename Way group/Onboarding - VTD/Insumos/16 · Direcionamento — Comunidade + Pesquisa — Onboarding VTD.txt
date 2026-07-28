@@ -1,0 +1,32 @@
+6. DIRECIONAMENTO DO LEAD — Comunidade + Pesquisa
+Objetivo: depois que o aluno logou e assistiu a(s) primeira(s) aula(s), a IA (1) planta pertencimento puxando-o para a comunidade (quem entra no grupo assiste mais) e (2) coleta dados de segmentação via pesquisa, alimentando a escada de valor (VTD → FAS → Starter → Scale) no padrão de qualificação por capital da WayGroup.
+6.1 Convite para a comunidade (copy)
+Momento certo: logo depois da 1ª micro-vitória (cliente confirmou que assistiu a 1ª aula) — não antes. (A copy principal está em VTD_ONB_13.)
+Reforço (1 dia depois, para quem não entrou):
+Dentro do grupo você vai ver gente que começou exatamente como você — do zero, com pouco capital — e já tá vendendo. É o melhor lugar pra não travar. Se ainda não entrou: {link_comunidade} 👊
+Se por plataforma específica:
+O acesso é rapidinho: clica em {link_comunidade} e toca em "Entrar no grupo". Qualquer coisa me chama que eu te ajudo.✅ Confirmado (2026-07-08): o grupo existe e é no WhatsApp. Link de convite: https://chat.whatsapp.com/LXuwGevglH99BoJ00XNTAn?s=cl&p=i&ilr=1 — forma de entrada: clicar no link e confirmar "Entrar no grupo". Moderação: [A DEFINIR: quem modera o grupo].
+6.2 Formulário de pesquisa pós-onboarding
+Uso: enviado após o aluno assistir as primeiras aulas, enquadrado como "me conta um pouco de você pra eu te indicar o melhor próximo passo" — nunca cadastro burocrático. A pergunta de capital (Q6) usa exatamente as faixas oficiais da qualificação WayGroup.
+📌 A confirmar: hoje não há pesquisa mapeada. É um formulário novo, pronto para criar (sugestão: YayForms, padrão do funil SE). Link do formulário: {link_pesquisa} — [A DEFINIR: link do YayForms após o Lucas criar].
+Frase de abertura: (em VTD_ONB_14).
+Perguntas (10 — resposta única salvo indicado):
+Q1. Você já conseguiu entrar e começar a assistir? (mede sucesso do onboarding) ( ) Já entrei e assisti a 1ª aula · ( ) Entrei mas ainda não assisti · ( ) Ainda não consegui entrar (→ resgate/handoff gatilho 2)
+Q2. Qual seu momento hoje com a Amazon? ( ) Nunca vendi nada online · ( ) Já vendi em outro lugar (ML, Shopee, Insta), nunca na Amazon · ( ) Já vendo na Amazon, quero estruturar/escalar
+Q3. Você já tentou algum negócio digital antes? ( ) Nunca tentei · ( ) Já tentei dropshipping/infoproduto e não funcionou · ( ) Já tenho/tive negócio próprio
+Q4. O que mais te trouxe pro VTD? (desejo dominante) ( ) Sair do CLT · ( ) Renda que não depende de mim aparecer · ( ) Tenho capital parado e quero investir com segurança · ( ) Diversificar minha renda
+Q5. Qual sua maior dificuldade pra começar AGORA? ( ) Não sei por onde começar · ( ) Acho que preciso de muito dinheiro · ( ) Medo de errar na escolha do produto · ( ) Burocracia (CPF x CNPJ) · ( ) Medo de fazer sozinho sem suporte
+Q6. Quanto teria disponível pra investir nos próximos meses? (QUALIFICAÇÃO-CHAVE — faixas oficiais) ( ) Até R$2 mil (base VTD / nutrição) · ( ) R$2–5 mil (FAS — Lead_2K) · ( ) R$5–10 mil (Starter — MQL1) · ( ) R$10–25 mil (Scale — MQL2) · ( ) R$25–100 mil (Scale — MQL2) · ( ) +R$100 mil (Scale — MQL2, prioridade máxima)
+Q7. Em quanto tempo quer começar pra valer? ( ) O quanto antes · ( ) Nos próximos 1–3 meses · ( ) Só estudando / sem pressa
+Q8. Quanto tempo por semana consegue dedicar? ( ) Menos de 5h · ( ) 5h a 15h · ( ) Mais de 15h / integral
+Q9. Qual objetivo de renda faz valer a pena? (ambição → sinal de Scale) ( ) Renda extra · ( ) Substituir meu salário · ( ) Negócio que fature alto / principal fonte
+Q10. Se existisse um caminho com acompanhamento de perto, gostaria de saber mais? (consentimento de ponte) ( ) Sim, quando fizer sentido · ( ) Talvez mais pra frente · ( ) Por enquanto só quero focar nas aulas
+6.3 Como a pesquisa aciona a escada de valor (regra de segmentação)
+⚠️ Escopo da IA na ponte — a definir com o Lucas: a IA planta e captura o consentimento (Q10), mas até onde vai (só sinalizar? ofertar FAS? gatilho e formato do handoff?) precisa ser confirmado. Nas primeiras 48h: ativação primeiro, venda nunca.
+Sinal | Leitura | Próximo passo da IA
+Q1 = "ainda não consegui entrar" | Onboarding falhou | Resgate de acesso → handoff gatilho 2. Não enviar pesquisa completa até logar.
+Q6 = até R$2k | Sem capital ainda | Nutrição VTD; foco em ativação, sem ponte.
+Q6 = R$2–5k (Lead_2K) | Fit FAS (R$2k) | Plantar FAS quando completar aulas de produto.
+Q6 = R$5–10k (MQL1) | Fit Starter (R$5k) | Ponte soft para Starter; sinalizar comercial.
+Q6 = R$10k+ (MQL2) + Q9 = negócio/substituir + Q10 = "sim" | Lead quente Scale | Prioridade — handoff qualificado ao comercial.
+Q5 = "medo de fazer sozinho" ou Q9 = "negócio principal" | Dor que a mentoria resolve | Gatilho emocional para a ponte.

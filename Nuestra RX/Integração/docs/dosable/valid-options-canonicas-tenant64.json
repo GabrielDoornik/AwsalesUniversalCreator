@@ -1,0 +1,361 @@
+{
+  "_meta": {
+    "title": "NuestraRx <-> Dosable - valid_options canonicas (tenant 64 Weightloss)",
+    "purpose": "Mapa fechado das perguntas de opcao do questionario Dosable. Cada radio/checkbox/consent SO aceita as strings exatas listadas em valid_options[].value. Use para a IA do WhatsApp normalizar a fala do lead -> string exata antes de chamar /ai-handoff.",
+    "source": "public/dosable-config.js (verificado contra GET /api/dosable/questions/?tenant_id=64) - enviado pelo Willian 2026-06-17",
+    "generated": "2026-06-17",
+    "tenant_id": 64
+  },
+
+  "_contract": {
+    "regra_de_ouro": "Para perguntas de opcao (radio/checkbox/consent) a IA NUNCA deve enviar a fala crua do lead. Deve enviar SOMENTE uma das strings exatas em valid_options[].value (case e pontuacao identicos).",
+    "como_a_ia_deve_decidir": "1) normalize o texto do lead (minusculo, sem acento, sem pontuacao, trim); 2) tente casar com aliases_es / value; 3) se nao houver match confiante, NAO chute: reperguntar ao lead. Se usar LLM, prenda a saida a um enum das chaves (key), nunca texto livre.",
+    "checkbox": "valid_options pode receber MAIS DE UMA opcao -> enviar como array de strings exatas. Se nenhuma se aplica, enviar a opcao 'None'.",
+    "hard_stop": "Opcao marcada is_disqualifying=true reprova o lead. So avance o lead se a resposta NAO for disqualifying.",
+    "formato_no_ai_handoff": "answers: { \"<question_id>\": { \"value\": \"<string exata ou array>\", \"question\": \"<texto da pergunta>\" } }",
+    "nao_normalizamos_no_worker": "O /ai-handoff repassa o value verbatim pro Dosable. Quem valida opcao fechada e o Dosable. As unicas normalizacoes do worker sao telefone (digitos, ultimos 10) e birthday (MM/DD/YYYY)."
+  },
+
+  "questions": [
+    {
+      "question_id": 6403,
+      "key": "sex",
+      "type": "radio",
+      "question_en": "Sex assigned at birth",
+      "required": true,
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "f", "value": "Female", "aliases_es": ["mujer", "femenino", "femenina", "f"] },
+        { "key": "m", "value": "Male", "aliases_es": ["hombre", "masculino", "varon", "m"] }
+      ]
+    },
+    {
+      "question_id": 6404,
+      "key": "pregnancy",
+      "type": "radio",
+      "question_en": "Are you pregnant or breastfeeding?",
+      "branch": "Somente quando sex=Female",
+      "required": true,
+      "hard_stop": true,
+      "valid_options": [
+        { "key": "no", "value": "No", "is_disqualifying": false, "aliases_es": ["no", "no estoy embarazada", "no lactancia", "no doy pecho"] },
+        { "key": "yes", "value": "Yes", "is_disqualifying": true, "aliases_es": ["si", "embarazada", "amamantando", "lactando", "dando pecho"] }
+      ]
+    },
+    {
+      "question_id": 6405,
+      "key": "pregnancyConsent",
+      "type": "consent",
+      "question_en": "Consent (pregnancy) - acknowledge the above information",
+      "branch": "Somente female apos pregnancy=No",
+      "required": true,
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "ack", "value": "I acknowledge that I have read and understood the above information", "aliases_es": ["acepto", "de acuerdo", "entiendo", "si acepto", "confirmo", "ok"] }
+      ]
+    },
+    {
+      "question_id": 6406,
+      "key": "highestWeight",
+      "type": "textarea",
+      "question_en": "Highest weight (lbs)",
+      "free_text": true,
+      "format": "Apenas numero em libras (lbs). Converter kg->lbs se necessario."
+    },
+    {
+      "question_id": 6407,
+      "key": "height",
+      "type": "textarea",
+      "question_en": "Height",
+      "free_text": true,
+      "format": "ESTRITO feet'inches\" ex: 5'10\" . cm precisa ser convertido."
+    },
+    {
+      "question_id": 6408,
+      "key": "weight",
+      "type": "textarea",
+      "question_en": "Current weight (lbs)",
+      "free_text": true,
+      "format": "Apenas numero em libras (lbs)."
+    },
+    {
+      "question_id": 6409,
+      "key": "bmiConsent",
+      "type": "consent",
+      "question_en": "Consent (BMI) - acknowledge the above information",
+      "required": true,
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "ack", "value": "I acknowledge that I have read and understood the above information", "aliases_es": ["acepto", "de acuerdo", "entiendo", "si acepto", "confirmo", "ok"] }
+      ]
+    },
+    {
+      "question_id": 6410,
+      "key": "previousAttempts",
+      "type": "radio",
+      "question_en": "Approach to weight management",
+      "required": true,
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "active", "value": "Actively managing", "aliases_es": ["activamente", "estoy haciendo de todo", "dieta y ejercicio", "muy activo"] },
+        { "key": "some", "value": "Some efforts", "aliases_es": ["algo", "algunos esfuerzos", "dieta", "ejercicio", "suplementos", "intento un poco"] },
+        { "key": "none", "value": "No active efforts", "aliases_es": ["nada", "primera vez", "no he hecho nada", "ningun esfuerzo"] }
+      ]
+    },
+    {
+      "question_id": 6411,
+      "key": "conditions",
+      "type": "checkbox",
+      "question_en": "Do you have any of the following conditions?",
+      "required": true,
+      "hard_stop": true,
+      "note": "Lista completa de opcoes esta na API de questoes do Dosable. A unica opcao nao-disqualifying verificada que usamos e 'None of the above'. Varias condicoes desta lista REPROVAM o lead - na duvida, registre como texto livre em 6400 e use 'None of the above' aqui apenas se realmente nenhuma se aplica.",
+      "valid_options": [
+        { "key": "none", "value": "None of the above", "is_disqualifying": false, "aliases_es": ["ninguna", "no tengo ninguna", "ninguna de las anteriores"] }
+      ]
+    },
+    {
+      "question_id": 6415,
+      "key": "gastricBypass",
+      "type": "radio",
+      "question_en": "Gastric bypass in the past 6 months?",
+      "required": true,
+      "hard_stop": true,
+      "valid_options": [
+        { "key": "no", "value": "No", "is_disqualifying": false, "aliases_es": ["no", "no tuve", "nunca", "no me hice"] },
+        { "key": "yes", "value": "Yes", "is_disqualifying": true, "aliases_es": ["si", "tuve bypass", "me operaron", "cirugia bariatrica reciente"] }
+      ]
+    },
+    {
+      "question_id": 6416,
+      "key": "drugAllergies",
+      "type": "checkbox",
+      "question_en": "Do you have any drug allergies?",
+      "required": true,
+      "hard_stop": true,
+      "note": "Alergia a GLP-1 reprova. Lista completa na API Dosable. Opcao nao-disqualifying verificada: 'None of the above'.",
+      "valid_options": [
+        { "key": "none", "value": "None of the above", "is_disqualifying": false, "aliases_es": ["ninguna", "no tengo alergias", "ninguna de las anteriores"] }
+      ]
+    },
+    {
+      "question_id": 6417,
+      "key": "priorGLP1",
+      "type": "checkbox",
+      "question_en": "GLP-1 medications taken in the past two months",
+      "required": true,
+      "hard_stop": false,
+      "note": "Se != 'None of these', DESBLOQUEIA o branch de historico de dose (6419-6428) que passa a ser OBRIGATORIO.",
+      "valid_options": [
+        { "key": "none", "value": "None of these", "aliases_es": ["ninguno", "nunca tome", "ninguno de estos", "no he usado"] },
+        { "key": "sema", "value": "Semaglutide (Ozempic, Wegovy, Rybelsus)", "aliases_es": ["semaglutida", "ozempic", "wegovy", "rybelsus"] },
+        { "key": "tirz", "value": "Tirzepatide (Zepbound, Mounjaro)", "aliases_es": ["tirzepatida", "zepbound", "mounjaro"] }
+      ]
+    },
+    {
+      "question_id": 6418,
+      "key": "selfInjection",
+      "type": "radio",
+      "question_en": "Are you able to self-inject (or have reliable help)?",
+      "required": true,
+      "hard_stop": true,
+      "note": "EXEMPLO DO BUG REPORTADO: 'No, me asistian en clinica' = tem ajuda confiavel -> mapeia para 'yes', NAO para o texto cru.",
+      "valid_options": [
+        { "key": "yes", "value": "Yes, I can inject myself or have reliable help", "is_disqualifying": false, "aliases_es": ["si", "puedo inyectarme", "tengo ayuda", "me ayuda alguien", "me asisten", "me asistian en clinica", "enfermera me ayuda", "con ayuda"] },
+        { "key": "no", "value": "No, I'd need an oral option instead (Direct to oral formulation or disqualified if not offered)", "is_disqualifying": true, "aliases_es": ["no puedo inyectarme", "no me animo a inyectarme", "necesito pastilla", "opcion oral", "no quiero agujas"] }
+      ]
+    },
+    {
+      "question_id": 6419,
+      "key": "lastDoseTiming",
+      "type": "radio",
+      "question_en": "When did you last take your prescribed weight loss medication?",
+      "branch": "Somente quando priorGLP1 != 'None of these'",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "week", "value": "Within the past week", "aliases_es": ["esta semana", "hace pocos dias", "la semana pasada"] },
+        { "key": "2-4w", "value": "Within the past 2-3 weeks", "aliases_es": ["hace 2 semanas", "hace 3 semanas", "un par de semanas"] },
+        { "key": "over_month", "value": "It has been over a month", "aliases_es": ["hace mas de un mes", "un mes o mas", "hace meses"] }
+      ]
+    },
+    {
+      "question_id": 6420,
+      "key": "doseDecreaseConsent",
+      "type": "radio",
+      "question_en": "Consent: dose reduction after a break",
+      "branch": "Somente quando lastDoseTiming='Within the past 2-3 weeks'",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "accept", "value": "I understand and agree to the dose reduction", "aliases_es": ["acepto", "de acuerdo", "entiendo y acepto"] }
+      ]
+    },
+    {
+      "question_id": 6421,
+      "key": "restartConsent",
+      "type": "radio",
+      "question_en": "Consent: restart at starter dose",
+      "branch": "Somente quando lastDoseTiming='It has been over a month'",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "accept", "value": "I understand and agree to the dose reduction", "aliases_es": ["acepto", "de acuerdo", "entiendo y acepto"] }
+      ]
+    },
+    {
+      "question_id": 6422,
+      "key": "lastDoseDate",
+      "type": "textarea",
+      "question_en": "Approximate date of your last dose",
+      "branch": "Branch GLP-1",
+      "free_text": true
+    },
+    {
+      "question_id": 6423,
+      "key": "lastDoseMatch",
+      "type": "radio",
+      "question_en": "Which medication and dose most closely matches your most recent dose?",
+      "branch": "Branch GLP-1",
+      "hard_stop": false,
+      "valid_options": [
+        { "value": "Semaglutide (Ozempic/Wegovy) 0.25mg" },
+        { "value": "Semaglutide (Ozempic/Wegovy) 0.5mg" },
+        { "value": "Semaglutide (Ozempic/Wegovy) 1mg" },
+        { "value": "Semaglutide (Ozempic/Wegovy) 1.5 or 1.7mg" },
+        { "value": "Semaglutide (Ozempic/Wegovy) 2.0mg" },
+        { "value": "Semaglutide (Ozempic/Wegovy) 2.4mg" },
+        { "value": "Tirzepatide (Mounjaro/Zepbound) 2.5mg" },
+        { "value": "Tirzepatide (Mounjaro/Zepbound) 5mg" },
+        { "value": "Tirzepatide (Mounjaro/Zepbound) 7.5mg" },
+        { "value": "Tirzepatide (Mounjaro/Zepbound) 10mg" },
+        { "value": "Tirzepatide (Mounjaro/Zepbound) 12.5mg" },
+        { "value": "Tirzepatide (Mounjaro/Zepbound) 15mg" }
+      ]
+    },
+    {
+      "question_id": 6424,
+      "key": "medForm",
+      "type": "radio",
+      "question_en": "Brand name or compounded product?",
+      "branch": "Branch GLP-1",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "brand", "value": "I'm taking a brand name medication", "aliases_es": ["marca", "de marca", "original", "ozempic original"] },
+        { "key": "compound", "value": "I'm taking a compounded product", "aliases_es": ["compuesto", "magistral", "formulado", "de farmacia compuesta"] }
+      ]
+    },
+    {
+      "question_id": 6425,
+      "key": "compoundDetails",
+      "type": "textarea",
+      "question_en": "Compounded medication details",
+      "branch": "Somente quando medForm='compounded'",
+      "free_text": true
+    },
+    {
+      "question_id": 6426,
+      "key": "responseToMed",
+      "type": "radio",
+      "question_en": "How are you responding to your medication?",
+      "branch": "Branch GLP-1",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "no_effect_no_se", "value": "I'm not feeling any effects and have no side effects", "aliases_es": ["no siento efecto y sin efectos secundarios", "nada y sin molestias"] },
+        { "key": "no_effect_se", "value": "I'm not feeling any effects but I'm having side effects", "aliases_es": ["no siento efecto pero tengo efectos secundarios", "nada pero con molestias"] },
+        { "key": "effect_se", "value": "I'm feeling the effects but have side effects", "aliases_es": ["siento efecto pero con efectos secundarios", "funciona pero con molestias"] },
+        { "key": "effect_no_se", "value": "I'm feeling the effects and have no side effects", "aliases_es": ["siento efecto y sin molestias", "funciona bien"] }
+      ]
+    },
+    {
+      "question_id": 6427,
+      "key": "dosePreference",
+      "type": "radio",
+      "question_en": "How would you like to continue your treatment?",
+      "branch": "Branch GLP-1",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "same", "value": "Stay at the same or closest equivalent dose", "aliases_es": ["misma dosis", "mantener", "igual"] },
+        { "key": "increase", "value": "Increase the dose if possible, or continue current if already at maximum", "aliases_es": ["subir dosis", "aumentar", "mas dosis"] },
+        { "key": "decrease", "value": "Decrease my dose", "aliases_es": ["bajar dosis", "disminuir", "menos dosis"] }
+      ]
+    },
+    {
+      "question_id": 6428,
+      "key": "rxInfoConsent",
+      "type": "radio",
+      "question_en": "Do you have your prescription/dose information?",
+      "branch": "Branch GLP-1",
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "have", "value": "Yes I have this information", "aliases_es": ["si tengo", "tengo la receta", "tengo la informacion"] },
+        { "key": "none_ok_restart", "value": "I don't have this information and I'm okay restarting", "aliases_es": ["no tengo", "no la tengo pero esta bien reiniciar", "ok reiniciar"] }
+      ]
+    },
+    {
+      "question_id": 6430,
+      "key": "doctorNotes",
+      "type": "textarea",
+      "question_en": "Verification photos and additive notes / doctor notes",
+      "free_text": true,
+      "note": "Links de fotos de verificacao e notas adicionais vao aqui."
+    },
+    {
+      "question_id": 6431,
+      "key": "individualizedConsent",
+      "type": "consent",
+      "question_en": "Consent (Individualized Medication Treatment)",
+      "required": true,
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "yes", "value": "I have read and understand the above information and I do consent and wish to move forward with this treatment plan", "aliases_es": ["acepto", "consiento", "de acuerdo", "si quiero continuar"] }
+      ]
+    },
+    {
+      "question_id": 6432,
+      "key": "truthfulnessConsent",
+      "type": "consent",
+      "question_en": "Consent (Truthfulness)",
+      "required": true,
+      "hard_stop": false,
+      "valid_options": [
+        { "key": "yes", "value": "I have read the above information and I do consent and wish to move forward", "aliases_es": ["acepto", "confirmo que es verdad", "de acuerdo", "si"] }
+      ]
+    },
+    {
+      "question_id": 6433,
+      "key": "finalConsent",
+      "type": "radio",
+      "question_en": "Final consent (GLP-1 indication / risk)",
+      "required": true,
+      "hard_stop": false,
+      "note": "completeSession do /ai-handoff costuma anexar este consent final automaticamente; mesmo assim a string exata esta abaixo.",
+      "valid_options": [
+        { "key": "yes", "value": "I have read and understand the above information and I wish to continue", "aliases_es": ["acepto", "deseo continuar", "si continuar"] },
+        { "key": "no", "value": "I have read the above information and I do not wish to continue", "is_disqualifying": true, "aliases_es": ["no deseo continuar", "no quiero seguir"] }
+      ]
+    },
+
+    {
+      "question_id": 6400,
+      "key": "medicalConditions",
+      "type": "textarea",
+      "question_en": "Medical conditions",
+      "free_text": true,
+      "default_if_missing": "None reported"
+    },
+    {
+      "question_id": 6401,
+      "key": "currentMeds",
+      "type": "textarea",
+      "question_en": "Current medications",
+      "free_text": true,
+      "default_if_missing": "None reported"
+    },
+    {
+      "question_id": 6402,
+      "key": "knownAllergies",
+      "type": "textarea",
+      "question_en": "Known allergies",
+      "free_text": true,
+      "default_if_missing": "None reported"
+    }
+  ]
+}

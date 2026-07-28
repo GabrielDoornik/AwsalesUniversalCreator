@@ -1,0 +1,114 @@
+--- PAGINA 1 ---
+MG Capital | Refinanciamento de Contrato INSS | Recuperação
+Produto20 documentos
+Busca Semântica
+Buscar
+Documentos (20)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Ativos Todas as tags
+ Data de criação
+Desc
+Posso negociar, recalcular ou simularoutros valores para a pessoa?
+Criado em Jun 3, 2026,04:06 PM • Usado 3vezes • Ativo
+Não. A oferta é fixa e pré-aprovada no CRM, já com valor, parcela e condições definidas. Seu papel é apresentar a proposta exatamente como veio, esclarecer dúvidas, quebrar objeções e conduzir à formalização, sem simular nem recalcular.
+Como explico para a pessoa o que éanuência/biometria no Meu INSS?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+É a confirmação que ela faz no aplicativo Meu INSS, usando o reconhecimento facial paraautorizar o contrato. É uma camada de segurança que garante que nada seja feito sem aautorização dela. Sem essa anuência, o banco não libera o crédito.
+A parcela da pessoa vai aumentar?
+Criado em Jun 3, 2026,04:06 PM • Usado 4vezes • Ativo
+Não. A parcela continua exatamente a mesma que ela já paga hoje. O que muda é apenaso prazo, que volta a ficar mais longo, e é isso que libera o troco para a pessoa. O desconto segue automático no benefício, sem boletos.
+Existe carência ou espera de 90 dias para apessoa receber?
+Criado em Jun 3, 2026,04:06 PM • Usado 3vezes • Ativo
+No refinanciamento não há os 90 dias da concessão, pois o contrato já existe. Pode havercarência conforme a tabela do banco para o refin, mas isso já vem refletido na proposta.Após a liberação, o crédito costuma cair em até 24 horas úteis.
+Qual é o prazo máximo do contrato dapessoa e como é definido?
+25/06/2026, 18:22 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/5e0015db-2b4f-4dc7-b781-549cd51fd52b 1/5
+
+--- PAGINA 2 ---
+Criado em Jun 3, 2026,04:06 PM • Usado 2vezes • Ativo
+O prazo pode chegar a 108 meses, conforme regras do INSS e política do banco. No refinanciamento, o prazo volta ao original cheio, e isso é o que libera o troco. O prazo exato jáestá indicado na proposta pré-aprovada do CRM.
+Qual é o nome do produto e a promessacentral que devo apresentar para apessoa?
+Criado em Jun 3,2026, 04:06 PM• Usado 14vezes • Ativo
+É o Refinanciamento de Contrato INSS da MG Capital Tech. A promessa é manter exatamente a mesma parcela que a pessoa já paga hoje, restabelecer o prazo para até 108 mesese liberar um troco na conta, com desconto automático no benefício e sem boletos. A proposta já vem pré-aprovada no CRM com valor, parcela e condições, pronta para formalizar,sem negociação.
+Quais dados institucionais posso citar paradar confiança à pessoa?
+Criado em Jun 3, 2026,04:06 PM • Usado 2vezes • Ativo
+MG Capital Tech Ltda, CNPJ 37.802.440/0001-72, sede na Avenida Senador Feijó, 14, 6º andar, Centro, Santos/SP. Instagram @mgcapitaloficial e câmera ao vivo em cam.mgcapitalpromotora.com.br. Atuamos como correspondente bancário com operação nacional via WhatsApp.
+Em quais situações devo transferir apessoa para um humano imediatamente?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+Se ela aceitar e não conseguir formalizar, não fizer o desbloqueio ou a anuência/biometria no Meu INSS, tiver dificuldade com celular, pedir explicitamente um humano, demonstrar forte desconfiança que você não consiga contornar ou trazer dúvida fora do escopo dorefinanciamento. Transfira com contexto e sem insistência.
+Como provo para a pessoa que é seguro enão é golpe?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+Mostre provas reais: câmera ao vivo da operação em cam.mgcapitalpromotora.com.br, avaliações no Google e Instagram @mgcapitaloficial com postagens diárias. Reforce que elanão fornece senha bancária e que a confirmação final é feita por ela via link oficial e biometria no Meu INSS. A empresa é registrada e atua nacionalmente.
+Quais bancos parceiros atendem estaproposta para a pessoa?
+Criado em Jun 3, 2026,04:06 PM • Usado 4vezes • Ativo
+Trabalhamos com Facta, Daycoval, C6 e Banco Pan. A proposta da pessoa já chega do CRM com o banco definido, incluindo valor liberado, parcela e link do contrato. Não trocamos de banco nem alteramos condições, pois a oferta é fixa e pré-aprovada.
+Preciso consultar SPC/Serasa da pessoa?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+Não. O crédito consignado é baseado no benefício do INSS, com desconto em folha, e não depende de consulta a restrições no SPC/Serasa para a operação de refinanciamento.
+25/06/2026, 18:22 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/5e0015db-2b4f-4dc7-b781-549cd51fd52b 2/5
+
+--- PAGINA 3 ---
+Quais informações a pessoa precisafornecer para formalizar?
+Criado em Jun 3, 2026,04:06 PM • Usado 4vezes • Ativo
+Ela acessa o link oficial do contrato enviado pelo CRM, confere os dados e aceita. No appMeu INSS, faz a biometria e, se necessário, o desbloqueio do benefício para permitir a averbação. Não pedimos senha de banco nem códigos por WhatsApp. Os demais dados já constam na proposta pré-aprovada.
+Em quanto tempo o dinheiro cai para apessoa após assinar?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+Após a confirmação/assinatura e a liberação do banco, normalmente cai em até 24 horasúteis na conta da pessoa. O fluxo é: confirmação pelo link do CRM, desbloqueio e anuência no Meu INSS, averbação e liberação pelo banco. Acompanhe e, se travar, acione o humano.
+Quais são as etapas que a pessoa vaipassar até o dinheiro cair?
+Criado em Jun 3, 2026,04:06 PM • Usado 2vezes • Ativo
+Você envia o link do contrato do CRM e ela confirma. Em seguida faz o desbloqueio no Meu INSS, ocorre a averbação pelo INSS, a anuência/biometria para autorizar e, por fim, a liberação pelo banco. Com tudo ok, o valor costuma cair em até 24 horas úteis.
+Onde a pessoa recebe o dinheiro e comoela paga as parcelas?
+Criado em Jun 3, 2026,04:06 PM • Usado 3vezes • Ativo
+O banco deposita o troco na conta da pessoa após a liberação. As parcelas continuam sendo pagas por desconto automático direto no benefício do INSS, sem emissão de boleto esem alteração do valor da parcela.
+O que faço se a pessoa aceitar, mas nãoconseguir formalizar sozinha?
+Criado em Jun 3, 2026,04:06 PM • Usado 0vezes • Ativo
+Tranquilize a pessoa, avise que um especialista vai ajudar e faça a transferência imediatamente, sem insistir. Encaminhe com o contexto completo ao backoffice (Jordy ou Lucas Gonçalves) pelo escalonamento operacional no +55 13 99184-7446. Nunca deixe cliente quente travado na formalização.
+A pessoa pode quitar antes? Comoexplico?
+Criado em Jun 3, 2026,04:06 PM • Usado 4vezes • Ativo
+Pode sim. A quitação antecipada é permitida e, ao antecipar, a pessoa recebe desconto proporcional dos juros futuros. É uma opção flexível para reduzir o custo total caso ela queira encerrar antes.
+Como explico de forma simples para apessoa como funciona o refinanciamento?
+Criado em Jun 3, 2026,04:06 PM • Usado 5vezes • Ativo
+O banco renova o contrato consignado que ela já tem, volta o prazo ao cheio e libera umdinheiro extra agora. A parcela permanece igual à atual; o que muda é só o prazo. Se hou
+25/06/2026, 18:22 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/5e0015db-2b4f-4dc7-b781-549cd51fd52b 3/5
+
+--- PAGINA 4 ---
+Informações
+ID da Base
+5e0015db-2b4f-4dc7-b781-549cd51fd52b
+Tipo
+Produto
+Tipo de Agente
+Recuperação de vendas
+Organização
+MGCapital
+Criado em
+Jun 3, 2026, 04:05 PM
+Última atualização
+Jun 3, 2026, 04:06 PM
+Campanhas em uso
+MG Capital | Refinanciamento de Contrato INSS | APAGAR
+MG Capital | Refinanciamento de Contrato INSS | Recuperação de Vendas | Aniquil…
+Fontes de Conhecimento
+INSUMO 5 — FAQ (Perguntas Frequentes) É seguro? Co...
+MG CAPITAL TECH BASE DE CONHECIMENTO — AGENTE DE I...
+ver mais de um contrato no mesmo benefício, o banco unifica em um só. Em benefícios diferentes, os contratos seguem separados. O pagamento continua descontado direto do INSS.
+Qual base legal e regras do INSS possocitar para a pessoa?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+O refinanciamento segue a Lei nº 15.327/2026 e a IN PRES/INSS nº 204/2026. O prazo pode ir até 108 meses e a margem consignável é de até 40% do benefício. O pagamento é por desconto em folha, com segurança e autorização da própria pessoa pelo Meu INSS.
+A pessoa vai ficar com duas dívidas?
+Criado em Jun 3, 2026,04:06 PM • Usado 1vez • Ativo
+Não. No refinanciamento, o banco renova o contrato atual em um novo contrato único. Se a pessoa tiver mais de um contrato no mesmo benefício, o banco junta em um só. Se forem benefícios diferentes, os contratos seguem separados, mas cada um pode ser refinanciado.
+25/06/2026, 18:22 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/5e0015db-2b4f-4dc7-b781-549cd51fd52b 4/5
+
+--- PAGINA 5 ---
+25/06/2026, 18:22 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/5e0015db-2b4f-4dc7-b781-549cd51fd52b 5/5
+

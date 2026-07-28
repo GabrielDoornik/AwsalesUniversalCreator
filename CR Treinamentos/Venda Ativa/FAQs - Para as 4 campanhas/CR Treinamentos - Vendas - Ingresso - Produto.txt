@@ -1,0 +1,158 @@
+--- PAGINA 1 ---
+CR Treinamentos - Vendas - Ingresso
+Produto15 documentos Editar
+Busca Semântica
+Buscar
+Documentos (15)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Ativos Todas as tags
+ Data de criação
+Desc
+O que exatamente está incluso no produto
+e qual a duração do acesso?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 454
+vezes • Ativo
+Não informado nesta página. Os entregáveis e o tempo de acesso não são detalhados no
+checkout; é necessário consultar a página de vendas oficial ou o suporte.
+Qual o preço e as condições de
+pagamento?
+Criado em Apr 27,
+2026, 01:45 PM• Usado
+1048 vezes• Ativo
+A compra de A RUPTURA custa R$ 37,00. O pagamento pode ser feito por Cartão ou PIX,
+com opção de parcelamento; o valor parcelado pode ter acréscimo, informado no checko
+ut antes de concluir.
+Quais formas de pagamento estão
+disponíveis e há boleto?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 477
+vezes • Ativo
+28/04/2026, 15:54 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/597e1d21-f12e-4d47-987b-bc89c39920aa 1/4
+
+--- PAGINA 2 ---
+A página apresenta Cartão e PIX como meios de pagamento. Não há indicação de boleto
+nesta tela de checkout.
+Quando e como o acesso ao conteúdo é
+liberado após o pagamento?
+Criado em Apr 27,
+2026, 01:45 PM• Usado
+1815 vezes• Ativo
+Não informado nesta página. O checkout não especifica prazo de liberação ou instruções
+de acesso; oriente a pessoa a acompanhar o e-mail usado na compra ou contatar o supor
+te.
+Há garantia ou política de reembolso
+especificada?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 422
+vezes • Ativo
+Não há informação de garantia ou reembolso nesta página de checkout. Para detalhes, re
+comenda-se verificar os Termos de Uso e a Política de Privacidade vinculados.
+Pessoas fora do Brasil conseguem
+comprar? Em que moeda será cobrado?
+Criado em Apr 27,
+2026, 01:45 PM • Usado 71
+vezes • Ativo
+Sim. O formulário aceita números de telefone de vários países e há a opção “Não sou bras
+ileiro”. A cobrança apresentada no checkout está em reais (BRL).
+É possível salvar os dados do cartão para
+compras futuras?
+Criado em Apr 27,
+2026, 01:45 PM • Usado 38
+vezes • Ativo
+Sim. O checkout exibe a opção de salvar dados com segurança ao informar o cartão, fican
+do a critério da pessoa marcar ou não.
+Qual é o nome do produto e qual a
+promessa central que a pessoa recebe?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 963
+vezes • Ativo
+O produto se chama A RUPTURA. A promessa apresentada na página é ajudar a pessoa a
+romper a interferência que faz ela voltar sempre para o mesmo lugar.
+É possível usar cupom ou código
+promocional no checkout?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 123
+vezes • Ativo
+28/04/2026, 15:54 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/597e1d21-f12e-4d47-987b-bc89c39920aa 2/4
+
+--- PAGINA 3 ---
+Há um botão “Aplicar” visível na tela, mas a página não esclarece sua função. Se a pessoa
+tiver um código, oriente tentar inseri-lo nessa área ou solicitar suporte.
+Quem processa o pagamento e quem é o
+responsável pela oferta?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 563
+vezes • Ativo
+O pedido é processado pela Assiny em nome de Paulo Aguiar. No ato da compra, a pesso
+a concorda que a Assiny processa o pedido e aceita os Termos de Uso e a Política de Priva
+cidade.
+Quais informações do cartão são exigidas
+no pagamento por Cartão?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 203
+vezes • Ativo
+São solicitados número do cartão, validade, CVV e nome do titular igual ao da compra.
+Quais dados a pessoa precisa informar
+para concluir a compra?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 264
+vezes • Ativo
+São solicitados e-mail, nome completo, telefone com código do país e CPF/CNPJ para bra
+sileiros. Há a opção “Não sou brasileiro” para quem não possui CPF.
+É possível parcelar a compra? Como
+funcionam os juros e as parcelas?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 433
+vezes • Ativo
+Sim, o checkout permite escolher o número de parcelas. A plataforma informa que o valor
+parcelado pode possuir acréscimo; o total e as parcelas são exibidos na tela antes de pag
+ar.
+Como a pessoa entra em contato caso
+precise de ajuda com a compra?
+Criado em Apr 27,
+2026, 01:45 PM• Usado
+1003 vezes• Ativo
+A página oferece a opção “Precisa de ajuda? Entre em contato”. O canal específico não é
+detalhado ali, então a orientação é usar esse link na própria tela de checkout.
+O site é seguro? Quais proteções são
+oferecidas na compra?
+Criado em Apr 27,
+2026, 01:45 PM• Usado 411
+vezes • Ativo
+28/04/2026, 15:54 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/597e1d21-f12e-4d47-987b-bc89c39920aa 3/4
+
+--- PAGINA 4 ---
+Informações
+ID da Base
+597e1d21-f12e-4d47-987b-bc89c39920aa
+Tipo
+Produto
+Tipo de Agente
+Recuperação de vendas
+Organização
+CR Treinamentos
+Criado em
+Apr 27, 2026, 01:44 PM
+Última atualização
+Apr 27, 2026, 01:45 PM
+Campanhas em uso
+CR Treinamentos - Venda Ativa - A Ruptura
+CR Treinamentos - Recuperação de Vendas - Ingresso
+Fontes de Conhecimento
+https://pay.assiny.com.br/0a45a9/node/I5o9bP
+https://claude.ai/public/artifacts/2e322666-b27f-4dfa-8ee6-bd0d6af2ff65
+Sim. A página exibe selo de site verificado e 100% seguro, é protegida pelo Google reCAP
+TCHA e opera sob a plataforma Assiny. Há opção de salvar dados com segurança e links d
+e Termos e Privacidade.
+28/04/2026, 15:54 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/597e1d21-f12e-4d47-987b-bc89c39920aa 4/4
+

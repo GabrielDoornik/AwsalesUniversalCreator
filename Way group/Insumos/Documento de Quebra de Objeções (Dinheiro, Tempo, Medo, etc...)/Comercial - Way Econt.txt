@@ -1,0 +1,586 @@
+﻿Fluxo de mensagens
+Fluxo de mensagens SDR Cada mensagem será enviada após 3 ligações, sendo um processo de 2 dias.
+Horário ligações: 10h, 13h e 17h
+📞 DIA 01: PRIMEIRA TENTATIVA DE LIGAÇÃO
+✅ CENÁRIO 1: LEAD ATENDEU
+Ação: Use o script completo de ligação
+•Faça a abertura
+•Explique o modelo
+•Feche com urgência
+•Envie forms via WhatsApp
+Resultado esperado:
+•✅ "Sim" → Status: "Forms Enviado"
+•❌ "Não" → Status: "Perdido"
+•🤔 "Deixa eu pensar" → Status: "Em Conversa"
+❌ CENÁRIO 2: LEAD NÃO ATENDEU
+Ação: Envie FOLLOW 01 via WhatsApp
+
+
+Opa XXXX, Beleza? Aqui é o XXXXX, falo da equipe do Lucas Arruda (Embaixador Amazon Brasil). Vimos que você preencheu nosso formulário há um tempo atrás para entender como funciona uma operação da Amazon, e a gente gostaria de te fazer uma proposta. Estamos investindo mais de 3 mil reais em pessoas selecionadas para darmos início a este projeto.Só preciso confirmar se você ainda tem interesse em crescer na Amazon..Me fale qual horário podemos conversar para te explicar sobre essa proposta
+
+
+Status: "Sem Resposta - Follow 1"
+Próximo passo: Dia 02 - Segunda tentativa de ligação
+
+
+
+📞 DIA 02: SEGUNDA TENTATIVA DE LIGAÇÃO
+✅ CENÁRIO 1: LEAD ATENDEU
+Ação: Use o script completo de ligação
+•Faça a abertura
+•Explique o modelo
+•Feche com urgência
+•Envie forms via WhatsApp
+Resultado esperado:
+•✅ "Sim" → Status: "Forms Enviado"
+•❌ "Não" → Status: "Perdido"
+•🤔 "Deixa eu pensar" → Status: "Em Conversa"
+❌ CENÁRIO 2: LEAD NÃO ATENDEU
+Ação: Envie FOLLOW 02 via WhatsApp
+
+
+Fala, [Nome]! Beleza?
+Passando para confirmar se você recebeu minha mensagem anterior. Tentei entrar em contato porque você foi selecionado para participar do nosso programa de investimento junto com a Amazon.
+Está podendo falar?
+
+
+
+Status: "Sem Resposta - Follow 2"
+Próximo passo: Dia 03 - Terceira tentativa de ligação
+
+
+
+
+
+
+📞 DIA 03: TERCEIRA TENTATIVA DE LIGAÇÃO
+✅ CENÁRIO 1: LEAD ATENDEU
+Ação: Use o script completo de ligação
+•Faça a abertura
+•Explique o modelo
+•Feche com urgência
+•Envie forms via WhatsApp
+Resultado esperado:
+•✅ "Sim" → Status: "Forms Enviado"
+•❌ "Não" → Status: "Perdido"
+•🤔 "Deixa eu pensar" → Status: "Em Conversa"
+❌ CENÁRIO 2: LEAD NÃO ATENDEU
+Ação: Envie FOLLOW 03 via WhatsApp
+
+Oi, [Nome], tudo certo?
+Estamos com vagas limitadas para este projeto, como você foi um dos selecionados estou segurando sua vaga!
+Você prefere que eu te ligue agora ou falamos por aqui mesmo? ⏳
+
+
+Status: "Sem Resposta - Follow 3"
+Próximo passo: Dia 04 - Quarta tentativa de ligação
+
+
+
+
+
+
+
+
+
+📞 DIA 04: QUARTA TENTATIVA DE LIGAÇÃO
+✅ CENÁRIO 1: LEAD ATENDEU
+Ação: Use o script completo de ligação
+•Faça a abertura
+•Explique o modelo
+•Feche com urgência
+•Envie forms via WhatsApp
+Resultado esperado:
+•✅ "Sim" → Status: "Forms Enviado"
+•❌ "Não" → Status: "Perdido"
+•🤔 "Deixa eu pensar" → Status: "Em Conversa"
+❌ CENÁRIO 2: LEAD NÃO ATENDEU
+Ação: Envie FOLLOW 04 via WhatsApp
+
+
+Oi, [Nome], tudo bem?
+Vi que seu perfil tem potencial para estarmos investindo em sua operação, para darmos prosseguimento neste projeto preciso fazer alguns alinhamentos com você...
+Marquei de te ligar novamente às 18h, caso queira sugerir outro horário, pode me falar por aqui!
+
+
+* Status: "Sem Resposta - Follow 4"
+- Próximo passo: esperar 2 dias - Quinta e última tentativa de ligação
+
+
+
+
+
+
+
+📞 DIA 05: QUINTA TENTATIVA DE LIGAÇÃO
+✅ CENÁRIO 1: LEAD ATENDEU
+Ação: Use o script completo de ligação
+•Faça a abertura
+•Explique o modelo
+•Feche com urgência
+•Envie forms via WhatsApp
+Resultado esperado:
+•✅ "Sim" → Status: "Forms Enviado"
+•❌ "Não" → Status: "Perdido"
+•🤔 "Deixa eu pensar" → Status: "Em Conversa"
+❌ CENÁRIO 2: LEAD NÃO ATENDEU
+Ação: Envie FOLLOW 05 via WhatsApp
+
+Olá, [Nome],Como não tive retorno, entendi que melhorar sua situação financeira não é uma prioridade.
+Vou encerrar seu atendimento e passar sua vaga para outra pessoa.
+Se ainda tiver interesse, me responde por aqui que priorizo seu atendimento ainda hoje.
+Caso contrário, o atendimento será interrompido e não posso garantir que poderemos reabrir isso mais adiante.
+
+
+- Caso não tenhamos resposta ao final do fluxo, o SDR deve atualizar o lead no pipeline para "perdido”
+
+
+Script Ligação CNPJ Way Econt
+Script CNPJ Way Econt. 
+
+
+Mensagem (chamando para a reunião) 
+
+1 tentativa de ligação: Não atendida
+
+
+Mensagem 01: 
+
+Opa XXXX, tudo bem? 
+Aqui é o XXXXX, falo da equipe do Lucas Arruda (Embaixador Amazon Brasil). Vimos que você preencheu nosso formulário há um tempo atrás para entender como funciona uma operação da Amazon, e a gente gostaria de te fazer uma proposta.
+Estamos investindo mais de 3 mil reais em pessoas selecionadas para darmos início a este projeto.
+Só preciso confirmar se você ainda tem interesse em crescer na Amazon.. 
+Me fale qual horário podemos conversar para te explicar sobre essa proposta 
+
+(Sempre chamar a pessoa para uma call/ reunião)
+
+📞 SCRIPT COMPLETO DE LIGAÇÃO
+PARTE 1: ABERTURA E QUALIFICAÇÃO
+
+Boa tarde [NOME DO CLIENTE], D'Pablo falando, faço parte da equipe do Lucas Arruda, embaixador Amazon Brasil, tudo certo por aí?
+
+[Aguarde resposta]
+
+
+Há um tempo atrás você preencheu um formulário nosso com intuito de abrir uma loja na Amazon, já iniciou a operação ou ainda não?
+
+[Aguarde resposta]
+
+
+
+Estou te ligando pois nós juntamente com a Amazon estamos procurando pessoas para investir em sua operação da Amazon, com um investimento inicial de 3 mil reais para começar… Posso dar continuidade e te explicar como funciona esse programa?
+
+[Aguarde "sim" para continuar]
+
+ PARTE 2: Explicação do investimento 
+[Entonação: Confiante, amigável]
+Vender na Amazon é uma oportunidade gigante, mas você não pode começar do zero sozinho.
+
+[Pausa de 1 segundo]
+
+Você precisa de estrutura, de produtos certos e de alguém te guiando, sabe?
+
+O primeiro investimento que a gente faz é em seu CNPJ.
+
+
+Para você criar uma operação profissional e utilizar os modelos de logística da Amazon, você precisa ter um CNPJ ME — ele custa algo em torno de 1.500 reais, mas a gente faz 100% gratuito.
+
+Além do CNPJ, você precisa de direcionamento para fazer sua conta e entender como funciona o modelo de negócio.
+
+
+Por isso, a gente vai criar um grupo individual com você para que tire todas suas dúvidas
+
+
+e ainda terá 2 reuniões com um mentor certificado pela Amazon.
+
+
+Quando estiver tudo pronto para vender, a gente vai te disponibilizar um lote de produtos para que comece a vender sem ter que fazer algum tipo de investimento.
+
+
+E ainda te entregar uma lista com mais de 200 fornecedores validados.
+
+
+Além de tudo isso que falei, você terá acesso a um curso gravado para que estude e melhore seu conhecimento cada vez mais.
+
+
+Tudo isso que te passei será 100% gratuito.
+
+[Pausa de 2 segundos - deixe o impacto total]
+
+Até aqui, ficou alguma dúvida?
+
+[Pausa de 2 segundos - aguarde resposta]
+
+
+
+
+
+
+
+
+
+PARTE 3: Escassez
+
+Olha, aqui tá a coisa: a gente não faz isso pra todo mundo.
+
+
+A gente selecionou poucas pessoas pra esse programa porque a gente quer garantir que você vai ter sucesso. As vagas são limitadas — a gente tá fechando o mês com 5 vagas apenas.
+
+
+Você gostaria de ser um desses selecionados e participar desse programa?
+[Pausa de 2 segundos - aguarde resposta]
+
+
+
+
+PARTE 4: Fechamento
+
+Agora, pra a gente fechar a parceria e você garantir sua vaga, vou te enviar um formulário pelo WhatsApp.
+
+
+Você precisa preencher o quanto antes — leva apenas alguns segundos, é bem rápido mesmo.
+
+
+Assim que você preencher, a gente cria o grupo individual com você e começamos o programa o quanto antes. Você vai receber tudo pelo WhatsApp.
+
+
+Será um prazer ter você aqui conosco, até mais! 
+
+
+PARTE 5: Envio do forms (Whatsapp)
+Olá [NOME]!
+Para fecharmos nossa parceria, preciso que você preencha o formulário abaixo o quanto antes para garantir sua vaga.
+
+
+⏱ ️ Leva apenas alguns segundos!
+
+
+Assim que você preencher, a gente já cria seu grupo individual para dar início ao projeto. Você vai receber tudo pelo WhatsApp.
+
+
+🔗 [LINK DO FORMULÁRIO]
+
+
+⚠ ️ Lembrando: as vagas são LIMITADAS — a gente tá com apenas 5 vagas abertas esse mês. Depois disso, a gente fecha pra reavaliar.
+
+
+Então preenche aí rapidinho! 💪
+
+
+Fico no aguardo!
+
+
+
+
+
+
+
+
+
+Dúvidas mais comuns
+Dúvidas mais comuns: 
+1- Quanto e por que devo pagar a contabilidade todo mês? 
+
+O CNPJ custa em torno de 1.500 reais pra fazer — isso inclui todas as taxas do governo. A gente vai arcar com esse valor pra você, tá certo?
+Agora, você vai ter um custo fixo de 360 reais por mês com a contabilidade. É como você pagar um mecânico pra cuidar do seu carro — o carro é seu, mas você precisa manter ele em dia.
+A contabilidade é a gestão das suas finanças todo mês. Você precisa disso pra estar legal com o governo e com a Amazon. É obrigatório pra qualquer empresa.
+Mas aqui tá o importante: isso não é algo que sai do seu bolso. Você vai pagar esse custo com o lucro da venda dos seus produtos.
+
+
+ 2- Quanto e porque devo pagar o prep center todo mês? 
+O prep center é basicamente um galpão terceirizado em São Paulo. Ele funciona como seu endereço fiscal — é o endereço oficial da sua empresa.
+Mas não é só isso. O prep center é responsável por receber os produtos que você vai comprar futuramente, fazer a conferência de qualidade e quantidade, e preparar tudo para Amazon — cuida da embalagem, etiquetagem e envio.
+Isso é para que você não se preocupe com a logística… 
+Ele tem um custo fixo de 100,00 por mês e ele cobra 1,50 por unidade enviada para a amazon 
+(isso não é algo que sai do seu bolso. Você vai pagar esse custo com o lucro da venda dos seus produtos)
+
+
+
+
+ 3- A contabilidade pode fazer a filial do meu cnpj ativo? 
+Sim, a contabilidade consegue fazer a filial do seu CNPJ ativo.
+Essa filial ficará em São Paulo com os CNAEs necessários pra você vender na Amazon. Basicamente, a gente regulariza tudo pra você conseguir operar legalmente na plataforma.
+Você não precisa se preocupar com nada disso. A contabilidade cuida de tudo — documentação, registros, CNAEs. A gente só precisa que você autorize.
+
+
+4- Como funciona o imposto? 
+Uma Microempresa (ME) no Brasil é enquadrada no regime de Simples Nacional, que simplifica a cobrança de impostos. Em vez de pagar vários impostos separadamente, a ME paga um único imposto chamado DAS (Documento de Arrecadação do Simples Nacional).
+Seu imposto começa em 4% sobre seu faturamento
+
+5- Como funciona o retorno financeiro na amazon? 
+Primeiro, o que é markup:
+Markup é o multiplicador do seu investimento. Na Amazon, a gente trabalha com um padrão de markup 2. Isso significa que se você investe 1.000 reais em produtos, você vai faturar 2.000 reais na plataforma.
+Então, cada real que você investe, você fatura 2 reais. É bem simples.
+Segundo, as margens de lucro:
+Agora, você não fica com os 2.000 reais inteiros. Tem custos envolvidos: taxas da Amazon (logística e comissão), impostos, preparação no prep center e o custo do produto em si.
+Contando com tudo isso, a margem de lucro varia entre 15% a 25% na plataforma. Isso significa que você fica com 15% a 25% de lucro líquido sobre o faturamento.
+Terceiro, exemplo prático:
+Se você investe 1.000 reais em produtos, você fatura 2.000 reais na Amazon. Com uma margem de 20% de lucro, você tem um lucro líquido de 400 reais.
+Então, seu investimento de 1.000 reais gera 400 reais de lucro. Isso é um retorno de 40% sobre seu investimento.
+
+6- Qual o investimento mínimo para começar? 
+O investimento mínimo para começar é de 1.000 reais.
+Mas aqui está a coisa importante: seu lucro está diretamente atrelado ao seu investimento. Quanto mais você investe, maior é seu lucro.
+
+
+
+
+
+
+7- Como fazer a escolha dos produtos certos? 
+Essa é uma das coisas mais importantes pra ter sucesso na Amazon.
+Primeiro, o erro que a maioria comete:
+A maioria das pessoas compra produtos porque acha que vai vender, porque acha bonito, ou porque "tem feeling" que vai dar certo. Isso é um erro gigante.
+Você não pode tomar decisão baseada em intuição. Você precisa de dados reais.
+Segundo, como a gente faz:
+A gente analisa métricas reais. A gente olha:
+•Quantas unidades do produto vendem por mês na Amazon
+•Qual é o preço médio de venda
+•Qual é o custo do produto
+•Quanto de margem você vai ter
+Tudo isso ANTES de comprar. A gente não compra nada no escuro.
+
+
+
+8-  Em quanto tempo o dinheiro volta? 
+O ideal é que quando você compre o estoque de um produto, ele seja vendido no máximo em 1 mês. Você não quer estoque parado.
+Segundo, como funciona o pagamento da Amazon:
+A Amazon te faz o pagamento de 15 em 15 dias. Então, você recebe o dinheiro a cada 2 semanas.
+
+
+9- Já tenho conta de vendedor na Amazon ME, como devo prosseguir?  
+Deverá fazer seu CNPJ em nome de outra pessoa (pessoa de confiança ou sócio) 
+a amazon só aceita 1 conta seller por pessoa 
+
+
+10- Já tenho conta de vendedor na Amazon MEI, como devo prosseguir? 
+A gente vai fechar seu MEI e excluir sua conta de vendedor existente.
+Depois a gente cria um novo CNPJ como ME em seu nome, e cria uma nova conta de vendedor na Amazon com esse novo CNPJ.
+
+11- Já tenho conta de vendedor na Amazon nos EUA, como devo prosseguir? 
+Você pode continuar vendendo nos EUA normalmente. Sua conta lá continua ativa.
+A gente vai criar uma nova conta de vendedor na Amazon Brasil com seu novo CNPJ ME.
+Você vai ter 2 contas: uma nos EUA
+
+
+
+12- Já tenho conta de vendedor na Amazon CPF, como devo prosseguir? 
+Se sua conta for de vendedor (seller), a gente vai excluir sua conta de vendedor CPF e criar uma nova conta de vendedor com seu novo CNPJ ME.
+Você não vai mais vender pelo CPF — você vai vender pelo CNPJ. Muito mais profissional.
+Terceiro, se for comprador:
+Se sua conta for de comprador (buyer), não tem problema. A gente não precisa fazer nada.
+
+
+13- Já tenho CNPJ ME porém nao tenho conta na Amazon, posso usar o mesmo CNPJ para criar a conta Amazon seller? 
+o ideal é que voce crie um novo cnpj para vender na amazon, um dos motivos seria por conta do CNAE necessário na amazon, sua alíquota estar em 4% pagando menos imposto 
+
+
+Rotina SDR
+Rotina SDR - Programa Amazon Branches
+Guia Completo de Organização e Tempo
+1️⃣ VISÃO GERAL
+Objetivo Principal
+Converter 15% de uma base de 100 leads por semana = 15 conversões por semana
+Estrutura
+•Base semanal: 100 leads
+•Meta de conversão: 15% (15 leads)
+•Máximo de follow-ups: 5 por lead
+•Status final: "Perdido" após 5 tentativas sem resposta
+Foco Principal
+Organização, tempo e sistematização. Cada SDR deve trabalhar de forma estruturada e previsível.
+2️⃣ BASE DE LEADS
+Distribuição Semanal
+•100 leads por semana
+Status Inicial
+Todos os leads começam em "Novo" no HighLevel
+
+
+________________
+
+
+
+
+
+
+
+3️⃣ ESTRUTURA DA ROTINA DIÁRIA
+⏰ HORÁRIO RECOMENDADO: 09:00 - 18:00
+Bloco 01: Organização do CRM
+
+
+Bloco 02: Ligar / mandar mensagem para os leads em conversa e forms enviado
+
+
+Bloco 03: Ligar / mandar mensagem para os leads que estão no follow 05
+
+
+Bloco 04: Ligar / mandar mensagem para os leads que estão no follow 04
+
+
+Bloco 05: Ligar / mandar mensagem para os leads que estão no follow 03
+
+
+Bloco 06: Ligar / mandar mensagem para os leads que estão no follow 02
+
+
+Bloco 07: Ligar / mandar mensagem para os leads que estão no follow 01
+
+
+________________
+
+
+
+4️⃣ Novos leads: 
+Novos leads só poderão ser contatados as segundas - feiras, os 100 leads deveram ter a primeira tentativa de contato neste mesmo dia 
+Objeções mais comuns
+Manual Comercial - Quebra de
+Objeções: Projeto Primeira Venda
+Uso Interno - Equipe Comercial: Daniel, João, Pedro Pimenta, Pedro Moreira, João
+Montenegro, Ian Lopes e Alice.
+Dica de Conversão: Usem áudios pré-gravados via WhatsApp para transmitir mais confiança e
+autoridade nestas respostas. A entonação vende!
+
+
+1. O Que Entregamos (Oferta Irrecusável)
+Reforce sempre o valor ancorado do Projeto CNPJ Gratuito antes de falar de custos:
+● CNPJ gratuito com todas as taxas de abertura pagas pelo nosso grupo
+● Certificado Digital (PF e PJ) incluso
+● Grupo individual no WhatsApp para suporte até a 1a venda
+● 2 reuniões diretas com um mentor certificado pela Amazon
+● 10 unidades de um produto validado para começar a vender na hora
+● Planilha exclusiva com mais de 100 fornecedores confiáveis
+● 1 mês de Prep Center totalmente gratuito
+
+
+2. Quebra de Objeções Clássicas
+"Não sei por onde começar / Tenho medo de errar."
+A Abordagem: O cliente precisa sentir segurança institucional. Ele não será um aventureiro,
+mas um parceiro guiado.
+Script sugerido: Entendo perfeitamente, e é exatamente por isso que o projeto foi desenhado
+dessa forma. Você não vai entrar na Amazon no escuro. Além do grupo de suporte diário no
+WhatsApp, você terá 2 reuniões diretas com um mentor certificado. Nós vamos pegar na sua
+mão, entregar 10 produtos iniciais e te guiar até a sua primeira venda. O risco de errar sozinho
+aqui não existe.
+"Precisa de um capital de R$ 2.000, e não tenho esse dinheiro."
+A Abordagem: Mude o frame de "gasto" para "investimento de giro rápido". Dê opções
+práticas.
+Script sugerido: Fulano, compreendo que R$ 2.000 pode parecer um desafio agora, mas
+precisamos ver isso com mentalidade de empresário: isso não é dinheiro jogado fora, é o
+combustível da sua máquina de vendas. Na Amazon, a margem de lucro líquida média é de 15
+a 25%, e o dinheiro do seu estoque volta para o seu bolso em cerca de um mês com lucro. Se
+você não tem o capital líquido agora, você tem alternativas simples: usar o limite de um cartão
+de crédito (a operação se paga antes da fatura vencer), fechar parceria com um sócio
+investidor, ou até levantar com um familiar. Estamos falando de um valor muito baixo para se
+
+
+iniciar um negócio sólido. Qual dessas opções faz mais sentido para você hoje?
+"Não tenho tempo para tocar um negócio novo."
+A Abordagem: Destacar a automação da logística (FBA/Prep Center) e focar no tempo mínimo
+de tela.
+Script sugerido: A beleza do modelo da Amazon é que ela é a sua funcionária. Você não
+precisa pedir as contas do seu trabalho. Com apenas 1 hora por dia, focado no seu computador
+de dentro de casa, você consegue garimpar produtos, analisar dados e fazer as compras. Todo
+o processo pesado de embalar e enviar é terceirizado. É o negócio perfeito para quem tem
+pouco tempo.
+"Não tenho espaço físico na minha casa para estoque."
+A Abordagem: Vender a solução logística e o Prep Center como braço operacional.
+Script sugerido: Você não vai colocar uma única caixa na sua casa. Nós operamos com um
+Prep Center em São Paulo, que é um galpão terceirizado nosso. Ele será o seu endereço fiscal
+e ponto de apoio. Os produtos chegam lá, a equipe inspeciona, embala, etiqueta e envia direto
+para os galpões da Amazon (modelo FBA). Você gerencia um império do seu notebook, sem
+encostar nas caixas.
+"Achei ruim o custo fixo de R$ 460 (R$ 360 Contabilidade + R$ 100
+Prep)."
+A Abordagem: Mostrar que o custo fixo é irrisório e já está planilhado dentro da margem de
+lucro.
+Script sugerido: Esse é um ponto crucial: você não tira esses R$ 460 do seu salário. Eles são
+pagos pela própria operação da loja. O incrível da Amazon é que quer você fature R$ 1.000 ou
+R$ 100.000, o seu custo de contabilidade e endereço fiscal permanece o mesmo! Além disso,
+quando calculamos a sua margem de lucro de 15% a 25%, todos esses custos já estão
+descontados. É uma empresa profissional com um custo de manutenção menor que uma conta
+de luz.
+"Por que preciso assinar um contrato de 6 meses com a
+contabilidade?"
+A Abordagem: O gatilho do "Skin in the game" (Comprometimento mútuo).
+Script sugerido: Nós pagamos cerca de R$ 1.500 do nosso bolso para abrir o seu CNPJ do
+zero, com todas as taxas. É o nosso investimento em você. Em troca, a única coisa que
+pedimos é o seu comprometimento por 6 meses com a nossa contabilidade parceira. É uma via
+de mão dupla: nós apostamos no seu início, e você se compromete a fazer o negócio rodar
+nesse semestre.
+
+
+3. Novas Objeções (Avançadas)
+"Isso é bom demais para ser verdade. Por que vocês fariam isso de
+
+
+graça?"
+A Abordagem: Transparência total sobre o modelo de negócio (LTV).
+Script sugerido: Excelente pergunta, eu também desconfiaria. Mas aqui somos 100%
+transparentes: não existe almoço grátis, existe modelo de negócios inteligente. Nós assumimos
+o custo inicial porque sabemos que, com nosso método, você vai vender. E quando você
+cresce, você continua utilizando nosso Prep Center, nossa Contabilidade e nosso ecossistema.
+Nós só ganhamos dinheiro se você se manter lucrando no longo prazo.
+"A Amazon já não está muito saturada no Brasil?"
+A Abordagem: Mostrar dados e amadorismo do mercado contra a profissionalização.
+Script sugerido: Pelo contrário, o e-commerce no Brasil ainda engatinha comparado aos EUA.
+A Amazon cresce absurdamente a cada ano aqui. O que existe são muitos vendedores
+"amadores", que não analisam dados e não usam ferramentas corretas. Nós vamos te ensinar
+a entrar como um seller profissional. O mercado está carente de vendedores profissionais com
+CNPJ e estratégia.
+
+
+4. Dúvidas Mais Comuns (FAQ para Roteiro de
+Ligação)
+● 1. Quanto e por que devo pagar a contabilidade todo mês?
+O CNPJ custa em torno de R$ 1.500 pra fazer, e o nosso grupo arca com esse valor pra
+você. A contabilidade de R$ 360/mês é a manutenção do seu negócio, para você estar
+legalizado com o governo e evitar bloqueios na Amazon. E o melhor: quem paga isso é o
+próprio lucro dos seus produtos, não sai do seu bolso direto.
+
+
+● 2. Quanto e por que devo pagar o Prep Center?
+É o seu endereço fiscal oficial em São Paulo e o seu braço logístico. Custa R$ 100 fixos
+mensais + R$ 1,50 por unidade que eles embalam e enviam. Eles recebem do
+fornecedor, conferem, preparam os padrões da Amazon e despacham. Você não toca em
+nenhuma fita adesiva. De novo: esse custo já está previsto e é absorvido pelo lucro da
+venda.
+
+
+● 3. Como funciona o imposto?
+Como Microempresa (ME), você entra no Simples Nacional. Paga apenas uma guia
+única (DAS) no mês. O imposto começa em apenas 4% sobre o seu faturamento. Uma
+alíquota excelente para comércio.
+
+
+● 4. Como funciona o retorno financeiro na Amazon?
+Nós operamos com Markup 2. Ou seja: você investe R$ 1.000 no fornecedor, e vende por
+R$ 2.000 na Amazon. Dos R$ 2.000 que entram, você desconta taxas da plataforma,
+impostos (4%) e o frete. No final das contas, sobra livre no seu bolso de 15% a 25% do
+
+
+faturamento. Nesse exemplo, R$ 400 de lucro puro. Um ROI maravilhoso de 40% sobre o
+capital investido.
+
+
+● 5. Como fazer a escolha dos produtos certos?
+Não usamos intuição. Usamos ferramentas de Product Mining. Analisamos: quantas
+unidades o produto vende por mês, histórico do preço, custo real e margem líquida. Você
+só compra o que os dados provam que já está vendendo. Não tem "achar que é bonito",
+tem análise matemática.
+
+
+● 6. Em quanto tempo o dinheiro volta?
+A meta do método é que todo estoque gire em no máximo 30 dias. A Amazon faz
+repasses financeiros a cada 15 dias. Ou seja, em duas semanas o dinheiro das suas
+primeiras vendas já começa a cair na sua conta bancária.
+
+
+● 7. Já tenho conta na Amazon (CPF, MEI, ou EUA). O que eu faço?
+○ Já tenho MEI: Fechamos o MEI, excluímos a conta antiga e criamos o CNPJ ME
+novo para conta nova.
+○ Já tenho nos EUA: Não interfere! Mantém a dos EUA e abre uma nova no Brasil
+com o CNPJ novo.
+○ Já tenho CPF Seller: Excluímos a de vendedor CPF e criamos a profissional
+CNPJ.
+○ Já tenho Amazon ME: A Amazon só permite 1 conta por pessoa. Teremos que
+abrir o projeto no nome de um cônjuge ou sócio de confiança.

@@ -1,0 +1,47 @@
+{
+  "product": "semaglutide",
+  "plan": "rush",
+  "contact": {
+    "first_name": "Maria",
+    "last_name": "Lopez",
+    "email": "maria.lopez.test+20260528@nuestrarx-test.com",
+    "phone": "+13055551234",
+    "lead_state": "FL",
+    "gender": "Female",
+    "date_of_birth": "1985-03-15",
+    "shipping_address": {
+      "line1": "123 Brickell Ave",
+      "city": "Miami",
+      "state": "FL",
+      "postal_code": "33131",
+      "country": "US"
+    }
+  },
+  "answers": {
+    "6400": "None",
+    "6401": "None",
+    "6402": "None",
+    "6403": "Female",
+    "6404": "No",
+    "6405": "I acknowledge that I have read and understood the above information",
+    "6406": "200",
+    "6407": "5'6\"",
+    "6408": "180",
+    "6409": "I acknowledge that I have read and understood the above information",
+    "6410": "Some efforts",
+    "6411": ["None of the above"],
+    "6415": "No",
+    "6416": ["None of the above"],
+    "6417": ["None of these"],
+    "6418": "Yes, I can inject myself or have reliable help",
+    "6430": "",
+    "6431": "I have read and understand the above information and I do consent and wish to move forward with this treatment plan",
+    "6432": "I have read the above information and I do consent and wish to move forward",
+    "6433": "I have read and understand the above information and I wish to continue"
+  },
+  "source": {
+    "channel": "whatsapp",
+    "agent": "awsales-bot-test",
+    "captured_at": "2026-05-28T18:00:00Z"
+  }
+}

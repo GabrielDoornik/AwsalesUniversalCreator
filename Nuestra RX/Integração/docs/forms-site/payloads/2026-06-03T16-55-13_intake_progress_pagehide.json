@@ -1,0 +1,221 @@
+[
+  {
+    "headers": {
+      "x-forwarded-for": "2a06:98c0:3600::103, 172.69.11.229",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "n8n-dev.awsales.io",
+      "x-amzn-trace-id": "Root=1-6a205c72-0da25b9526db987b7f056577",
+      "content-length": "3883",
+      "accept-encoding": "gzip, br",
+      "content-type": "application/json",
+      "cf-ray": "a06039683bcea46c-GRU",
+      "cf-ew-via": "15",
+      "cdn-loop": "cloudflare; loops=1; subreqs=1",
+      "x-nrx-source": "webhook.nuestrarx.com",
+      "user-agent": "NuestraRx-Intake-Proxy/1.1",
+      "cf-worker": "nuestrarx.com",
+      "cf-connecting-ip": "2a06:98c0:3600::103",
+      "cf-ipcountry": "BR",
+      "cf-visitor": "{\"scheme\":\"https\"}"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "event": "intake_progress",
+      "event_version": "1.0",
+      "submitted_at": "2026-06-03T16:55:13.951Z",
+      "source": {
+        "page": "evaluacion",
+        "url": "https://nuestrarx.com/evaluacion",
+        "lang": "es",
+        "referrer": "https://nuestrarx.com/",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+      },
+      "resume": {
+        "available": true,
+        "url": "https://nuestrarx.com/evaluacion?resume=1&lang=es",
+        "stage": "parent",
+        "step": "4",
+        "updated_at": "2026-06-03T16:54:12.019Z",
+        "same_browser_only": false,
+        "cross_device_token": "e7d4ea0a-c976-4637-beaf-9f80246cee63",
+        "note": "Local-browser autosave via ?resume=1. Worker also mints cross_device_token + cross_device_url for WhatsApp follow-up.",
+        "cross_device_url": "https://nuestrarx.com/evaluacion?lt=e7d4ea0a-c976-4637-beaf-9f80246cee63&lang=es",
+        "cross_device_ttl_seconds": 604800
+      },
+      "tracking": {
+        "utm_source": null,
+        "utm_medium": null,
+        "utm_campaign": null,
+        "utm_content": null,
+        "utm_term": null,
+        "gclid": null,
+        "fbclid": null,
+        "ttclid": null,
+        "msclkid": null,
+        "session_id": "nrx_1780505713258_aupa61",
+        "fbp": null,
+        "fbc": null,
+        "dosable_lead_id": 17964,
+        "dosable_session_id": "c4b43cf0-1aa6-47d0-87d1-0bb4f656cd6d"
+      },
+      "contact": {
+        "first_name": "Pedro",
+        "last_name": "Testeawsales",
+        "email": "pedro.leite@awsales.io",
+        "phone_e164": "+5531876424544",
+        "phone_country": "BR",
+        "whatsapp_url": "https://wa.me/5531876424544"
+      },
+      "address": {
+        "state_code": "TX",
+        "zip": null,
+        "country": "US"
+      },
+      "demographics": {
+        "biological_sex": "male",
+        "age_range": "18-29",
+        "dob": "03/04/1999"
+      },
+      "biometrics": {
+        "height_cm": 186,
+        "height_display": "6'1\"",
+        "weight_kg": 101,
+        "weight_lbs": "223",
+        "bmi": "29.2",
+        "bmi_class": "overweight"
+      },
+      "goals": {
+        "weight_loss_goal": "87",
+        "previous_attempts": null
+      },
+      "medical_history": {
+        "conditions_quick": null,
+        "conditions_detail": null,
+        "current_medications": "none",
+        "no_medications": false,
+        "allergies": [
+          "latex"
+        ],
+        "no_allergies": false,
+        "drug_allergies_glp1": [
+          "none"
+        ],
+        "prior_glp1_use": null,
+        "pregnancy_status": "no",
+        "gastric_bypass_recent": "no",
+        "can_self_inject": false,
+        "thyroid_men2_safety": null
+      },
+      "treatment_selection": {
+        "medication": "tirzepatida",
+        "plan": "quarterly"
+      },
+      "consent": {
+        "informed_consent": false,
+        "self_injection_ack": false
+      },
+      "eligibility": {
+        "qualified": false,
+        "state_supported": false
+      },
+      "meta": {
+        "form_version": "evaluacion-v3-2026-05"
+      },
+      "raw_answers": {
+        "intake": {
+          "sexo": "m",
+          "edad": "18-29",
+          "cm": 186,
+          "kg": 101,
+          "height": "6'1\"",
+          "weightLbs": "223",
+          "bmi": "29.2",
+          "fname": "Pedro",
+          "lname": "Testeawsales",
+          "stateCode": "TX",
+          "phone": "+5531876424544",
+          "phoneCountry": "BR",
+          "whatsappUrl": "https://wa.me/5531876424544",
+          "email": "pedro.leite@awsales.io",
+          "dosableSessionId": "c4b43cf0-1aa6-47d0-87d1-0bb4f656cd6d",
+          "dosableLeadId": 17964,
+          "treatment": "tirzepatida",
+          "plan": "quarterly",
+          "planPrice": 266
+        },
+        "beluga": {
+          "takesRxMeds": "yes",
+          "rxMeds": [
+            "blood_thinner"
+          ],
+          "rxMedsOther": "",
+          "hasAllergies": "yes",
+          "allergiesList": [
+            "latex"
+          ],
+          "allergiesOther": "",
+          "sex": "female",
+          "dobMonth": "03",
+          "dobDay": "04",
+          "dobYear": "1999",
+          "pregnancy": "no",
+          "pregnancyConsent": "accept",
+          "highestWeight": "110",
+          "highestWeightUnit": "kg",
+          "heightUnit": "metric",
+          "heightFt": "",
+          "heightIn": "",
+          "heightCm": "167",
+          "weightUnit": "kg",
+          "weightLb": "",
+          "weightKg": "70",
+          "goalWeight": "87",
+          "goalWeightUnit": "kg",
+          "bmi": 25.1,
+          "bmiConsent": "accept",
+          "approach": "active",
+          "conditions": [
+            "none"
+          ],
+          "gallstoneConsent": null,
+          "cholecystectomyConsent": null,
+          "thyroidConsent": null,
+          "gastricBypass": "no",
+          "priorWLS": "no",
+          "opiates": "no",
+          "bp": "elevated",
+          "hr": "slightly_fast",
+          "drugAllergies": [
+            "none"
+          ],
+          "currentMeds": "none",
+          "injectionAbility": "yes",
+          "lastDoseTiming": null,
+          "doseDecreaseConsent": null,
+          "restartConsent": null,
+          "lastDoseDate": "",
+          "lastDoseMatch": null,
+          "medForm": null,
+          "compoundDetails": "",
+          "sideEffects": [],
+          "responseToMed": null,
+          "dosePreference": null,
+          "rxPhoto": null,
+          "rxPhotoConsent": null,
+          "otherQuestions": "",
+          "individualizedConsent": "accept",
+          "truthfulnessConsent": "accept",
+          "glpConsent": "accept",
+          "email": "maguigonzales@icloud.com",
+          "phone": "+12674560685",
+          "prefilledFromLead": true
+        }
+      },
+      "progress_trigger": "pagehide"
+    },
+    "webhookUrl": "https://n8n.nonprod.awsales.io/webhook/nuestra-forms-site",
+    "executionMode": "production"
+  }
+]

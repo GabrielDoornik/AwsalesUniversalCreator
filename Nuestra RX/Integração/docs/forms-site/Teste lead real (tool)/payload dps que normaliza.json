@@ -1,0 +1,193 @@
+[
+  {
+    "product": "semaglutide",
+    "plan": "quarterly",
+    "first_name": "samuel",
+    "last_name": "jackson",
+    "email": "daviawsales@gmail.com",
+    "phone": "5531988203120",
+    "lead_state": "FL",
+    "gender": "Male",
+    "birthday": "08/02/2001",
+    "date_of_birth": "08/02/2001",
+    "contact": {
+      "first_name": "samuel",
+      "last_name": "jackson",
+      "email": "daviawsales@gmail.com",
+      "phone": "5531988203120",
+      "lead_state": "FL",
+      "gender": "Male",
+      "date_of_birth": "08/02/2001",
+      "date_of_birth_iso": "2001-08-02",
+      "birthday": "08/02/2001"
+    },
+    "answers": {
+      "6400": {
+        "value": "None"
+      },
+      "6401": {
+        "value": "None"
+      },
+      "6402": {
+        "value": "None"
+      },
+      "6403": {
+        "value": "Male"
+      },
+      "6404": {
+        "value": "No"
+      },
+      "6406": {
+        "value": "120"
+      },
+      "6407": {
+        "value": "5'11\""
+      },
+      "6408": {
+        "value": "198"
+      },
+      "6410": {
+        "value": "Some efforts"
+      },
+      "6411": {
+        "value": [
+          "None of the above"
+        ]
+      },
+      "6415": {
+        "value": "No"
+      },
+      "6416": {
+        "value": [
+          "None of the above"
+        ]
+      },
+      "6417": {
+        "value": [
+          "None of these"
+        ]
+      },
+      "6418": {
+        "value": "Yes, I can inject myself or have reliable help"
+      },
+      "6431": {
+        "value": "I have read and understand the above information and I do consent and wish to move forward with this treatment plan"
+      },
+      "6432": {
+        "value": "I have read the above information and I do consent and wish to move forward"
+      },
+      "6433": {
+        "value": "I have read and understand the above information and I wish to continue"
+      }
+    },
+    "source": {
+      "channel": "whatsapp",
+      "agent": "awsales-bot",
+      "captured_at": "2026-06-08T12:44:35"
+    },
+    "session_id": "b4783718-14a6-4ccc-b580-d15042481f7a",
+    "dosable_session_id": "b4783718-14a6-4ccc-b580-d15042481f7a",
+    "lead_id": 247334,
+    "dosable_lead_id": 247334,
+    "outbound": {
+      "product": "semaglutide",
+      "plan": "quarterly",
+      "first_name": "samuel",
+      "last_name": "jackson",
+      "email": "daviawsales@gmail.com",
+      "phone": "5531988203120",
+      "lead_state": "FL",
+      "gender": "Male",
+      "birthday": "08/02/2001",
+      "date_of_birth": "08/02/2001",
+      "contact": {
+        "first_name": "samuel",
+        "last_name": "jackson",
+        "email": "daviawsales@gmail.com",
+        "phone": "5531988203120",
+        "lead_state": "FL",
+        "gender": "Male",
+        "date_of_birth": "08/02/2001",
+        "date_of_birth_iso": "2001-08-02",
+        "birthday": "08/02/2001"
+      },
+      "answers": {
+        "6400": {
+          "value": "None"
+        },
+        "6401": {
+          "value": "None"
+        },
+        "6402": {
+          "value": "None"
+        },
+        "6403": {
+          "value": "Male"
+        },
+        "6404": {
+          "value": "No"
+        },
+        "6406": {
+          "value": "120"
+        },
+        "6407": {
+          "value": "5'11\""
+        },
+        "6408": {
+          "value": "198"
+        },
+        "6410": {
+          "value": "Some efforts"
+        },
+        "6411": {
+          "value": [
+            "None of the above"
+          ]
+        },
+        "6415": {
+          "value": "No"
+        },
+        "6416": {
+          "value": [
+            "None of the above"
+          ]
+        },
+        "6417": {
+          "value": [
+            "None of these"
+          ]
+        },
+        "6418": {
+          "value": "Yes, I can inject myself or have reliable help"
+        },
+        "6431": {
+          "value": "I have read and understand the above information and I do consent and wish to move forward with this treatment plan"
+        },
+        "6432": {
+          "value": "I have read the above information and I do consent and wish to move forward"
+        },
+        "6433": {
+          "value": "I have read and understand the above information and I wish to continue"
+        }
+      },
+      "source": {
+        "channel": "whatsapp",
+        "agent": "awsales-bot",
+        "captured_at": "2026-06-08T12:44:35"
+      },
+      "session_id": "b4783718-14a6-4ccc-b580-d15042481f7a",
+      "dosable_session_id": "b4783718-14a6-4ccc-b580-d15042481f7a",
+      "lead_id": 247334,
+      "dosable_lead_id": 247334
+    },
+    "outbound_json": "{\"product\":\"semaglutide\",\"plan\":\"quarterly\",\"first_name\":\"samuel\",\"last_name\":\"jackson\",\"email\":\"daviawsales@gmail.com\",\"phone\":\"5531988203120\",\"lead_state\":\"FL\",\"gender\":\"Male\",\"birthday\":\"08/02/2001\",\"date_of_birth\":\"08/02/2001\",\"contact\":{\"first_name\":\"samuel\",\"last_name\":\"jackson\",\"email\":\"daviawsales@gmail.com\",\"phone\":\"5531988203120\",\"lead_state\":\"FL\",\"gender\":\"Male\",\"date_of_birth\":\"08/02/2001\",\"date_of_birth_iso\":\"2001-08-02\",\"birthday\":\"08/02/2001\"},\"answers\":{\"6400\":{\"value\":\"None\"},\"6401\":{\"value\":\"None\"},\"6402\":{\"value\":\"None\"},\"6403\":{\"value\":\"Male\"},\"6404\":{\"value\":\"No\"},\"6406\":{\"value\":\"120\"},\"6407\":{\"value\":\"5'11\\\"\"},\"6408\":{\"value\":\"198\"},\"6410\":{\"value\":\"Some efforts\"},\"6411\":{\"value\":[\"None of the above\"]},\"6415\":{\"value\":\"No\"},\"6416\":{\"value\":[\"None of the above\"]},\"6417\":{\"value\":[\"None of these\"]},\"6418\":{\"value\":\"Yes, I can inject myself or have reliable help\"},\"6431\":{\"value\":\"I have read and understand the above information and I do consent and wish to move forward with this treatment plan\"},\"6432\":{\"value\":\"I have read the above information and I do consent and wish to move forward\"},\"6433\":{\"value\":\"I have read and understand the above information and I wish to continue\"}},\"source\":{\"channel\":\"whatsapp\",\"agent\":\"awsales-bot\",\"captured_at\":\"2026-06-08T12:44:35\"},\"session_id\":\"b4783718-14a6-4ccc-b580-d15042481f7a\",\"dosable_session_id\":\"b4783718-14a6-4ccc-b580-d15042481f7a\",\"lead_id\":247334,\"dosable_lead_id\":247334}",
+    "should_call_http": true,
+    "tool_response": null,
+    "tool_response_json": null,
+    "diagnostics": {
+      "ready_for_http": true,
+      "missing_required_contact_fields": [],
+      "missing_required_answer_ids": []
+    }
+  }
+]

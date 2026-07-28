@@ -1,0 +1,125 @@
+[
+  {
+    "headers": {
+      "x-forwarded-for": "3.130.218.162",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "n8n.nonprod.awsales.io",
+      "x-amzn-trace-id": "Root=1-6a27384c-0e830831132e29140bdc79bb",
+      "content-length": "3396",
+      "content-type": "application/json",
+      "authorization": "Bearer EKSqZLZXgARMrY9l9eDOreI_aNH4u9ebkwRBYyuMRSM",
+      "x-datadog-trace-id": "7228335773136971048, 7228335773136971048",
+      "x-datadog-parent-id": "2197989216285650922, 5431094612335992007",
+      "x-datadog-sampling-priority": "-1, -1",
+      "x-datadog-tags": "_dd.p.tid=6a27382400000000, _dd.p.tid=6a27382400000000",
+      "traceparent": "00-6a27382400000000645035169b13e528-1e80d38bf8d86fea-00, 00-6a27382400000000645035169b13e528-4b5f1fc655d31cc7-00",
+      "tracestate": "dd=t.tid:6a27382400000000;t.dm:-3;s:-1;p:1e80d38bf8d86fea, dd=t.tid:6a27382400000000;t.dm:-3;s:-1;p:4b5f1fc655d31cc7",
+      "accept": "*/*",
+      "accept-language": "*",
+      "sec-fetch-mode": "cors",
+      "user-agent": "node",
+      "accept-encoding": "br, gzip, deflate"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "product": "tirzepatide",
+      "plan": "quarterly",
+      "contact": {
+        "first_name": "Matheus",
+        "last_name": "Freire",
+        "email": "matfreire95@gmail.com",
+        "phone": "19732826268",
+        "lead_state": "FL",
+        "gender": "Mujer",
+        "date_of_birth": "06/26/1995"
+      },
+      "answers": {
+        "6400": {
+          "value": "Ninguno",
+          "question": "Condiciones medicas"
+        },
+        "6401": {
+          "value": "Ninguno",
+          "question": "Medicamentos actuales"
+        },
+        "6402": {
+          "value": "Ninguno",
+          "question": "Alergias"
+        },
+        "6403": {
+          "value": "Mujer",
+          "question": "Sexo biologico"
+        },
+        "6404": {
+          "value": "06/26/1995",
+          "question": "Fecha de nacimiento"
+        },
+        "6406": {
+          "value": "80",
+          "question": "Mayor peso"
+        },
+        "6407": {
+          "value": "170",
+          "question": "Altura"
+        },
+        "6408": {
+          "value": "80",
+          "question": "Peso actual"
+        },
+        "6410": {
+          "value": "Aun no he empezado un plan claro",
+          "question": "Abordaje con el peso"
+        },
+        "6411": {
+          "value": [
+            "None of the above"
+          ],
+          "question": "Condiciones medicas adicionales"
+        },
+        "6415": {
+          "value": "No",
+          "question": "Bypass gastrico"
+        },
+        "6416": {
+          "value": [
+            "Ninguno"
+          ],
+          "question": "Alergia GLP-1"
+        },
+        "6417": {
+          "value": [
+            "None of these"
+          ],
+          "question": "Uso reciente GLP-1"
+        },
+        "6418": {
+          "value": "Si",
+          "question": "Capacidad de auto-inyeccion"
+        },
+        "6431": {
+          "value": "Si",
+          "question": "Informacion verdadera"
+        },
+        "6432": {
+          "value": "Si",
+          "question": "Revision medica"
+        },
+        "6433": {
+          "value": "Si",
+          "question": "Efectos secundarios"
+        }
+      },
+      "metadata": "{\"bmi\":\"27.7\",\"dob\":\"06/26/1995\",\"age_range\":\"30-44\",\"allergies\":[\"Ninguno\"],\"bmi_class\":\"overweight\",\"height_cm\":170,\"nrx_event\":\"intake_abandoned\",\"weight_kg\":80,\"event_kind\":\"form_abandonment_confirmed\",\"lead_state\":\"FL\",\"session_id\":\"nrx_1780950970841_ss781i\",\"source_url\":\"https://nuestrarx.com/evaluacion\",\"weight_lbs\":\"176\",\"goal_weight\":\"50\",\"resume_step\":\"recentHistory\",\"source_lang\":\"es\",\"source_page\":\"evaluacion\",\"form_version\":\"evaluacion-v3-2026-05\",\"lead_country\":\"US\",\"resume_stage\":\"beluga\",\"whatsapp_url\":\"https://wa.me/19732826268\",\"answers_count\":17,\"phone_country\":\"US\",\"recovery_type\":\"form_abandonment_confirmed\",\"abandon_reason\":\"inactivity_timeout\",\"biological_sex\":\"Mujer\",\"height_display\":\"5'7\"\",\"highest_weight\":\"80\",\"lead_last_name\":\"Freire\",\"dosable_lead_id\":247490,\"form_resume_url\":\"https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es\",\"lead_first_name\":\"Matheus\",\"source_referrer\":\"https://nuestrarx.com/\",\"goal_weight_unit\":\"kg\",\"progress_trigger\":\"visibility_hidden\",\"abandon_last_step\":\"recentHistory\",\"nrx_event_version\":\"1.0\",\"resume_step_label\":\"Historial medico reciente\",\"resume_updated_at\":\"2026-06-08T20:39:03.671Z\",\"abandon_last_event\":\"intake_progress\",\"dosable_session_id\":\"8ca3f269-10b4-4362-99ab-9b432d43d9df\",\"medical_conditions\":[\"Ninguno\"],\"abandon_detected_at\":\"2026-06-08T20:59:07.551Z\",\"current_medications\":[\"Ninguno\"],\"glp1_drug_allergies\":[\"Ninguno\"],\"highest_weight_unit\":\"kg\",\"abandon_idle_seconds\":1200,\"eligibility_qualified\":false,\"recommended_recovery_url\":\"https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es\",\"resume_cross_device_token\":\"96826e77-a043-496b-9330-d497372ae391\",\"can_self_inject_normalized\":false,\"weight_management_approach\":\"Ninguno\",\"eligibility_state_supported\":false,\"resume_cross_device_ttl_seconds\":604800}",
+      "form_answers": [],
+      "source": {
+        "channel": "whatsapp",
+        "agent": "awsales-bot",
+        "captured_at": "2026-06-08T18:46:22Z"
+      }
+    },
+    "webhookUrl": "https://n8n.nonprod.awsales.io/webhook/debug-awsales-tool",
+    "executionMode": "production"
+  }
+]

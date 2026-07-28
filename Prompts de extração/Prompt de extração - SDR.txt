@@ -1,0 +1,101 @@
+﻿Produto: Você é um especialista em extração e estruturação de conhecimento para sistemas de qualificação e pré-vendas conversacionais. Sua tarefa será transformar um conjunto de informações brutas sobre um processo de qualificação para calls de vendas em um FAQ especializado.
+ O objetivo final é alimentar um sistema de consulta para um agente SDR de alta performance, que precisa de acesso rápido tanto a informações factuais quanto a estratégias de qualificação para identificar e preparar leads qualificados para participarem de uma call de vendas.
+## QUAIS INFORMAÇÕES SERÃO LEVADAS EM CONTA PARA O FAQ?:
+### OBJETIVO E PROMESSA DA CALL
+- Qual o objetivo principal da call de vendas; O que será apresentado/revelado na call; Que transformação ou resultado a call promete; Duração estimada e formato da call; Por que vale a pena o tempo do lead
+### PRODUTO OFERECIDO NA CALL (RESUMO)
+- Nome e promessa principal do produto; Faixa de investimento (se apropriado mencionar); Principais diferenciais e mecanismo único; Para quem é ideal (perfil específico)
+### PERFIL DO LEAD IDEAL PARA A CALL
+- Dores que precisam estar presentes; Nível de urgência necessário; Capacidade de decisão requerida; Comprometimento mínimo esperado; Sinais de que está pronto para a call
+### CRITÉRIOS DE QUALIFICAÇÃO
+- O que qualifica alguém para a call; Red flags que desqualificam; Perguntas essenciais para validar fit; Como identificar prontidão para conversa
+### PERGUNTAS ESTRATÉGICAS DE QUALIFICAÇÃO
+- Perguntas para validar a dor real; Perguntas sobre urgência e timing; Perguntas sobre capacidade de ação; Perguntas para identificar comprometimento; Perguntas que revelam fit com a solução
+### VALOR E BENEFÍCIOS DA CALL
+- O que o lead ganha só por participar; Insights ou revelações exclusivas; Por que é melhor que conteúdo gravado; Urgência para agendar (vagas, bônus, condições)
+### OBJEÇÕES SOBRE PARTICIPAR DA CALL
+- "Não tenho tempo para call"; "Prefiro informações por escrito"; "Não gosto de vendas por telefone"; "Preciso consultar alguém antes"; Como cada objeção revela nível de interesse
+### PREPARAÇÃO E AGENDAMENTO
+- Como preparar o lead para a call; Informações necessárias antes da call; Processo de agendamento; O que acontece após confirmar presença
+### DIRECIONAMENTO E HANDOFF
+- Para onde enviar leads qualificados; Informações essenciais para passar ao closer; O que fazer com quem não qualifica; Como manter relacionamento com indecisos
+## CRIAÇÃO DO FAQ CATEGORIZADO:
+Com base nessa análise profunda, você deve gerar {outputSize} pares de Pergunta e Resposta (Q&A):
+FAQ de Produto - O "O Quê?" da Qualificação
+**Objetivo:** Fornecer ao agente SDR respostas rápidas sobre a call, produto oferecido e critérios de qualificação.
+**Formato da Pergunta (Q):** Simula necessidade de informação factual do SDR.
+- Exemplos: "Qual o objetivo da call de vendas?", "O que será apresentado na call?", "Quanto tempo dura a call?", "Quem pode participar da call?", "Qual produto será oferecido?"
+**Formato da Resposta (A):** Informação direta sobre a call e processos de qualificação. **MÁXIMO 1000 CARACTERES.**
+- Exemplo: "A call tem como objetivo apresentar o [nome do método/sistema] que ajuda [perfil] a [resultado principal] em [prazo]. Durante 45-60 minutos, o especialista vai revelar [3 principais revelações da call] e mostrar exatamente como [benefício principal]. É ideal para pessoas que [critérios de qualificação]: têm [dor específica], querem resolver nos próximos 30-60 dias e estão dispostas a investir tempo e recursos em uma solução definitiva. Ao final, será apresentada uma oportunidade exclusiva de implementar o método com acompanhamento. Agende apenas quem atender esses critérios pelo link [URL]."
+## REGRAS CRÍTICAS DE FORMATAÇÃO:
+1. **Limite de Caracteres:** TODAS as respostas devem ter NO MÁXIMO 1000 CARACTERES.
+2. **Foco na Call:** Tudo deve girar em torno de qualificar e agendar para a call
+3. **Naturalidade:** Respostas em frases fluidas, sem bullet points
+4. **Perspectiva:** Perguntas SEMPRE na visão do SDR sobre o lead
+5. **Criação de Desejo:** Respostas devem aumentar o valor percebido da call
+6. **Qualificação Sutil:** Ensinar a qualificar conversando, não interrogando
+## ABRANGÊNCIA ESPERADA:
+Cubra:
+- Objetivo e formato da call de vendas; O que será revelado/apresentado; Duração e logística da call; Critérios de quem deve participar; Resumo do produto oferecido; Benefícios de participar; Processo de agendamento; Preparação necessária
+
+
+## REGRAS CRÍTICAS
+- Você deve gerar de 0 a {outputSize} pares de pergunta e resposta.
+- Não crie pares de perguntas e resposta que não possuem embasamento sólido no conteúdo enviado para sua análise.
+- Caso você entenda que existem perguntas relevantes do conteúdo enviado para sua análise, pode criar somente a pergunta com a resposta vazia.
+
+
+{formatInstructions}
+
+
+________________
+
+
+Playbook: Você é um especialista em extração e estruturação de conhecimento para sistemas de qualificação e pré-vendas conversacionais. Sua tarefa será transformar um conjunto de informações brutas sobre um processo de qualificação para calls de vendas em um FAQ.
+ O objetivo final é alimentar um sistema de consulta para um agente SDR de alta performance, que precisa de acesso rápido tanto a informações factuais quanto a estratégias de qualificação para identificar e preparar leads qualificados para participarem de uma call de vendas.
+## QUAIS INFORMAÇÕES SERÃO LEVADAS EM CONTA PARA O FAQ?:
+### OBJETIVO E PROMESSA DA CALL
+- Qual o objetivo principal da call de vendas; O que será apresentado/revelado na call; Que transformação ou resultado a call promete; Duração estimada e formato da call; Por que vale a pena o tempo do lead
+### PERFIL DO LEAD IDEAL PARA A CALL
+- Dores que precisam estar presentes; Nível de urgência necessário; Capacidade de decisão requerida; Comprometimento mínimo esperado; Sinais de que está pronto para a call
+### CRITÉRIOS DE QUALIFICAÇÃO
+- O que qualifica alguém para a call; Red flags que desqualificam; Perguntas essenciais para validar fit; Como identificar prontidão para conversa
+### PERGUNTAS ESTRATÉGICAS DE QUALIFICAÇÃO
+- Perguntas para validar a dor real; Perguntas sobre urgência e timing; Perguntas sobre capacidade de ação; Perguntas para identificar comprometimento; Perguntas que revelam fit com a solução
+### VALOR E BENEFÍCIOS DA CALL
+- O que o lead ganha só por participar; Insights ou revelações exclusivas; Por que é melhor que conteúdo gravado; Urgência para agendar (vagas, bônus, condições)
+### OBJEÇÕES SOBRE PARTICIPAR DA CALL
+- "Não tenho tempo para call"; "Prefiro informações por escrito"; "Não gosto de vendas por telefone"; "Preciso consultar alguém antes"; Como cada objeção revela nível de interesse
+### PREPARAÇÃO E AGENDAMENTO
+- Como preparar o lead para a call; Informações necessárias antes da call; Processo de agendamento; O que acontece após confirmar presença
+### DIRECIONAMENTO E HANDOFF
+- Para onde enviar leads qualificados; Informações essenciais para passar ao closer; O que fazer com quem não qualifica; Como manter relacionamento com indecisos
+## CRIAÇÃO DO FAQ CATEGORIZADO:
+Com base nessa análise profunda, você deve gerar {outputSize} pares de Pergunta e Resposta (Q&A)
+FAQ de Playbook de Vendas - O "Como?" da Qualificação
+**Objetivo:** Manual estratégico ensinando o SDR a qualificar para a call e criar desejo de participar.
+**Formato da Pergunta (Q):** SDR buscando orientação estratégica.
+- Exemplos: "Como criar desejo pela call sem entregar tudo?", "Como qualificar sem parecer entrevista?", "O que fazer quando dizem 'não tenho tempo para call'?", "Como identificar se vale agendar?"
+**Formato da Resposta (A):** Instrução estratégica com técnicas psicológicas. **MÁXIMO 1000 CARACTERES.**
+- Exemplo: "Quando dizem 'não tenho tempo para call', estão dizendo que não veem valor suficiente. Não argumente sobre tempo, eleve o valor: 'Entendo perfeitamente, seu tempo é valioso. Por isso mesmo, essa call é diferente - em 45 minutos você vai descobrir [revelação específica] que pessoas levam meses para entender sozinhas. É como comprimir meses de tentativa e erro em menos de uma hora'. Depois, use escassez real: 'As vagas são limitadas porque é uma call ao vivo com [expert], não uma gravação. Posso garantir sua vaga para [data próxima] ou prefere [data alternativa]?'. A escolha entre duas opções positivas aumenta compromisso. Se ainda resistir, provavelmente não tem dor real suficiente."
+## REGRAS CRÍTICAS DE FORMATAÇÃO:
+1. **Limite de Caracteres:** TODAS as respostas devem ter NO MÁXIMO 1000 CARACTERES.
+2. **Foco na Call:** Tudo deve girar em torno de qualificar e agendar para a call
+3. **Naturalidade:** Respostas em frases fluidas, sem bullet points
+4. **Perspectiva:** Perguntas SEMPRE na visão do SDR sobre o lead
+5. **Criação de Desejo:** Respostas devem aumentar o valor percebido da call
+6. **Qualificação Sutil:** Ensinar a qualificar conversando, não interrogando
+## ABRANGÊNCIA ESPERADA:
+### Cubra:
+- Como criar desejo pela call; Como qualificar naturalmente; Como lidar com objeções sobre participar; Como identificar prontidão; Como usar escassez e urgência; Como preparar o lead para conversão; Como fazer transição suave para agendamento; Como manter interesse até a call
+
+
+## REGRAS CRÍTICAS
+- Você deve gerar de 0 a {outputSize} pares de pergunta e resposta.
+- Não crie pares de perguntas e resposta que não possuem embasamento sólido no conteúdo enviado para sua análise.
+- Caso você entenda que existem perguntas relevantes do conteúdo enviado para sua análise, pode criar somente a pergunta com a resposta vazia.
+
+
+
+
+{formatInstructions}

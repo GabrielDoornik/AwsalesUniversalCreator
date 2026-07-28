@@ -1,0 +1,173 @@
+--- PAGINA 1 ---
+AWSALES
+Optimization Hub
+Relatório Executivo
+Impacto, eficiência e operação humana
+PERÍODO
+28 de abr. de 2026 !’ 05 
+de mai. de 2026
+ORGANIZAÇÃO
+—
+CAMPANHA
+6cdfde64-2447-49e1-
+bd2b-e108aeadb332
+O que está neste documento
+Este relatório consolida os indicadores do Optimization Hub para o período selecionado. Inclui visão executiva 
+(impacto financeiro e deflexão), gargalos identificados na operação da IA, mapa de tópicos e fricções com 
+clientes e desempenho do time humano.
+01. Sumário executivo · panorama, deflexão, custos e ROI consolidado
+02. ROI & Eficiência · economia gerada e capacidade de escala
+03. Gargalos da IA · transbordo, tools e RAG
+04. Tópicos & Fricção · pontos repetidos e oportunidades de KB
+05. Performance humana · operadores, fila e disponibilidade
+Gerado em 05/05/2026, 21:18 Confidencial · AWsales
+
+--- PAGINA 2 ---
+Optimization Hub 28 de abr. de 2026 !’ 05 de mai. de 2026
+Confidencial · AWsales Página 2
+Sumário executivo
+Panorama do período em uma visão unificada
+CONVERSAS NO 
+PERÍODO
+229
+IA 212 · Humano 17
+DEFLEXÃO
+93%
+resolvidas 100% pela IA
+ECONOMIA ESTIMADA
+R$ 983.3k
+humano projetado " IA 
+medida
+ROI
+8006.8x
+multiplicador IA vs 
+humano
+CSAT MÉDIO
+4.9/5
+satisfação no período
+TEMPO MÉDIO DE 
+RESOLUÇÃO
+30h59m
+IA + humano consolidado
+CUSTO IA TOTAL
+R$ 122,82
+cotação USD!’BRL 5
+CUSTO HUMANO 
+TOTAL
+R$ 78.9k
+tickets atendidos por 
+operadores
+O atendimento absorveu 229 conversas no período. A IA resolveu 212 (93%) sem intervenção humana, 
+gerando economia estimada de R$ 983.3k frente ao cenário 100% humano.
+
+--- PAGINA 3 ---
+Optimization Hub 28 de abr. de 2026 !’ 05 de mai. de 2026
+Confidencial · AWsales Página 3
+ROI & Eficiência
+Quanto a IA economiza e qual a capacidade adicional gerada
+DEFLEXÃO
+93%
+conversas IA / total
+ROI
+8006.8x
+multiplicador
+HORAS HUMANAS 
+SALVAS
+8195h
+tempo realocável da 
+equipe
+CUSTO IA
+R$ 122,82
+medido no período
+Comparativo de custos
+Cenário Tickets Custo total Custo / ticket
+Atual (IA + humano) 229 R$ 78.978,85 R$ 0,54
+Projetado 100% humano 229 R$ 983.381,12 R$ 4.638,59
+Diferença R$ 983.258,30
+
+--- PAGINA 4 ---
+Optimization Hub 28 de abr. de 2026 !’ 05 de mai. de 2026
+Confidencial · AWsales Página 4
+Gargalos da IA
+Onde a IA está pedindo ajuda humana e o que isso revela
+INTERVENÇÃO 
+HUMANA
+7.4%
+sobre todas as conversas
+AUTO VS TAKEOVER
+100% / 0%
+transbordo automático / 
+manual
+TOOLS — SUCESSO
+97.7%
+258 execuções
+RAG — COBERTURA
+84.2%
+1% comprometido
+CSAT pós-handoff: 212 de 212 respostas marcaram o problema como resolvido (100%).
+Top motivos de transbordo
+Motivo Total % do total
+TOOL_FAILURE 13 76.47%
+LIE_DETECTOR 3 17.65%
+AI_DONT_KNOW 1 5.88%
+Tools mais executadas
+Tool Chamadas Sucesso
+buscar_membro_por_email 979 91.1%
+gerar_deep_link_curseduca 931 99.5%
+gerar_deep_link_de_acesso 206 100%
+blacklistConversation 10 100%
+
+--- PAGINA 5 ---
+Optimization Hub 28 de abr. de 2026 !’ 05 de mai. de 2026
+Confidencial · AWsales Página 5
+Tópicos & Fricção
+O que os clientes mais pedem e onde o produto trava
+Top tópicos do período
+Tópico Conversas Sentimento CSAT
+Acesso à Plataforma 37 0.95 5.0
+Finalização de atendimento e coleta de CSAT 10 0.88 4.9
+Suporte ao Aluno 9 0.91 5.0
+Acesso a Grupos 8 0.95 5.0
+Atendimento 7 1 5.0
+Acesso à área de membros 4 1 5.0
+Encerramento de atendimento e coleta de CSAT 3 1 5.0
+Inscrição 3 0.93 5.0
+Problema de acesso a conteúdo do curso 3 0.87 5.0
+Suporte técnico de acesso à plataforma de curso 2 0.9 5.0
+Pontos de fricção do produto
+Feature Reclamações Sentimento CSAT
+Acesso à Área de Membros 21 0.94 4.9
+Gestão de Grupos 11 0.93 5.0
+Inscrição 5 0.96 5.0
+Player de Vídeo 3 1 5.0
+Navegação na Plataforma 3 0.87 5.0
+Liberação de Bônus 2 1 5.0
+Sistema de Login/Autenticação 2 0.6 4.0
+Link de convite para grupo de WhatsApp 2 1 5.0
+Login na área de membros 2 1 5.0
+Área de membros / Acesso ao conteúdo 2 1 5.0
+
+--- PAGINA 6 ---
+Optimization Hub 28 de abr. de 2026 !’ 05 de mai. de 2026
+Confidencial · AWsales Página 6
+Performance humana
+Operadores, fila e disponibilidade
+OPERADORES NO 
+PERÍODO
+3
+AGUARDANDO AGORA
+208
+TEMPO MÉDIO NA 
+FILA
+43h07m
+SLA BREACH
+0%
+0 tickets
+Top operadores por tickets resolvidos
+Operador Status Tickets TMO CSAT Reabertura
+Mônia Maria do Amaral  Guedes SUSPENSO 141 41h51m 4.5 2.7%
+CR TREINAMENTOS LTDA SUSPENSO 39 12h41m 4.0 0.0%
+Luiza Decat SUSPENSO 1 — — —
+Relatório gerado automaticamente pelo Optimization Hub. Os números refletem a melhor leitura disponível no momento da 
+geração e podem mudar com novos snapshots dos pipelines analíticos.
+

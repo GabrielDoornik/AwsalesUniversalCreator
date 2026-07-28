@@ -1,0 +1,56 @@
+[
+  {
+    "headers": {
+      "x-forwarded-for": "2a06:98c0:3600::103, 172.71.195.23",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "n8n-dev.awsales.io",
+      "x-amzn-trace-id": "Root=1-6a2b1888-322c97174b7dfc16102417ef",
+      "content-length": "952",
+      "accept-encoding": "gzip, br",
+      "content-type": "application/json",
+      "cf-ray": "a0a350f7a8b605f5-IAD",
+      "cf-ew-via": "15",
+      "cdn-loop": "cloudflare; loops=1; subreqs=1",
+      "x-nrx-source": "webhook.nuestrarx.com",
+      "x-nrx-event": "rx_written",
+      "user-agent": "NuestraRx-Intake-Proxy/1.1",
+      "cf-worker": "nuestrarx.com",
+      "cf-connecting-ip": "2a06:98c0:3600::103",
+      "cf-ipcountry": "US",
+      "cf-visitor": "{\"scheme\":\"https\"}"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "event": "rx_written",
+      "source": "dosable.rx_written",
+      "session_id": null,
+      "order_id": "ORD-123456",
+      "customer_id": null,
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "amount": null,
+      "product_id": "17, 21",
+      "product_name": "Semaglutide 2.5mg Injection - 4ct (Monthly Supply)",
+      "received_at": "2026-06-11T20:20:24.906Z",
+      "dosable_event_type": "rx_written",
+      "dosable_raw": {
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "order_id": "ORD-123456",
+        "products": "{\"17\":{\"product_id\":\"17\",\"product_name\":\"Regrow Rx Topical Serum - Monthly - Pre-Meno\",\"product_price\":\"89.00\"},\"21\":{\"product_id\":\"21\",\"product_name\":\"Boost Rx Oral Pill - Monthly - Pre-Meno\",\"product_price\":\"60.00\"}}",
+        "last_name": "Doe",
+        "timestamp": "2026-06-11T20:20:24.877Z",
+        "event_type": "rx_written",
+        "first_name": "John",
+        "product_id": "17, 21",
+        "customer_id": "",
+        "product_name": "Semaglutide 2.5mg Injection - 4ct (Monthly Supply)",
+        "webhook_name": "NRX rx_written → AWSales"
+      }
+    },
+    "webhookUrl": "https://n8n.nonprod.awsales.io/webhook/nuestra-forms-site",
+    "executionMode": "production"
+  }
+]

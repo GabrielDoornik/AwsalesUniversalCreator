@@ -1,0 +1,187 @@
+--- PAGINA 1 ---
+Vendas - Tintim
+Produto 15 documentos
+Editar Excluir
+Busca Semântica
+Buscar
+Documentos (15)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Todos Todas as tags
+ Data de criação
+Desc
+Qual é a promessa central do Tintim e o
+mecanismo que a sustenta?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+O Tintim promete visibilidade e mensuração das vendas que nascem no WhatsApp, sem g
+arantir aumento de vendas ou redução de CPL. Ele liga o anúncio à conversa e à venda, id
+entifica a origem do lead (campanha, conjunto, anúncio e termo de busca), acompanha a j
+ornada, detecta automaticamente quais conversas viraram venda e o valor, e no Plano Esc
+ala devolve esses eventos para Meta Ads e Google Ads para otimização.
+Quais planos existem e para quem cada um é
+indicado?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+15/07/2026, 19:00 Dashboard
+https://neo.awsales.io/knowledge-bases/008f0532-3710-464a-8e6b-0a7e34819531 1/5
+
+--- PAGINA 2 ---
+Há dois planos. O Plano Inicial foca em rastrear e classificar conversas, identificar vendas,
+auditar conversas, gerar relatórios, exportar dados e dashboard para 1 número de WhatsA
+pp. O Plano Escala inclui tudo do Inicial e adiciona disparo de webhook, envio de eventos
+para Meta e Google e acesso de dashboards por terceiros, sendo indicado quando a pess
+oa precisa integrar dados e devolver sinais de venda às plataformas.
+O que exatamente o Plano Inicial entrega?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+O Plano Inicial entrega rastreamento do tráfego até o WhatsApp, classificação das conver
+sas, identificação automática de conversas que viraram venda e do valor, auditoria de con
+versas para qualidade, relatórios, exportação de dados e um dashboard consolidado, aplic
+ados a 1 número de WhatsApp.
+O que o Plano Escala adiciona e quando
+recomendar?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+O Escala adiciona disparo de webhook, envio de eventos de venda para Meta Ads e Goog
+le Ads e acesso de dashboards por terceiros. Recomende quando a pessoa, além de enxer
+gar resultados, quiser devolver as vendas para as plataformas de anúncio e integrar o Tint
+im ao seu ecossistema de mídia e BI.
+Como o agente deve recomendar o plano certo
+para a pessoa?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Baseie-se na necessidade declarada, nunca só em preço ou rótulo de maturidade. A pergu
+nta-chave é se a pessoa quer apenas ver os resultados ou também devolver as vendas par
+a Meta/Google. Considere integrações, mídia paga, volume e quantidade de números. Le
+mbre que cada plano rastreia 1 número de WhatsApp e vários números da mesma empre
+sa continuam nesta campanha.
+Como apresentar preço e condições de
+pagamento para a pessoa?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Confirme o plano, o número de WhatsApps a rastrear e a necessidade de integrações. Co
+nsulte o checkpoint da campanha para o preço mensal público, formas de pagamento, exi
+stência e regra de teste e o link de checkout vigentes. Apresente o plano e benefícios, vali
+15/07/2026, 19:00 Dashboard
+https://neo.awsales.io/knowledge-bases/008f0532-3710-464a-8e6b-0a7e34819531 2/5
+
+--- PAGINA 3 ---
+de o teste se aplicável, informe o valor do checkpoint e, com aceite, envie o checkout. Em
+caso de divergência, prevalece o que está no checkout oficial.
+Quanto tempo de acesso a pessoa tem após
+assinar?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+É uma assinatura mensal de SaaS. A pessoa mantém acesso enquanto a assinatura estiver
+ativa conforme os Termos vigentes. Não existe acesso vitalício, lote ou prazo promocional
+por vagas.
+Existe teste gratuito? Como diferenciar de
+reembolso?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Teste é uma condição de experimentação anterior ou vinculada à contratação; reembolso
+trata de valores após a assinatura, conforme os Termos de Uso. Confirme no checkpoint s
+e o teste está ativo nesta campanha e sua duração/regra antes de oferecer. Não prometa
+reembolso fora dos Termos. Dúvidas específicas de cobrança ou elegibilidade vão para o s
+uporte humano.
+Quais garantias e seguranças de compra posso
+comunicar?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Reforce que o Tintim tem preço público e é assinatura mensal. Não há promessa de result
+ado comercial. Regras de cancelamento e reembolso seguem os Termos de Uso oficiais; n
+unca cravar condições fora deles. Em casos de acesso, cobrança, segurança ou privacidad
+e, encaminhe ao suporte humano e pause a venda. Se houver divergência com o checkou
+t, vale a condição mais atual do checkout.
+Quais são os limites e o que alinhar sobre
+rastreamento e integrações?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Não prometa 100% de cobertura; ela depende de implementação, navegador, comporta
+mento do usuário, links e integrações. Não afirme compatibilidade universal com CRM, ch
+atbot ou atendimento. Se a ferramenta não estiver confirmada, colete o nome e encaminh
+15/07/2026, 19:00 Dashboard
+https://neo.awsales.io/knowledge-bases/008f0532-3710-464a-8e6b-0a7e34819531 3/5
+
+--- PAGINA 4 ---
+e para análise técnica. Não prometa prazo fixo para integrar, pois depende do stack do cli
+ente.
+Em quanto tempo a pessoa implementa o Tintim?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Não prometa prazo. A implementação depende do tipo de WhatsApp, das fontes de tráfe
+go e das integrações necessárias. Alinhe o escopo, mapeie o stack da pessoa e proponha
+os próximos passos; se houver complexidade técnica, acione o time técnico e evite compr
+omissos de data.
+Como lidar com urgência sem usar escassez falsa?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Não use vagas, lotes ou prazos. A única urgência legítima é o custo de continuar sem me
+dir, ou seja, a verba desperdiçada por não saber qual anúncio traz venda. Quantifique usa
+ndo os números que a própria pessoa compartilhou e convide a começar para parar de o
+perar no escuro.
+Quem deve ser redirecionado para o Programa de
+Parceiros?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Se a pessoa for gestora de tráfego ou dona de agência com 3 ou mais clientes, não venda
+um plano aqui nem prometa condição de parceiro. Encaminhe para a rota de reunião do
+Programa de Parceiros com um consultor humano.
+Como proceder quando a pessoa tem múltiplos
+números de WhatsApp?
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Cada plano rastreia 1 número. Vários números da mesma empresa continuam nesta camp
+anha. Alinhe quantos números serão rastreados, recomende o plano por necessidade (int
+egrações e mídia) e confirme no checkpoint o fluxo de contratação adequado e os checko
+uts correspondentes antes de enviar.
+Como iniciar a conversa considerando que o lead
+veio aquecido pelo SDR?
+15/07/2026, 19:00 Dashboard
+https://neo.awsales.io/knowledge-bases/008f0532-3710-464a-8e6b-0a7e34819531 4/5
+
+--- PAGINA 5 ---
+Informações
+ID da Base
+008f0532-3710-464a-8e6b-0a7e34819531
+Tipo
+Produto
+Tipo de Agente
+Venda Direta
+Organização
+Tintim
+Criado em
+Jul 15, 2026, 06:56 PM
+Última atualização
+Jul 15, 2026, 06:57 PM
+Fontes de Conhecimento
+# Texto Complementar — PRODUTO Campanha: Venda par...
+Criado em Jul 15, 2026,
+06:57 PM • Usado 0
+vezes • Inativo
+Não se apresente do zero. Retome de onde a Ana parou, recapitule o objetivo que a pess
+oa declarou, valide se quer apenas enxergar resultados ou também devolver vendas às pl
+ataformas, recomende o plano certo e avance para alinhamento de implementação e envi
+o do checkout conforme o checkpoint.
+15/07/2026, 19:00 Dashboard
+https://neo.awsales.io/knowledge-bases/008f0532-3710-464a-8e6b-0a7e34819531 5/5
+

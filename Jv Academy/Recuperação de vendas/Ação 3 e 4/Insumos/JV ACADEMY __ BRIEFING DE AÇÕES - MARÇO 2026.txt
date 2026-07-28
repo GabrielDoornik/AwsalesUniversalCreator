@@ -1,0 +1,414 @@
+﻿RESUMO EXECUTIVO
+Este documento descreve 4 ações de ativação por IA durante e após o lançamento da JV Academy:
+AÇÃO 1  —   Carrinho abandonado para leads da lista de interessados (D0–D5 - 26 - 30/03)
+AÇÃO 2  — Carrinho abandonado para público geral / venda direta (D0 - D5 - 26 - 30/03)
+AÇÃO 3  —  Recuperação de leads da lista de interessados que não compraram (D+1 - 27/03)
+AÇÃO 4  —  Pós-lançamento: ativação de leads quentes não convertidos (após D5)
+As ações 1, 2 e 3 correm em paralelo durante o lançamento. A ação 4 é exclusiva pós-lançamento.
+	
+
+
+1. Contexto do Lançamento
+
+A JV Academy é a plataforma de ensino de guitarra e violão da Juliana Vieira. O lançamento ocorre em formato CPL (Content + Pitch Live) ao vivo, com 3 aulas nos dias 23, 24 e 25/03. As matrículas abrem no dia 26/03 às 8h para a lista de interessados captada durante o evento.
+
+
+1.1 Estrutura de Oferta por Dia
+A oferta evolui ao longo de 5 dias de carrinho aberto. Cada dia tem condições, preços e bônus específicos que a IA deve conhecer com precisão para calibrar a comunicação corretamente.
+
+
+DIA 1 — ABERTURA (26/03 às 8h) — CONDIÇÃO DA LISTA
+Disponível apenas para quem está na lista de interessados
+	
+
+
+
+CONDIÇÃO
+	DETALHES DA OFERTA
+	Cartão de crédito
+	12x R$ 149,00 sem juros
+	À vista (PIX/boleto)
+	15% de desconto sobre o valor total
+	Boleto parcelado
+	12x R$ 169,00 (apostilas físicas enviadas após quitação)
+	
+
+Incluso em todos os planos — Dia 1:
+•          ✔ Plataforma completa
+•          ✔ Aulas ao vivo semanais
+•          ✔ Plantões de dúvidas
+•          ✔ Acompanhamento diário
+•          ✔ Apostilas físicas entregues em casa
+Bônus base — Dia 1:
+•          🎁 Curso de Timbres
+•          🎁 Curso de Gravação Profissional
+ 
+Bônus da PRIMEIRA HORA (válido somente nas primeiras 60 min após abertura):
+•          🎁 15 meses de acesso (em vez de 12)
+ 
+Bônus dos PRIMEIROS 5 (somente para as 5 primeiras matrículas):
+•          🎁 Jogo de cordas de guitarra + violão
+•          🎁 Palhetas autografadas
+
+
+ATENÇÃO IA — Dia 1: A IA deve comunicar claramente o escalonamento de bônus (abertura → primeira hora → primeiros 5). Ao contatar alguém no Dia 1, verificar qual janela de bônus ainda está vigente e comunicar apenas os bônus ainda disponíveis. Esse reforço é valido apenas considerando carrinho abandonado. Que estará ativo desde a abertura. Para ação de recuperação, considerar oferta abaixo. 
+
+
+
+
+DIA 2 (27/03) — AJUSTE DE PREÇO
+Bônus físicos e tempo extra são removidos
+	
+
+
+
+CONDIÇÃO
+	DETALHES DA OFERTA
+	Cartão de crédito
+	12x R$ 159,00 sem juros
+	À vista (PIX/boleto)
+	15% de desconto sobre o valor total
+	Boleto parcelado
+	12x R$ 179,00 (apostilas físicas enviadas após quitação)
+	
+
+Mantém — Dia 2:
+•          ✔ Apostilas físicas
+•          🎁 Curso de Timbres
+•          🎁 Curso de Gravação Profissional
+
+
+Remove — Dia 2:
+•          ❌ 15 meses de acesso (volta para 12)
+•          ❌ Jogo de cordas e palhetas autografadas
+ 
+ATENÇÃO IA — Dia 2: Ao mencionar o aumento de preço, a IA deve sempre referenciar o que foi perdido versus o Dia 1, gerando senso de urgência real e não fabricado. Importante reforçar ainda que as vagas são limitadas e no dia seguinte o valor sobe e os bônus diminuem. 
+	
+
+
+
+DIAS 3 A 5 (28/03 a 30/03) — PREÇO FINAL DE LANÇAMENTO
+Condição definitiva até o encerramento do carrinho
+
+
+
+
+CONDIÇÃO
+	DETALHES DA OFERTA
+	Cartão de crédito
+	12x R$ 169,00 sem juros
+	À vista (PIX/boleto)
+	15% de desconto sobre o valor total
+	Boleto parcelado
+	12x R$ 189,00 (apostilas físicas enviadas após quitação)
+	
+
+Mantém — Dias 3 a 5:
+•          ✔ Apostilas físicas
+•          🎁 Curso de Timbres
+•          🎁 Curso de Gravação Profissional
+
+
+
+
+ATENÇÃO IA — Dias 3 a 5: Foco em urgência de encerramento. Não há mais bônus extras, mas o preço está no teto do lançamento. Após o encerramento, o produto não estará mais disponível. A IA não deve inventar bônus adicionais.
+	
+
+
+
+2. Detalhamento das ações
+
+
+Ação 1 — Carrinho Abandonado: Lista de Interessados
+
+
+TIPO: Carrinho abandonado  |  TIMING: D1 a D5  |  CANAL: WhatsApp ativo (IA chama)
+Ativado webhook apenas na oferta referente a lista de interessados
+	
+
+Objetivo
+Recuperar pessoas que clicaram no link de compra com o código exclusivo da lista de interessados, iniciaram o processo de checkout e não finalizaram. Esta ação é sensível ao timing, deve acontecer rapidamente após o abandono para que os bônus vigentes ainda estejam ativos.
+ 
+Calibração Crítica por Dia
+
+
+DIA
+	O QUE COMUNICAR
+	D1 — Primeira hora
+	Urgência máxima: bônus de 15 meses + cordas + palhetas + bônus base. Mencionar que a primeira hora tem bônus exclusivos que vão expirar.
+	D1 — Após primeira hora
+	Manter urgência de abertura. Mencionar apenas os bônus base (Curso de Timbres + Gravação). Não mencionar bônus da primeira hora como se ainda estivessem ativos.
+	D2
+	Comunicar que houve ajuste de preço (subiu de R$149 para R$159). O preço de D1 acabou. Ainda há apostilas e cursos bônus. Urgência crescente.
+	D3 a D4
+	Preço final. Não há mais ajuste. Reforçar encerramento próximo e que após o fechamento do carrinho o produto sai do ar.
+	D5
+	Urgência máxima de encerramento. Última chance. Comunicar claramente que as matrículas fecham hoje.
+	
+
+Fluxo do Diálogo
+
+•        Abertura: contextualizar que a pessoa iniciou a matrícula e não concluiu 
+•        Oferecer ajuda: perguntar se houve alguma dificuldade técnica ou dúvida sobre a oferta.
+•        Resolver obstáculo: se for técnico, orientar. Se for de decisão, resgatar a transformação prometida.
+•        Reforçar bônus vigentes no momento do contato conforme tabela acima
+•        CTA direto: apresentar o link novamente.
+•        Máximo de 2 mensagens de follow-up caso não haja resposta.
+
+
+Regras de Ouro desta Ação
+
+
+A IA NUNCA deve afirmar que um bônus está disponível se ele já expirou. Verificar o timestamp do abandono versus o horário vigente antes de qualquer comunicação sobre bônus.
+	
+
+•        Se a pessoa abandonou na primeira hora mas o contato acontece após a primeira hora: comunicar apenas os bônus base.
+•        Se a pessoa abandonou no D1 e o contato acontece no D2: comunicar a condição vigente de D2 e referenciar que o preço de D1 não está mais disponível.
+•        Nunca criar senso de urgência falso — o produto tem prazo real e isso é suficiente.
+
+
+Abertura de janela
+ 
+Oi, [NOME]! Tudo bem? 
+Vi aqui que você começou sua matrícula na JV Academy mas não finalizou, queria saber se aconteceu algum problema técnico ou se ficou alguma dúvida.
+
+
+Reforço - sem resposta ou sem evento de checkout (aguardar 3h)
+
+[NOME], só passando aqui rapidinho…
+ 
+Ainda dá tempo de garantir sua matrícula com a condição de hoje.
+
+Me conta como eu posso te ajudar a finalizar e garantir sua vaga ainda hoje?
+
+
+
+
+Ação 2  — Carrinho Abandonado: Público Geral
+
+
+
+
+TIPO: Carrinho abandonado  |  TIMING: D0 a D5  |  CANAL: WhatsApp ativo (IA chama)
+Ativado para leads captados via e-mail, anúncios e grupos de WhatsApp de leads do lançamento
+	
+
+Objetivo
+
+Recuperar leads do público geral (que não estavam na lista de interessados) que iniciaram o checkout e não finalizaram. Esta base chega ao produto pela comunicação direta via e-mail, anúncios ou grupos de WhatsApp de leads captados para o lançamento.
+
+
+Público-alvo
+•          Leads captados para o lançamento via e-mail, anúncios ou grupos de WhatsApp
+•          Não estavam na lista de interessados exclusiva
+Iniciaram checkout e não concluíram
+
+
+Oferta desta Ação
+
+
+CONDIÇÃO
+	DETALHES
+	Cartão de crédito
+	12x R$ 169,00 sem juros
+	À vista (PIX/boleto)
+	15% de desconto sobre o valor total
+	Boleto parcelado
+	12x R$ 189,00 (apostilas físicas enviadas após quitação)
+	Incluso
+	Apostilas físicas + Curso de Timbres + Curso de Gravação Profissional
+	NÃO incluso
+	Bônus exclusivos da lista de interessados (15 meses, cordas, palhetas, acesso a preço de 12x 149)
+	
+
+
+
+ATENÇÃO IA — Ação 3: Esta ação não deve mencionar nenhum bônus exclusivo da lista de interessados (15 meses de acesso, cordas, palhetas). Esses bônus são exclusivos de quem estava na lista. Mencionar apenas o que está listado acima.
+Abertura de janela
+ 
+Oi, [NOME]! Tudo bem? 
+Vi aqui que você começou sua matrícula na JV Academy mas não finalizou, queria saber se aconteceu algum problema técnico ou se ficou alguma dúvida.
+
+
+Reforço - sem resposta ou sem evento de checkout (aguardar 3h)
+
+[NOME], só passando aqui rapidinho…
+ 
+Ainda dá tempo de garantir sua matrícula com a condição de hoje.
+
+Me conta como eu posso te ajudar a finalizar e garantir sua vaga?
+
+
+
+
+Ação 3  — Recuperação de vendas Lista de Interessados
+
+
+
+TIPO: Recuperação ativa  |  TIMING: D+1 (27/03), após abertura  |  CANAL: WhatsApp ativo (IA chama)
+	
+
+Contatar, via IA, todos os leads que estavam na lista de interessados e não realizaram a compra no Dia 1 após a abertura das matrículas. O objetivo é entender o motivo da não conversão e tentar converter com o argumento mais adequado ao perfil do lead.
+
+
+Público-alvo
+
+
+•        Leads que se inscreveram na lista de interessados durante o evento (CPL 1, 2 ou 3)
+•        Não realizaram compra após a abertura das matrículas no dia 26/03 às 8h
+•        Arquivo de números será enviado por nós para a IA processar
+
+
+Fluxo do Diálogo
+
+
+A IA deve conduzir uma conversa diagnóstica antes de tentar converter. O fluxo deve seguir esta sequência lógica:
+ 
+ETAPA
+	DESCRIÇÃO
+	1. Abertura
+	Saudao, contextualizar que a pessoa esteve no evento e que as matrículas estao abertas.
+	2. Diagnóstico
+	Perguntar de forma natural por que ainda não entrou. Ouvir a resposta antes de reagir.
+	3. Qualificação
+	Com base na resposta, identificar o tipo de objeção: financeira, de valor, de tempo, de confiança ou técnica.
+	4. Resposta calibrada
+	Responder com o argumento específico para aquele tipo de objeção 
+	5. CTA
+	Apresentar o link de matrícula com a condição vigente do dia.
+	6. Objeção dupla
+	Se houver segunda objeção, responder uma vez mais. Após segunda negativa, encerrar com elegância e deixar a porta aberta.
+	
+
+Respostas por Tipo de Objeção
+
+
+Lead diz que não tem dinheiro, que está apertado, que o preço está alto.
+Argumento sugerido: apresentar o parcelamento de 12x R$ 149 como menos de R$ 15 por semana. Comparar com o custo de uma aula particular por semana (em média R$ 100–200/mês). Reforçar que o acesso é de 12 meses. Se o problema for específico de crédito, mencionar o boleto parcelado. Não pressionar além de uma resposta. Também é importante mencionar o custo de seguir sozinho, praticando sem acesso a um método assertivo. A percepção de valor do produto deve ser maior do que o preço. 
+
+
+Lead está em dúvida sobre o que está comprando ou acha que o curso pode não ser pra ele.
+Argumento sugerido: resgatar o que o lead viveu no evento. Reforçar os 4 pilares (plataforma por níveis, prática guiada, acompanhamento real, comunidade + ao vivos). Destacar que funciona para rock, blues, MPB, jazz, música de igreja — qualquer estilo, funciona para quem está começando e para quem ja toca. Reforçar a garantia de 7 dias incondicional.
+
+
+Lead diz que não tem tempo para estudar.
+Argumento sugerido: a metodologia foi criada para adultos com rotina corrida. 30 minutos por dia, 4x por semana. O plano do dia já está estruturado, não é necessário planejar, só abrir e tocar.
+
+
+Lead diz que já comprou outros cursos e não continuou, ou que tem dúvida se vai funcionar para ele.
+Argumento sugerido: reconhecer a experiência anterior como legítima. Explicar que a diferença está no acompanhamento — a IA/professora percebe quando o aluno some e o chama de volta. Reforçar a garantia de 7 dias: 'você não perde nada testando'.
+
+
+Lead está em dúvida se o nível está adequado para ele (iniciante ou avançado).
+Argumento sugerido: a plataforma atende do zero ao avançado. Tem alunos que começaram sem nunca ter tocado e alunos que tocam há 10 anos e estavam travados. O caminho é personalizado por nível.
+
+
+Abertura de Janela
+
+
+Oi, [NOME]! 
+ 
+Aqui é da equipe da Juliana Vieira. Você se inscreveu no Evento Domine o Braço e entrou pra nossa Lista de Interessados.
+ 
+As matrículas da JV Academy estão abertas desde ontem, mas percebi que você não entrou ainda.
+ 
+Tem alguma coisa que ficou na sua cabeça? Dúvida sobre o método, sobre o valor, sobre seu nível, pode falar à vontade que estou aqui pra ajudar.
+
+
+Reforço (aguardar 3h)
+
+
+Oi, [NOME], tudo bem? 👋
+ 
+Só passando pra ver se recebeu minha mensagem de ontem.
+ 
+As matriculas para a JV Academy fecham dia 30/03 e a condição de hoje ainda é das melhores e mais vantajosas. 
+ 
+Se tiver qualquer dúvida, sobre o nível, o tempo, o pagamento ou o método, é só responder aqui.
+
+
+
+
+Ação 4  — Pós-lançamento: Ativação de Leads Quentes Não Convertidos
+
+
+
+
+TIPO: Diagnóstico + reativação  |  TIMING: Após D7 (pós-lançamento)  |  CANAL: WhatsApp ativo (IA chama)
+Leads classificados como 'quentes' que responderam a pesquisa mas não compraram
+	
+
+Objetivo
+Após o encerramento do carrinho, acionar uma IA exclusiva para entender o motivo de não conversão de leads que: (1) se inscreveram no evento, (2) participaram e demonstraram interesse, (3) responderam à pesquisa pós-evento e (4) foram classificados como 'quentes' — mas não compraram durante o lançamento.
+Esta ação não é de venda direta. É de diagnóstico e construção de relacionamento, com abertura para oferecer uma oportunidade de realização futura.
+
+
+Público-alvo
+•        Leads que se inscreveram no evento 
+•        Responderam à pesquisa 
+•        Foram classificados internamente como 'quentes' na pesquisa
+•        Não realizaram compra em nenhum dos 5 dias de carrinho e não receberam comunicações anterior
+
+
+Fluxo do Diálogo
+
+
+
+
+ETAPA
+	DESCRIÇÃO
+	1. Abertura gentil
+	Saudar pelo nome. Agradecer pela participação no evento.
+	2. Curiosidade genuína
+	Perguntar como foi a experiência no evento. O que ficou. O que mudou na forma de ver a guitarra.
+	3. Diagnóstico do não-fechamento
+	De forma natural, perguntar o que ficou entre a pessoa e a decisão de entrar na JV Academy.
+	4. Escuta ativa
+	Registrar a resposta completa antes de reagir. Não tentar vender na mesma mensagem do diagnóstico.
+	5. Resposta empática
+	Validar motivo e quebrar objeções. Se necessario, reapresentar o produto.
+	6. Abertura futura
+	Caso o lead demonstre interesse futuro, registrar e informar que será avisado na próxima janela disponível.
+	7. Encerramento positivo
+	Deixar a conversa em aberto, sem pressão.
+	
+
+Abertura de janela
+
+Olá, [Nome]
+
+Aqui é da equipe da Juliana Vieira. Você se inscreveu no evento Domine o Braço que aconteceu essa semana e eu queria saber como foi para você…
+ 
+Conseguiu participar do evento? Teve alguma coisa que mudou a sua forma de enxergar a guitarra?
+
+
+
+
+
+
+>>>> Se o lead não conseguiu ver as aulas, enviamos as gravações disponiveis por tempo limitado: https://aulas.julianavieiragt.com.br/gravacoes e perguntamos se viu sobre a JV Academy
+
+>>>> Se o lead participou e gostou das aulas, eprguntamos o que impediu ele de entrar na JV Academy? 
+
+
+
+
+LINKS CHECKOUT
+
+
+Lista de interessados
+
+CARTÃO
+12x R$ 149: https://pay.hotmart.com/N103767024Y?off=yx4lzny8&checkoutMode=10 
+12x R$ 159: https://pay.hotmart.com/N103767024Y?off=yx4lzny8&checkoutMode=10 (mesmo link, vamos alterar o preço)
+
+BOLETO:
+12x R$ 169: https://pay.tmbeducacao.com.br/JulianaVieir/503189046TE?utm_source=awsales  
+12x R$ 179: https://pay.tmbeducacao.com.br/JulianaVieir/UE918904704?utm_source=awsales
+
+Vendas gerais
+
+CARTÃO
+12x R$ 169: https://pay.hotmart.com/N103767024Y 
+BOLETO
+12x R$ 189: https://pay.tmbeducacao.com.br/JulianaVieir/57I189043H9

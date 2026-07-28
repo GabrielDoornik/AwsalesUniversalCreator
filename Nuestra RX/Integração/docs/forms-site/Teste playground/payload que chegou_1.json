@@ -1,0 +1,108 @@
+[
+  {
+    "headers": {
+      "x-forwarded-for": "3.130.218.162",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "host": "n8n.nonprod.awsales.io",
+      "x-amzn-trace-id": "Root=1-6a33100d-5949e0a85a5d2f482c0066bd",
+      "content-length": "1769",
+      "content-type": "application/json",
+      "authorization": "Bearer EKSqZLZXgARMrY9l9eDOreI_aNH4u9ebkwRBYyuMRSM",
+      "x-datadog-trace-id": "7175706396715746178, 7175706396715746178",
+      "x-datadog-parent-id": "3965097325115680162, 1088502161307355942",
+      "x-datadog-sampling-priority": "-1, -1",
+      "x-datadog-tags": "_dd.p.tid=6a330fb900000000, _dd.p.tid=6a330fb900000000",
+      "traceparent": "00-6a330fb90000000063953af304bd8382-3706db025b5f25a2-00, 00-6a330fb90000000063953af304bd8382-0f1b22f2d5f84b26-00",
+      "tracestate": "dd=t.tid:6a330fb900000000;t.dm:-3;s:-1;p:3706db025b5f25a2, dd=t.tid:6a330fb900000000;t.dm:-3;s:-1;p:0f1b22f2d5f84b26",
+      "accept": "*/*",
+      "accept-language": "*",
+      "sec-fetch-mode": "cors",
+      "user-agent": "node",
+      "accept-encoding": "br, gzip, deflate"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "product": "tirzepatide",
+      "plan": "monthly",
+      "contact": {
+        "first_name": "Prueba",
+        "last_name": "RecForm Test",
+        "email": "prueba.recform+20260617@nuestrarx-test.com",
+        "phone": "+15555550147",
+        "lead_state": "FL",
+        "gender": "Female",
+        "date_of_birth": "1970-03-15"
+      },
+      "answers": {
+        "6400": {
+          "value": "Prueba"
+        },
+        "6401": {
+          "value": "1970-03-15"
+        },
+        "6402": {
+          "value": "95"
+        },
+        "6403": {
+          "value": "Female"
+        },
+        "6404": {
+          "value": "No"
+        },
+        "6406": {
+          "value": "95"
+        },
+        "6407": {
+          "value": "168"
+        },
+        "6408": {
+          "value": "86"
+        },
+        "6410": {
+          "value": "Some efforts"
+        },
+        "6411": {
+          "value": [
+            "None of the above"
+          ]
+        },
+        "6415": {
+          "value": "No"
+        },
+        "6416": {
+          "value": [
+            "None of the above"
+          ]
+        },
+        "6417": {
+          "value": [
+            "None of these"
+          ]
+        },
+        "6418": {
+          "value": "Yes"
+        },
+        "6431": {
+          "value": "Yes"
+        },
+        "6432": {
+          "value": "Yes"
+        },
+        "6433": {
+          "value": "Yes"
+        }
+      },
+      "metadata": "{\"bmi\":\"30.5\",\"age_range\":\"45-59\",\"bmi_class\":\"obese_class_1\",\"height_cm\":168,\"nrx_event\":\"intake_abandoned\",\"session_id\":\"nrx_test_recform_20260617\",\"weight_kg\":86,\"weight_lbs\":\"190\",\"resume_step\":\"4\",\"source_lang\":\"es\",\"lead_country\":\"US\",\"resume_stage\":\"parent\",\"answers_count\":3,\"phone_country\":\"US\",\"recovery_type\":\"form_abandonment_confirmed\",\"abandon_reason\":\"inactivity_timeout\",\"biological_sex\":\"Mujer\",\"height_display\":\"5'6\"\",\"lead_last_name\":\"RecForm Test\",\"form_resume_url\":\"https://nuestrarx.com/evaluacion?lt=7671830b-73ae-4511-83e5-ab655d0be575&lang=es\",\"lead_first_name\":\"Prueba\",\"resume_step_label\":\"Contato e escolha entre WhatsApp ou continuar no site\",\"eligibility_qualified\":false,\"recommended_recovery_url\":\"https://nuestrarx.com/evaluacion?lt=7671830b-73ae-4511-83e5-ab655d0be575&lang=es\",\"eligibility_state_supported\":false}",
+      "form_answers": [],
+      "source": {
+        "channel": "whatsapp",
+        "agent": "awsales-bot",
+        "captured_at": "2026-06-17T18:20:57"
+      }
+    },
+    "webhookUrl": "https://n8n.nonprod.awsales.io/webhook/debug-awsales-tool",
+    "executionMode": "production"
+  }
+]

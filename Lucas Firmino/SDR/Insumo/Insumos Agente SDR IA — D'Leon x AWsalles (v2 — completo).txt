@@ -1,0 +1,434 @@
+﻿INSUMOS PARA AGENTE SDR IA — AWSALLES x D'LEON
+Preenchido em: março/2026 | Base: Scripts SDR, Mensagens de Confirmação, Briefings D'Leon
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+1. FLUXO DE QUALIFICAÇÃO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+FLUXO — LENTES DE PORCELANA
+
+
+Abertura:
+"Olá, {{nome}}! Aqui é a [SDR] da equipe D'Leon! Vi que você demonstrou interesse em saber mais sobre Lentes de Porcelana. Posso te contar um pouquinho sobre como funciona?"
+
+
+[SE SIM] → Investigação:
+"Ótimo! Antes de te explicar tudo, me conta: o que mais te incomoda no seu sorriso hoje?"
+
+
+Critérios de qualificação:
+• Tem interesse em transformar o sorriso? → QUALIFICADO: Sim | DESQUALIFICADO: Não / Só curiosidade
+• Está buscando resultado estético? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+• Tem disponibilidade para a consulta de avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Impossível nos próximos meses
+• Tem condição de investimento? → QUALIFICADO: Confirma interesse após ouvir o valor | DESQUALIFICADO: Rejeita totalmente antes de ouvir
+
+
+[LEAD QUALIFICADO] → Agendar avaliação presencial gratuita
+
+
+────────────────────────────────────────
+
+
+FLUXO — PROTOCOLO DE IMPLANTES
+
+
+Abertura:
+"Olá, {{nome}}! Aqui é a [SDR] da D'Leon. Você se interessou pelo Protocolo de Implantes, certo? Posso te explicar como funciona?"
+
+
+[SE SIM] → Verificação:
+"Você já conhece o Protocolo? Já chegou a pesquisar alguma coisa sobre implantes?"
+
+
+Critérios de qualificação:
+• Perdeu dentes ou tem dentes comprometidos? → QUALIFICADO: Sim | DESQUALIFICADO: Não (interesse especulativo)
+• Tem disponibilidade para a consulta de avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Impossível nos próximos meses
+• Busca solução definitiva/fixa? → QUALIFICADO: Sim | DESQUALIFICADO: Prefere removível ou não sabe
+• Disponível para avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+
+
+[LEAD QUALIFICADO] → Agendar avaliação presencial gratuita
+
+
+────────────────────────────────────────
+
+
+FLUXO — HOF (HARMONIZAÇÃO OROFACIAL)
+
+
+Abertura:
+"Olá, {{nome}}! Sou da equipe D'Leon. Vi seu interesse em Harmonização Facial. Posso te apresentar o que oferecemos?"
+
+
+Critérios de qualificação:
+• Quer melhorar contornos faciais ou rejuvenescer? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+• Tem disponibilidade para a consulta de avaliação presencial? → QUALIFICADO: Sim | DESQUALIFICADO: Impossível nos próximos meses
+• Tem interesse em preenchedores ou botox? → QUALIFICADO: Sim | DESQUALIFICADO: Medo/recusa total
+• Disponível para consulta? → QUALIFICADO: Sim | DESQUALIFICADO: Não
+
+
+[LEAD QUALIFICADO] → Agendar avaliação presencial gratuita
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+2. INFORMAÇÕES DO PRODUTO/SERVIÇO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+LENTES DE PORCELANA
+• O que é: Finas películas de porcelana aplicadas sobre os dentes para transformação estética completa.
+• Indicação: Dentes com manchas, irregularidades, pequenos desvios ou insatisfação estética
+• Processo: 3 consultas
+• Diferenciais:
+  - PMI (Protocolo Minimamente Invasivo) — preserva o dente natural
+  - Durabilidade: +20 anos
+  - Sem manutenção ("Bioinércia")
+  - Personalização total de cor e formato
+  - Brancor estável (não amarela)
+• Preço:
+  - Por lente: R$ 1.500,00
+  - Pacote de 10 lentes: R$ 6.750,00 à vista (parcelado disponível)
+• Campanha ativa: "2026 — Ano da Sua Transformação"
+
+
+────────────────────────────────────────
+
+
+PROTOCOLO DE IMPLANTES (Dentes fixos em 24 horas)
+• O que é: Prótese dentária fixa, implantada no mesmo dia da cirurgia
+• Indicação: Pacientes que perderam todos ou vários dentes
+• Diferenciais:
+  - Dentes fixos em 24 horas
+  - Durabilidade: +20 anos
+  - Alta satisfação mastigatória
+  - Sorriso com segurança
+• Processo: 3 consultas | Cicatrização: 6 meses (unitário) / 12 meses (protocolo)
+• Preço:
+  - Protocolo completo: R$ 9.990,00 à vista (de ~R$ 17.500,00)
+  - Implante unitário: R$ 2.500,00
+  - Parcelamento: até 20 vezes
+  - Formas: cartão, cheque, boleto
+
+
+────────────────────────────────────────
+
+
+HARMONIZAÇÃO OROFACIAL (HOF)
+• O que é: Conjunto de técnicas estéticas (ácido hialurônico, Botox, Fios de PDO)
+• Indicação: Quem busca rejuvenescimento, contornos faciais, autoestima elevada
+• Diferenciais:
+  - Resultado durável até 18 meses
+  - Apenas 2 consultas (aplicação + retoque)
+  - Combate envelhecimento precoce
+• Preço:
+  - Preenchedor 1ml: R$ 790,00 (de R$ 1.400,00)
+  - Combo (4ml + Botox): R$ 800 entrada + 12x R$ 220,83
+
+
+────────────────────────────────────────
+
+
+DADOS DA CLÍNICA
+• Nome: Clínica D'Leon
+• Médico responsável: Dr. Lucas Firmino
+• Endereço: Rua André Cavalcanti, 53 – Gutierrez, BH/MG
+• Estacionamento: Rua Herculano de Freitas, 58 (15 vagas rotativas)
+• Avaliação: Gratuita (valor de mercado R$ 250–300)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+3. SIMULAÇÃO DE CONVERSA
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+CONVERSA QUALIFICADA — LENTES DE PORCELANA
+
+
+IA: Olá, Ana! Aqui é a Fran da equipe D'Leon. Vi que você se interessou pelas Lentes de Porcelana. Posso te contar rapidinho como funciona?
+Lead: Sim, pode falar!
+IA: Ótimo! Me conta: o que mais te incomoda no seu sorriso hoje?
+Lead: Meus dentes são meio amarelados e tortos, fico com vergonha de sorrir nas fotos.
+IA: Entendo, e saiba que isso é muito mais comum do que parece! As Lentes de Porcelana foram feitas exatamente pra isso — elas transformam o sorriso em apenas 3 consultas, preservam 100% do seu dente natural e o resultado dura mais de 20 anos sem manutenção. E o branco é personalizado pra combinar com você!
+Lead: Mas deve ser caro né?
+IA: O investimento por lente é de R$ 1.500, e o pacote de 10 lentes sai por R$ 6.750 à vista. Mas antes de qualquer coisa, a gente faz uma avaliação gratuita pra entender exatamente o que você precisa. Tem interesse em agendar?
+Lead: Sim, quero!
+IA: Perfeito! Escolha o melhor horário pra você. A clínica fica na Rua André Cavalcanti, 53, Gutierrez, BH. Tem estacionamento a 2 minutos!
+→ RESULTADO: Lead QUALIFICADO — Agendamento realizado
+
+
+────────────────────────────────────────
+
+
+CONVERSA DESQUALIFICADA — LENTES DE PORCELANA
+
+
+IA: Olá, João! Aqui é a Fran da D'Leon. Você se interessou pelas Lentes de Porcelana. Posso te explicar?
+Lead: Na verdade foi acidente, nem me lembro de ter clicado.
+IA: Sem problema! Só pra garantir: você tem alguma insatisfação com o seu sorriso hoje?
+Lead: Não, meu sorriso tá ótimo.
+IA: Que bom! Se um dia tiver interesse em transformação estética, a D'Leon está aqui. Alguma dúvida que eu possa ajudar?
+Lead: Não, obrigado.
+IA: Tudo bem! Qualquer coisa estamos aqui. Tenha um ótimo dia! 😊
+→ RESULTADO: Lead DESQUALIFICADO — sem necessidade estética ativa
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+4. NOME DO EVENTO NA PLATAFORMA DE AGENDAMENTO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+⚠️ PENDENTE — confirmar o nome exato de cada serviço no painel UNO
+Exemplos prováveis: "Avaliação Gratuita — Lentes" / "Avaliação Gratuita — Protocolo" / "Avaliação Gratuita — HOF"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+5. SUPORTE HUMANO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+WhatsApp: (31) 9634-0577
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+6. HORÁRIOS DE ATENDIMENTO — API UNO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Sistema: UNO (unobject.com.br) — horários consultados em tempo real via API.
+
+
+Endpoint:
+GET https://api.unobject.com.br/v1/scheduler/hours
+Params: date (DD/MM/YYYY) + serviceId OU franchiseIdentifier
+
+
+Credenciais:
+x-uno-access-token: BA779B6447B12E3F0150
+x-uno-secret-key:   d59217553f292c649dc74cbbbd14098eab16b26247b3e87e6c
+Token adicional:    CF92657EBE5A3F647050
+
+
+⚠️ PENDENTE: serviceId de cada produto (painel UNO > Configurações > Serviços)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+7. FAQ — PERGUNTAS FREQUENTES
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+LENTES DE PORCELANA
+P: Precisa usar aparelho antes? R: Não. As lentes podem alinhar sem aparelho prévio.
+P: É o mesmo que resina? R: Não. Porcelana é superior em resistência e durabilidade.
+P: Machuca? R: Não. PMI — preserva o dente natural.
+P: Quanto tempo dura? R: +20 anos sem manutenção.
+P: Quantas consultas? R: 3 consultas.
+P: Posso parcelar? R: Sim.
+
+
+PROTOCOLO DE IMPLANTES
+P: Fico sem dente? R: Não. Dentes fixos no mesmo dia da cirurgia.
+P: Cicatrização? R: 6 meses (unitário) / 12 meses (protocolo).
+P: Quantas consultas? R: 3 consultas.
+P: Posso parcelar? R: Sim, até 20 vezes.
+
+
+HOF
+P: Dói? R: Desconforto mínimo.
+P: Quanto dura? R: Até 18 meses.
+P: Quantas sessões? R: 2 consultas.
+P: É seguro? R: Sim, técnicas aprovadas por especialistas.
+
+
+GERAL
+P: A avaliação é paga? R: Não. Gratuita.
+P: Onde fica?  Rua André Cavalcanti, 53 – Gutierrez, BH/MG.
+P: Tem estacionamento? R: Sim, Rua Herculano de Freitas, 58 (15 vagas rotativas).
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+8. TEMPLATES DE ABERTURA + FOLLOW-UPS
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+ABERTURA — PRIMEIRO CONTATO
+
+
+Lentes:
+"Olá {{nome}}, tudo bem? Aqui é a Fran da equipe do Dr. Lucas Firmino, da D'Leon! 😊 Vi que você se interessou pelas Lentes de Porcelana. Posso te explicar rapidinho como funciona a transformação?"
+
+
+Protocolo:
+"Olá {{nome}}! Aqui é a Fran da D'Leon. Vi seu interesse no Protocolo de Implantes. Posso te contar como funciona dentes fixos no mesmo dia? 😊"
+
+
+HOF:
+"Oi {{nome}}! Aqui é a Fran da D'Leon. Vi que você se interessou em Harmonização Facial. Posso te apresentar as opções? 😊"
+
+
+────────────────────────────────────────
+
+
+FOLLOW-UPS (sem resposta)
+
+
+Follow-up 1 (24h):
+"Oi {{nome}}! Passando pra ver se você teve chance de ver minha mensagem 😊 Fico à disposição!"
+
+
+Follow-up 2 (48h):
+"{{nome}}, sei que a rotina é corrida! Deixo aqui o convite aberto: a avaliação na D'Leon é gratuita e pode mudar a sua relação com seu sorriso. Quando tiver um minutinho, me chama! 🦷✨"
+
+
+Follow-up 3 — Encerramento (72h):
+"{{nome}}, não quero ser inconveniente! Vou deixar nosso contato aqui caso mude de ideia no futuro. A D'Leon estará aqui quando você quiser transformar seu sorriso. Abraços! 😊"
+
+
+────────────────────────────────────────
+
+
+CONFIRMAÇÃO DE CONSULTA
+
+
+48h antes (08:00):
+"Olá {{nome}}, tudo bom? Aqui é a Fran da equipe do Dr. Lucas Firmino! A reserva do seu horário de avaliação está confirmada! 🎉"
+
+
+24h antes (08:00):
+"{{nome}}, sua avaliação é amanhã! Não esqueça de trazer um documento de identificação. Qualquer dúvida, estou aqui! 😊"
+
+
+Dia da consulta (manhã):
+"Bom dia, {{nome}}! Sua avaliação é hoje na Clínica D'Leon — Rua André Cavalcanti, 53, Gutierrez, BH. Tem estacionamento na Rua Herculano de Freitas, 58. Te esperamos! 🦷"
+
+
+30 min antes:
+"{{nome}}, falta pouquinho para sua consulta de avaliação! Estamos te esperando 😊"
+
+
+────────────────────────────────────────
+
+
+RESGATE (paciente faltante)
+
+
+Resgate 1: "{{nome}}, sentimos sua falta hoje! Acontece alguma coisa? Posso te ajudar a reagendar rapidinho 😊"
+Resgate 2: "{{nome}}, que tal remarcarmos sua avaliação? Temos horários disponíveis esta semana. Me fala o melhor dia pra você!"
+Resgate 3: "{{nome}}, última tentativa! Caso não queira mais o contato, é só me avisar. Mas se mudar de ideia sobre transformar seu sorriso, estaremos aqui 🦷✨"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+9. AGENDAMENTO VIA API UNO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+POST https://api.unobject.com.br/v1/scheduler/create
+
+
+Headers:
+  x-uno-access-token: BA779B6447B12E3F0150
+  x-uno-secret-key:   d59217553f292c649dc74cbbbd14098eab16b26247b3e87e6c
+
+
+Body obrigatório:
+  date      → DD/MM/YYYY
+  hour      → HH:mm
+  name      → nome do lead
+  cellPhone → telefone
+
+
+Body opcional:
+  serviceId / franchiseIdentifier / observation / dealActivityId
+
+
+Response: { "ok": true, "appointmentId": 123, "date": "25/03/2026", "hour": "14:30" }
+
+
+⚠️ PENDENTE: serviceId por produto (Lentes / Protocolo / HOF)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+10. PROVAS SOCIAIS
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Pasta no Drive: https://drive.google.com/drive/folders/1Hjm6PcZjDZr0v2GiYEQeuf8uvwTcBDWG 
+
+
+LENTES DE PORCELANA (4 imagens)
+https://drive.google.com/uc?id=1yFuREd1TSYZE3h0tcpEBON-m1LXZAMxg 
+https://drive.google.com/uc?id=1u1kdM-oDv-UZf9sAE522Y7cB0cYGzNaM 
+https://drive.google.com/uc?id=1YUmqZKGDyEAY1PCE52g0GIDDXiQcHHXT 
+https://drive.google.com/uc?id=1tSY4ONAtYavfW6n8-xilGFj7-IPt0AkN 
+
+
+PROTOCOLO DE IMPLANTES (3 imagens)
+https://drive.google.com/uc?id=1Gw-v5eodDULIr9bcfi-NuIC7nbyO0Yrn 
+https://drive.google.com/uc?id=1hz5DxeK-bjHFx_liNu1c_qk3-IEeYpiY 
+https://drive.google.com/uc?id=1UhJT34P6krQC30UZNHTqbOWaNevjMEsU 
+
+
+HARMONIZAÇÃO OROFACIAL — HOF (9 imagens)
+https://drive.google.com/uc?id=1j0-0HYG4OAUnH5-_gM55rTX64g8JPx7J 
+https://drive.google.com/uc?id=17WWO3SBVfxuEWVJ5V0hIfacgWu9l_0tB 
+https://drive.google.com/uc?id=1FVR9ltGViVP97ztsWELxx0G_NjHBeOR6 
+https://drive.google.com/uc?id=1G8whe5lHDTOgQG-trWjvizCtWf3ikmdJ 
+https://drive.google.com/uc?id=17fbpbnK5MEEyToTWxB9S_pk4s5XuS4Ol 
+https://drive.google.com/uc?id=14e7jq2wQ1o_hc3-2sYRoiq89UKWWFL4- 
+https://drive.google.com/uc?id=14o0CijnMDuZuJofvxhegMG-8L6EfoSzj 
+https://drive.google.com/uc?id=1_H2oD3SAFgYs-i_0xEbM9LK78yrFpeb6 
+https://drive.google.com/uc?id=17_4WJmV8fzB6PoO6-7P5rnDETxOgT5sA 
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+ÚNICA PENDÊNCIA RESTANTE
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+serviceId de cada produto no UNO → painel UNO > Configurações > Serviços
+(necessário para itens 4, 6 e 9)

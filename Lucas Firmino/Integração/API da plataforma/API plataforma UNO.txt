@@ -1,0 +1,546 @@
+--- PAGINA 1 ---
+Documentação modelos
+Este repositório contém os modelos de dados utilizados no Uno Data Lake, um
+sistema para gestão e armazenamento de dados de franquias e seus negócios
+relacionados. Esta documentação explica a estrutura de cada modelo e seus campos.
+UNO Data Lake - Documentação dos Modelos
+Índice
+Modelos Principais
+Customer (Cliente)
+Company (Empresa)
+Franchise (Franquia)
+Employee (Funcionário)
+Order (Venda)
+Budget (Orçamento)
+Payment (Pagamento)
+Appointment (Agendamento)
+Modelos de Franquia
+Franchise Royalty (Royalties da Franquia)
+Franchise Advertising Fee (Taxa de Publicidade da Franquia)
+Franchise Category (Categoria de Franquia)
+Modelos de Produtos e Serviços
+Product (Produto)
+Service (Serviço)
+Plan (Plano)
+Course (Curso)
+Modelos de Vendas
+Order Product (Venda de Produto)
+Order Service (Venda de Serviço)
+Order Plan (Venda de Plano)
+Order Course (Venda de Curso)
+Outros Modelos
+Índice
+Ask AI
+ API Reference
+Documentação modelos
+
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 1/18
+
+--- PAGINA 2 ---
+Goal (Meta)
+Class (Aula)
+Measure (Medida)
+Account Payable (Contas a Pagar)
+Representa os clientes no sistema.
+Modelos Principais
+Customer (Cliente)
+Campo Tipo Descrição
+customer_id INTEGER ID único do cliente (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador vinculado
+type STRING Tipo de cliente
+name STRING Nome do cliente
+legal_name STRING Nome jurídico (para pessoas jurídicas)
+cpf STRING CPF do cliente (para pessoas físicas)
+cnpj STRING CNPJ do cliente (para pessoas jurídicas)
+cellphone STRING Telefone celular do cliente
+email STRING E-mail do cliente
+phone STRING Telefone fixo do cliente
+gender STRING Gênero do cliente
+occupation_id INTEGER ID da ocupação/profissão
+occupation_name STRING Nome da ocupação/profissão
+birthday DATE Data de nascimento
+street STRING Nome da rua do endereço
+neighborhood STRING Bairro
+number STRING Número do endereço
+zip_code STRING CEP
+city_id INTEGER ID da cidade
+city_name STRING Nome da cidade
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 2/18
+
+--- PAGINA 3 ---
+Representa informações de empresas no sistema.
+Campo Tipo Descrição
+state_id INTEGER ID do estado
+state_name STRING Nome do estado
+country_id INTEGER ID do país
+country_name STRING Nome do país
+franchise_id INTEGER ID da franquia relacionada
+active BOOLEAN Status do cliente (ativo/inativo)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Company (Empresa)
+Campo Tipo Descrição
+company_id INTEGER ID único da empresa (Chave primária)
+schema STRING Schema do banco de dados
+legal_name STRING Nome jurídico da empresa
+name STRING Nome comercial da empresa
+franchisor_id INTEGER ID do franqueador relacionado
+status ENUM Status da empresa: "ACTIVE" (Ativa), "INACTIVE" (Inativa),
+"IMPLANTATION" (Implantação), "BLOCKED" (Bloqueada)
+street STRING Nome da rua do endereço
+neighborhoodSTRING Bairro
+number STRING Número do endereço
+zip_code STRING CEP
+city_name STRING Nome da cidade
+city_identifier STRING Identificador da cidade
+state_name STRING Nome do estado
+state_initials STRING Sigla do estado
+country_nameSTRING Nome do país
+timezone STRING Fuso horário da empresa
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 3/18
+
+--- PAGINA 4 ---
+Representa as franquias no sistema.
+Representa os funcionários das empresas/franquias.
+Campo Tipo Descrição
+locale STRING Configuração de localidade
+currency STRING Moeda utilizada
+cnpj STRING CNPJ da empresa
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Franchise (Franquia)
+Campo Tipo Descrição
+franchise_idINTEGER ID único da franquia (Chave primária)
+schema STRING Schema do banco de dados
+name STRING Nome da franquia
+status ENUM
+Status da franquia: "IN_IMPLEMENTATION" (Em implementação),
+"TERMINATION_REQUEST" (Solicitação de término), "TERMINATION"
+(Término), "CANCELED" (Cancelada), "ACTIVE" (Ativa), "LEGAL" (Legal)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Employee (Funcionário)
+Campo Tipo Descrição
+employee_id INTEGER ID único do funcionário (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador relacionado
+name STRING Nome do funcionário
+active BOOLEAN Status do funcionário (ativo/inativo)
+employee_type_id INTEGER ID do tipo de funcionário
+employee_type_name STRING Nome do tipo de funcionário
+employee_type_franchise_identifierINTEGER Identificador do funcionário na franquia
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 4/18
+
+--- PAGINA 5 ---
+Representa vendas realizadas no sistema.
+Campo Tipo Descrição
+employee_type_franchisor BOOLEAN Indica se é funcionário do franqueador
+expected_merit_level STRING Nível de mérito esperado
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Order (Venda)
+Campo Tipo Descrição
+order_id INTEGER ID único da venda (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id STRING ID do franqueador
+status ENUM
+Status da venda: "BILLED" (Faturada), "CLOSED"
+(Fechada), "CANCELED" (Cancelada),
+"ABANDONMENT" (Abandono),
+"PENDING_BALANCE" (Saldo pendente)
+customer_id INTEGER ID do cliente
+customer_name STRING Nome do cliente
+seller_id INTEGER ID do vendedor
+seller_name STRING Nome do vendedor
+aux_id INTEGER ID auxiliar (opcional)
+aux_name STRING Nome auxiliar (opcional)
+service_total_price FLOAT Preço total de serviços
+product_total_price FLOAT Preço total de produtos
+plan_total_price FLOAT Preço total de planos
+course_total_price FLOAT Preço total de cursos
+total_price FLOAT Preço total da venda
+total_discount FLOAT Desconto total aplicado
+total_paid FLOAT Total pago
+total_liquidated FLOAT Total liquidado
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 5/18
+
+--- PAGINA 6 ---
+Representa orçamentos realizados no sistema.
+Campo Tipo Descrição
+is_accounting BOOLEAN Se a venda é contabilizada
+order_cancellation_reason_idINTEGER ID do motivo de cancelamento
+order_cancellation_nameSTRING Nome do motivo de cancelamento
+order_abandonment_nameSTRING Nome do motivo de abandono
+canceled_at DATE Data de cancelamento
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Budget (Orçamento)
+Campo Tipo Descrição
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador vinculado
+budget_id INTEGER ID único do orçamento (Chave primária)
+status ENUM
+Status do orçamento: "PENDING" (Aguardando),
+"ACCOMPLISHED" (Realizada), "CONVERTED"
+(Convertida), "DISCARDED" (Descartada)
+service_total_price FLOAT Preço total de serviços
+product_total_price FLOAT Preço total de produtos
+plan_total_price FLOAT Preço total de planos
+course_total_price FLOAT Preço total de cursos
+total_price FLOAT Preço total do orçamento
+total_discount FLOAT Desconto total aplicado
+installment INTEGER Número da parcela
+expiration_at DATE Data de expiração
+discarded_at DATE Data de descarte
+converted_at DATE Data de conversão
+observation STRING Observação do orçamento
+observation_discardedSTRING Observação de descarte
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 6/18
+
+--- PAGINA 7 ---
+Representa os pagamentos realizados no sistema.
+Campo Tipo Descrição
+transformation BOOLEAN Status de transformação
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+customer_id INTEGER ID do cliente
+customer_name STRING Nome do cliente
+employee_id INTEGER ID do funcionário
+employee_name STRING Nome do funcionário
+order_service_id INTEGER ID do serviço da venda
+order_id INTEGER ID da venda
+budget_discard_reason_idINTEGER ID do motivo de descarte
+Payment (Pagamento)
+Campo Tipo Descrição
+payment_id INTEGER ID único do pagamento (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+value FLOAT Valor do pagamento
+original_due_date DATE Data de vencimento original
+due_date DATE Data de vencimento
+liquidation_date DATE Data de liquidação
+billed_date DATE Data de faturamento
+interest_value FLOAT Valor de juros
+fee_value FLOAT Valor de tarifas
+discount_value FLOAT Valor de desconto
+installment FLOAT Número da parcela
+store BOOLEAN Se foi realizado na loja
+customer_id INTEGER ID do cliente
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 7/18
+
+--- PAGINA 8 ---
+Representa agendamentos de serviços.
+Campo Tipo Descrição
+order_id INTEGER ID da venda relacionada
+customer_name STRING Nome do cliente
+employee_id INTEGER ID do funcionário
+employee_name STRING Nome do funcionário
+payment_status_id INTEGER ID do status do pagamento: 0 (Cancelado), 1
+(Pendente), 2 (Conciliação), 3 (Vencido), 4 (Liquidado)
+payment_status_nameSTRING Nome do status do pagamento
+payment_type_id INTEGER ID do tipo de pagamento
+payment_type_name STRING Nome do tipo de pagamento
+payment_brand_id INTEGER ID da bandeira (cartão)
+payment_brand_nameSTRING Nome da bandeira (cartão)
+chart_account_id INTEGER ID do plano de contas
+chart_account_name STRING Nome do plano de contas
+credit_card_brand STRING Nome da bandeira do cartão (integrações)
+last_credit_card_numberSTRING Últimos dígitos do cartão (integrações)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Appointment (Agendamento)
+Campo Tipo Descrição
+appointment_id INTEGER ID único do agendamento (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+order_id INTEGER ID da venda relacionada
+customer_id INTEGER ID do cliente
+customer_name STRING Nome do cliente
+employee_id INTEGER ID do funcionário
+employee_name STRING Nome do funcionário
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 8/18
+
+--- PAGINA 9 ---
+Representa os royalties pagos à franqueadora.
+Representa as taxas de publicidade pagas à franqueadora.
+Campo Tipo Descrição
+service_id INTEGER ID do serviço
+service_franchise_identifierINTEGER Identificador do serviço na franquia
+service_name STRING Nome do serviço
+service_budget BOOLEAN Se é um orçamento de serviço
+status_id INTEGER
+ID do status: 1 (Agendado), 2 (Confirmado), 3
+(Espera), 4 (Andamento), 5 (Realizado), 6 (Falta), 7
+(Bloqueio)
+start_date DATE Data/hora de início
+end_date DATE Data/hora de fim
+service_session INTEGER Número da sessão de serviço
+rating INTEGER Avaliação do serviço
+rescheduled INTEGER Quantidade de reagendamentos
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Modelos de Franquia
+Franchise Royalty (Royalties da Franquia)
+Campo Tipo Descrição
+franchise_royalty_id INTEGER ID único do royalty (Chave primária)
+schema STRING Schema do banco de dados
+franchise_id INTEGER ID da franquia
+franchise_name STRING Nome da franquia
+percentage FLOAT Percentual do royalty
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Franchise Advertising Fee (Taxa de Publicidade da Franquia)
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 9/18
+
+--- PAGINA 10 ---
+Representa as categorias de franquias.
+Representa produtos disponíveis para venda.
+Campo Tipo Descrição
+franchise_advertising_fee_id INTEGER ID único da taxa (Chave primária)
+schema STRING Schema do banco de dados
+franchise_id INTEGER ID da franquia
+franchise_name STRING Nome da franquia
+percentage FLOAT Percentual da taxa de publicidade
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Franchise Category (Categoria de Franquia)
+Campo Tipo Descrição
+franchise_category_id INTEGER ID único da categoria (Chave primária)
+schema STRING Schema do banco de dados
+franchise_id INTEGER ID da franquia
+name STRING Nome da categoria
+franchise_category_type_id INTEGER ID do tipo de categoria
+franchise_category_type_nameSTRING Nome do tipo de categoria
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Modelos de Produtos e Serviços
+Product (Produto)
+Campo Tipo Descrição
+product_id INTEGER ID único do produto (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id STRING ID do franqueador
+franchise_identifier INTEGER Identificador do produto na franquia
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 10/18
+
+--- PAGINA 11 ---
+Representa serviços disponíveis para venda.
+Representa planos/pacotes disponíveis para venda.
+Campo Tipo Descrição
+name STRING Nome do produto
+price FLOAT Preço do produto
+active BOOLEAN Status do produto (ativo/inativo)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Service (Serviço)
+Campo Tipo Descrição
+service_id INTEGER ID único do serviço (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id STRING ID do franqueador
+franchise_identifier INTEGER Identificador do serviço na franquia
+name STRING Nome do serviço
+price FLOAT Preço do serviço
+is_budget BOOLEAN Indica se o serviço é para orçamento
+active BOOLEAN Status do serviço (ativo/inativo)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Plan (Plano)
+Campo Tipo Descrição
+plan_id INTEGER ID único do plano (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id STRING ID do franqueador
+franchise_identifier INTEGER Identificador do plano na franquia
+name STRING Nome do plano
+price FLOAT Preço do plano
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 11/18
+
+--- PAGINA 12 ---
+Representa cursos disponíveis para venda.
+Representa produtos incluídos em uma venda.
+Campo Tipo Descrição
+active BOOLEAN Status do plano (ativo/inativo)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Course (Curso)
+Campo Tipo Descrição
+course_id INTEGER ID único do curso (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id STRING ID do franqueador
+franchise_identifier INTEGER Identificador do curso na franquia
+name STRING Nome do curso
+price FLOAT Preço do curso
+active BOOLEAN Status do curso (ativo/inativo)
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Modelos de Vendas
+Order Product (Venda de Produto)
+Campo Tipo Descrição
+order_product_id INTEGER ID único (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+product_id INTEGER ID do produto
+order_id INTEGER ID da venda
+order_plan_id INTEGER ID do plano da venda (opcional)
+quantity INTEGER Quantidade do produto
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 12/18
+
+--- PAGINA 13 ---
+Representa serviços incluídos em uma venda.
+Representa planos incluídos em uma venda.
+Campo Tipo Descrição
+price FLOAT Preço unitário
+discount FLOAT Desconto aplicado
+additional_value FLOAT Valor adicional
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Order Service (Venda de Serviço)
+Campo Tipo Descrição
+order_service_id INTEGER ID único (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+service_id INTEGER ID do serviço
+order_id INTEGER ID da venda
+order_plan_id INTEGER ID do plano da venda (opcional)
+quantity INTEGER Quantidade do serviço
+price FLOAT Preço unitário
+discount FLOAT Desconto aplicado
+additional_value FLOAT Valor adicional
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Order Plan (Venda de Plano)
+Campo Tipo Descrição
+order_plan_id INTEGER ID único (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+plan_id INTEGER ID do plano
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 13/18
+
+--- PAGINA 14 ---
+Representa cursos incluídos em uma venda.
+Representa metas estabelecidas para funcionários ou equipes.
+Campo Tipo Descrição
+order_id INTEGER ID da venda
+price FLOAT Preço do plano
+discount FLOAT Desconto aplicado
+additional_value FLOAT Valor adicional
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Order Course (Venda de Curso)
+Campo Tipo Descrição
+order_course_idINTEGER ID único (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+status ENUM
+Status da venda do curso: "PENDING" (Pendente), "STUDYING"
+(Cursando), "GRADUATED" (Formado), "ABANDONMENT"
+(Desistência), "CANCELED" (Cancelado), "LOCKED" (Trancado)
+course_id INTEGER ID do curso
+order_id INTEGER ID da venda
+price FLOAT Preço do curso
+discount FLOAT Desconto aplicado
+additional_valueFLOAT Valor adicional
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Outros Modelos
+Goal (Meta)
+Campo Tipo Descrição
+goal_id INTEGER ID único da meta (Chave primária)
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 14/18
+
+--- PAGINA 15 ---
+Representa aulas ou turmas de cursos.
+Representa medidas físicas de clientes.
+Campo Tipo Descrição
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+type STRING Tipo de meta
+name STRING Nome da meta
+reference_month DATE Mês de referência
+target_value FLOAT Valor alvo da meta
+achieved_value FLOAT Valor alcançado
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Class (Aula)
+Campo Tipo Descrição
+class_id INTEGER ID único da aula (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+course_id INTEGER ID do curso relacionado
+course_name STRING Nome do curso
+employee_id INTEGER ID do instrutor
+employee_name STRING Nome do instrutor
+start_date DATE Data/hora de início
+end_date DATE Data/hora de fim
+max_participants INTEGER Número máximo de participantes
+current_participants INTEGER Número atual de participantes
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Measure (Medida)
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 15/18
+
+--- PAGINA 16 ---
+Representa contas a pagar da empresa.
+Campo Tipo Descrição
+measure_id INTEGER ID único da medida (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+customer_id INTEGER ID do cliente
+customer_name STRING Nome do cliente
+employee_id INTEGER ID do funcionário responsável
+employee_name STRING Nome do funcionário
+weight FLOAT Peso em kg
+height FLOAT Altura em cm
+bmi FLOAT Índice de massa corporal
+waist FLOAT Medida da cintura em cm
+hip FLOAT Medida do quadril em cm
+chest FLOAT Medida do peito em cm
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+Account Payable (Contas a Pagar)
+Campo Tipo Descrição
+account_payable_idINTEGER ID único (Chave primária)
+schema STRING Schema do banco de dados
+franchisor_id INTEGER ID do franqueador
+type ENUM Tipo de conta: "ACCOUNT_PAYABLE" (Contas a pagar),
+"EXPENSE" (Despesas - taxas de cartão, etc.)
+value FLOAT Valor da conta
+description STRING Descrição da conta
+due_date DATE Data de vencimento
+liquidation_date DATE Data de liquidação
+status STRING Status do pagamento
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 16/18
+
+--- PAGINA 17 ---
+Updated 6 months ago
+PUBLIC
+Did this page help you?Yes No
+Campo Tipo Descrição
+chart_account_id INTEGER ID do plano de contas
+chart_account_nameSTRING Nome do plano de contas
+created_at DATE Data de criação do registro
+updated_at DATE Data da última atualização
+
+ 
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 17/18
+
+--- PAGINA 18 ---
+01/04/2026, 13:12 Documentação modelos
+https://unobject.readme.io/reference/documentação-modelos 18/18
+

@@ -1,0 +1,36 @@
+Onboarding VTD "Venda Todo Dia" — Documento-Mestre & Índice
+Para a IA de onboarding da AW Sales. Versão 1.0 · 2026-07-15 · Produto: VTD R$47,90 (porta de entrada do ecossistema WayGroup) · Canal: WhatsApp.
+O norte de tudo: o objetivo do onboarding é vencer a inércia das primeiras 24–48h. Sucesso = o comprador (1) LOGOU na área de membros e (2) ASSISTIU as primeiras aulas. Ativação primeiro; relacionamento e ponte pra mentoria vêm depois — nunca inverter.
+✅ Dados operacionais confirmados (2026-07-08)
+📑 Índice — 1 documento por linha da planilha "Onboarding VTD"
+Como preencher a planilha: cole o link de cada documento acima na coluna "Link" da linha correspondente.
+🟠 Ainda a definir (destrava o go-live)
+Canal + disparo: confirmar número/instância de WhatsApp que dispara e se já está plugado ao checkout.
+Fonte do dado do comprador: webhook do Assiny entrega nome+telefone+e-mail? (integração AW Sales × Assiny).
+E-mail de acesso: remetente e assunto exatos; senha é gerada automática ou criada pelo aluno?
+Ordem real das aulas no Memberkit + existe deep-link direto por aula?
+Aulas 12–15 ("Adicional"): o comprador base tem acesso ou é order bump pago à parte?
+Sinal de progresso do Memberkit: expõe evento de login / aula-assistida via API/webhook? (define se a árvore usa dado real ou auto-relato).
+Elegibilidade do benefício "CNPJ grátis + 10 produtos".
+Roteamento interno do suporte (quem trata acesso vs reembolso/garantia vs financeiro) + SLA.
+Timing do 1º contato (recomendado 5–15 min pós-acesso) + janela de envio (ex. 9h–20h BRT).
+Pesquisa pós-onboarding: criar no YayForms (10 perguntas prontas no doc 16) → colar o link.
+Escopo da IA na ponte pra mentoria: só plantar semente, ofertar FAS, ou handoff pro comercial? Gatilho e formato.
+🎨 Versão completa (rolagem única, renderizada)
+Todo o conteúdo dos 7 documentos, num único documento visual: abrir versão completa.
+
+Item | Valor
+Preço / acesso | R$47,90 à vista ou 8x de R$6,82 · acesso de 1 ano
+Garantia | 120 dias de resultado (não faturar R$10.000 E loja ativa = 100% reembolso) + 7 dias incondicional (arrependimento CDC). Some a menção antiga a "30 dias".
+Área de membros | Memberkit — login https://lucas-arruda-amazon-pro.memberkit.com.br/ · acesso chega por e-mail + WhatsApp
+Suporte humano | WhatsApp +55 31 97144 4590 · suporte@olucasarruda.com.br · 9h–18h BRT (seg–sex, exceto feriados)
+Comunidade VTD | Grupo de WhatsApp — https://chat.whatsapp.com/LXuwGevglH99BoJ00XNTAn?s=cl&p=i&ilr=1
+Checkout | Assiny — pay.assiny.com.br/4XZFws/node/zwGh42
+Linha | Insumo | Documento
+11 | Fluxo de onboarding (roteiro-mestre) | 11 · Fluxo de Onboarding
+12 | FAQ completa do produto | 12 · FAQ (33 perguntas)
+13 | Número/e-mail de suporte + handoff | 13 · Suporte & Handoff
+14 | Espaço para documentação (base de conhecimento) | 14 · Base de Conhecimento
+15 | Templates de abertura + follow-ups | 15 · Templates (17 mensagens)
+16 | Direcionamento do lead (comunidade + pesquisa) | 16 · Direcionamento
+17 | Doutrinação (relacionamento) | 17 · Doutrinação

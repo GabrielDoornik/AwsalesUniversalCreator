@@ -1,0 +1,188 @@
+[
+  {
+    "awsales_payload": {
+      "event": "form_response_partial",
+      "timestamp": "2026-06-08T20:59:07.551Z",
+      "form": {
+        "id": "nuestra_rx_evaluacion_glp1",
+        "name": "Nuestra RX - Evaluacion GLP-1"
+      },
+      "lead": {
+        "phone": "+19732826268",
+        "email": "matfreire95@gmail.com",
+        "name": "Matheus Freire"
+      },
+      "form_answers": [
+        {
+          "question_id": "nrx_sex",
+          "question": "Cual es tu sexo biologico?",
+          "answer": "Mujer"
+        },
+        {
+          "question_id": "nrx_age_range",
+          "question": "Cuantos anos tienes?",
+          "answer": "30-44"
+        },
+        {
+          "question_id": "nrx_height_weight_bmi",
+          "question": "Cuanto mides y cuanto pesas?",
+          "answer": "Altura: 5'7\" | Altura cm: 170 | Peso kg: 80 | Peso lbs: 176 | BMI: 27.7"
+        },
+        {
+          "question_id": "nrx_contact_state",
+          "question": "En que estado estas?",
+          "answer": "FL"
+        },
+        {
+          "question_id": "nrx_takes_rx_meds",
+          "question": "Tomas algun medicamento recetado?",
+          "answer": "Respuesta: No | Medicamentos: Ninguno"
+        },
+        {
+          "question_id": "nrx_allergies",
+          "question": "Tienes alergias conocidas?",
+          "answer": "Respuesta: No | Alergias: Ninguno"
+        },
+        {
+          "question_id": "nrx_date_of_birth",
+          "question": "Cual es tu fecha de nacimiento?",
+          "answer": "06/26/1995"
+        },
+        {
+          "question_id": "nrx_highest_weight",
+          "question": "Cual fue tu peso mas alto?",
+          "answer": "80 kg"
+        },
+        {
+          "question_id": "nrx_goal_weight",
+          "question": "A que peso quieres llegar?",
+          "answer": "50 kg"
+        },
+        {
+          "question_id": "nrx_bmi_consent",
+          "question": "Consentimiento de uso off-label por BMI 25-29",
+          "answer": "Acepto"
+        },
+        {
+          "question_id": "nrx_weight_management_approach",
+          "question": "Como describirias tu enfoque actual sobre el peso?",
+          "answer": "Ninguno"
+        },
+        {
+          "question_id": "nrx_conditions",
+          "question": "Marca todas las condiciones actuales o pasadas",
+          "answer": "Ninguno"
+        },
+        {
+          "question_id": "nrx_glp1_drug_allergies",
+          "question": "Eres alergico a medicamentos GLP-1/GIP?",
+          "answer": "Ninguno"
+        },
+        {
+          "question_id": "nrx_current_meds_detail",
+          "question": "Medicamentos actuales detallados",
+          "answer": "Ninguno"
+        },
+        {
+          "question_id": "nrx_injection_ability",
+          "question": "Puedes inyectarte de forma segura o tener ayuda confiable?",
+          "answer": "false"
+        },
+        {
+          "question_id": "raw_beluga_pregnancy",
+          "question": "Campo bruto beluga.pregnancy",
+          "answer": "No"
+        },
+        {
+          "question_id": "raw_beluga_pregnancy_consent",
+          "question": "Campo bruto beluga.pregnancyConsent",
+          "answer": "Acepto"
+        }
+      ],
+      "metadata": {
+        "nrx_event": "intake_abandoned",
+        "nrx_event_version": "1.0",
+        "event_kind": "form_abandonment_confirmed",
+        "recovery_type": "form_abandonment_confirmed",
+        "recommended_recovery_url": "https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es",
+        "form_resume_url": "https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es",
+        "resume_stage": "beluga",
+        "resume_step": "recentHistory",
+        "resume_step_label": "Historial medico reciente",
+        "resume_updated_at": "2026-06-08T20:39:03.671Z",
+        "resume_cross_device_token": "96826e77-a043-496b-9330-d497372ae391",
+        "resume_cross_device_ttl_seconds": 604800,
+        "session_id": "nrx_1780950970841_ss781i",
+        "dosable_lead_id": 247490,
+        "dosable_session_id": "8ca3f269-10b4-4362-99ab-9b432d43d9df",
+        "progress_trigger": "visibility_hidden",
+        "abandon_reason": "inactivity_timeout",
+        "abandon_idle_seconds": 1200,
+        "abandon_last_step": "recentHistory",
+        "abandon_last_event": "intake_progress",
+        "abandon_detected_at": "2026-06-08T20:59:07.551Z",
+        "source_page": "evaluacion",
+        "source_url": "https://nuestrarx.com/evaluacion",
+        "source_lang": "es",
+        "source_referrer": "https://nuestrarx.com/",
+        "lead_first_name": "Matheus",
+        "lead_last_name": "Freire",
+        "phone_country": "US",
+        "whatsapp_url": "https://wa.me/19732826268",
+        "lead_state": "FL",
+        "lead_country": "US",
+        "biological_sex": "Mujer",
+        "age_range": "30-44",
+        "dob": "06/26/1995",
+        "height_cm": 170,
+        "height_display": "5'7\"",
+        "weight_kg": 80,
+        "weight_lbs": "176",
+        "bmi": "27.7",
+        "bmi_class": "overweight",
+        "goal_weight": "50",
+        "goal_weight_unit": "kg",
+        "highest_weight": "80",
+        "highest_weight_unit": "kg",
+        "current_medications": [
+          "Ninguno"
+        ],
+        "allergies": [
+          "Ninguno"
+        ],
+        "weight_management_approach": "Ninguno",
+        "medical_conditions": [
+          "Ninguno"
+        ],
+        "glp1_drug_allergies": [
+          "Ninguno"
+        ],
+        "eligibility_qualified": false,
+        "eligibility_state_supported": false,
+        "can_self_inject_normalized": false,
+        "form_version": "evaluacion-v3-2026-05",
+        "answers_count": 17
+      }
+    },
+    "awsales_payload_json": "{\"event\":\"form_response_partial\",\"timestamp\":\"2026-06-08T20:59:07.551Z\",\"form\":{\"id\":\"nuestra_rx_evaluacion_glp1\",\"name\":\"Nuestra RX - Evaluacion GLP-1\"},\"lead\":{\"phone\":\"+19732826268\",\"email\":\"matfreire95@gmail.com\",\"name\":\"Matheus Freire\"},\"form_answers\":[{\"question_id\":\"nrx_sex\",\"question\":\"Cual es tu sexo biologico?\",\"answer\":\"Mujer\"},{\"question_id\":\"nrx_age_range\",\"question\":\"Cuantos anos tienes?\",\"answer\":\"30-44\"},{\"question_id\":\"nrx_height_weight_bmi\",\"question\":\"Cuanto mides y cuanto pesas?\",\"answer\":\"Altura: 5'7\\\" | Altura cm: 170 | Peso kg: 80 | Peso lbs: 176 | BMI: 27.7\"},{\"question_id\":\"nrx_contact_state\",\"question\":\"En que estado estas?\",\"answer\":\"FL\"},{\"question_id\":\"nrx_takes_rx_meds\",\"question\":\"Tomas algun medicamento recetado?\",\"answer\":\"Respuesta: No | Medicamentos: Ninguno\"},{\"question_id\":\"nrx_allergies\",\"question\":\"Tienes alergias conocidas?\",\"answer\":\"Respuesta: No | Alergias: Ninguno\"},{\"question_id\":\"nrx_date_of_birth\",\"question\":\"Cual es tu fecha de nacimiento?\",\"answer\":\"06/26/1995\"},{\"question_id\":\"nrx_highest_weight\",\"question\":\"Cual fue tu peso mas alto?\",\"answer\":\"80 kg\"},{\"question_id\":\"nrx_goal_weight\",\"question\":\"A que peso quieres llegar?\",\"answer\":\"50 kg\"},{\"question_id\":\"nrx_bmi_consent\",\"question\":\"Consentimiento de uso off-label por BMI 25-29\",\"answer\":\"Acepto\"},{\"question_id\":\"nrx_weight_management_approach\",\"question\":\"Como describirias tu enfoque actual sobre el peso?\",\"answer\":\"Ninguno\"},{\"question_id\":\"nrx_conditions\",\"question\":\"Marca todas las condiciones actuales o pasadas\",\"answer\":\"Ninguno\"},{\"question_id\":\"nrx_glp1_drug_allergies\",\"question\":\"Eres alergico a medicamentos GLP-1/GIP?\",\"answer\":\"Ninguno\"},{\"question_id\":\"nrx_current_meds_detail\",\"question\":\"Medicamentos actuales detallados\",\"answer\":\"Ninguno\"},{\"question_id\":\"nrx_injection_ability\",\"question\":\"Puedes inyectarte de forma segura o tener ayuda confiable?\",\"answer\":\"false\"},{\"question_id\":\"raw_beluga_pregnancy\",\"question\":\"Campo bruto beluga.pregnancy\",\"answer\":\"No\"},{\"question_id\":\"raw_beluga_pregnancy_consent\",\"question\":\"Campo bruto beluga.pregnancyConsent\",\"answer\":\"Acepto\"}],\"metadata\":{\"nrx_event\":\"intake_abandoned\",\"nrx_event_version\":\"1.0\",\"event_kind\":\"form_abandonment_confirmed\",\"recovery_type\":\"form_abandonment_confirmed\",\"recommended_recovery_url\":\"https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es\",\"form_resume_url\":\"https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es\",\"resume_stage\":\"beluga\",\"resume_step\":\"recentHistory\",\"resume_step_label\":\"Historial medico reciente\",\"resume_updated_at\":\"2026-06-08T20:39:03.671Z\",\"resume_cross_device_token\":\"96826e77-a043-496b-9330-d497372ae391\",\"resume_cross_device_ttl_seconds\":604800,\"session_id\":\"nrx_1780950970841_ss781i\",\"dosable_lead_id\":247490,\"dosable_session_id\":\"8ca3f269-10b4-4362-99ab-9b432d43d9df\",\"progress_trigger\":\"visibility_hidden\",\"abandon_reason\":\"inactivity_timeout\",\"abandon_idle_seconds\":1200,\"abandon_last_step\":\"recentHistory\",\"abandon_last_event\":\"intake_progress\",\"abandon_detected_at\":\"2026-06-08T20:59:07.551Z\",\"source_page\":\"evaluacion\",\"source_url\":\"https://nuestrarx.com/evaluacion\",\"source_lang\":\"es\",\"source_referrer\":\"https://nuestrarx.com/\",\"lead_first_name\":\"Matheus\",\"lead_last_name\":\"Freire\",\"phone_country\":\"US\",\"whatsapp_url\":\"https://wa.me/19732826268\",\"lead_state\":\"FL\",\"lead_country\":\"US\",\"biological_sex\":\"Mujer\",\"age_range\":\"30-44\",\"dob\":\"06/26/1995\",\"height_cm\":170,\"height_display\":\"5'7\\\"\",\"weight_kg\":80,\"weight_lbs\":\"176\",\"bmi\":\"27.7\",\"bmi_class\":\"overweight\",\"goal_weight\":\"50\",\"goal_weight_unit\":\"kg\",\"highest_weight\":\"80\",\"highest_weight_unit\":\"kg\",\"current_medications\":[\"Ninguno\"],\"allergies\":[\"Ninguno\"],\"weight_management_approach\":\"Ninguno\",\"medical_conditions\":[\"Ninguno\"],\"glp1_drug_allergies\":[\"Ninguno\"],\"eligibility_qualified\":false,\"eligibility_state_supported\":false,\"can_self_inject_normalized\":false,\"form_version\":\"evaluacion-v3-2026-05\",\"answers_count\":17}}",
+    "routing": {
+      "event_kind": "form_abandonment_confirmed",
+      "should_send_to_awsales_now": true,
+      "should_send_after_debounce": false,
+      "debounce_minutes": 0,
+      "state_key": "nrx_1780950970841_ss781i",
+      "dedupe_key": "nrx_1780950970841_ss781i:o4ka8f",
+      "recovery_url": "https://nuestrarx.com/evaluacion?lt=96826e77-a043-496b-9330-d497372ae391&lang=es",
+      "recommended_action": "Send awsales_payload now. The Worker already waited 20 minutes and emitted intake_abandoned.",
+      "reason": "The Worker durable object timed out by session_id and emitted intake_abandoned after 20 minutes."
+    },
+    "diagnostics": {
+      "valid_for_awsales": true,
+      "missing_required_fields": [],
+      "source_event": "intake_abandoned",
+      "source_step": "recentHistory",
+      "source_stage": "beluga",
+      "answers_count": 17
+    }
+  }
+]

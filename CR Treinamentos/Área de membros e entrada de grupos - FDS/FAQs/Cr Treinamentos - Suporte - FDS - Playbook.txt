@@ -1,0 +1,1019 @@
+--- PAGINA 1 ---
+Cr Treinamentos - Suporte - FDS
+Playbook55 documentos
+Editar Excl
+Busca Semântica
+Buscar
+Documentos (55)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Ativos Todas as tags
+ Data de criação
+Desc
+Qual é a minha senha da área de membros?
+Criado em May 6, 2026,
+05:48 PM • Usado 3
+vezes • Ativo
+A senha padrão da área de membros é "Mudar123".
+O aluno deve fazer o link com:
+- email utilizado durante a compra
+- senha padrão "Mudar123"
+Caso, mesmo assim, o aluno não consiga fazer o login, o aluno deve tocar em "Esqueci mi
+nha senha" e conferir a caixa de entrada do email para encontrar o email de alteração de
+senha.
+Existe um acompanhamento individual do Paulo?
+Criado em May 6, 2026,
+05:30 PM • Usado 0
+vezes • Ativo
+Todos os assuntos relativos a acompanhamentos individuais do Paulo devem ser tratados
+com o time de suporte humano. Faça handoff nesses casos.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 1/24
+
+--- PAGINA 2 ---
+Quando vai ser a aula ao vivo?
+Criado em May 6, 2026,
+05:29 PM • Usado 0
+vezes • Ativo
+Todas as comunicações relativas às aulas ao vivo serão enviadas no Canal de Avisos oficial
+do Fundamentos da Sintonização.
+O que é a Garantia Incondicional de 30 Dias ou a
+Garantia da Mudança?
+Criado em May 6, 2026,
+05:28 PM • Usado 0
+vezes • Ativo
+É uma garantia atrelada ao resultado do aluno, ou seja, se em 30 dias nada mudar na vida
+do aluno, nós devolvemos 100% do dinheiro - com alguns pré-requisitos (citados abaixo).
+Importante: Essa garantia só se aplica para o aluno que comprou há mais de 7 dias. O dire
+ito de reembolso dentro do prazo de 7 dias é garantido por lei.
+Para ter direito ao reembolso da garantia de 30 dias, o aluno precisa:
+- Preencher o checkin de cada fase do curso ao longos dos primeiros 30 dias (1 para a fas
+e 0, 1 pra fase 1, 1 pra fase 2 e 1 pra fase 3)
+- Assistir pelo menos 80% das aulas até a fase 3 (aqui n entram as aulas dos bônus e n ent
+ram os eventos de catarse ao vivo)
+- Ter realizado os exercícios previstos nas aulas (isso é comprovado mediante envio dos m
+ateriais complementaress do curso preenchidos)
+- Ter participado de pelo menos 4 tutorias ao vivo
+- Ter participado de pelo menos 1 evento de catarse ao vivo
+Caso a pessoa queira prosseguir com o pedido de reembolso, você deve fazer Handoff.
+O checkin é obrigatório?
+Criado em May 6, 2026,
+05:23 PM • Usado 0
+vezes • Ativo
+Tecnicamente não — o aluno não é bloqueado se não preencher. Mas ele é importante pa
+ra o time do Paulo acompanhar o progresso do aluno.
+Além disso, caso o aluno pergunte sobre a Garantia de 30 Dias, é importante explicar que
+um dos pré-requisitos para a o reembolso da garantia de 30 dias ser aprovada é o preenc
+himento de todos os checkins ao longos desses 30 dias.
+Preciso assinar o contrato mencionado no vídeo
+de boas-vindas?
+Criado em May 6, 2026,
+05:18 PM • Usado 0
+vezes • Ativo
+Não. O **Contrato de Compromisso** é **opcional** — não há nenhuma obrigação legal
+vinculada a ele.
+Ele é um ato simbólico: uma declaração pessoal de comprometimento com o Fundament
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 2/24
+
+--- PAGINA 3 ---
+os da Sintonização. A ideia é que assinar algo de próprio punho ativa um estado interno d
+iferente de simplesmente "começar".
+O aluno que quiser assinar encontra o PDF para download no módulo "Comece por aqui",
+logo abaixo da aula de Boas-vindas. Imprime, assina e guarda — não precisa enviar para n
+inguém e não gera nenhum vínculo jurídico.
+O que fazer quando o cliente alega algum
+problema relativo a dupla cobrança, pagamento
+recusado ou PIX não confirmado.
+Criado em May 5, 2026,
+07:20 PM • Usado 2
+vezes • Ativo
+Fui cobrado duas vezes: guarda os dois comprovantes e me avisa que abro chamado.
+Pagamento recusado: verifica com o banco — limite, bloqueio de compras online, autoriz
+ação pra compras a distância. Resolvido isso, refaz a compra no checkout. Se persistir, me
+avisa.
+PIX não confirmado: costuma ser instantâneo. Se passou de 30 minutos sem confirmação,
+me avisa.
+Comprei mas ainda não recebi o acesso, o
+que faço?
+Criado em May 5,
+2026, 07:19 PM • Usado 2
+vezes • Ativo
+Siga o passo a passo:
+1. Entre no link https://crtreinamentos.cademi.com.br/
+2. Digite o email usado durante a compra e a senha padrão "Mudar123"
+3. Caso dê senha incorreta, toque em "Esqueci minha senha"
+Se não conseguir acessar mesmo assim, roda essa checagem rápida:
+1. Confirma se o pagamento foi aprovado pela Assiny — chega um e-mail de confirmação
+no momento da aprovação da compra
+2. Procura na sua caixa de entrada (lixeira e spam também) o e-mail com assunto "Aqui es
+tá o seu acesso ao Fundamentos da Sintonização"
+3. Confirma se está olhando o mesmo e-mail usado na compra
+Se mesmo assim não receber, me avisa que abro chamado pro time do Paulo.
+Pagamento confirmado mas curso não liberou: pode ter rolado um descompasso entre a
+plataforma de venda (Assiny) e a área de membros (Cademí). Faz a checagem acima e, se
+o e-mail de acesso não chegou, me avisa.
+Quais formas de pagamento são aceitas?
+Criado em May 5, 2026,
+07:13 PM • Usado 0
+vezes • Ativo
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 3/24
+
+--- PAGINA 4 ---
+Formas de pagamento aceitas: PIX e cartão de crédito (parcelamento em até 12x), via Assi
+ny.
+Posso pagar metade no PIX e metade no cartão? Não. A forma de pagamento é única na
+compra — você escolhe PIX ou cartão no checkout.
+Tem desconto à vista no PIX? Não.
+O que fazer quando o aluno pergunta se pode
+trocar o cartão usado na compra ou qualquer
+outra coisa sobre cartão.
+Criado em May 5, 2026,
+07:03 PM • Usado 0
+vezes • Ativo
+Após a compra, as parcelas seguem sendo cobradas automaticamente no cartão original
+— não é possível trocar pra outro durante o ciclo.
+Comprei no cartão e quero mudar pra PIX: não dá. A forma de pagamento é definida no c
+heckout. Depois que a transação foi processada, não pode ser alterada.
+Posso antecipar parcelas? A antecipação é feita diretamente com a operadora do seu cart
+ão — não pelo nosso lado. Consulte no app do banco se a opção está disponível.
+Posso parcelar em mais vezes? Não. O parcelamento foi definido no checkout e é vinculad
+o àquela operação.
+Cancelei o cartão, e agora? As cobranças vão falhar. Me avisa que abro um chamado pro t
+ime do Paulo.
+Resumo: depois que a compra foi processada, o que está definido (cartão, parcelas, forma
+de pagamento) segue automaticamente.
+Quando vence a minha próxima parcela do
+cartão?
+Criado em May 5, 2026,
+06:57 PM • Usado 0
+vezes • Ativo
+Tudo que tem a ver com pagamentos você acompanha diretamente na Assiny, a platafor
+ma de pagamento do FDS. Lá ficam:
+- Data de vencimento da próxima parcela
+- Valor de cada parcela
+- Status de cada cobrança (paga, pendente, futura)
+- Histórico completo dos pagamentos com data, valor e comprovante
+Para acessar a Assiny:
+1. Entre no site https://assiny.com.br/
+2. Toque em "Entrar"
+3. Digite o seu email de compra
+Posso baixar comprovante? Sim, cada parcela paga tem comprovante disponível para dow
+nload.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 4/24
+
+--- PAGINA 5 ---
+Recebi e-mails de cobrança automática, é normal? Sim — a Assiny envia antes do vencim
+ento e após o processamento. Faz parte do fluxo normal.
+Não estou recebendo os e-mails da Assiny: confere se estão no spam. Se mesmo assim nã
+o chegam, me avisa que abro um chamado pro time.
+O que é a Jornada da Transformação de 17 Dias
+(bônus 4 de todos os compradores)?
+Criado em May 5, 2026,
+06:51 PM • Usado 0
+vezes • Ativo
+A Jornada de 17 Dias é toda a jornada ao vivo que o Paulo aplicou durante o lançamento
+— conteúdo que vai ser removido do YouTube após o encerramento. Quem comprou o F
+DS fica com acesso permanente pra reassistir quando quiser.
+É igual ao FDS? Não. A Jornada é a porta de entrada pública, focada em preparar a pesso
+a pra entender o método. O FDS é o aprofundamento e a aplicação completa (catarses ao
+vivo, tutorias, comunidade, ritual diário guiado).
+Três usos dentro do FDS:
+- Revisão acelerada — depois da Fase 0, voltar na Jornada consolida conceitos sob outro
+ângulo.
+- Porta de entrada pra família — em vez de tentar explicar o método você mesmo, você c
+ompartilha a Jornada e deixa o Paulo fazer o trabalho. Frequentemente é mais eficaz.
+- Reativação — em momentos de Regressão forte, voltar na Jornada é uma forma de re-a
+cessar a frequência base.
+Onde encontrar: seção de Bônus no final da área de membros, durante o seu ano de aces
+so.
+O que são os 10 Workshops Exclusivos (bônus 3
+para todos os compradores)?
+Criado em May 5, 2026,
+06:49 PM • Usado 0
+vezes • Ativo
+Os 10 Workshops Exclusivos são dez workshops profundos do Paulo, gravados, sobre tem
+as que o método base não aprofunda. Não são aulas extras — são imersões temáticas de
+1 a 2 horas cada, sobre tópicos como medo, fé, identidade, casamento, missão de vida, en
+tre outros.
+Como usar: é biblioteca, não sequência. Você não precisa assistir tudo de uma vez.
+A ideia: quando aquela briga acontece em casa, você sabe qual workshop abrir. Quando a
+dúvida espiritual bate, idem. Quando o medo paralisa, tem um workshop específico pra is
+so.
+Sugestão de uso:
+- Em momentos de estabilidade: 1 por semana, construindo repertório
+- Em momentos de crise específica: entra direto no workshop do tema e usa como ferram
+enta imediata
+- Primeira vez no método: priorize as Fases 0 a 3 primeiro, use os Workshops como compl
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 5/24
+
+--- PAGINA 6 ---
+emento conforme situações forem aparecendo
+Como acessar: seção de Bônus no final da área de membros, com o tema de cada worksh
+op listado.
+O que é a Lista de Ouro (bônus 2 para todos os
+compradores)?
+Criado em May 5, 2026,
+06:47 PM • Usado 0
+vezes • Ativo
+A Lista de Ouro é a curadoria pessoal do Paulo de filmes e livros pra elevar sua frequência
+e seu QI. Não é lista genérica — é o que ele de fato consome, com o porquê de cada item
+e em qual ordem consumir pro efeito acumular.
+Cada item vem com a nota do Paulo: por que recomenda, qual frequência aquele material
+instala e qual o melhor momento dentro do processo do método.
+Por exemplo: tem filme que ressoa com a fase de catarse, tem livro que cabe melhor na R
+e-escrita financeira, tem documentário que sustenta espiritualidade. A curadoria organiza
+isso pra você.
+A lógica: você é o que você consome. Filmes, livros, podcasts e redes entram no seu camp
+o e ajustam sua frequência diariamente. A Lista de Ouro garante que o que entra está te e
+levando.
+Como usar na prática: um por vez, com atenção — não passivo no fundo. Mais vale um liv
+ro lido com profundidade que dez começados.
+Onde encontrar: seção de Bônus na parte de baixo da área de membros do FDS.
+O que é o Confronto 2.0 (bônus 1 para todos os
+alunos)?
+Criado em May 5, 2026,
+06:46 PM • Usado 0
+vezes • Ativo
+O Confronto 2.0 é um curso completo de alto nível de exigência, pra quem quer acelerar
+10 anos em 1. O processo de confronto com o que está travando sua vida — Identidade i
+nstalada, padrões herdados, marcas do passado.
+Dois blocos:
+Bloco 1 — Reconstrução do mapa: você reconstrói o panorama da sua vida com profundi
+dade. Inclui Torre de Controle (onde você se posiciona), Roda da Vida (7 áreas avaliadas c
+om brutalidade honesta), Sala Secreta (o que você esconde até de si mesmo) e Processo d
+o Espelho (ver-se sem filtro). Você sai sabendo onde está, o que carrega e de onde veio.
+Bloco 2 — Renascimento: respiração circular guiada (abre acesso a camadas profundas), a
+tivação de identidade com os arquétipos do Leão (poder), Águia (visão) e Tubarão (movi
+mento), e instalação de um novo padrão no lugar do antigo.
+Pra quem: quem está disposto a um processo mais intenso. Ideal depois da Fase 0 e de pe
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 6/24
+
+--- PAGINA 7 ---
+lo menos uma catarse ao vivo. O Confronto 2.0 potencializa — não substitui o método pri
+ncipal.
+Quais são os bônus para todos os alunos que
+entraram enquanto o carrinho estava aberto?
+Criado em May 5, 2026,
+06:44 PM • Usado 0
+vezes • Ativo
+Os bônus do carrinho são cinco materiais liberados pra todos os alunos que compraram d
+entro da janela aberta do FDS:
+- Confronto 2.0 — curso completo de alto nível de exigência
+- Lista de Ouro — curadoria pessoal do Paulo de filmes e livros
+- 10 Workshops Exclusivos — imersões temáticas gravadas
+- Jornada da Transformação de 17 Dias — toda a jornada do lançamento com acesso per
+manente
+- Ho'oponopono com Foco no Positivo — versão corrigida pelo Paulo da prática tradicion
+al
+Onde encontrar: na Cademi, nas seções "Bônus" dentro da estrutura do curso.
+Quando ganho acesso: assim que o acesso ao FDS é liberado, após confirmação do paga
+mento.
+Por quanto tempo: o acesso segue o período do FDS — 1 ano a partir da data da compra.
+Preciso assistir em ordem? Não. Cada um é usado quando fizer sentido. O Confronto 2.0 é
+melhor depois da Fase 0. A Jornada de 17 Dias é ótima pra revisão. O Ho'oponopono pod
+e ser usado em paralelo ao Ritual Diário.
+Como funciona o Sintoniza Experience
+(bônus para os alunos que compraram até
+meia-noite do dia do início das vendas)?
+Criado em May 5,
+2026, 06:35 PM • Usado 0
+vezes • Ativo
+O Sintoniza Experience é um evento presencial de 2 dias em São Paulo com o Paulo — nã
+o é evento de catarse, é potencialização. Para quem já passou pelas catarses, fez a Re-escr
+ita e tem o Ritual Diário instalado.
+Como funciona: dois dias de imersão presencial com Sintonizações guiadas ao vivo, exercí
+cios de co-regulação em grupo e trabalho prático nos objetivos que você está sintonizand
+o. O presencial faz o que o digital não faz — seu corpo entra no campo do Paulo e dos ou
+tros alunos no mesmo espaço físico.
+Quando e onde: a data e local em São Paulo ainda estão sendo finalizados. A comunicaçã
+o completa vai por WhatsApp e e-mail aos contemplados com antecedência para organiz
+ação de viagem.
+Quem tem direito: quem decidiu até a meia-noite do dia do início das vendas. Limitado a
+200 vagas.
+Passagem e hospedagem estão incluídas? Não.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 7/24
+
+--- PAGINA 8 ---
+Como sei se ganhei: quem foi contemplado é avisado por WhatsApp e e-mail em até 48 h
+oras após a compra.
+Como funciona a imersão ao vivo do
+Despertar do Milhão (bônus para os 100
+primeiros compradores)?
+Criado em May 5,
+2026, 06:27 PM • Usado 0
+vezes • Ativo
+O Despertar do Milhão é um workshop gravado sobre o Fluxo do Dinheiro + uma imersã
+o ao vivo com o Paulo, focada na frequência do dinheiro.
+Como funciona a imersão: começa com a destrinchada do jogo da soma vs jogo da multi
+plicação. Depois, Sintonização guiada ao vivo com o Paulo conduzindo todos pra Alfa sim
+ultaneamente — co-regulação coletiva. Você sai com uma Sintonização da frequência do
+dinheiro feita em conjunto.
+Tem replay? Da imersão ao vivo, não — é ato presente, acontece uma única vez. Do works
+hop gravado que vem antes, sim — fica disponível na área de membros.
+Quem tem direito: os 100 primeiros que entraram para o Fundamentos da Sintonização.
+Como sei se ganhei: quem foi contemplado é avisado por WhatsApp e e-mail em até 48 h
+oras após a compra.
+A imersão é online: sim, totalmente. O link vai junto com a comunicação de contemplaçã
+o.
+Quando acontece: a data é enviada na Comunidade do WhatsApp e por e-mail aos conte
+mplados. Fica atento pra não perder.
+Como funciona a sessão 1-on-1 /
+Sintonização Individual com o Paulo
+(bônus para os 5 primeiros compradores)?
+Criado em May 5,
+2026, 06:25 PM • Usado 0
+vezes • Ativo
+A Sintonização Individual é uma sessão 1-on-1 de ~90 minutos ao vivo, conduzida pessoa
+lmente pelo Paulo. Não é call de dúvida nem mentoria genérica — é uma Sintonização gu
+iada calibrada pra sua Identidade Dessintonizada específica.
+Como funciona: antes da sessão, você responde um diagnóstico que mostra ao Paulo qua
+l camada de Interferência está mais ativa em você. Na sessão, ele te conduz pra Alfa, disso
+lve o que precisa sair e instala a Re-escrita. Sem gravação. Só você e ele.
+Quem tem direito: apenas os 5 primeiros que decidiram dentro da janela do pitch ao vivo.
+Como sei se ganhei: quem foi contemplado é avisado por WhatsApp e e-mail em até 48 h
+oras após a compra.
+Como agendar: os contemplados recebem comunicação com o passo a passo do agenda
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 8/24
+
+--- PAGINA 9 ---
+mento.
+Tem gravação? Não — a profundidade do 1-on-1 só acontece nesse formato presente.
+Não recebi comunicação: se a janela já fechou e não chegou mensagem, provavelmente v
+ocê não entrou na lista. Confirme na próxima tutoria ao vivo.
+Por que minha família vai reagir à minha
+mudança?
+Criado em May 5, 2026,
+06:23 PM • Usado 0
+vezes • Ativo
+O Protocolo de Sustentação é um módulo gravado (~40min) com scripts práticos, focado
+nos três meses depois do curso, quando o entorno começa a reagir à sua mudança de fre
+quência.
+Por que a família reage: o sistema interpessoal estava equilibrado em torno da sua Identid
+ade antiga. Quando ela muda, o equilíbrio se rompe e o entorno tenta restaurar, puxando
+você de volta.
+Três fases típicas da reação:
+1. Ridicularização — "lá vem você com essas frescuras"
+2. Raiva — quando você não parou. Comentários ferinos, sabotagem sutil
+3. Pedido de ajuda — quando os resultados são visíveis e eles também querem
+O módulo entrega scripts de resposta pra cada tipo — não pra convencer ninguém, mas
+pra você manter a frequência.
+Marcos típicos:
+- 30 dias: novidade, energia alta, primeiros sinais
+- 60 dias: cansaço, dúvida, reação mais forte do entorno
+- 90 dias: novo padrão começa a parecer natural, a Identidade nova não pede mais esforç
+o pra se sustentar
+Como faço o Ritual Diário de Sintonização?
+Criado em May 5, 2026,
+06:19 PM • Usado 0
+vezes • Ativo
+O Ritual Diário é o exercício em estado Alfa que mantém a nova Identidade instalada. ~20
+minutos por dia, conduzido pelo Paulo.
+Estrutura:
+1. Relaxamento muscular progressivo
+2. Contagem regressiva de 10 a 0
+3. Descida controlada pra Alfa
+4. Visualização em primeira pessoa do objetivo já realizado pelos cinco sentidos — dentro
+da cena, não assistindo de fora
+Horário: não há obrigatório. O importante é regularidade — todo dia, no mesmo horário
+se possível. Muita gente faz ao acordar ou antes de dormir.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 9/24
+
+--- PAGINA 10 ---
+Posso fazer deitado? Pode. O que não pode é dormir — a mente consciente precisa estar l
+igada.
+Adormeci, tem problema? Acontece nos primeiros dias. Tenta no dia seguinte mais desper
+to.
+E se pular um dia? Volta no dia seguinte sem recomeçar do zero. Mas evita virar padrão
+— o método funciona pela acumulação.
+Posso fazer mais de uma vez por dia? Pode. Algumas pessoas fazem de manhã e à noite p
+ra intensificar — e intensidade distorce o tempo.
+A Fase 3 (Sintonização) é só o Ritual Diário?
+Criado em May 5, 2026,
+06:17 PM • Usado 0
+vezes • Ativo
+A Fase 3 é a fase da prática diária e da sustentação. Tem quatro stacks:
+1. Ritual Diário de Sintonização — áudio guiado em Alfa, ~20min/dia. Prática contínua qu
+e sustenta a frequência base.
+2. Protocolo de Conquistas — para objetivos concretos (casa, carro, número, cargo). Não
+é diário — é estratégico.
+3. Protocolo de Sustentação 30/60/90 — módulo gravado (~40min) que prepara você pra
+reação do entorno nos três meses de consolidação.
+4. Como Usar o Magnetismo — módulo gravado (~50min) sobre o campo eletromagnétic
+o do coração e controle da Regressão.
+As Fases 0, 1 e 2 preparam o terreno: você entende o método, dissolve as Interferências e
+re-escreve a Identidade. A Fase 3 é onde tudo vira manutenção diária — e onde a nova Id
+entidade fica gravada por repetição.
+Por que reajo de forma desproporcional e
+como funciona o módulo de Inteligência
+Emocional da fase de Re-escrita (Fase 2)?
+Criado em May 5,
+2026, 06:16 PM • Usado 0
+vezes • Ativo
+A Re-escrita: Inteligência Emocional trabalha a Identidade reativa. Inteligência emocional
+não é controlar a emoção — é entender de onde ela vem.
+Na maioria das vezes, quem está reagindo na vida adulta não é você. É a criança interior,
+comandada pela amígdala enquanto o córtex pré-frontal está desligado.
+Os padrões mais comuns:
+- A criança birrenta — insiste em ter razão
+- A criança com medo de abandono — se anula pra não perder ninguém
+- A criança hipervigilante — monitora todo mundo
+- A criança que se cala — aprendeu que falar trazia consequências
+- A criança raivosa — a raiva era a única forma de ser ouvida
+Quando situações no presente disparam o gatilho, ela toma o volante e o adulto vai pro b
+anco de trás.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 10/24
+
+--- PAGINA 11 ---
+A Re-escrita é o adulto reconhecer a criança — no reconhecimento, ela volta a ser criança
+e o adulto governa.
+Reação desproporcional é sintoma: "está doendo algo que não é desta situação". Identific
+ar qual parte do passado está sendo reativada dissolve a desproporção.
+Eu não sou religioso, o módulo de
+Espiritualidade da fase de Re-escrita (Fase
+2) serve pra mim?
+Criado em May 5,
+2026, 06:15 PM • Usado 0
+vezes • Ativo
+A Re-escrita: Espiritualidade trabalha a Identidade espiritual desconectada — a sétima áre
+a da pirâmide. Como o Paulo coloca: "como você quer reconhecer o Criador se você não r
+econhece a sua própria imagem?" Espiritualidade real começa em conhecer-se a si mesm
+o.
+O método não é religioso e não exclui religião. Evangélico, católico, espírita, agnóstico ou
+ateu — todos encontram valor aqui.
+O que é dissolvido: a doutrina distorcida que virou culpa ou fuga. O que é Deus permanec
+e. O que é programação distorcida sai.
+Para quem não é religioso, o sintoma comum é a sensação de "falta algo" mesmo quando
+o resto da vida está OK — estar à deriva, sem âncora, buscando significado em consumo
+ou performance porque o eixo central está vazio.
+O que tem a ver com o resto da vida: quando a Identidade espiritual está conectada, as d
+ecisões nas outras áreas ficam mais limpas. Quando está desconectada, a vida vira corrida
+sem direção, mesmo com avanços nas outras frentes.
+Por que sabotejo o sucesso quando
+supero o que meus pais conquistaram e
+como o módulo de Família da fase de Re-
+escrita (Fase 2) funciona?
+Criado em May 5,
+2026, 06:13 PM • Usado 0
+vezes • Ativo
+A Re-escrita: Família trabalha o campo de origem — a Identidade herdada dos 0-7 anos q
+uando seus pais eram seus deuses. Quase todos os limites da vida adulta se encontram a
+qui.
+A Lealdade Inconsciente é o motivo pelo qual você saboteia quando ultrapassa o nível do
+s pais. Inconscientemente, sair do padrão da família parece traição. O sistema interno ent
+ende: "se eu prosperar mais que meu pai, estou o matando simbolicamente". Aí entra a R
+egressão pra te puxar de volta.
+O Funil Geracional explica a transmissão: avós instalaram nos pais, pais instalaram em voc
+ê. Por isso o mesmo padrão financeiro, de relacionamento e de saúde atravessa 3, 4, 5 ger
+ações.
+A Re-escrita dissolve essa lealdade e te permite ser o primeiro a quebrar a corrente — nã
+o é traição da família, é honra à vida.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 11/24
+
+--- PAGINA 12 ---
+Importante: re-escrever a Identidade familiar frequentemente melhora a relação com a fa
+mília, porque você para de reagir aos padrões antigos e responde de outro lugar.
+Por que sempre atraio o mesmo tipo de
+pessoa em relacionamento e como o
+módulo de Relacionamento da Re-escrita
+(Fase 2) funciona?
+Criado em May 5,
+2026, 06:11 PM • Usado 0
+vezes • Ativo
+A Re-escrita: Relacionamento trabalha o fato de que você nunca se relaciona com o outro
+— você se relaciona a partir de quem você é. A frequência que sai do seu corpo só atrai p
+essoas em fase com ela.
+Os 3 tipos de apego:
+- Ansioso: medo do abandono, busca de validação, ciúme
+- Evitativo: dificuldade de proximidade, foge da intimidade
+- Desorganizado: oscila entre querer perto e longe
+Foram instalados nos primeiros 18 meses pela presença ou ausência do cuidador — e hoj
+e definem seus relacionamentos adultos. Apego ansioso costuma atrair evitativo (um pers
+egue, o outro foge).
+Por que sempre atraio o mesmo tipo: porque sua Identidade Dessintonizada emite a mes
+ma frequência. Mudar de pessoa sem mudar a Identidade só te coloca no mesmo padrão
+com nome diferente.
+A re-escrita dissolve a Identidade que precisa do outro pra se sentir inteira e instala a que
+escolhe relacionamento por liberdade, não por medo.
+Quando a frequência muda, o tipo de pessoa que entra na sua vida muda também.
+Em que ordem fazer as 7 áreas da Fase 2 (Re-
+escrita)?
+Criado em May 5, 2026,
+06:09 PM • Usado 0
+vezes • Ativo
+A Fase 2 é onde a Identidade Dessintonizada é re-escrita em cada área concreta da vida. S
+ão 7 módulos gravados (~50-55min cada): dinheiro, relacionamento, profissão, saúde, fa
+mília, espiritualidade e inteligência emocional.
+Foque nas áreas que você acredita serem as que mais te impactam atualmente.
+Tenho que fazer todas as 7? O método foi desenhado pra isso — cada módulo trabalha u
+ma frente da vida, e pular é deixar uma área travada. Mas você define o ritmo.
+Cada módulo não é teoria — identifica a Identidade Dessintonizada daquela esfera, expõe
+o paradigma instalado e ensina o caminho da Re-escrita.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 12/24
+
+--- PAGINA 13 ---
+Sinto culpa o tempo todo sem motivo, a
+catarse de Culpa/Religião é pra mim?
+Criado em May 5,
+2026, 06:05 PM • Usado 0
+vezes • Ativo
+A Catarse de Culpa/Religião dissolve as camadas de culpa instaladas por décadas de ensin
+o religioso distorcido — pecado, indignidade, "rico não vai pro céu", "isso é provação". A f
+requência de culpa que sobreviveu mesmo em quem já saiu da igreja.Serve pra quem rec
+onhece:
+- Sente culpa o tempo todo sem motivo real
+- Acredita que cada coisa boa precisa ser paga com sofrimento
+- Vê prosperidade como incompatível com fé
+- Tem culpa intensa ao descansar, ganhar, gastar consigo
+- Atribui tudo a forças externas — "Deus permitiu", "é provação"
+Essa catarse não é contra religião. O que é dissolvido é a doutrina infiltrada como culpa
+— não a fé real. Fé verdadeira te empurra pra responsabilidade; fuga espiritual te afasta d
+ela. Evangélico, católico, espírita — todos são bem-vindos, e ninguém perde a fé no proce
+sso.
+Em estado Alfa, conduzido pelo Paulo, essas camadas vêm à superfície e a culpa instalada
+se dissolve. O que sobra é uma relação com Deus mais limpa, leve e alinhada com a fé rea
+l.
+Tenho medo de abandono, essa catarse de
+Luto/Abandono serve pra mim?
+Criado em May 5,
+2026, 06:05 PM • Usado 0
+vezes • Ativo
+A Catarse de Luto/Abandono dissolve perdas que ficaram pela metade — pais ausentes, d
+ivórcios, mortes não elaboradas, amizades que sumiram. O abandono que virou padrão sil
+encioso de "todo mundo vai embora" e hoje opera como apego ansioso.Serve pra quem r
+econhece:
+- Medo intenso de abandono, necessidade de validação constante
+- Ciúme excessivo mesmo sem motivo claro
+- Dificuldade de se entregar em relacionamentos
+- Luto de pessoa que partiu há anos mas ainda dói
+- Sensação de "estou sozinho mesmo no meio das pessoas"
+- Padrão de atrair pessoas indisponíveis
+A catarse não tem prazo — trabalha luto de pessoa que partiu há 5, 15 ou 30 anos. O tem
+po cronológico não dissolve o que ficou em loop emocional. O que dissolve é acessar a c
+amada certa, em estado Alfa, e liberar a carga.
+Em estado Alfa, conduzido pelo Paulo, você acessa o lugar onde a perda ficou pendurada
+e a carga emocional pode ser liberada — não pra apagar a memória, mas pra deixar a pes
+soa partir em paz dentro de você.
+Tenho problema com dinheiro, a Catarse de
+Escassez serve pra mim?
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 13/24
+
+--- PAGINA 14 ---
+Criado em May 5, 2026,
+05:42 PM • Usado 0
+vezes • Ativo
+A Catarse 1 é a dissolução do paradigma "não é pra mim", instalado por gerações de aper
+to financeiro e pelas frases que viraram caixinha mental dos 0-7 anos: "dinheiro não nasce
+em árvore", "rico não vai pro céu", "no nosso sangue nunca teve grana".
+Pra quem reconhece esses padrões:
+- Dinheiro entra e some.
+- Teto financeiro nunca passa de uma faixa invisível.
+- Dificuldade de cobrar pelo que vale.
+- Culpa quando ganha mais que pais ou irmãos.
+- Ansiedade financeira crônica mesmo quando os números estão OK.
+- Compras impulsivas que esvaziam a conta de novo.
+Mesmo quem hoje ganha bem mas tem aperto interno encontra coisa aqui. Escassez não
+é saldo bancário — é estado interno. Em Alfa, conduzido pelo Paulo, o nó dissolve na raiz.
+Como funcionam os eventos de catarse (Fase 1)?
+Criado em May 5, 2026,
+05:41 PM • Usado 0
+vezes • Ativo
+A Fase 1 são 5 eventos ao vivo conduzidos pelo Paulo, a cada 15 dias. Cada evento trabal
+ha um núcleo de Interferência: escassez, abuso/trauma, luto/abandono, culpa/religião, per
+dão/traição.
+Por que ao vivo e em grupo: o Paulo conduz pra você descer em Alfa de forma segura. Em
+estado Alfa em grupo, a co-regulação coletiva (campo coerente) potencializa o processo
+— seu corpo entra em sintonia com o campo do grupo.
+Datas e links são fixados na Comunidade do WhatsApp com antecedência. Eventos online
+ao vivo. Ficam gravados depois, mas a catarse acontece no presente.
+Pode chorar/tremer/sentir intenso? Pode. É o sistema liberando o que estava preso. O Pau
+lo conduz em ambiente seguro.
+Não tem que participar das 5, mas é o desenho do método. Mesmo que um tema pareça
+"não ser seu", muito aparece ali.
+O que é o módulo Desconstrução do Medo?
+Criado em May 5, 2026,
+05:39 PM • Usado 0
+vezes • Ativo
+Quarto módulo da Fase 0 (~45min). Trabalha a Regressão mais traiçoeira: o medo que se
+disfarça de prudência. Quando você diz "melhor pensar bem antes", "não é hora ainda" —
+na maior parte das vezes não é a sua razão. É o Porteiro usando a sua própria voz.
+Os 4 mecanismos do medo disfarçado:
+1. Distorção da autoeficácia: o que parecia possível começa a parecer delírio.
+2. Efeito nocebo: o cérebro antecipa fracasso e produz sintoma físico.
+3. Memória seletiva: o hipocampo só puxa lembrança de fracasso.
+4. Profecia autorrealizável: você age (ou deixa de agir) confirmando o medo.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 14/24
+
+--- PAGINA 15 ---
+Como diferenciar medo real de programado: a pergunta-chave — "se eu agir nessa decisã
+o hoje, qual é a ameaça real e presente?". Quase sempre, a ameaça é hipotética. Aí é o Po
+rteiro defendendo a Identidade.
+O que é o módulo Por que a Sintonização?
+Criado em May 5, 2026,
+05:38 PM • Usado 0
+vezes • Ativo
+Terceiro módulo da Fase 0 (4 aulas, ~60min). Aqui o Paulo destrincha por que afirmação s
+olta, lei da atração e meditação genérica não funcionaram pra você — e qual é a única co
+ndição neurológica em que mudança real acontece.
+Os estados cerebrais são o eixo. Em Beta (estado normal), o Porteiro está ativo e filtra. Em
+Alfa, o Porteiro sai de jogo e o subconsciente fica acessível. Por isso o método trabalha e
+m Alfa.
+Por que afirmação, lei da atração e meditação genérica não funcionaram: você operava e
+m Beta. A frequência base não mudava.
+O módulo também trabalha o vício em sintonização (fazer ritual sem ação coerente vira o
+pioide emocional) e a diferença entre fé real (que te empurra pra ação) e fuga espiritual (q
+ue te afasta dela).
+O que é o módulo Os Paradigmas?
+Criado em May 5, 2026,
+05:36 PM • Usado 0
+vezes • Ativo
+Segundo módulo da Fase 0 (3 aulas, ~50min). Aqui o Paulo trabalha o conceito que conec
+ta tudo: o paradigma mental instalado em você dos 0-7 anos, e que hoje controla 95% da
+s decisões que você acha que são suas.
+Por que sempre veste a roupa pelo mesmo braço, reage de tal forma a tal coisa, pega o m
+esmo caminho? Não é "personalidade" — é paradigma rodando em segundo plano. Ele e
+ntrou em ondas theta, sem filtro, antes dos 7 anos.
+As Caixinhas Mentais são a forma concreta como esses paradigmas foram gravados. Hoje,
+em situações novas, seu cérebro vai à estante, abre a caixinha e entrega resposta pré-pro
+gramada.
+E afirmação no negativo é o erro fatal: o cérebro não reconhece "não". "Eu não sou pobr
+e" reforça a caixinha de pobreza. O caminho é afirmação positiva, no presente.
+O que é o Mapa Invisível?
+Criado em May 5, 2026,
+04:54 PM • Usado 0
+vezes • Ativo
+Primeiro módulo da Fase 0 (3 aulas, ~55min). Aqui o método estabelece a base: tudo é en
+ergia.
+Você é um rádio sintonizado numa frequência específica. O que você vê do lado de fora
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 15/24
+
+--- PAGINA 16 ---
+— pessoas, casa, dinheiro — é o espelho da rádio que toca dentro de você.
+Cada emoção tem uma frequência específica em hertz. É a escala de Hawkins. Medo, culp
+a, apatia ficam em frequências baixas. Coragem, amor, gratidão nas altas. A frequência em
+que seu corpo permanece a maior parte do tempo é a rádio que está tocando na sua vid
+a.
+O campo eletromagnético do coração é ~5.000x mais potente que o do cérebro (HeartMa
+th Institute) — é a referência da sua frequência emanada.
+Tarefa: em 24h, anotar três momentos de mudança brusca de energia. O que aconteceu, o
+pensamento, a emoção, a frequência. É o primeiro passo do observador interno.
+O que é a Fase 0 (Nivelamento)?
+Criado em May 5,
+2026, 04:54 PM • Usado 0
+vezes • Ativo
+A Fase 0 é a fundação do método. Quatro módulos gravados que entregam o entendime
+nto que você precisa antes de praticar:
+- Mapa Invisível: tudo é energia, escala de Hawkins, observador interno, vitimismo.
+- Os Paradigmas: como sua identidade foi instalada nos 0-7 anos, Caixinhas Mentais, o Po
+rteiro.
+- Porquê a Sintonização: estados cerebrais, por que afirmação isolada não funcionou, vício
+em sintonização, fé real vs fuga espiritual.
+- Desconstrução do Medo: os 4 mecanismos do medo disfarçado de prudência.
+Por que começar por aqui: a intensidade que você coloca na prática depende da fé que d
+eposita no método. E a fé real só vem do entendimento.
+Tempo: ~3h30 de conteúdo. Você pode (e deve) começar o Ritual Diário em paralelo.
+O que é Vitimismo no método?
+Criado em May 5, 2026,
+04:47 PM • Usado 0
+vezes • Ativo
+O Vitimismo é a Interferência mais traiçoeira porque parece justificada — coisas reais aco
+nteceram com você. Mas o método faz uma diferenciação: ser vítima de algo (sofrer um e
+vento) é diferente de se vitimizar (carregar esse evento como Identidade pelo resto da vid
+a).
+O vitimista repete: "porque eu nasci pobre", "porque ninguém me deu oportunidade", "po
+rque os meus pais", "porque sempre acontece comigo". Cada frase entrega o livre-arbítrio
+pra fora. E enquanto isso opera, nenhuma ferramenta do método funciona.
+O ganho secundário: se a culpa é do mundo, você não precisa fazer nada.
+Sair desse lugar não é negar o que aconteceu. É escolher onde colocar atenção a partir de
+agora. Em vez de "por quê comigo?", a pergunta vira "o que eu faço com isso a partir de
+hoje?".
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 16/24
+
+--- PAGINA 17 ---
+Faço o ritual de sintonização todo dia e nada
+muda, por quê?
+Criado em May 5, 2026,
+04:47 PM • Usado 0
+vezes • Ativo
+Pode ser vício em sintonização. Quando você sintoniza, o corpo libera dopamina — você
+sente o estado de já ter o que está sintonizando. Isso é necessário pra o corpo gravar a fr
+equência. Mas se você fica só na sintonização, sem trazer pra ação coerente no mundo físi
+co, vira vício.
+O cérebro entende que você já tem aquilo (porque você sentiu o estado) e abandona a b
+usca. É por isso que tanta gente faz ritual há anos e a vida não muda.
+Junto disso, o Paulo trabalha a diferença entre fé real e fuga espiritual. Fé real te empurra
+pra responsabilidade e ação. Fuga espiritual é a versão maquiada da passividade — "jogu
+ei pro universo", "se for pra ser, vai ser" — sem ação alinhada.
+A correção: Sintonização + Coerência + Ação. Os três juntos.
+Como definir um objetivo pra Sintonizar?
+Criado em May 5, 2026,
+04:46 PM • Usado 0
+vezes • Ativo
+A Definição absoluta é a especificação completa do que você quer materializar. Sem ela, a
+Sintonização "fica preta" — partes da visualização aparecem escuras, sinal direto de que a
+quela parte não está definida o suficiente.
+Como definir bem:
+- Cor, modelo, ano, marca específica.
+- Sensações ao tocar, ouvir, sentir o cheiro, gostar.
+- Ambiente em volta — onde está, com quem, temperatura, hora do dia.
+- O que você está vestindo. Como o corpo está. Como você se sente.
+Definição não é fantasia genérica. É experiência sensorial completa em primeira pessoa.
+Depois de Sintonizar, vem o passo que mais aluno erra: soltar. Sem ansiedade. Sem confer
+ir. É o Efeito Zenon: na física quântica, observação contínua trava o processo. Imprimiu o c
+ódigo? Caminha em Coerência e deixa a entrega chegar.
+O que é Coerência no método?
+Criado em May 5, 2026,
+04:45 PM • Usado 0
+vezes • Ativo
+Coerência é o alinhamento entre pensamento, sentimento (coração) e ação. Quando os tr
+ês estão na mesma frequência, o sinal que sai do seu campo eletromagnético é limpo. Qu
+ando estão desalinhados — você pensa "quero prosperar", sente medo de perder, age evi
+tando risco — sai ruído, mensagem fragmentada.
+Sem Coerência, o ritual diário vira técnica solta. Com Coerência, vira força que move reali
+dade.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 17/24
+
+--- PAGINA 18 ---
+O Desejo Ardente é a pré-condição: aquilo que de fato queima no seu coração — não obj
+etivo morno ("seria legal ter mais grana"). Desejo ardente tem peso emocional real, te tira
+da inércia, permanece nos dias ruins.
+A combinação Coerência + Desejo Ardente é o que faz o método funcionar. Coerência su
+stenta. Desejo Ardente direciona. Sem os dois, a prática roda em vazio.
+Por que sempre atraio o mesmo tipo de pessoa?
+Criado em May 5, 2026,
+04:45 PM • Usado 0
+vezes • Ativo
+Porque a sua frequência de apego define o tipo de relacionamento que entra em ressonâ
+ncia com você. Antes dos seus 7 anos, nos primeiros 18 meses de vida, foi instalado em v
+ocê um dos três estilos de apego — pela presença ou ausência do cuidador principal:
+- Ansioso: medo de abandono, ciúme excessivo, validação constante, reage forte quando
+o outro demora a responder.
+- Evitativo: dificuldade de proximidade, parece "frio", foge da intimidade, termina antes d
+o outro pra controlar a perda.
+- Desorganizado: oscila entre os dois polos — quer perto e longe, atrai e empurra, idealiz
+a e desvaloriza.
+Apego ansioso costuma atrair evitativo (um persegue, outro foge). Mudar de pessoa sem
+mudar a frequência só te coloca no mesmo padrão com nome diferente. A Re-escrita: Rel
+acionamento + Catarse de Luto/Abandono mexem na raiz.
+Por que repito padrões da minha família?
+Criado em May 5, 2026,
+04:44 PM • Usado 0
+vezes • Ativo
+A maior parte dos paradigmas que controlam sua vida hoje foram instalados entre os 0-7
+anos, em ondas theta, sem filtro analítico. As pessoas mais próximas nessa fase — pais, av
+ós, professores, líderes religiosos — eram seus deuses. Tudo que diziam virou verdade ab
+soluta no seu subconsciente.
+Esses paradigmas viraram Caixinhas Mentais (associações automáticas: "dinheiro = falta",
+"relacionamento = dor", "rico não vai pro céu") e formaram a Trilha do EU SOU — o filtro
+que define o que vira emoção e ação no automático.
+O Funil Geracional: avós instalaram em pais, pais em você. Por isso famílias inteiras repete
+m o mesmo padrão financeiro/relacional/emocional.
+A Lealdade Inconsciente é o motivo pelo qual você sabotagem o sucesso quando supera
+o que seus pais conquistaram. Sair do padrão é sentir que está traindo. O método dissolv
+e isso.
+O que é o Estado Alfa e por que afirmação
+positiva isolada não funciona?
+Criado em May 5, 2026,
+04:44 PM • Usado 0
+vezes • Ativo
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 18/24
+
+--- PAGINA 19 ---
+Os estados cerebrais são frequências em que seu cérebro opera:
+- Beta (12-30 Hz): estado normal do dia, mente analítica acordada, o Porteiro ativo.
+- Alfa (8-12 Hz): relaxamento profundo, Porteiro sai de jogo, subconsciente acessível. É O
+estado da Sintonização.
+- Theta (4-8 Hz): sono leve, meditação muito profunda. Crianças 0-7 anos operam quase s
+empre em theta — por isso paradigmas profundos foram instalados nessa fase, sem filtro.
+O Porteiro (DMN — Default Mode Network) é a estrutura que se desenvolveu dos 7 aos 1
+2 anos e protege seus paradigmas antigos.
+Por que afirmação positiva isolada não funciona: você opera em Beta, com o Porteiro acor
+dado. Toda afirmação que contradiz sua Identidade ("sou próspero" pra quem se vê pobr
+e) é rejeitada na entrada. Pra gravar, o Porteiro precisa estar fora — e isso só acontece em
+Alfa.
+O que é Sintonização no método?
+Criado em May 5, 2026,
+04:43 PM • Usado 0
+vezes • Ativo
+Sintonização é o estado resultante do método. É a Identidade re-sintonizada com a realid
+ade que você quer viver — sinal limpo, sem Interferência distorcendo.
+Antes da Sintonização, o que sai do seu sistema é Mensagem Fragmentada — sinal mistur
+ado com ruído (paradigmas antigos, medo, culpa). Você emite "quero abundância" mas va
+i pro campo "quero abundância MAS dinheiro é sujo MAS não mereço".
+Depois da catarse e da prática consistente do ritual, sai Mensagem Coerente — uma únic
+a frequência, sem contradição.
+Sinais de que você está sintonizado: decisões mais fáceis, menos reatividade emocional, si
+ncronicidades aumentam, o que você quer começa a chegar (frequentemente por caminh
+os que não imaginava), você fica em frequências altas (gratidão, presença) por padrão.
+O que é Catarse no método?
+Criado em May 5, 2026,
+04:43 PM • Usado 0
+vezes • Ativo
+Catarse é o processo de liberação dos paradigmas gravados na sua infância e que o Portei
+ro defende desde os seus 12 anos. Não é catarse teatral (chorar, gritar). É evento neurológ
+ico — liberação real, no corpo e no sistema nervoso, do que estava represado.
+Sua Identidade Dessintonizada não dissolve por entendimento intelectual. Você pode ler
+30 livros, e o paradigma continua lá — porque ele foi gravado em theta na infância (sem f
+iltro analítico) e hoje é defendido pela mente analítica adulta (o Porteiro).
+Pra dissolver, é preciso acessar o subconsciente. Em estado Alfa (8-12 Hz), a mente analíti
+ca reduz a operação, o Porteiro sai de jogo, e a catarse acontece — não como descarga dr
+amática, mas como liberação real da carga.
+No FDS, são 5 eventos ao vivo conduzidos pelo Paulo, a cada 15 dias.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 19/24
+
+--- PAGINA 20 ---
+O que é a Regressão? (Por que sempre
+que tento mudar, volto pra trás?)
+Criado em May 5,
+2026, 04:42 PM • Usado 0
+vezes • Ativo
+Isso se chama Regressão no método. Toda vez que você tenta criar nova realidade, o ego
+te puxa de volta pro estágio anterior. Não é fraqueza — é a forma como sua Identidade D
+essintonizada se defende.
+Funciona assim: sua Identidade atual está em fase com a realidade que você já vive. Quan
+do você se move em direção a algo diferente, o sistema interno percebe a ameaça e reag
+e — cansaço aparece "do nada", procrastinação volta, dúvida aumenta, briga, fica doente,
+encontra motivo "razoável" pra desistir.
+Esse é o sintoma observável da Interferência ainda ativa. É também por isso que afirmaçã
+o positiva e técnicas conscientes raramente funcionam sustentável.
+A chave: nomear o processo. "Isso aqui é Regressão, não é minha sabedoria falando." Aí o
+feitiço enfraquece.
+O que é Interferência?
+Criado em May 5, 2026,
+04:42 PM • Usado 0
+vezes • Ativo
+Interferência é o conceito-base do método. A tese do Paulo: você não tem um problema
+de dinheiro, de relacionamento ou de propósito. Você tem Interferência. Sinais que não sã
+o seus — da família, da religião, do sistema, da sua história — construíram uma Identidad
+e Dessintonizada que está em fase com a realidade que você já vive. Enquanto essa Identi
+dade não muda, a realidade não muda.
+As Interferências têm 6 fontes:
+1. Familiar Verbal (0-7 anos): frases dos pais gravadas em theta.
+2. Familiar Pré-verbal (0-18 meses): estilo de apego instalado.
+3. Religiosa: medo de prosperar, culpa, "sofrer = virtude".
+4. Sistêmica/Cultural: educação, gênero, classe, ambiente.
+5. Biográfica: trauma, fracassos, identidade pós-trauma.
+6. Comportamental Presente: ciclos de hábito que reforçam tudo hoje.
+Por onde devo começar?
+Criado em May 5, 2026, 04:40
+PM • Usado 1
+vez • Ativo
+A área de membros do FDS está organizada na ordem que o Paulo recomenda. Sequência
+ideal:
+Comece Aqui — Aula de Boas-Vindas + entrar na Comunidade do WhatsApp + instruções
+sobre as tutorias ao vivo
+Fase 0 — Nivelamento (4 módulos gravados, fundação conceitual).
+Fase 1 — Catarse (5 eventos ao vivo a cada 15 dias, em paralelo com os módulos).
+Fase 2 — Re-escrita (7 módulos).
+Fase 3 — Sintonização (Ritual Diário).
+Bônus — sem ordem obrigatória.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 20/24
+
+--- PAGINA 21 ---
+A ordem a ser seguida é indicada pelo número das fases.
+O que é a Nia (IA Consultor 24h)?
+Criado em May 5, 2026,
+04:38 PM • Usado 7
+vezes • Ativo
+Eu sou a Nia, a IA Consultora 24h do FDS. Estou treinada na metodologia inteira do Paulo
+e te ajudo com:
+- Dúvidas operacionais (acesso, comunidade, tutorias, eventos, bônus, pagamento).
+- Dúvidas conceituais sobre o método (Interferência, Estado Alfa, o Porteiro, ritual diário).
+- Direcionamento sobre por onde começar e como navegar pelo curso.
+Por quanto tempo: 3 meses a partir da data da sua compra. Depois, o curso continua (1 a
+no de módulos e bônus), mas o atendimento pela IA encerra.
+Onde me acessar: dentro da área de membros do FDS, na Cademi.
+Eu não substituo as tutorias ao vivo — eu sou pro imediato; a tutoria é pra aprofundar. Os
+dois canais se complementam.
+Como funcionam as tutorias ao vivo?
+Criado em May 5, 2026,
+04:37 PM • Usado 0
+vezes • Ativo
+As tutorias ao vivo são encontros em grupo conduzidos pelo time treinado pelo Paulo. Mi
+crofone abre, você descreve sua situação, e recebe orientação na hora.
+Frequência: 3 encontros por semana no primeiro mês (divididos em dinheiro/carreira, rela
+cionamento/família, saúde/espiritualidade). Nos 2 meses seguintes, 1 encontro por seman
+a. Ciclo total: 3 meses.
+Dia, horário e plataforma não são fixos — datas e links são divulgados na Comunidade do
+WhatsApp com antecedência.
+Você não precisa entrar em todas. Entra na que faz sentido pro que está vivendo. Pode ou
+vir sem falar.
+As tutorias não ficam gravadas.
+Como entro na comunidade do WhatsApp?
+Criado em May 5, 2026,
+04:36 PM • Usado 0
+vezes • Ativo
+A Comunidade do WhatsApp do FDS é única — todos os alunos no mesmo grupo. Link pr
+incipal: https://chat.whatsapp.com/JpKXqxiuT50GtoARjCZtW9.
+Se esse link não funcionar, tenta o alternativo: https://sndflw.com/i/fds-rup. Os dois levam
+pra mesma comunidade. Se nem nos dois entrar, me avisa que abro um chamado pro tim
+e do Paulo — e enquanto isso, traz na próxima tutoria pra resolver na hora.
+O link também fica dentro da área de membros, em "Comece Aqui" → "Comunidade do
+WhatsApp".
+Lá rolam áudios diários do Paulo e comunicados oficiais sobre tutorias, eventos de catarse
+e bônus.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 21/24
+
+--- PAGINA 22 ---
+Posso baixar as aulas do FDS?
+Criado em May 5,
+2026, 04:35 PM • Usado 0
+vezes • Ativo
+As aulas em vídeo ficam disponíveis pra assistir online dentro da Cademi durante todo o s
+eu período de acesso (1 ano). Download dos vídeos não é liberado — você precisa estar o
+nline pra acompanhar.
+Materiais em PDF (frameworks, scripts, exercícios e materiais de apoio) ficam fixados abaix
+o da aula correspondente, dentro da Cademi. Pra baixar: abre a aula, rola até a área de ma
+teriais (abaixo da aula) e clica no link do PDF. Pode salvar no computador ou celular pra c
+onsultar depois.
+Por quanto tempo eu tenho acesso ao
+Fundamentos da Sitonização e o que ele
+cobre?
+Criado em May 5,
+2026, 04:35 PM • Usado 0
+vezes • Ativo
+O acesso ao curso é de 1 ano contado a partir da data da compra (data de confirmação d
+o pagamento), independente de quando você começa a estudar.
+Esse 1 ano cobre:
+- Os módulos gravados (Fase 0, Fase 2, Fase 3).
+- Os eventos ao vivo de catarse (Fase 1).
+- Os bônus (Confronto 2.0, Lista de Ouro, 10 Workshops, Jornada de 17 Dias, Ho'oponopo
+no).
+Importante: o acesso às tutorias ao vivo e a mim (a Nia) é de 3 meses a partir da compra
+— não 1 ano. Então o curso em si dura mais que a parte ao vivo.
+Após 1 ano, o acesso à plataforma encerra.
+Esqueci minha senha, como redefino?
+Criado em May 5,
+2026, 04:34 PM • Usado 0
+vezes • Ativo
+Pra redefinir, vai na página de login da Cademi (https://fundamentosdasintonizacao.cade
+mi.com.br), digita o email usado durante a compra e clica em "Esqueci minha senha".
+Se você nunca recebeu o e-mail original de acesso, como o assunto "Aqui está o seu aces
+so ao Fundamentos da Sintonização", antes de redefinir confere:
+- Caixa de entrada, lixeira, spam e Promoções.
+- Se está olhando exatamente o mesmo e-mail que usou na compra.
+Se nada disso aparecer, me avisa que vou abrir um chamado pro time do Paulo entender
+essa situação.
+Como acesso o curso?
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 22/24
+
+--- PAGINA 23 ---
+Informações
+ID da Base
+87f194c9-c011-423e-93bd-bdcfdeb18ef3
+Tipo
+Playbook
+Tipo de Agente
+Suporte
+Organização
+CR Treinamentos
+Criado em
+May 5, 2026, 02:30 PM
+Última atualização
+May 5, 2026, 02:32 PM
+Campanhas em uso
+Acesso a área de membros + Entrada de grupos - FDS
+Cr Treinamentos - Suporte - FDS
+Fontes de Conhecimento
+Criado em May 5,
+2026, 04:34 PM • Usado 5
+vezes • Ativo
+Seguir o passo a passo:
+1. Entrar no link https://fundamentosdasintonizacao.cademi.com.br
+2. Login: e-mail que você usou na compra. Senha padrão: "Mudar123"
+3. Em caso de senha incorreta, tocar em "Esqueci minha senha"
+Caso o aluno não consiga entrar após esse passo a passo, orientar ele a:
+1. Procurar o email com o assunto "Aqui está o seu acesso ao Fundamentos da Sintonizaç
+ão" na caixa de entrada e/ou na caixa de spam e na lixeira.
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 23/24
+
+--- PAGINA 24 ---
+BASE_CONHECIMENTO_NIA_FDS.txt
+06/05/2026, 20:45 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/87f194c9-c011-423e-93bd-bdcfdeb18ef3 24/24
+

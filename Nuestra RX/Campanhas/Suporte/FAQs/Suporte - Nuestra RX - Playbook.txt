@@ -1,0 +1,298 @@
+--- PAGINA 1 ---
+Suporte - Nuestra RX
+Playbook20 documentos
+Editar Excluir
+Busca Semântica
+Buscar
+Documentos (20)Selecionar Todos Adicionar Documento
+Status Tags Ordenar por
+Ordem
+Limpar filtros
+Buscar documentos por co
+5
+ Ativos
+Todos Todas as tags
+ Data de criação
+Desc
+¿Cómo atender una duda normal de soporte
+sobre el estado del proceso?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente busca ubicar su etapa y reducir incertidumbre. "Claro, te explico exactamente en
+qué etapa estás y qué sigue." Identifica si está antes del checkout, reservado, en revisión
+médica, aprobado, en farmacia, enviado, entregado o con suscripción activa; responde sol
+o con datos de esa etapa; usa la info del pedido disponible; indica el siguiente paso concr
+eto. Si hay cobro no reconocido, demora fuera de lo normal, error de portal persistente, p
+edido formal de reembolso/cancelación/pausa, pregunta clínica o pide persona, escala: pa
+gos/soporte humano por WhatsApp +1 (973) 282-6268 (https://wa.me/19732826268), ree
+mbolsos a hola@nuestrarx.com, clínico al portal del paciente. Cierra confirmando que la e
+xplicación quedó clara o informando el canal al que se derivó.
+¿Cómo atender cuando el cliente no entiende si
+ya pagó o solo reservó?
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 1/8
+
+--- PAGINA 2 ---
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente teme un cobro inesperado o no entiende el pre-save. "Te confirmo algo importa
+nte: en este paso no se te cobra nada todavía." Explica que el checkout registra la tarjeta y
+reserva con cargo $0; indica que solo se cobra si el médico aprueba; confirma que si no a
+prueba no hay cobro. Si muestra cargo real o no reconocido, solicita email de compra, nú
+mero de pedido y captura sin datos sensibles y deriva a soporte/pagos. Si hay cargo no re
+conocido o captura de cobro real, escala por WhatsApp +1 (973) 282-6268 (https://wa.m
+e/19732826268). Cierra preguntando si quiere que le expliques qué sigue tras la revisión.
+¿Cómo atender cuando el cliente está ansioso
+esperando la aprobación médica?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente ya avanzó y la espera le genera ansiedad. "Es normal querer saber qué está pasa
+ndo; tu caso ya quedó en revisión." Confirma la etapa y que suele resolverse en menos de
+24 horas; recuerda que no se cobra hasta aprobación; orienta a revisar el portal si tiene en
+lace. Si pasan más de 48 horas sin avance o el portal no muestra cambios, escala a soport
+e humano por WhatsApp +1 (973) 282-6268 (https://wa.me/19732826268) con el número
+de pedido. Cierra dejando claro el siguiente hito: revisión médica y, si aprueba, envío en 3
+a 5 días hábiles.
+¿Cómo atender cuando el cliente pregunta si
+seguro lo van a aprobar?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente busca certeza sobre una decisión clínica. "Entiendo que quieras tener certeza; la
+aprobación final siempre la decide el médico." Explica que Beluga Health revisa la informa
+ción y que solo se cobra si hay aprobación; evita prometer resultados. Si trae condición m
+édica o duda de elegibilidad personal, deriva al proveedor clínico por el portal del pacient
+e; si hay urgencia, indica 911. Si el cliente solicita criterio clínico individual, escala al portal
+del paciente. Cierra ofreciendo resolver dudas operativas mientras espera.
+¿Cómo atender cuando el cliente pregunta qué
+significa receta aprobada?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+Buena noticia: eso significa que el médico ya aprobó la receta." Explica que se procesa el c
+obro si corresponde, el pedido pasa a farmacia y se prepara envío refrigerado; indica que
+el envío normal toma 3 a 5 días hábiles desde la aprobación y que verá el rastreo en el po
+rtal. Si después de 5 días hábiles no hay rastreo o el portal da error persistente, escala por
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 2/8
+
+--- PAGINA 3 ---
+WhatsApp +1 (973) 282-6268 (https://wa.me/19732826268). Cierra pidiendo que esté ate
+nto al portal/notificaciones para el rastreo.
+¿Cómo atender cuando el cliente pregunta por
+rastreo o envío?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente quiere visibilidad de la entrega. "Te ayudo a ubicar el envío y el plazo correcto."
+Verifica si ya fue aprobado; si no, explica que el envío aún no inicia; si sí, informa que la fa
+rmacia prepara y envía en 3 a 5 días hábiles y orienta a revisar el portal. Si pasaron más de
+5 días hábiles sin rastreo o el rastreo no se actualiza en 48 horas, escala a soporte human
+o por WhatsApp +1 (973) 282-6268 (https://wa.me/19732826268). Cierra indicando el sig
+uiente paso: revisar portal o esperar la actualización de rastreo.
+¿Cómo atender cuando el medicamento llegó
+dañado, caliente o con cadena de frío
+comprometida?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente reporta un riesgo logístico para la seguridad del tratamiento. "Gracias por avisar
+nos; en este caso necesitamos documentarlo rápido para proteger tu tratamiento." Pide n
+o descartar empaque, tomar fotos del paquete, vial, etiqueta y pack de frío, y enviar el rep
+orte a hola@nuestrarx.com dentro de 48 horas de la entrega. Si llega dentro de 48 horas, i
+ndica que el equipo revisa reposición sin costo; si pasó más tiempo, escala igual sin prom
+eter reposición. Escala siempre vía hola@nuestrarx.com con fotos y número de pedido. Ci
+erra confirmando que el reporte formal debe quedar por correo.
+¿Cómo atender cuando el cliente pregunta cómo
+aplicarse o qué dosis usar?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente entra en terreno clínico que no controla soporte. "Quiero cuidarte bien: la dosis
+y la aplicación personalizada las debe guiar el equipo médico." Indica revisar las instruccio
+nes enviadas y escribir al proveedor clínico por el portal del paciente; no indiques dosis, fr
+ecuencia ni técnica individual. Si reporta dolor severo, falta de aire, reacción alérgica, dolo
+r torácico, visión borrosa súbita o ideas de autolesión, indica 911. Si pide pauta personaliz
+ada, escala al portal del paciente; si hay señales graves, 911. Cierra aclarando que como c
+onserje ayudas con portal, pedido o el canal correcto.
+¿Cómo atender cuando el cliente reporta efectos
+secundarios?
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 3/8
+
+--- PAGINA 4 ---
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente está preocupado y requiere derivación segura. "Gracias por contármelo; por seg
+uridad, esto debe revisarlo el equipo médico." No diagnostiques; menciona que náuseas,
+diarrea, vómitos, estreñimiento, dolor abdominal, reflujo, fatiga o reacción local pueden a
+parecer, pero deben evaluarse si preocupan. Deriva al proveedor clínico por el portal del p
+aciente. Si hay dolor abdominal severo persistente, dificultad para respirar, hinchazón de c
+ara/labios/lengua, urticaria severa, palpitaciones irregulares, visión borrosa súbita, dolor t
+orácico o autolesión, indica 911. Si menciona alguno de esos signos, escala a 911. Cierra i
+ndicando el canal clínico.
+¿Cómo atender cuando el cliente pregunta si
+puede tomarlo con otro medicamento o
+condición?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente necesita criterio médico individual. "Esa es una pregunta importante y debe revis
+arla el médico con tu historial completo." Pide no combinar ni cambiar tratamientos por i
+ndicación del chat; orienta a enviar la pregunta por el portal del paciente al proveedor clín
+ico, incluyendo medicamento, dosis y condición. Si menciona insulina, sulfonilureas, antic
+oagulantes, anticonceptivos, embarazo, lactancia, pancreatitis, MEN2, cáncer medular de t
+iroides, cirugía/anestesia o alergia, escala al portal de inmediato; si hay urgencia, 911. Cier
+ra confirmando que soporte queda para dudas operativas.
+¿Cómo atender cuando el cliente quiere cancelar
+antes del envío?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente busca detener el proceso o el costo. "Entiendo; te explico la forma correcta para
+que quede registrado." Indica que debe solicitar cancelación por escrito a hola@nuestrar
+x.com; si no se envió y está dentro de 14 días posteriores al pago, puede aplicar reembols
+o completo; si aún no hubo aprobación/cobro, refuerza que no habrá cargo. No presiones
+ni vendas. Si confirma que desea cancelar, escala vía hola@nuestrarx.com con número de
+pedido y email de compra. Cierra indicando que la solicitud es válida cuando la envía por
+correo.
+¿Cómo atender cuando el cliente quiere pausar la
+suscripción?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente quiere una interrupción temporal. "Podemos revisar la pausa como una alternati
+va antes de cancelar." Explica que puede solicitar pausa hasta por 90 días escribiendo a h
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 4/8
+
+--- PAGINA 5 ---
+ola@nuestrarx.com; aclara que pausar, cancelar o interrumpir puede anular la garantía de
+12 meses; si quiere evitar el próximo cobro, debe pedirlo 7 días antes de la renovación. Si
+confirma que quiere pausar, escala pidiéndole enviar correo a hola@nuestrarx.com con pe
+dido y correo de compra. Cierra confirmando que la solicitud debe quedar por escrito.
+¿Cómo atender cuando el cliente solicita
+reembolso?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente necesita condiciones claras y canal formal. "Te explico la política para que sepas
+exactamente qué aplica." Indica que debe escribir a hola@nuestrarx.com; si el medicamen
+to no fue enviado, puede pedir reembolso completo dentro de 14 días después del pago;
+si ya salió de la farmacia, ese mes no es reembolsable; si hubo descalificación clínica, aplic
+a reembolso completo. En planes trimestrales, se reembolsan meses no enviados y los reci
+bidos se recalculan al precio mensual. Si solicita formalmente reembolso, escala vía hola@
+nuestrarx.com. Cierra pidiendo enviar correo con número de pedido y email de compra.
+¿Cómo atender cuando el cliente pregunta por la
+garantía de 12 meses?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente puede pensar que es reembolso automático. "Sí, existe garantía, pero tiene cond
+iciones específicas que conviene tener claras." Explica que aplica tras 12 meses continuos
+sin bajar peso cumpliendo inscripción continua, 13 envíos cada 28 días, seguir indicacione
+s del proveedor, medicamento compuesto elegible y reclamo a tiempo; pausas, cancelaci
+ones, microdosis, marcas o reclamo fuera de plazo pueden anularla. Si quiere iniciar recla
+mo, escala a hola@nuestrarx.com. Cierra confirmando que no es reembolso automático.
+¿Cómo atender cuando el cliente no consigue
+entrar al portal?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente está bloqueado por acceso. "Vamos a revisar el acceso al portal paso a paso." Pi
+de usar el mismo correo del checkout; indica revisar bandeja de entrada, spam/promocio
+nes y WhatsApp por el enlace del Área del Cliente; sugiere intentar otro navegador. Si tras
+confirmar correo y revisar mensajes sigue sin acceso, escala a soporte humano por Whats
+App +1 (973) 282-6268 (https://wa.me/19732826268) para reenviar acceso o revisar cuent
+a. Cierra pidiendo confirmar si pudo entrar o si deseas que lo derive.
+¿Cómo atender cuando el cliente pide cambiar
+email, teléfono o dirección?
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 5/8
+
+--- PAGINA 6 ---
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente requiere actualizar datos sensibles. "Puedo ayudarte a encaminar el cambio corr
+ectamente." Solicita dato actual, dato nuevo y correo usado en la compra; no prometas q
+ue ya quedó aplicado; advierte que si el pedido fue enviado, cambiar dirección puede no
+ser posible para ese envío. Si el cambio impacta envío, cuenta o datos personales, escala a
+hola@nuestrarx.com con número de pedido. Cierra informando que el equipo confirmará
+por el mismo canal cuando el cambio esté hecho.
+¿Cómo atender cuando el cliente pregunta por
+precio o por qué se le cobró cierto valor?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente necesita reconciliar plan y cargo. "Te ayudo a revisar el valor según el plan que el
+egiste." Informa precios: Semaglutida mensual $199, trimestral $182/mes ($546); Tirzepati
+da mensual $299, trimestral $266/mes ($798). Recuerda que el cobro real ocurre solo tras
+aprobación médica. Si el cargo no coincide, es duplicado o no lo reconoce, pide captura si
+n datos sensibles, email y número de pedido y escala a soporte/pagos por WhatsApp +1
+(973) 282-6268 (https://wa.me/19732826268). Cierra indicando que pagos no reconocidos
+los revisa el equipo.
+¿Cómo atender cuando el cliente solicita hablar
+con una persona?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente busca contacto humano. "Claro, puedo derivarte con una persona del equipo." P
+ide en una frase el motivo para enviar contexto y deriva: si es reembolso/cancelación/pau
+sa, indica hola@nuestrarx.com; si es duda médica, al portal del paciente; para otros temas
+operativos/pagos, WhatsApp +1 (973) 282-6268 (https://wa.me/19732826268). Si confirm
+a que desea persona, deriva por el canal indicado. Cierra confirmando la derivación y que
+continúe por ese canal.
+¿Cómo atender cuando el cliente envía
+información de emergencia o crisis?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente puede estar en riesgo inmediato. "Esto puede ser urgente; por favor busca ayud
+a inmediata ahora." Si menciona dificultad para respirar, hinchazón de cara/labios/lengua,
+dolor torácico, dolor abdominal severo persistente, visión borrosa súbita, palpitaciones irr
+egulares, reacción alérgica severa o pensamientos de autolesión, indica llamar al 911 o ac
+udir a emergencias. No hagas triage ni pidas esperar. Si menciona cualquiera de esos sign
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 6/8
+
+--- PAGINA 7 ---
+Informações
+ID da Base
+91a1ae22-5e99-4a05-8a5c-8b0da4b82dad
+Tipo
+Playbook
+Tipo de Agente
+Suporte
+Organização
+Nuestra Rx
+Criado em
+Jun 12, 2026, 06:04 PM
+Última atualização
+Jun 12, 2026, 06:06 PM
+Fontes de Conhecimento
+os, escala a 911. Luego, orienta a reportar el evento a su médico/NuestraRx cuando esté s
+eguro. Cierra priorizando la acción inmediata.
+¿Cómo atender cuando el cliente está molesto,
+agresivo o acusa al equipo?
+Criado em Jun 12, 2026,
+06:06 PM • Usado 0
+vezes • Inativo
+El cliente está frustrado y quiere una salida rápida y clara. "Entiendo que esto te moleste;
+voy a ordenar el caso para ayudarte sin vueltas." No confrontes; identifica si es pago, enví
+o, portal, reembolso, médico o seguridad; solicita un dato verificable (email de compra o
+número de pedido) y da el siguiente paso documentado. Si hay insultos reiterados tras un
+a advertencia o amenaza legal/chargeback, escala por canal de escalada definido por la o
+peración. Cierra con un resumen objetivo del paso a seguir o del canal formal indicado.
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 7/8
+
+--- PAGINA 8 ---
+# Texto Complementario - PLAYBOOK (NuestraRx - Sop...
+12/06/2026, 18:11 Bases de Conhecimento
+https://neo.awsales.io/knowledge-bases/91a1ae22-5e99-4a05-8a5c-8b0da4b82dad 8/8
+
