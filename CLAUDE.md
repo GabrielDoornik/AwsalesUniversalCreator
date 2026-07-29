@@ -322,6 +322,14 @@ Skill instalada em `.claude/skills/pg-langsmith-investigation/`. Dado um link de
 
 **Como usar:** `cd .claude/skills/pg-langsmith-investigation` e `python scripts/ls_fetch.py "<link>"`. Antes de tudo, `.env.local` configurado (ver `INSTALL.md`).
 
+**Duas portas de entrada — escolher a errada faz concluir "não existe" sobre dado que existe:**
+- **Link/uuid** (LangSmith ou neo) → `ls_fetch.py`, puxa o trace.
+- **Telefone do lead + campanha** → `conv_fetch.py --phone "<tel>" --org <org> --campaign <camp>`, puxa janelas + transcrição do banco **APP (db 3)**.
+
+Campanhas do legado (Falcão/Onboarding, verificado em 2026-07-29) **não têm trace no LangSmith** — a conversa só existe no db 3. A base de conhecimento fica no **NEO (db 7)**, outro banco. Cadeia (`conversion_window.id` == `messages.conversation_id`), campos que vêm sempre nulos (`resume`, `interaction`, `lead_status`, `smart_fup_took_control`) e gotchas em `.claude/skills/pg-langsmith-investigation/reference/banco-conversas-app.md` — ler antes de concluir qualquer coisa sobre conversa do banco. SELECT ad-hoc: `python scripts/mb_query.py --db 3 "SELECT ..."`.
+
+**O achado que presta** vem de cruzar a transcrição com o checkpoint da campanha (o `.md` na pasta do cliente): regra escrita × comportamento real, citando a frase da IA e a regra violada. Foi assim que saíram os 6 achados do Onboarding do Falcão em 2026-07-29.
+
 **Chaves:** este repositório é PÚBLICO. As chaves vieram embutidas nos scripts do zip original e foram retiradas do código — moram em `.env.local` (gitignorado). Nunca colar chave em arquivo versionado. `build/` também é gitignorado: contém transcrição real de lead (PII).
 
 ## Ambientes n8n da AWSales

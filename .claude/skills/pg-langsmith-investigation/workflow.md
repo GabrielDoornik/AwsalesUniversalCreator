@@ -23,7 +23,16 @@
 
 ## ACESSO (setup — faça primeiro)
 
-> **Gate 0 — RESOLVER O LINK (sempre o primeiro passo).** Você recebe QUALQUER link/id e NÃO pede o conversation_id pro humano. O resolver se vira: descobre projeto + conversation_id e puxa a conversa inteira. Pré-requisito único: `.env.local` configurado (ver `./INSTALL.md`).
+> **Gate 0-A — ESCOLHER A PORTA DE ENTRADA (antes de tudo).** Existem DUAS, e usar a errada faz você concluir "não existe" sobre dado que existe:
+>
+> | O usuário deu | Porta | Comando |
+> |---|---|---|
+> | link do LangSmith / link do neo / uuid | **trace** (LangSmith) | `python scripts/ls_fetch.py "<link>"` → Gate 0 abaixo |
+> | **telefone do lead** + campanha/organização | **banco APP db 3** | `python scripts/conv_fetch.py --phone "<tel>" --org <org> --campaign <camp>` |
+>
+> Campanha do legado (ex: Falcão das Milhas / Onboarding) costuma **não ter trace no LangSmith** — `channel_conversation_id` nulo e o resolver não acha a janela. Nesse caso a análise inteira sai do banco, e afirmar qualquer coisa sobre modelo/temperatura/auditor é overclaim. Cadeia, campos que vêm nulos e gotchas: **`./reference/banco-conversas-app.md`** (leia ANTES de concluir). SELECT ad-hoc em qualquer banco: `python scripts/mb_query.py --db 3 "SELECT ..."`.
+
+> **Gate 0 — RESOLVER O LINK (quando a porta é o trace).** Você recebe QUALQUER link/id e NÃO pede o conversation_id pro humano. O resolver se vira: descobre projeto + conversation_id e puxa a conversa inteira. Pré-requisito único: `.env.local` configurado (ver `./INSTALL.md`).
 
 ```bash
 # Cole EXATAMENTE o que o usuário mandou (entre aspas). Funciona com os 3 formatos:
