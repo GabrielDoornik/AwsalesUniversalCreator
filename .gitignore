@@ -8,6 +8,12 @@ __pycache__/
 # Segredos e credenciais (NUNCA versionar — tokens de API, Bearer, senhas)
 **/SEGREDOS-*.md
 *.secret
+.env.local
+**/.env.local
+
+# Skill pg-langsmith-investigation: saida de traces/base = dados reais de lead (PII)
+.claude/skills/pg-langsmith-investigation/build/
+.claude/skills/pg-langsmith-investigation/GUIA.pdf
 
 # Binarios pesados Way group (conteudo extraido em .txt; OneDrive sincroniza os originais)
 Way group/SDR pós-VTD/Insumos/FAS 2026 - página de vendas.pdf

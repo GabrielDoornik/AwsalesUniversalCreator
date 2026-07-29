@@ -310,6 +310,20 @@ Três campanhas de onboarding que rodam DEPOIS da compra aprovada do Buscador Au
 
 **How to apply:** Se o usuário mencionar "Way group", "VTD", "Lucas Arruda", "FAS" ou "CNPJ gratuito", ler PRIMEIRO `Way group/MEMÓRIA - Way Group.md` (estado vivo e próximos passos) e `Way group/DADOS OPERACIONAIS - Way Group.md` (links, preços, contatos, funil, CRM, regras do agente SDR). Não recriar nada sem checar o que já existe nas pastas das campanhas.
 
+## Skill pg-langsmith-investigation — contexto real de conversa
+
+Skill instalada em `.claude/skills/pg-langsmith-investigation/`. Dado um link de conversa (neo, LangSmith, ou só o uuid), ela puxa o **trace completo** (LangSmith: o que cada sub-agente recebeu e respondeu, turno a turno, com modelo/temperatura/tokens/erro) e cruza com a **base de conhecimento real** (Metabase, db NEO) + o que o RAG efetivamente buscou. Read-only ponta a ponta.
+
+**Por que agrega aqui:** até agora as otimizações de campanha saem de leitura de checkpoint/FAQs e do relato do CS. Com a skill dá pra medir. O que ela responde e nós não respondíamos:
+- A IA inventou o dado, ou ele veio de algum input? (grep determinístico input-vs-output)
+- A FAQ existia e o RAG não trouxe (falha de retrieval), ou a base não tinha mesmo (gap de conteúdo)? Essa distinção muda o conserto — reescrever FAQ vs. mexer no retrieval.
+- Qual sub-agente e qual modelo consumiu o quê (cruza com a metodologia de otimização de custos já documentada acima).
+- Por que o Response Auditor aprovou/transferiu.
+
+**Como usar:** `cd .claude/skills/pg-langsmith-investigation` e `python scripts/ls_fetch.py "<link>"`. Antes de tudo, `.env.local` configurado (ver `INSTALL.md`).
+
+**Chaves:** este repositório é PÚBLICO. As chaves vieram embutidas nos scripts do zip original e foram retiradas do código — moram em `.env.local` (gitignorado). Nunca colar chave em arquivo versionado. `build/` também é gitignorado: contém transcrição real de lead (PII).
+
 ## Ambientes n8n da AWSales
 
 - **Dev:** `n8n.nonprod.awsales.io` — onde os fluxos são montados e testados.
