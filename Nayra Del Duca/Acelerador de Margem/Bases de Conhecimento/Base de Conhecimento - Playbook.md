@@ -1,6 +1,6 @@
 # Base de Conhecimento — Nayra Del Duca | Acelerador de Margem | Playbook
 
-25 documentos
+26 documentos
 
 ## Como lidar com o medo de não ter disciplina para concluir o curso?
 
@@ -76,9 +76,15 @@ Há conforto atual e cegueira para o futuro. Explique que, com a Reforma, compra
 
 ## Como responder quando a pessoa diz que o curso está caro?
 
-Por trás do "caro" está o medo de desperdiçar dinheiro de novo. Valide isso e mude o foco de custo para retorno. Mostre que o curso ataca vazamentos recorrentes e mensuráveis: casos de restaurante economizando 2% do faturamento, pizzaria reduzindo de 8,21% para 4,96% e médico poupando cerca de 20 mil por mês. Reforce que é planejamento legal, sem manobra, e que pequenas reduções percentuais viram grandes cifras na margem. Transforme a resistência em desejo ao pintar o cenário de caixa reforçado mês a mês, sem precisar vender mais.
+Por trás do "caro" está o medo de desperdiçar dinheiro de novo. Mude o foco de custo para retorno: o curso ataca vazamentos recorrentes, como restaurante economizando 2% do faturamento, pizzaria caindo de 8,21% para 4,96% e médico poupando cerca de 20 mil por mês. É planejamento legal, sem manobra — pequenas reduções percentuais viram grandes cifras na margem, sem precisar vender mais.
 
-Reforce o retorno sobre o investimento: considerando que 95% das empresas pagam imposto a mais, as economias identificadas normalmente variam de 20% a 60% do imposto pago indevidamente, com impacto direto no caixa mensal. Isso não é garantia de resultado individual — é o padrão observado nos diagnósticos, e o ponto de partida sempre é a análise da operação da própria pessoa.
+Considerando que 95% das empresas pagam imposto a mais, as economias normalmente variam de 20% a 60% do imposto pago indevidamente, com impacto direto no caixa. Não é garantia individual, é o padrão observado nos diagnósticos.
+
+Exemplo: uma aluna corrigiu um único produto tributado errado e economizou cerca de R$ 500 no primeiro mês — em 12 meses, quase R$ 6.000, mais de 8x o valor do curso. Não é promessa de resultado igual, é ilustração de como uma correção recorrente pode superar o investimento.
+
+## Como escolher qual case usar de acordo com o segmento do lead?
+
+A escolha do case certo aumenta a identificação do lead com a prova social. Para comércio de alimentos, bebidas ou bares, usar o case do comércio de alimentos e bar (redução de mais de 60% saindo do Simples para o Lucro Real) ou o case da pizzaria (8,21% para 4,96%). Para negócios que misturam produto e serviço, como tecnologia, oficinas ou estúdios criativos, usar o case da empresa de tecnologia com segregação de receitas ou o de fotografia com e-books. Para indústria, usar o case do fabricante de produtos de limpeza ou o de autopeças. Para serviços de saúde, usar o case do médico cirurgião. Para negócios pequenos ou que se sentem pequenos demais para o planejamento tributário, usar o case do restaurante que saiu do Simples ou o da aluna que economizou R$ 500 no primeiro mês. Quando não for possível identificar o segmento exato, usar o caso mais genérico e de maior impacto, como o de autopeças ou o de comércio de alimentos e bar.
 
 ## Como agir quando a pessoa pede para pensar e decidir depois?
 
@@ -100,7 +106,7 @@ O apego ao Simples vem da segurança psicológica da "regra fácil". Mostre que 
 
 ## Como responder ao ceticismo de que isso pode ser golpe ou marketing demais?
 
-O ceticismo nasce da proteção contra frustração. Valide e traga lastro: 29 anos de atuação, milhares de alunos e clientes, prêmio Dama Comendadora, mais de 85 milhões economizados em 2025 e casos públicos de recuperação e redução de carga. Reforce que o curso ensina caminhos legais e seguros, sem ações temerárias. Conecte ao desejo de segurança: menos risco por desconhecimento, mais lucro por método. A autoridade reduz o medo e abre espaço para decidir.
+O ceticismo nasce da proteção contra frustração. Valide e traga lastro: aproximadamente 30 anos de atuação, mais de 3 mil alunos e clientes, prêmio Dama Comendadora, CEO da GTCON Brasil Contabilidade e mais de 120 milhões economizados em 2025, além de casos públicos de recuperação e redução de carga. Reforce que o curso ensina caminhos legais e seguros, sem ações temerárias. Conecte ao desejo de segurança: menos risco por desconhecimento, mais lucro por método. A autoridade reduz o medo e abre espaço para decidir.
 
 ## Como quebrar a crença de que "imposto é assim mesmo"?
 
