@@ -50,7 +50,8 @@
       "PowerShell(python -X utf8 -c \"import pypdf,re; r=pypdf.PdfReader\\(r'$env:TEMP\\\\ppc_eca_antigo.pdf'\\);`nout=open\\(r'$env:TEMP\\\\ppc2018_hits.txt','w',encoding='utf-8'\\)`nfor i,p in enumerate\\(r.pages\\):`n    t=p.extract_text\\(\\) or ''`n    if re.search\\(r'\\(Matriz|Estrutura\\) [Cc]urricular', t\\) or \\('Período' in t and \\('Código' in t or 'C.H.' in t or 'CHT' in t\\)\\): out.write\\(str\\(i\\)+' :: '+t[:100].replace\\(chr\\(10\\),' | '\\)+chr\\(10\\)\\)`nout.close\\(\\); print\\('done'\\)\")",
       "PowerShell(Get-ChildItem -Directory | Where-Object {$_.Name -notin @\\('.claude','Estágio','Estrutura','Prompts de extração','utilidade','Awsales Agentes'\\)} | ForEach-Object { Write-Output \\('### ' + $_.Name\\); Get-ChildItem $_.FullName -Directory -ErrorAction SilentlyContinue | ForEach-Object { Write-Output \\('  - ' + $_.Name\\) } })",
       "PowerShell(New-Item -ItemType Directory -Force \"Est�gio\\\\imagens\")",
-      "PowerShell(Move-Item \"Est�gio\\\\unifei.png\" \"Est�gio\\\\imagens\\\\unifei.png\" -Force)"
+      "PowerShell(Move-Item \"Est�gio\\\\unifei.png\" \"Est�gio\\\\imagens\\\\unifei.png\" -Force)",
+      "Bash(git status *)"
     ]
   }
 }

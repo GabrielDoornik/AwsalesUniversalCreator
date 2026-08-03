@@ -1,0 +1,52 @@
+REGISTRO DE CHAT — Ecom Club | Ecom Start
+Data: 03/08/2026
+
+CONTEXTO
+Sessão cobriu três pedidos encadeados na campanha Ecom Start (recuperação de vendas, agente Rafael Bottrel):
+1. Criar um checkpoint de recuperação para leads que abandonam o QUIZ (INLEAD) antes de chegar ao checkout — até então só existia checkpoint para abandono de CHECKOUT.
+2. Adaptar as Bases de Conhecimento (Produto/Playbook) de uma nova oferta de R$19,90, que veio com preço e mensagem de abertura inconsistentes com o restante do texto.
+3. Levar essa mudança de R$19,90 para o checkpoint do INLEAD, e depois reorganizar tudo em pastas separadas por preço.
+
+INSUMOS LIDOS
+- Checkout/Checkpoint/Checkpoint.md (depois renomeado pelo usuário para "Checkpoint Sem desconto") — checkpoint original de recuperação de checkout, preço fixo R$37
+- Checkout/Checkpoint Com desconto/Checkpoint.md — variante com cupom de R$27 liberado só a partir do 2º follow-up automático
+- Bases de Conhecimento/R$19,90/Base Produto - ECOM START.md e Base Playbook - ECOM START.md (15 e 21 documentos) — bases já criadas pelo usuário, mas com conteúdo desatualizado/inconsistente
+- abertura.txt — nova mensagem de abertura enviada pelo cliente para a oferta de R$19,90
+
+PRINCIPAIS DECISÕES E ACHADOS
+- A oferta de R$19,90 não é um desconto genérico: a mensagem de abertura enquadra como "sorteio de 1 vaga exclusiva" de um produto que custa R$37 (preço padrão). É uma mecânica de escassez real e pessoal, diferente do cupom progressivo do Checkout.
+- As bases de R$19,90 já estavam inconsistentes antes de qualquer edição: uma FAQ do Produto ainda falava em "R$37, de R$497, vagas limitadas com 9 hoje" (mistura de campanha antiga), enquanto outra já falava em "1 vaga" e "R$497 por R$19,90". Adotei R$37 como âncora (é o valor citado na própria mensagem de abertura) e removi o R$497 e a menção a e-book (R$9,25/R$27,75) que não pertencem a essa oferta — sinalizado ao usuário como premissa assumida, não confirmada por ele.
+- Flagueado ao usuário: a mensagem de abertura originalmente veio com emoji (⚠️) no corpo, o que viola a regra do projeto de "zero emoji na abertura". O abertura.txt final já está sem o emoji.
+- Depois de aplicar a mecânica de R$19,90 dentro do checkpoint "INLEAD/Checkpoint Com desconto", o usuário decidiu separar por pasta em vez de sobrescrever: criou "INLEAD/Checkpoint 19,90" para essa versão e pediu para reverter o "Com desconto" ao estado original (cupom R$27 pós-2º follow-up).
+
+O QUE FOI APLICADO NOS ARQUIVOS
+
+INLEAD/Checkpoint Sem desconto/Checkpoint.md (criado nesta sessão, ainda no caminho "INLEAD/Checkpoint/Checkpoint.md" — pasta depois renomeada pelo usuário)
+- Checkpoint novo, espelhando 100% o Checkout/Checkpoint Sem desconto, mudando só o contexto inicial: bloco "📍 Posição no Funil" explicando que esse lead abandonou o QUIZ antes do checkout, não viu preço/bônus/garantia ainda, e a IA deve tratar a abordagem como primeiro contato com a oferta completa.
+
+INLEAD/Checkpoint Com desconto/Checkpoint.md
+- Criado espelhando o Checkout/Checkpoint Com desconto (cupom R$27 pós-2º follow-up) + o mesmo bloco de posição no funil do item acima.
+- Em seguida, temporariamente reescrito para a mecânica de "vaga sorteada R$19,90" (ver abaixo) e depois REVERTIDO para o estado original de cupom R$27, a pedido do usuário — a versão R$19,90 foi realocada para a pasta nova.
+- Estado final: idêntico em mecânica de preço ao Checkout/Checkpoint Com desconto (R$37 fechado até o 2º follow-up, cupom R$27 depois), com o contexto de abandono de quiz.
+
+INLEAD/Checkpoint 19,90/Checkpoint.md (novo, destino final da mecânica de sorteio)
+- Baseado no checkpoint de abandono de quiz, mas com a Regra Crítica de preço reescrita para "🎟️ Vaga Sorteada R$19,90": preço já revelado na própria abertura (sem gatilho de follow-up), piso fixo em R$19,90 sem exceção, sem inventar prazo/horário de expiração (não tinha essa informação no insumo), e escassez tratada como pessoal ("1 vaga sorteada para esse lead"), não como contador genérico.
+- Atualizados também: bullet da seção "Nunca", Etapa 1 (objetivo), Etapa 3 (elemento de quebra de preço/timing), Etapa 6 (script de fechamento) e Alavanca de Venda — todos trocando a referência R$497/R$37 por R$37 (preço normal) → R$19,90 (vaga sorteada).
+
+Bases de Conhecimento/R$19,90/Base Produto - ECOM START.md
+- FAQ "Qual é o preço atual e há alguma condição especial?": reescrita para R$37 (normal) → R$19,90 (1 vaga sorteada, Pix ou cartão); removida menção a R$497, a "9 vagas hoje" e ao split de e-book.
+- FAQ "Existem limitações de vagas ou prazo para aproveitar a oferta?": ajustada de "R$497 por R$19,90" para "R$37 por R$19,90", mantendo a menção a 1 vaga exclusiva sorteada.
+
+Bases de Conhecimento/R$19,90/Base Playbook - ECOM START.md
+- Título "O que fazer se a pessoa diz que está sem dinheiro até para R$37?" → R$19,90 (corpo não citava valor, não precisou mudar).
+- Título + corpo de "Como lidar quando a pessoa acha que é bom demais por R$37 e desconfia?" → R$19,90; corpo reescrito para explicar a mecânica de sorteio (R$37 é o preço normal, R$19,90 é a vaga sorteada dessa pessoa) em vez de justificar só pela parceria com a plataforma.
+- FAQ "Como tratar a preocupação com custos ocultos ou gastos contínuos?": trecho final trocado de "O preço é R$37 por parceria..." para "O preço normal é R$37 [...] e essa pessoa garantiu uma vaga sorteada por R$19,90."
+
+NÃO ALTERADO
+- Checkout/Checkpoint Sem desconto e Checkout/Checkpoint Com desconto — usados só como referência/molde, nenhuma edição feita neles.
+- abertura.txt — arquivo do próprio usuário/cliente, só lido como referência.
+
+PENDÊNCIAS
+- Confirmar com o usuário se a âncora correta para a base R$19,90 é mesmo R$37 (decisão assumida com base na mensagem de abertura, não confirmada explicitamente).
+- Nenhuma dessas mudanças foi aplicada na plataforma AWSales ainda — tudo ficou só nos arquivos .md/.txt locais.
+- Confirmar se existe (ou deve existir) prazo real de expiração da vaga sorteada de R$19,90, para eventualmente incluir no checkpoint sem cair em urgência fabricada.
