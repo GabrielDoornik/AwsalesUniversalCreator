@@ -1,0 +1,215 @@
+RESUMO DO CHAT — Bug "installments" nulo no fluxo One Click Buy (Assiny)
+Data: 31/07/2026
+
+============================================================
+1. PROBLEMA INICIAL
+============================================================
+No fluxo n8n "One Click Buy" (webhook one-click-buy-assiny), a query que busca
+dados do lead + última transação paga via Assiny estava retornando
+"installments: null", mesmo com o lead e a organização certos identificados
+corretamente.
+
+Query original (node "SQL dados_transacao"):
+
+SELECT
+    l.id AS lead_id,
+    (l.metadados #>> '{assiny,project,id}')              AS assiny_project_id,
+    (l.metadados #>> '{assiny,project,organization_id}') AS assiny_org_id,
+    (l.metadados #>> '{assiny,client_id}')               AS assiny_client_id,
+    (l.metadados #>> '{assiny,funnel,short_id}')         AS assiny_short_funnel_id,
+    (l.metadados #>> '{assiny,funnel,node_id}')          AS assiny_node_id,
+    t.installments
+FROM public.leads l
+JOIN public.lead_campaign_activities lca
+    ON lca.lead_id = l.id
+   AND lca."campaingId" = $2
+LEFT JOIN LATERAL (
+    SELECT tr.installments
+    FROM public.transactions tr
+    JOIN public.leads_events le ON le.id = tr.leads_events_id
+    WHERE le.lead_id = l.id
+      AND tr.checkout = 'assiny'::public."Checkout"
+      AND tr.status   = 'paid'::public."TransactionStatus"
+    ORDER BY tr.updated_at DESC NULLS LAST, tr.created_at DESC
+    LIMIT 1
+) t ON true
+WHERE l."phoneNumber" = $1
+LIMIT 1;
+
+Parâmetros do node n8n: $1 = lead_phone, $2 = campaign_id.
+Lead de teste: da179e3e-3e81-4779-8423-4caa439dad90 (telefone 5531992115600)
+Campanha: 87433586-b6a5-4d32-9c80-33ddb09a9bb5
+
+============================================================
+2. INVESTIGAÇÃO — o que foi descartado
+============================================================
+- Filtro errado (checkout='assiny', status='paid') — descartado, testado sem
+  nenhum filtro e mesmo assim nenhuma transação apareceu para o lead.
+- Enum/join incorreto — descartado pelo mesmo teste.
+- Pipeline de transações quebrado em geral — descartado. No mesmo horário,
+  outras transações de outros leads/organizações foram gravadas normalmente
+  (status paid, checkout assiny, installments preenchido).
+- Tabelas de log de webhook (logs_webhooks, logs_webhooks_checkout_event) —
+  vazias / não utilizadas, não ajudaram a investigar.
+
+============================================================
+3. DESCOBERTA — o lead certo, mas a transação errada
+============================================================
+Acesso ao banco liberado via script já existente no projeto
+(.claude/skills/pg-langsmith-investigation/scripts/mb_query.py, Metabase
+read-only, banco APP/db 3).
+
+- O telefone 5531992115600 tem 54 registros de lead diferentes no banco, um
+  por organização em que já foi usado (telefone de teste interno, "Ricardo
+  Ariza" / "Ricardo Moniele" / variações).
+- A transação PAGA de verdade (installments=1, checkout=assiny, valor 47.0,
+  criada em 30/07/2026 19:41:33) existe no banco, mas está vinculada
+  (leads_events_id) ao lead a921e5f2-b51b-463d-9fa5-53a839ab2826, da
+  organização AWSales d2ea954a-3e82-4514-8751-114e22f96614 — um lead antigo,
+  de 28/04/2026, sem nenhuma relação com o teste de hoje.
+- O lead correto para a campanha testada (da179e3e, organização
+  fbe7c6ae-1365-4d19-847e-7f97e3cb6637) tem seu PRÓPRIO evento
+  "compra_aprovada" (leads_events, event_id=8) gravado corretamente às
+  19:41:33 — só a transação em si que ficou linkada no lead errado.
+- A coluna transactions.organization_id também veio errada (mesma
+  organização errada, d2ea954a) — ou seja, não existe nenhuma coluna
+  "extra" na tabela de transações com o dado certo escondido; o registro já
+  nasce mal atribuído.
+
+============================================================
+4. CAUSA RAIZ
+============================================================
+Os leads a921e5f2 (org d2ea954a) e da179e3e (org fbe7c6ae) compartilham
+EXATAMENTE os mesmos identificadores da Assiny:
+  - assiny_project_id: bb2de309-efb9-4fa1-9cf9-92d097000dad
+  - assiny_org_id:      4f61dda2-09f2-401a-b7d5-0064bd1d4d2f
+  - assiny_client_id:   a4636aad-c2fd-469e-942f-4a2feab3fbf6
+  - assiny_short_funnel_id / node_id: Axh3Af / mUm6G7 (também iguais)
+
+Verificação em escala: esse mesmo assiny_project_id (bb2de309) é usado por
+28.483 telefones diferentes (28.829 leads) em apenas 2 organizações da
+AWSales (d2ea954a e fbe7c6ae) — ou seja, não é um artefato isolado de teste,
+é um projeto de checkout Assiny de produção real, compartilhado entre duas
+organizações distintas.
+
+Quando a confirmação de pagamento chega da Assiny, ela só carrega os IDs da
+própria conta Assiny (client/projeto/organização) + telefone/e-mail/valor —
+nunca o organization_id da AWSales. Como duas organizações da AWSales usam a
+mesma conta Assiny, o processo que grava a transação não consegue
+diferenciar com certeza a qual organização atribuir o pagamento, e nesse
+caso atribuiu ao lead errado (o mais antigo).
+
+Também foi confirmado que o link de checkout enviado ao lead é GENÉRICO
+(igual para todos, sem parâmetro nenhum por lead) — o lead preenche os
+próprios dados diretamente na página da Assiny. Isso elimina a possibilidade
+de qualquer mecanismo de "reserva" prévia por lead antes do pagamento.
+
+============================================================
+5. OPÇÕES DE CORREÇÃO DISCUTIDAS
+============================================================
+a) Separar as duas organizações para usarem projetos distintos na Assiny
+   (fix definitivo, resolve na raiz) — descartado por ora por ser difícil de
+   investigar/implementar no momento (dependeria de entender por que as duas
+   organizações passaram a compartilhar o mesmo projeto).
+
+b) Criar mecanismo de "reserva" no banco antes do pagamento (gravar
+   organization_id no momento da criação do checkout, atualizar em vez de
+   recriar na confirmação) — descartado porque exige mudança de banco/backend,
+   considerado inacessível pelo usuário, e também inviável porque o link de
+   checkout é genérico (sem geração por lead).
+
+c) [ESCOLHIDA] Ajustar a query do node "SQL dados_transacao" no n8n para
+   usar o horário do evento "compra_aprovada" do próprio lead (leads_events,
+   event_id=8) como âncora confiável, e buscar entre as transações pagas
+   desse telefone qual tem o horário de criação mais próximo dessa âncora
+   (dentro de uma janela de tolerância de 10 minutos), em vez de confiar no
+   vínculo leads_events_id da transação (que é onde o bug mora).
+
+   Limitação conhecida: essa solução reduz a colisão de "acontece sempre que
+   o telefone for reusado entre as duas organizações" para "só colide se as
+   duas organizações completarem uma compra quase no mesmo instante,
+   coincidência rara". Não é garantia 100%, mas resolve a esmagadora maioria
+   dos casos sem precisar de mudança em banco/backend.
+
+============================================================
+6. QUERY CORRIGIDA (aplicada)
+============================================================
+SELECT
+    l.id AS lead_id,
+    (l.metadados #>> '{assiny,project,id}')              AS assiny_project_id,
+    (l.metadados #>> '{assiny,project,organization_id}') AS assiny_org_id,
+    (l.metadados #>> '{assiny,client_id}')               AS assiny_client_id,
+    (l.metadados #>> '{assiny,funnel,short_id}')         AS assiny_short_funnel_id,
+    (l.metadados #>> '{assiny,funnel,node_id}')          AS assiny_node_id,
+    t.installments
+FROM public.leads l
+JOIN public.lead_campaign_activities lca
+    ON lca.lead_id = l.id
+   AND lca."campaingId" = $2
+LEFT JOIN LATERAL (
+    -- horário em que ESSE lead teve "compra_aprovada" registrada
+    SELECT le.created_at
+    FROM public.leads_events le
+    WHERE le.lead_id = l.id
+      AND le.event_id = 8
+    ORDER BY le.created_at DESC
+    LIMIT 1
+) ev ON true
+LEFT JOIN LATERAL (
+    -- transação paga desse telefone com horário mais próximo do evento acima
+    SELECT tr.installments
+    FROM public.transactions tr
+    WHERE tr.user_phone = l."phoneNumber"
+      AND tr.checkout = 'assiny'::public."Checkout"
+      AND tr.status   = 'paid'::public."TransactionStatus"
+      AND ev.created_at IS NOT NULL
+      AND tr.created_at BETWEEN ev.created_at - interval '10 minutes'
+                             AND ev.created_at + interval '10 minutes'
+    ORDER BY ABS(EXTRACT(EPOCH FROM (tr.created_at - ev.created_at))) ASC
+    LIMIT 1
+) t ON true
+WHERE l."phoneNumber" = $1
+LIMIT 1;
+
+============================================================
+7. RESULTADO DO TESTE
+============================================================
+Aplicada no node "SQL dados_transacao" do fluxo n8n "One Click Buy". Output
+do teste real:
+
+{
+  "lead_id": "da179e3e-3e81-4779-8423-4caa439dad90",
+  "assiny_project_id": "bb2de309-efb9-4fa1-9cf9-92d097000dad",
+  "assiny_org_id": "4f61dda2-09f2-401a-b7d5-0064bd1d4d2f",
+  "assiny_client_id": "a4636aad-c2fd-469e-942f-4a2feab3fbf6",
+  "assiny_short_funnel_id": "Axh3Af",
+  "assiny_node_id": "mUm6G7",
+  "installments": 1
+}
+
+Problema original (installments null) RESOLVIDO.
+
+============================================================
+8. NOVO PROBLEMA ENCONTRADO (não relacionado, em aberto)
+============================================================
+Após a correção, o fluxo seguiu para o node "comprar" (POST para
+checkout-one-...) e falhou com erro 500 do bff-pay:
+
+  internal_message: "BFF-PAY-000 : ERRO INTERNO / ERRO INTERNO - ERRO NAO
+  ENCONTRADO : key=failed to unmarshal Assiny Pay error response: invalid
+  character 'u' looking for beginning of value"
+
+Indica que a Assiny retornou uma resposta que não é JSON válido (o bff-pay
+tentou fazer parse e falhou). Possíveis causas: token JWT inválido/expirado
+gerado pelo node "gerar jwt" (etapa anterior), ou payload incorreto enviado
+no node "comprar". Ainda não investigado — usuário vai gerar um novo evento
+de teste para tentar reproduzir/isolar.
+
+============================================================
+9. FERRAMENTAS/ACESSOS USADOS
+============================================================
+- Metabase via API (read-only), através do script já existente no projeto:
+  .claude/skills/pg-langsmith-investigation/scripts/mb_query.py
+- Python 3.12 local em:
+  C:\Users\Gabriel Doornik\AppData\Local\Programs\Python\Python312\python.exe
+- Banco consultado: APP (awsales_db / Plataforma), db 3 no Metabase.

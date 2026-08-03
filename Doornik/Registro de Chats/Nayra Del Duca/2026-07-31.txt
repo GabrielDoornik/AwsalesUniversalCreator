@@ -1,0 +1,51 @@
+REGISTRO DE CHAT — Nayra Del Duca | Acelerador de Margem
+Data: 31/07/2026
+
+CONTEXTO
+Cliente mandou diversos insumos novos pra otimizar a campanha "Acelerador de Margem" (onboarding + upsell pós-compra do Lucro Blindado, IA Mariana). Pedido: ler os insumos, o checkpoint e as bases de conhecimento, e indicar o que melhorar. Foco combinado com o cliente: provas sociais.
+
+INSUMOS LIDOS
+- Checkpoint atual (Checkpoint - Acelerador de Margem.md)
+- Base de Conhecimento Produto e Playbook (.md)
+- INSUMOS - ACELERADOR DE MARGEM.docx — insumo mestre da Nayra, com biblioteca de cases, história/autoridade, regras de argumentação e limites do que a IA pode/não pode dizer
+- 4 PDFs de case de sucesso com identidade visual GTCON Brasil (comércio de alimentos/bebidas/bar, empresa de tecnologia, estúdio de fotografia corporativa, fabricante de produtos de limpeza) — decks internos com tabela de tributos linha a linha
+- Transcrição de feedback do Lucas (cliente) — confirmou que o checkpoint/FAQ já cobrem bem preço, confiança, "já tem contador" e "decidir depois"
+- Apresentação de lançamento em pptx — checada, mas é um vídeo de 47 slides (IA generativa), sem texto extraível; não serviu como insumo de conteúdo
+
+PRINCIPAIS ACHADOS
+1. A base de conhecimento atual tinha bem menos cases do que o insumo mestre — 5 cases novos (restaurante 20%→8%, facilities 35k→13k/mês, comércio de alimentos/bar >60% de redução, fotografia/e-books, fabricante de limpeza) não estavam em nenhuma FAQ.
+2. Conflito de números de autoridade: FAQ atual dizia "29 anos" e "R$85 milhões em 2025"; o insumo mestre (autodeclarado "aprovado pela marca") diz "~30 anos", "+3 mil alunos" e "R$120 milhões em 2025", além de nomear a empresa GTCON Brasil Contabilidade.
+3. Checkpoint não capturava o segmento/ramo do lead — sem isso, a IA não tinha como escolher o case mais parecido com a empresa do lead.
+4. Faltava reforçar a objeção "está caro" com um exemplo pequeno e concreto (a aluna que economizou R$500 no primeiro mês).
+5. O insumo trazia uma lista clara do que a IA NUNCA pode dizer (garantir economia, atacar contador, inventar case) que não estava expressa no checkpoint.
+
+DECISÕES TOMADAS NO CAMINHO
+- Os 4 PDFs de case NÃO devem ser anexados nas FAQs (nem como PDF completo, nem como variável de imagem): eles têm 9-13 páginas com tributo linha a linha de um cliente real, e a plataforma só suporta anexar imagem, não PDF inteiro. Ficou definido que as FAQs de case usam só o resumo em texto. Essa regra foi registrada no CLAUDE.md do projeto.
+- Limite de 1000 caracteres por resposta de FAQ na plataforma AWSales (descoberto ao comparar com um export real do neo.awsales.io) — todas as FAQs novas/editadas foram checadas e ajustadas pra caber nesse limite.
+
+O QUE FOI APLICADO NOS ARQUIVOS
+
+Base de Conhecimento - Produto.md (26 → 32 documentos)
+- Atualizada a FAQ "Quem é a especialista e qual a autoridade..." com os números novos (30 anos, R$120mi, 3mil alunos, GTCON Brasil Contabilidade)
+- Atualizada a FAQ "Que provas de resultado posso usar..."
+- 6 FAQs novas: comércio de alimentos/bar, tecnologia (produtos+serviços), fotografia/e-books, fabricante de limpeza, restaurante que saiu do Simples, facilities/limpeza e portaria
+
+Base de Conhecimento - Playbook.md (25 → 28 documentos, alinhado com a plataforma)
+- FAQ "está caro" reforçada com o exemplo da aluna R$500, depois enxugada pra caber em 1000 caracteres
+- FAQ nova "Como escolher qual case usar de acordo com o segmento do lead?"
+- FAQ "Como responder ao ceticismo..." atualizada com os números novos de autoridade
+
+Checkpoint - Acelerador de Margem.md
+- Etapa 5 (Descoberta do problema real): passou a capturar o segmento/ramo da empresa do lead
+- Etapa 4 (Quebra de objeção inicial): instrução pra priorizar o case do mesmo segmento do lead
+- Seção 3 (Diretrizes Gerais): guardrails expandidos — não garantir economia, não atacar contador, não tratar como consultoria individual, não inventar case
+- Rodapé de variáveis corrigido: estava colando o link literal (violava a regra do projeto de só descrever a variável no rodapé); corrigido pra descrição. {{link_vendas}} confirmado pelo cliente como o link certo de checkout.
+
+ACHADO OPERACIONAL NA PLATAFORMA (fora do escopo de arquivo local)
+Ao comparar com um export real do neo.awsales.io, a FAQ "está caro" está duplicada e quebrada em dois documentos na plataforma: um antigo (12/06, 45 usos, só o 1º parágrafo) e um novo (28/07, 1 uso, só o 2º parágrafo + exemplo da aluna). Nenhum dos dois tem a resposta completa. Orientação passada ao cliente: apagar o documento novo (28/07) e colar o texto completo no documento antigo (12/06), mantendo o histórico de uso.
+
+PENDÊNCIAS
+- Apagar a FAQ duplicada de "está caro" direto na plataforma (não dá pra resolver só no arquivo local)
+- Confirmar com a Nayra os números de autoridade (30 anos / R$120 milhões / 3 mil alunos) antes de considerar definitivo — já estão aplicados como rascunho nos .md locais, mas não devem subir pra plataforma sem essa confirmação
+
+Tudo isso também ficou registrado no CLAUDE.md do projeto, seção "Campanha Nayra Del Duca — Acelerador de Margem (estado vivo)".

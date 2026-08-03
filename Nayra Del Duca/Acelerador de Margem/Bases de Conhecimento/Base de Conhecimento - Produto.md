@@ -1,6 +1,6 @@
 # Base de Conhecimento — Nayra Del Duca | Acelerador de Margem | Produto
 
-26 documentos
+32 documentos
 
 ## O curso recomenda abrir vários CNPJs em nomes de familiares para pagar menos?
 
@@ -96,7 +96,31 @@ Há estruturas legais que reduzem a carga. Um cirurgião gastro pagava cerca de 
 
 ## Quem é a especialista e qual a autoridade que posso apresentar para a pessoa?
 
-A especialista é a Nayra, contadora e especialista tributária com 29 anos de experiência. Ela começou na contabilidade ainda criança, passou por todos os departamentos, assumiu a empresa da família aos 16 anos, atua em todo o Brasil e recebeu o título de Dama Comendadora do Brasil pela Academia Brasileira de Cultura. Sua missão é transformar contabilidade em lucro.
+A especialista é a Nayra Del Duca, contadora e especialista tributária com aproximadamente 30 anos de atuação profissional. Ela começou na contabilidade ainda criança, passou por todos os departamentos e, aos 16 anos, assumiu responsabilidades no escritório da família enquanto a mãe enfrentava um problema de saúde grave. Hoje é CEO da GTCON Brasil Contabilidade, posicionada como uma das empresas de contabilidade que mais crescem no Brasil, tem mais de 3 mil alunos entre cursos, mentorias e metodologias, atua em todo o Brasil e recebeu o título de Dama Comendadora do Brasil pela Academia Brasileira de Cultura. Somente em 2025, a atuação dela e da GTCON gerou mais de R$ 120 milhões em economia tributária para clientes. Sua missão é transformar contabilidade em lucro.
+
+## Que caso de bar ou comércio de alimentos e bebidas com boa redução de imposto posso apresentar?
+
+Uma empresa de comércio de alimentos, bebidas e operação de bar, com 15 colaboradores, estava no Simples Nacional e não aproveitava oportunidades ligadas à folha de pagamento, a créditos fiscais e ao enquadramento correto da atividade. A carga tributária no Simples era de aproximadamente R$ 36.680,51. Na projeção recomendada para o Lucro Real, considerando a estrutura de varejo e o aproveitamento de créditos de PIS e COFINS vinculados a despesas e custos da operação, a carga apresentada caiu para aproximadamente R$ 13.707,92 — uma redução que ultrapassou 60% para o perfil daquela empresa, sem precisar vender mais ou cortar equipe.
+
+## Tem algum caso de empresa de tecnologia que vende produto e presta serviço ao mesmo tempo?
+
+Uma empresa de manutenção de computadores e comércio de equipamentos de informática tinha faturamento dividido entre venda de produtos e prestação de serviços técnicos, mas tributava tudo de forma unificada, sem segregar as receitas. O diagnóstico identificou que produtos e serviços têm naturezas tributárias diferentes e devem ser tratados separadamente. A estratégia aplicada foi segregar corretamente o faturamento de produtos e de serviços conforme a natureza de cada operação, permitindo uma apuração fiscal mais estratégica, eficiente e alinhada com a legislação.
+
+## Tem case de negócio que trabalha com fotografia, e-book ou treinamento online?
+
+Um estúdio de fotografia corporativa que também vendia e-books e treinamentos tinha três fontes de receita diferentes, cada uma com um tratamento tributário próprio. O planejamento analisou o tratamento tributário dos e-books, a imunidade aplicável quando cumpridos os requisitos legais, e a segregação entre produtos digitais e serviços de fotografia e treinamento. Em uma das projeções apresentadas, o imposto sobre uma receita mensal de e-books passou de aproximadamente R$ 1.600 para R$ 144, mostrando o impacto de tratar cada receita de acordo com sua natureza, em vez de tributar tudo do mesmo jeito.
+
+## Tem caso de indústria ou fabricante que conseguiu reduzir imposto de forma segura?
+
+Uma indústria de produtos de limpeza operava no Simples Nacional e tinha diferenças entre a receita estimada e a receita declarada, o que gerava exposição fiscal e limitava o aproveitamento de créditos. O planejamento comparou o Lucro Real sem benefício fiscal com o Lucro Real com benefício fiscal e aproveitamento de créditos. Com a regularização da operação, emissão integral das notas fiscais e aproveitamento dos benefícios permitidos, a carga efetiva passou de aproximadamente 9,87% para uma projeção de 7,65%. O planejamento não buscou apenas o menor imposto, buscou menor imposto com regularidade e segurança.
+
+## Tem caso de restaurante que estava travado no Simples Nacional?
+
+Um restaurante estava no limite do Simples Nacional, pagando uma carga tributária aproximada de 20% e limitando as próprias vendas para não ultrapassar o teto de faturamento permitido no regime. Depois da análise da operação e da migração para o Lucro Presumido com regime especial de ICMS, a carga relatada caiu para aproximadamente 8%. No primeiro dezembro após a mudança, o restaurante, que costumava faturar entre R$ 300 mil e R$ 400 mil, teria faturado aproximadamente R$ 658 mil, sem precisar interromper as vendas para caber no regime anterior.
+
+## Tem caso de empresa de limpeza, portaria ou facilities?
+
+Uma empresa de limpeza, portaria e facilities pagava aproximadamente R$ 35 mil por mês em impostos. Depois de ajustes no enquadramento do CNAE e da aplicação de outras estratégias do curso, o imposto relatado caiu para aproximadamente R$ 13 mil mensais — uma economia recorrente de cerca de R$ 22 mil por mês, sem precisar aumentar o faturamento. Posteriormente, foram identificados créditos que permitiram compensações tributárias adicionais.
 
 ## Qual o preço e condições de pagamento para a pessoa?
 
@@ -104,4 +128,4 @@ O Acelerador de Margem custa R$ 997,00. Quem acabou de garantir o Lucro Blindado
 
 ## Que provas de resultado posso usar sem prometer o que não está no curso?
 
-Em 2025 foram economizados mais de R$ 85 milhões para clientes. Há casos de alunos que recuperaram milhões em créditos, incluindo um caso de mais de R$ 5 milhões. Um restaurante economizou cerca de 2% do faturamento ao segregar monofásicos, uma pizzaria reduziu a carga de 8,21% para 4,96%, e uma autopeças baixou drasticamente os tributos mesmo com faturamento maior.
+Em 2025 foram economizados mais de R$ 120 milhões para clientes. Há casos de alunos que recuperaram milhões em créditos, incluindo um caso de mais de R$ 5 milhões, e também correções pontuais que se pagaram já no primeiro mês, como uma aluna que economizou cerca de R$ 500 corrigindo a tributação de um único produto. Um restaurante economizou cerca de 2% do faturamento ao segregar monofásicos, uma pizzaria reduziu a carga de 8,21% para 4,96%, e uma autopeças baixou drasticamente os tributos mesmo com faturamento maior. Existem casos documentados em comércio, alimentação, indústria, tecnologia, serviços e saúde, cada um com o mecanismo específico que gerou a economia (regime, CNAE, NCM, segregação de receitas ou créditos).
