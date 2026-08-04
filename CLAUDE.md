@@ -80,9 +80,13 @@ Checkpoint é roteador comportamental, não base de conhecimento. Ele deve carre
 
 Caso real de referência: `Falcão das milhas/Suporte/Checkpoint/checkpoint.md` (2026-05-15). Checkpoint reduzido de ~24.887 chars / 3.643 palavras para ~10.382 chars / 1.502 palavras (~58% menor), mantendo gates anti-handoff. Temas removidos foram validados contra FAQs de Produto/Playbook: erro 404, acesso, erro técnico, Buscador, busca manual, Tarifas Awards, Skyscanner, cards, monitoramento, programa de milhas, tarifa que some, cotação específica, renovação automática, cancelamento/reembolso, Consultoria Individual, Balcão de Milhas, The Travel e Black Falcon.
 
-## Abertura de janela sem emoji
+## Abertura de janela sem emoji e sem variável
 
 Mensagem de abertura (template HSM / primeira mensagem da campanha) nunca deve ter emoji. FUPs e demais mensagens da conversa podem ter emoji conforme regra geral (até 3 por mensagem, preferência no cumprimento).
+
+**Abertura de janela também não usa variável — nenhuma.** Nem `{{nome}}`, nem variável de campanha, nem `{{metadata.*}}`. Qualquer dado personalizado (link único do lead, horário, valor vindo do evento) só pode ser entregue a partir da primeira resposta da IA, já dentro da janela aberta, onde o Copywriter resolve a variável. FUPs disparados dentro da janela podem usar variável normalmente.
+
+**How to apply:** quando o objetivo da campanha for entregar algo personalizado que veio no evento de entrada (ex: link de resultado individual), a abertura anuncia que aquilo está pronto e faz uma pergunta de fato; a IA entrega o conteúdo na primeira resposta. Registrar essa obrigação no checkpoint, senão a IA promete na abertura e não cumpre. Caso real: Rec de Vendas / Diagnóstico Instagram (Grupo Lapidatio, 2026-08-03), onde o `{{metadata.link_diagnostico}}` é o próprio motivo da campanha existir.
 
 **Why:** Convenção operacional do CS. Templates de abertura têm regras mais rígidas (aprovação Meta, taxa de entrega) e o padrão da agência é mantê-los limpos sem emoji.
 
@@ -136,6 +140,27 @@ Toda resposta de FAQ é acionada por busca semântica a partir da mensagem do LE
 **Why:** Confundir os dois artefatos. FAQ é o que o agente SABE; Checkpoint é como o agente AGE. Instrução negativa e regra de comportamento pertencem ao checkpoint, que é lido a cada turno pelo Copywriter e pelo Integration Manager. Uma FAQ vazia de conteúdo ainda ocupa um dos 5 lugares que a busca semântica retorna, ou seja, além de não responder, ela empurra para fora a FAQ que responderia.
 
 **How to apply:** Quando um valor não puder morar na FAQ (base compartilhada entre campanhas com ofertas diferentes), escreva a explicação completa do tema — o que é o custo, por que existe, como se paga, qual o enquadramento comercial — e remeta APENAS o número ao Checkpoint. Padrão correto, visto na FAQ "O que não é gratuito e quais compromissos a pessoa assume?" (Venda CNPJ, Way Group): explica contabilidade e Prep Center, diz que sai do lucro da operação e não do salário, e fecha com "os valores exatos estão no Checkpoint". Antes de entregar qualquer FAQ reescrita, ler a resposta fingindo ser o lead que fez a pergunta: se ela não responde, está errada. Caso real: Venda CNPJ Way Group, 2026-07-20, corrigido pelo CS.
+
+## Base tipo SDR gera FAQ de Produto voltada para dentro
+
+O Prompt de Extração do tipo **SDR** escreve as FAQs em segunda pessoa falando com o AGENTE, não com o lead: "Ofereça FAS para quem tem entre R$ 1.500 e R$ 3.000", "Direcione ao projeto CNPJ Gratuito", "Confirme com tato se há capital disponível". Isso contamina a base de **Produto**, que deveria ser o que o lead precisa saber.
+
+**Why:** o Information Manager resume a FAQ e entrega ao Copywriter como matéria-prima da resposta. O Copywriter repassa a instrução interna ao lead. Caso real (Way Group, SDR pós-compra, 22/07/2026): o lead perguntou "qual o mínimo?" e recebeu de volta o cardápio numerado de faixas de capital com o critério de roteamento inteiro, mais o custo mensal da contabilidade. Ele então respondeu "2" escolhendo um item do menu, a IA leu como capital de R$ 2.000 e roteou errado — o capital real era R$ 25.000. Efeito colateral: como as 15 FAQs de Produto eram todas instrução de processo, nenhuma respondia o que o lead perguntava de fato ("é dropshipping?", "quem é vocês?"), e a IA alucinou um modelo de negócio que o cliente não pratica.
+
+**Atualização 2026-07-29: não é exclusividade do tipo SDR.** A base REC do Way Group é do tipo Recuperação de vendas e reproduziu o mesmo padrão — 7 das 15 FAQs de Produto escritas para o atendente ("Como devo informar preço e parcelamento", "Explique que...", "Sempre comunique..."), uma delas respondendo a pergunta de preço com "Consulte o Checkpoint da campanha". A causa raiz é o Texto Complementar de origem ter sido escrito instruindo o agente; o Prompt de Extração só herda a voz. Vale para qualquer tipo de base.
+
+**How to apply:**
+- Ao avaliar qualquer base, de qualquer tipo, ler cada FAQ de Produto perguntando "o LEAD leria isso?". Se a resposta começa com verbo no imperativo dirigido ao agente (Ofereça, Direcione, Confirme, Pergunte, Cheque, Explique, Consulte, Valide), ela é Playbook ou é checkpoint, não é Produto. Sintoma mais grave: FAQ que cita a palavra "Checkpoint" na resposta, expondo o funcionamento interno ao lead.
+- Ao escrever Texto Complementar de Produto, escrever na voz de quem responde ao lead, não na voz de quem instrui o atendente. É lá que o vício nasce.
+- Faixas de qualificação, critérios de desqualificação, roteiro de perguntas e regras de handoff pertencem ao checkpoint. Não deixar em nenhuma base.
+- A base de Produto do SDR precisa das perguntas que o lead digita: quem é a empresa, por que estou recebendo isso, qual é o modelo de negócio, o que é cada produto, quanto preciso ter para começar.
+- Trava correspondente no checkpoint: proibir apresentar caminhos lado a lado em menu/lista numerada e proibir citar ao lead o critério de roteamento.
+
+## FAQ nunca carrega horário, data ou disponibilidade quando existe tool de agenda
+
+Se a campanha agenda por tool, nenhuma FAQ pode conter horário concreto. Caso real (Way Group SDR, 28/07/2026): 11 das 16 FAQs de Playbook fechavam com "prefere amanhã 11:15 ou 15:25?" — texto herdado de um roteiro de SDR humano. O checkpoint mandava consultar a agenda pela tool, mas o Copywriter recebia o horário pronto no resumo da FAQ e usava. Resultado: horários inventados, negociação de horário fora da grade e confirmação de reunião que não existia.
+
+**How to apply:** ao criar ou auditar base de campanha com agendamento, `grep` por padrões de hora (`[0-9]\{1,2\}[h:][0-9]\{2\}`) nas FAQs. Substituir por remissão à tool. Vale também para prazos, datas de turma e janelas de oferta que mudam.
 
 ## Prompts de Extração — Recuperação == Venda Direta
 
