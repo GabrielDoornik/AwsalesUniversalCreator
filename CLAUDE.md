@@ -330,6 +330,29 @@ Ciclo de otimização em andamento (2026-07-31), foco em provas sociais. Cliente
 
 **Ainda pendente:** apagar a duplicata da FAQ "está caro" na plataforma (ver achado acima) e confirmar com a Nayra os números de autoridade (30 anos / R$120mi / 3mil alunos) antes de considerar definitivo — já aplicados como rascunho nos `.md` locais.
 
+## Nuestra RX — report diário de campanhas (estado vivo)
+
+Rotina diária de report das 4 campanhas da nova estratégia (Receptiva, Abandono, Recuperação de Vendas A e B):
+investimento + leads que chegaram/responderam/converteram, por campanha. **Handoff para o Ricardo Ariza em
+2026-08-04** (antes era o Pedro).
+
+**How to apply:** se o usuário mencionar "report diário", "report da Nuestra", "investimento da campanha" ou
+mandar uma query desse report, ler PRIMEIRO `Nuestra RX/Report diário/README.md` — tem os 4 `campaign_id`
+validados, as duas queries prontas (`query-metricas.sql` e `query-investimento.sql`), as ressalvas que
+mudam a leitura do número e as pendências.
+
+Três fatos que se descobrem caro:
+- **O banco APP grava UTC; o painel e o ETL oficial usam BRT (−3h).** Filtrar dia por `start_at` cru desloca
+  a fronteira em 3 horas e muda o resultado (no fim de semana de 01–02/08, trocou uma conversão de campanha).
+  Todo filtro de data em query de report vai como `(coluna - INTERVAL '3 hours')`.
+- **"Investimento" não é gasto de anúncio, é custo de plataforma com margem.** Não existe coluna de mídia no
+  banco APP. A fonte do card "Investimento total" do painel é a silver `costs_vw` no BigQuery
+  (`total_value_with_margin`), gerada pelo job `costs_vw.py` do Lucas Reis — e essa tabela não está nas
+  conexões do Metabase que temos (a conexão BigQuery id 6 é outro projeto). Pendência: pedir acesso ao Lucas.
+- **Custo de token liga na campanha por `tokens.message_id_ref = messages.wam_id_ref`**, nunca por
+  `messages.id` (esse join devolve zero linhas), e nunca por `costs.lead_id` (aproximação grosseira, conta o
+  lead em duas campanhas). Mensagem liga por `messages.cost_id = costs.id`.
+
 ## Cliente Way Group — funil VTD (estado vivo)
 
 **How to apply:** Se o usuário mencionar "Way group", "VTD", "Lucas Arruda", "FAS" ou "CNPJ gratuito", ler PRIMEIRO `Way group/MEMÓRIA - Way Group.md` (estado vivo e próximos passos) e `Way group/DADOS OPERACIONAIS - Way Group.md` (links, preços, contatos, funil, CRM, regras do agente SDR). Não recriar nada sem checar o que já existe nas pastas das campanhas.

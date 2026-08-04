@@ -61,6 +61,40 @@ Corolário útil: `human_handoff_on = false` enquanto a IA **disse** ao cliente 
 - O bloco `> Reply to: "..."` dentro do `content` mostra **qual mensagem o cliente citou**. Foi assim que se provou cruzamento entre campanhas: o "Continuar" citava o FUP do Onboarding 1 mas caiu na janela do Onboarding 2, que respondeu fora do próprio escopo. **Sempre ler o Reply to antes de julgar se o agente respondeu certo.**
 - `conversation_list` é agregado por campanha e pode estar defasado — serviu pra achar só um disparo antigo enquanto as janelas novas já existiam. Use `conversion_window`, não ele.
 
+## Fuso: o db 3 grava UTC, a operação lê BRT (confirmado 2026-08-04)
+
+Todo timestamp do db 3 (`conversion_window.start_at`, `costs.created_at`, `tokens."dateTime"`,
+`active_lead_costs.date`) está em **UTC**. O ETL oficial de custos da plataforma (`costs_vw.py`, job
+bronze→silver) subtrai `INTERVAL 3 HOURS` de todos eles para produzir o horário local que o painel exibe.
+
+Consequência prática: **qualquer recorte por dia tem que ser `(coluna - INTERVAL '3 hours')`**, senão a
+fronteira do dia sai deslocada em 3h. Não é arredondamento — num report de fim de semana da Nuestra RX isso
+trocou uma conversão de campanha e mudou contagem de leads em duas das quatro campanhas.
+
+Confirmação independente do fuso, quando precisar refazer: distribuição de `EXTRACT(HOUR FROM start_at)`.
+Na Nuestra (leads nos EUA) o pico é 15h no valor cru e o vale é 06–14h — que só faz sentido como UTC
+(pico ao meio-dia em NY, vale na madrugada americana).
+
+## Custo → campanha: as chaves certas (confirmado 2026-08-04)
+
+`costs` não tem `campaign_id`. As pontes reais, lidas do `costs_vw.py`:
+
+| Tipo de custo | Ponte até a campanha |
+|---|---|
+| mensagem enviada/recebida (`fee_id` 2, 3) | `messages.cost_id = costs.id` → `conversion_window` |
+| token de sub-agente (`fees.name LIKE 'tokens_%'`) | `tokens.message_id_ref = messages.wam_id_ref` → `conversion_window` |
+| template WhatsApp (`fee_id` 1, 19) | `whatsapp_template_sent.conversion_window_id` |
+| 1º disparo da janela | `conversion_window.first_message_id = messages.id` |
+| lead ativo | `active_lead_costs.first_conversion_window_id` |
+
+Duas armadilhas: `tokens.message_id_ref` **não** casa com `messages.id` (join devolve zero linhas), e
+atribuir custo por `costs.lead_id` → `conversion_window.campaign_id` é aproximação grosseira — conta o
+mesmo custo em duas campanhas quando o lead está nas duas. Tokens de Smart FUP (`message_id_ref` como
+`smart-fup-analysis-<id>`) só resolvem campanha via banco NEO, ou seja, ficam órfãos em query do db 3.
+
+`costs.total_value` é **USD**; usar `total_value_brl_cents/100.0` (existe a partir de 05/06/2026) com
+fallback `total_value * usd_brl_rate`.
+
 ## Gotchas do Metabase
 
 - **User-Agent `Python-urllib` → 403.** Mandar `curl/8.4.0` (os scripts já fazem).
