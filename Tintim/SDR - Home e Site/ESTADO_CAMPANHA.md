@@ -6,7 +6,7 @@ Estado vivo desta campanha. Fica AQUI, na pasta do cliente (não no CLAUDE.md, q
 
 Cliente: Tintim (empresa Codevance; contatos Jorge Oliveira e Junior Faria; GP Awsales Lucas Cardoso). Produto: plataforma de inteligência de vendas no WhatsApp (rastreia origem das conversas e atribui vendas às campanhas de tráfego).
 
-Campanha 1 — SDR Home/Site: receptiva (o lead chega pelo botão de WhatsApp do site, sem formulário). IA chamada "Ana".
+Campanha 1 — SDR Home/Site: receptiva (o lead chega pelo botão de WhatsApp do site, sem formulário). IA chamada "Clara".
 
 ## Roteamento (o que o SDR faz)
 
@@ -45,7 +45,7 @@ PENDÊNCIAS DA MIGRAÇÃO:
 1. Apagar o card de teste 22791088 ("João Teste") no pipe IA [Awsales].
 2. CONFIRMADO com o cliente (24/07/2026): o handoff do não-MQL é a etapa "Oferta Enviada" (status_id 106939427). É o gatilho da integração de INPUT da campanha de Venda — só o não-MQL cai lá (o MQL segue pra Agência / Parceiros -> Reunião Marcada), então é gatilho limpo. Confirmado também que o não-MQL é atendido pela IA de vendas (campanha Venda - Não-MQL), NÃO por humano; "Handoff Humano Necessário" é outra raia, só pro MQL que não dá pra marcar reunião ou que insiste em humano. Falta construir a integração Kommo -> AWSales que dispara a Venda quando o card entra em "Oferta Enviada".
 3. Nó de nota no fluxo do Kommo: o `resumo` que a IA gera é recebido mas não é gravado no card (ver pendências em `../Integrações n8n/Kommo/CONFIG_TOOLS_KOMMO.md`).
-4. Lembrete de comparecimento: o Follow-Up Inteligente NÃO faz isso (ele dispara quando o lead some, não em horário marcado). Decidir entre Meeting Keeper como 2º agente (recomendado, e teria que se chamar Ana também), lembretes nativos do Cal ou disparo agendado. Ver fim de `MENSAGENS_FOLLOWUP.md`.
+4. Lembrete de comparecimento: o Follow-Up Inteligente NÃO faz isso (ele dispara quando o lead some, não em horário marcado). Decidir entre Meeting Keeper como 2º agente (recomendado, e teria que se chamar Clara também), lembretes nativos do Cal ou disparo agendado. Ver fim de `MENSAGENS_FOLLOWUP.md`.
 5. Hardening: proteger os webhooks n8n com header secreto e mover as credenciais (key do Cal, token do Kommo) para Credentials do n8n em vez de header cru nos nós.
 6. Dedup de contato por e-mail (2ª chave): hoje o dedup é só por telefone. No passo do agendamento, quando a IA já tem o e-mail, dá pra gravar no contato e/ou usar como segunda chave. Pendência, não urgente.
 6. Cancelar os bookings de teste ("João Teste") no Cal, se ainda existirem.

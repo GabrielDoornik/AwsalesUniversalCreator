@@ -213,6 +213,8 @@ Na seção final "VARIÁVEIS DE SISTEMA UTILIZADAS NO CHECKPOINT", cada variáve
 
 ## Otimização de custos AWSales — metodologia
 
+> **Playbook operacional completo:** `Estrutura/PLAYBOOK_REDUCAO_DE_CUSTOS.md` — como investigar no banco (db 3 = custo, db 7 = tool), o mapa `fees.type` → sub-agente, a tarifa-base de USD 0,0025 por 1k de input, a razão por chamada de `RESPONSE` que acha o desperdício, e como cortar checkpoint sem quebrar tool. Ler esse arquivo quando o pedido for redução de custo. A seção abaixo é o histórico do método via xlsx, anterior ao acesso ao banco.
+
 Quando o usuário pedir para reduzir custos de uma campanha, seguir este diagnóstico antes de cortar qualquer coisa do checkpoint.
 
 **Why:** A intuição padrão é "checkpoint grande = Checkpoint Manager caro". Está errado. O Checkpoint Manager roda em Gemini 2.5 Flash Lite (barato). Quem realmente paga o tamanho do checkpoint são os agentes que carregam `{checkpoints}` no prompt em cada turno e usam modelos caros: **Copywriter (Gemini 3 Flash), Integration Manager (Gemini 2.5 Flash normal), Smart FUP Análise/Template/Mensagem**. Esses 4 agentes costumam somar ~80% do gasto.

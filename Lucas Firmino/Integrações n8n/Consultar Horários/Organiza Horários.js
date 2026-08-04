@@ -69,7 +69,26 @@ const horarios = [...new Set((res.hours || []).map(h => h.hour))]
   })
   .sort((a, b) => toMin(a) - toMin(b));
 
-if (!horarios.length) return vazio('Sem horário livre nesta data. NÃO registrar encaixe ainda: consultar as datas próximas seguintes (dias úteis adjacentes e, se o lead pediu sábado, os sábados seguintes), no máximo 2 consultas extras, e oferecer os horários reais que aparecerem. Só registrar encaixe se essas também voltarem vazias.');
+if (!horarios.length) {
+  // Vazio = dia cheio OU já encerrado (todos os horários de hoje já passaram).
+  // Em vez de pedir pra IA inventar a próxima data, entrego uma data concreta
+  // pra ela reconsultar. Isso vira uma única chamada trivial no lugar do loop
+  // de decisão que estava travando a IA.
+  const prox = new Date(data);
+  do { prox.setDate(prox.getDate() + 1); } while (prox.getDay() === 0); // pula domingo
+  const dd = String(prox.getDate()).padStart(2, '0');
+  const mm = String(prox.getMonth() + 1).padStart(2, '0');
+  const proxStr = `${dd}/${mm}/${prox.getFullYear()}`;
+  return [{ json: {
+    ok: true,
+    date: dateStr,
+    tem_horario: false,
+    horarios: [],
+    sugestoes: [],
+    proxima_data: proxStr,
+    mensagem: `Sem horário livre em ${dateStr} (dia cheio ou já encerrado). NÃO registrar encaixe. AÇÃO OBRIGATÓRIA AGORA: chamar a tool de novo com a data ${proxStr} NESTA MESMA RESPOSTA, antes de falar com o lead. NÃO perguntar se pode verificar, NÃO pedir confirmação. Só responder ao lead depois de ter os horários de ${proxStr} em mãos.`
+  }}];
+}
 
 // --- Lista apresentável: horário redondo (:00 e :30) ---
 // Grade de 10 min é granularidade falsa da UNO. Se a grade redonda vier

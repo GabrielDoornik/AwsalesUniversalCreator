@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>D'Leon — Report da IA de agendamento · 24 a 31/07</title>
+<style>
+  *,*::before,*::after { box-sizing:border-box; }
+  html,body { margin:0; padding:0; }
+
+  :root {
+    --ground:#F0F3F8; --surface:#FFFFFF; --zebra:#F7F9FD; --ink:#111317; --ink-2:#4A515C; --ink-3:#79818F;
+    --line:#D2DEEF; --line-soft:#E6EDF7; --azul:#1668E3; --azul-claro:#EAF1FB; --azul-escuro:#0B3A86;
+    --ok:#12764F; --ok-bg:#DFF3EA; --alerta:#8A5A00; --alerta-bg:#FCEFD4;
+    --sombra:0 1px 2px rgba(17,19,23,.05), 0 10px 28px -16px rgba(17,19,23,.18);
+    --mono:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,monospace;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  }
+  @media (prefers-color-scheme:dark) {
+    :root { --ground:#0B0E13; --surface:#141920; --zebra:#171D25; --ink:#E9ECF2; --ink-2:#A2AAB8; --ink-3:#6E7686;
+      --line:#262E3A; --line-soft:#1E2530; --azul:#4A90F0; --azul-claro:#14243D; --azul-escuro:#7FB2F6;
+      --ok:#4FBF8F; --ok-bg:#12291F; --alerta:#D9A441; --alerta-bg:#2C2109;
+      --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7); }
+  }
+  :root[data-theme="light"] {
+    --ground:#F0F3F8; --surface:#FFFFFF; --zebra:#F7F9FD; --ink:#111317; --ink-2:#4A515C; --ink-3:#79818F;
+    --line:#D2DEEF; --line-soft:#E6EDF7; --azul:#1668E3; --azul-claro:#EAF1FB; --azul-escuro:#0B3A86;
+    --ok:#12764F; --ok-bg:#DFF3EA; --alerta:#8A5A00; --alerta-bg:#FCEFD4;
+    --sombra:0 1px 2px rgba(17,19,23,.05), 0 10px 28px -16px rgba(17,19,23,.18);
+  }
+  :root[data-theme="dark"] {
+    --ground:#0B0E13; --surface:#141920; --zebra:#171D25; --ink:#E9ECF2; --ink-2:#A2AAB8; --ink-3:#6E7686;
+    --line:#262E3A; --line-soft:#1E2530; --azul:#4A90F0; --azul-claro:#14243D; --azul-escuro:#7FB2F6;
+    --ok:#4FBF8F; --ok-bg:#12291F; --alerta:#D9A441; --alerta-bg:#2C2109;
+    --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+
+  body { background:var(--ground); color:var(--ink); font-family:var(--sans); line-height:1.5; }
+  .pg { max-width:900px; margin:0 auto; padding:clamp(22px,4vw,48px) clamp(14px,3vw,26px) 60px;
+        display:flex; flex-direction:column; gap:clamp(24px,3vw,34px); }
+  .sel { font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); }
+  h1 { font-size:clamp(24px,3.6vw,34px); line-height:1.12; letter-spacing:-.024em; font-weight:800; margin:.3em 0 0; }
+  h2 { font-size:17px; font-weight:750; margin:0; }
+  p { margin:0; color:var(--ink-2); }
+  header { border-bottom:1px solid var(--line); padding-bottom:20px; }
+  header p { margin-top:10px; font-size:16px; }
+  .num { font-family:var(--mono); font-variant-numeric:tabular-nums; }
+
+  /* destaque */
+  .hero { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); }
+  .kpi { background:var(--surface); border:1px solid var(--line); border-top:3px solid var(--azul);
+         border-radius:4px; padding:18px 20px; box-shadow:var(--sombra); display:flex; flex-direction:column; gap:4px; }
+  .kpi .k { font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); }
+  .kpi .v { font-family:var(--mono); font-size:38px; line-height:1; font-weight:700; letter-spacing:-.03em; color:var(--azul); }
+  .kpi .d { font-size:13px; color:var(--ink-2); }
+
+  /* funil */
+  .funil { background:var(--surface); border:1px solid var(--line); border-radius:4px; box-shadow:var(--sombra);
+           padding:22px 24px; display:flex; flex-direction:column; gap:14px; }
+  .etapa { display:grid; grid-template-columns:52px 1fr; gap:14px; align-items:start; }
+  .etapa .qt { font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:23px; font-weight:700;
+               text-align:right; color:var(--ink); line-height:1.25; }
+  .rot { font-size:14.5px; font-weight:650; color:var(--ink); }
+  .trilho { height:12px; border-radius:2px; background:var(--line-soft); margin:6px 0 5px; }
+  .barra { height:12px; border-radius:2px; background:var(--azul); }
+  .etapa small { display:block; color:var(--ink-3); font-size:12.5px; font-weight:400; }
+  .legenda { font-size:13px; color:var(--ink-3); }
+
+  /* tabela */
+  .rolagem { overflow-x:auto; border:1px solid var(--line); border-radius:4px; background:var(--surface); box-shadow:var(--sombra); }
+  table { border-collapse:collapse; width:100%; min-width:520px; }
+  th, td { text-align:left; padding:12px 16px; border-bottom:1px solid var(--line-soft); font-size:14px; }
+  th { background:var(--azul-claro); font-family:var(--mono); font-size:10.5px; letter-spacing:.12em;
+       text-transform:uppercase; font-weight:700; color:var(--ink); white-space:nowrap; }
+  td:not(:first-child), th:not(:first-child) { text-align:right; font-family:var(--mono); font-variant-numeric:tabular-nums; }
+  tbody tr:last-child td { border-bottom:0; }
+  tbody tr:nth-child(even) { background:var(--zebra); }
+  .taxa-ok { color:var(--ok); font-weight:700; }
+  .taxa-ruim { color:var(--alerta); font-weight:700; }
+
+  .nota { background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--alerta);
+          border-radius:0 4px 4px 0; padding:16px 20px; display:flex; flex-direction:column; gap:9px; box-shadow:var(--sombra); }
+  .nota .t { font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+             color:var(--alerta); font-weight:700; }
+  .nota p { color:var(--ink); font-size:14.5px; }
+
+  footer { border-top:1px solid var(--line); padding-top:16px; font-size:12.5px; color:var(--ink-3); }
+  .tbtn { position:fixed; top:12px; right:12px; background:var(--surface); color:var(--ink-2);
+          border:1px solid var(--line); border-radius:3px; padding:6px 10px; cursor:pointer;
+          font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase; }
+  @media print { .tbtn { display:none; } :root { --ground:#fff; --sombra:none; }
+                 .funil,.nota,tr,table,.rolagem,section { break-inside:avoid; } }
+  @media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
+</style>
+</head>
+<body>
+<button class="tbtn" id="tb" type="button">Tema</button>
+<div class="pg">
+
+  <header>
+    <div class="sel">D´Leon by Lucas Firmino · IA de agendamento no WhatsApp</div>
+    <h1>Report de 24 a 31 de julho</h1>
+    <p>Oito dias de operação: quantas pessoas chamaram, quantas conversaram e quantas saíram com avaliação marcada.</p>
+  </header>
+
+  <section class="hero">
+    <div class="kpi"><span class="k">Pessoas atendidas</span><span class="v">37</span>
+      <span class="d">em 39 conversas</span></div>
+    <div class="kpi"><span class="k">Conversaram com a IA</span><span class="v">28</span>
+      <span class="d">558 mensagens trocadas</span></div>
+    <div class="kpi"><span class="k">Avaliações agendadas</span><span class="v">3</span>
+      <span class="d">marcadas direto na agenda pela IA</span></div>
+  </section>
+
+  <section class="funil">
+    <h2>O caminho até a avaliação</h2>
+
+    <div class="etapa"><span class="qt">39</span>
+      <div><div class="rot">Conversas abertas</div>
+        <div class="trilho"><div class="barra" style="width:100%"></div></div>
+        <small>27 vieram do próprio lead, que chamou no WhatsApp</small></div></div>
+
+    <div class="etapa"><span class="qt">28</span>
+      <div><div class="rot">Conversaram de verdade</div>
+        <div class="trilho"><div class="barra" style="width:71.8%"></div></div>
+        <small>trocaram mensagem com a IA</small></div></div>
+
+    <div class="etapa"><span class="qt">10</span>
+      <div><div class="rot">Chegaram a pedir horário</div>
+        <div class="trilho"><div class="barra" style="width:25.6%"></div></div>
+        <small>a IA consultou a agenda para essas pessoas</small></div></div>
+
+    <div class="etapa"><span class="qt">3</span>
+      <div><div class="rot">Avaliação marcada</div>
+        <div class="trilho"><div class="barra" style="width:7.7%"></div></div>
+        <small>agendamento criado direto na agenda</small></div></div>
+
+    <p class="legenda">De cada 10 pessoas que chamaram no WhatsApp e conversaram, cerca de 1 saiu com avaliação marcada.</p>
+  </section>
+
+
+
+  <section>
+    <h2 style="margin-bottom:12px">Quem agendou</h2>
+    <div class="rolagem">
+      <table>
+        <thead><tr><th>Nome</th><th>Avaliação</th><th>Sala</th><th>Telefone</th></tr></thead>
+        <tbody>
+          <tr><td>Dudu</td><td>05/08 às 12:00</td><td>Dra Izabella Helena</td><td>55 46 99904-7358</td></tr>
+          <tr><td>Margarida</td><td>30/07 às 12:00</td><td>Dra Izabella Helena</td><td>26449104182</td></tr>
+          <tr><td>Rodrigo</td><td>28/09 às 09:00</td><td>Dra Izabella Helena</td><td>55 31 98479-4950</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:10px; font-size:13px; color:var(--ink-3)">Os três foram marcados pela IA no dia 29/07, direto na agenda.</p>
+  </section>
+
+  <footer>D´Leon by Lucas Firmino · período de 24/07 a 31/07/2026 · dados extraídos da plataforma</footer>
+</div>
+
+<script>
+(() => {
+  const r = document.documentElement, b = document.getElementById("tb");
+  const g = { ler(){ try { return localStorage.getItem("t"); } catch(e){ return null; } },
+              gravar(v){ try { localStorage.setItem("t", v); } catch(e){} } };
+  const poe = t => { r.setAttribute("data-theme", t); b.textContent = t === "dark" ? "Claro" : "Escuro"; };
+  poe(g.ler() || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+  b.addEventListener("click", () => { const t = r.getAttribute("data-theme") === "dark" ? "light" : "dark";
+                                      poe(t); g.gravar(t); });
+})();
+</script>
+</body>
+</html>

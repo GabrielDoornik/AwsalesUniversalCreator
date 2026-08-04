@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Analise de custos da campanha SDR Lucas Firmino V2: composicao do gasto por agente, efeito da otimizacao do Checkpoint Manager e divergencia na cobranca de input.">
+<title>Custos — SDR Lucas Firmino V2</title>
+<style>
+  *,*::before,*::after { box-sizing:border-box; }
+  html,body { margin:0; padding:0; }
+  html { -webkit-text-size-adjust:100%; }
+  img,svg { max-width:100%; }
+  body { background:var(--ground); }
+
+  :root {
+    --ground:#F0F3F8; --surface:#FFFFFF; --surface-2:#F7F9FD;
+    --ink:#111317; --ink-2:#4A515C; --ink-3:#79818F;
+    --line:#D2DEEF; --line-soft:#E6EDF7;
+    --accent:#1668E3; --accent-soft:#EAF1FB; --accent-deep:#0B3A86;
+    --critical:#CF3A2C; --critical-soft:#FADFDB;
+    --good:#1C7A56;
+    --shadow:0 1px 2px rgba(17,19,23,.05), 0 8px 24px -12px rgba(17,19,23,.12);
+    --mono:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,monospace;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  }
+  @media (prefers-color-scheme:dark) {
+    :root {
+      --ground:#0B0E13; --surface:#141920; --surface-2:#1B2129;
+      --ink:#E9ECF2; --ink-2:#A2AAB8; --ink-3:#6E7686;
+      --line:#262E3A; --line-soft:#1E2530;
+      --accent:#4A90F0; --accent-soft:#14243D; --accent-deep:#7FB2F6;
+      --critical:#DC5647; --critical-soft:#3E1F1B;
+      --good:#35A97C;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="light"] {
+    --ground:#F0F3F8; --surface:#FFFFFF; --surface-2:#F7F9FD;
+    --ink:#111317; --ink-2:#4A515C; --ink-3:#79818F;
+    --line:#D2DEEF; --line-soft:#E6EDF7;
+    --accent:#1668E3; --accent-soft:#EAF1FB; --accent-deep:#0B3A86;
+    --critical:#CF3A2C; --critical-soft:#FADFDB;
+    --good:#1C7A56;
+    --shadow:0 1px 2px rgba(17,19,23,.05), 0 8px 24px -12px rgba(17,19,23,.12);
+  }
+  :root[data-theme="dark"] {
+    --ground:#0B0E13; --surface:#141920; --surface-2:#1B2129;
+    --ink:#E9ECF2; --ink-2:#A2AAB8; --ink-3:#6E7686;
+    --line:#262E3A; --line-soft:#1E2530;
+    --accent:#4A90F0; --accent-soft:#14243D; --accent-deep:#7FB2F6;
+    --critical:#DC5647; --critical-soft:#3E1F1B;
+    --good:#35A97C;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  .page { background:var(--ground); color:var(--ink); font-family:var(--sans);
+          font-size:16px; line-height:1.62; -webkit-font-smoothing:antialiased;
+          padding:clamp(20px,4vw,56px) clamp(16px,4vw,32px) 72px; }
+  .wrap { max-width:1080px; margin:0 auto; display:flex; flex-direction:column; gap:clamp(32px,4vw,52px); }
+
+  .eyebrow { font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+             color:var(--ink-3); margin:0; max-width:none; padding-right:120px; }
+  .shead .eyebrow, footer .eyebrow { padding-right:0; }
+  h1 { font-size:clamp(28px,4.4vw,44px); line-height:1.1; letter-spacing:-.025em; font-weight:800;
+       margin:.28em 0 0; text-wrap:balance; }
+  h2 { font-size:clamp(20px,2.4vw,25px); line-height:1.2; letter-spacing:-.018em; font-weight:750;
+       margin:0; text-wrap:balance; }
+  h3 { font-size:15px; font-weight:700; letter-spacing:-.005em; margin:0; }
+  p { margin:0; max-width:66ch; color:var(--ink-2); }
+  p strong, li strong { color:var(--ink); font-weight:650; }
+  .num { font-family:var(--mono); font-variant-numeric:tabular-nums; }
+
+  /* header */
+  header { border-bottom:1px solid var(--line); padding-bottom:clamp(20px,3vw,28px); }
+  .idbar { display:flex; flex-wrap:wrap; gap:8px 20px; align-items:baseline;
+           font-family:var(--mono); font-size:11.5px; letter-spacing:.06em;
+           text-transform:uppercase; color:var(--ink-3); }
+  .idbar b { color:var(--ink-2); font-weight:600; }
+  .lede { margin-top:18px; font-size:17.5px; color:var(--ink-2); max-width:62ch; }
+
+  /* verdict tiles */
+  .tiles { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(232px,1fr)); }
+  .tile { background:var(--surface); border:1px solid var(--line); border-radius:3px;
+          padding:20px 20px 18px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:6px;
+          border-top:3px solid var(--accent); }
+  .tile.warn { border-top-color:var(--critical); }
+  .tile .k { font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); }
+  .tile .v { font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:clamp(30px,4vw,40px);
+             line-height:1; font-weight:700; letter-spacing:-.03em; color:var(--accent); }
+  .tile.warn .v { color:var(--critical); }
+  .tile .d { font-size:13.5px; color:var(--ink-2); line-height:1.5; }
+
+  /* sections */
+  section { display:flex; flex-direction:column; gap:18px; }
+  .shead { display:flex; flex-direction:column; gap:8px; padding-bottom:2px;
+           border-bottom:1px solid var(--line-soft); }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:3px;
+          padding:clamp(16px,2.4vw,26px); box-shadow:var(--shadow); }
+  figure { margin:0; display:flex; flex-direction:column; gap:14px; }
+  figcaption { font-size:13px; color:var(--ink-3); max-width:70ch; }
+  .chart { width:100%; overflow:visible; display:block; }
+  .chart text { font-family:var(--mono); font-variant-numeric:tabular-nums; fill:var(--ink-3); font-size:11px; }
+  .chart .lbl { fill:var(--ink-2); font-size:12px; }
+  .chart .lbl-em { fill:var(--ink); font-weight:700; font-size:12px; }
+  .chart .val { fill:var(--ink); font-size:11.5px; font-weight:600; }
+  .grid line { stroke:var(--line-soft); stroke-width:1; }
+  .axis line { stroke:var(--line); stroke-width:1; }
+
+  /* legend + chips */
+  .chips { display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center;
+           font-family:var(--mono); font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-2); }
+  .chip { display:inline-flex; align-items:center; gap:7px; }
+  .sw { width:11px; height:11px; border-radius:2px; flex:none; }
+
+  .callout { display:flex; flex-direction:column; gap:10px; border-left:3px solid var(--critical);
+             background:var(--critical-soft); padding:16px 18px; border-radius:0 3px 3px 0; }
+  .callout .t { font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--critical); font-weight:700; }
+  .callout p { color:var(--ink); }
+
+  .win { display:inline-flex; align-items:center; gap:8px; font-family:var(--mono);
+         font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--good); font-weight:700; }
+  .win svg { flex:none; }
+
+  /* table */
+  .tablewrap { overflow-x:auto; border:1px solid var(--line); border-radius:3px; background:var(--surface); }
+  table { border-collapse:collapse; width:100%; min-width:640px; font-size:13.5px; }
+  caption { text-align:left; padding:14px 16px 0; font-size:13px; color:var(--ink-3); }
+  th, td { padding:10px 16px; text-align:right; border-bottom:1px solid var(--line-soft); white-space:nowrap; }
+  th:first-child, td:first-child { text-align:left; white-space:normal; }
+  thead th { font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase;
+             color:var(--ink-3); font-weight:600; border-bottom:1px solid var(--line); }
+  tbody td { font-family:var(--mono); font-variant-numeric:tabular-nums; color:var(--ink-2); }
+  tbody td:first-child { font-family:var(--sans); color:var(--ink); }
+  tbody tr.em td { color:var(--ink); font-weight:650; background:var(--surface-2); }
+  tbody tr:last-child td { border-bottom:0; }
+  tfoot td { font-family:var(--mono); font-variant-numeric:tabular-nums; font-weight:700; color:var(--ink);
+             border-top:1px solid var(--line); }
+  .bar-cell { position:relative; }
+
+  /* tooltip */
+  .tip { position:fixed; z-index:20; pointer-events:none; opacity:0; transform:translate(-50%,-115%);
+         background:var(--surface); border:1px solid var(--line); border-radius:3px; box-shadow:var(--shadow);
+         padding:8px 11px; font-family:var(--mono); font-size:11.5px; font-variant-numeric:tabular-nums;
+         color:var(--ink); white-space:nowrap; transition:opacity .12s ease; }
+  .tip.on { opacity:1; }
+  .tip b { color:var(--accent); }
+
+  footer { border-top:1px solid var(--line); padding-top:22px; display:flex; flex-direction:column; gap:10px; }
+  footer p { font-size:13px; color:var(--ink-3); max-width:78ch; }
+  code { font-family:var(--mono); font-size:.9em; background:var(--surface-2);
+         border:1px solid var(--line-soft); border-radius:2px; padding:.1em .35em; color:var(--ink-2); }
+  a { color:var(--accent); }
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  @media (prefers-reduced-motion:reduce) { * { transition:none !important; animation:none !important; } }
+
+  .themebtn { position:fixed; top:14px; right:14px; z-index:30; display:inline-flex; align-items:center;
+              gap:7px; background:var(--surface); color:var(--ink-2); border:1px solid var(--line);
+              border-radius:3px; padding:7px 11px; cursor:pointer; box-shadow:var(--shadow);
+              font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; }
+  .themebtn:hover { color:var(--ink); border-color:var(--ink-3); }
+  @media print {
+    .themebtn, .tip { display:none !important; }
+    :root { --ground:#fff; --surface:#fff; --shadow:none; }
+    .page { padding:0; }
+    section, .card, .tablewrap, figure { break-inside:avoid; }
+    a { color:inherit; text-decoration:none; }
+  }
+</style>
+</head>
+<body>
+<button class="themebtn" id="themebtn" type="button" aria-label="Alternar tema claro e escuro">
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+       stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/>
+  <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/>
+  </svg><span id="themelbl">Tema</span></button>
+
+<div class="page">
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Análise de custos · organização D´Leon By Lucas Firmino</p>
+    <h1>SDR Lucas&nbsp;Firmino V2</h1>
+    <p class="lede">Onde o dinheiro da campanha é gasto, e o que a otimização do Checkpoint Manager mudou de fato.</p>
+    <div class="idbar" style="margin-top:22px">
+      <span>Período <b>07/07 → 30/07/2026</b></span>
+      <span>Gasto <b class="num">USD 143,80</b> · <b class="num">R$ 728</b></span>
+      <span>Leads <b class="num">94</b></span>
+      <span>Chamadas de LLM <b class="num">5 936</b></span>
+      <span>Fonte <b>banco APP · db 3</b></span>
+    </div>
+  </header>
+
+  <!-- ============ A RESPOSTA ============ -->
+  <section>
+    <div class="shead">
+      <p class="eyebrow">A resposta em três números</p>
+      <h2>A otimização funcionou, mas metade do ganho está sendo comida por uma cobrança fora do padrão</h2>
+    </div>
+    <div class="tiles">
+      <div class="tile">
+        <span class="k">Custo por chamada de LLM</span>
+        <span class="v">−20%</span>
+        <span class="d">Caiu de USD 0,0263 para 0,0211 depois de 25/07. É o efeito real da otimização, já descontado o volume.</span>
+      </div>
+      <div class="tile">
+        <span class="k">Output do Checkpoint Manager</span>
+        <span class="v">−97%</span>
+        <span class="d">De 2 341 para 76 tokens por chamada. Ele parou de reescrever o estado inteiro a cada turno.</span>
+      </div>
+      <div class="tile warn">
+        <span class="k">Cobrança de input do mesmo agente</span>
+        <span class="v">1,8×</span>
+        <span class="d">Passou a custar USD 0,00449 por mil tokens, contra 0,0025 de todos os outros agentes. Ninguém mais mudou.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ONDE VAI O DINHEIRO ============ -->
+  <section>
+    <div class="shead">
+      <p class="eyebrow">Composição do gasto</p>
+      <h2>Para onde vai o dinheiro</h2>
+      <p>O <strong>Checkpoint Manager</strong> é o maior custo da campanha, com mais de um terço do total — e é o único agente com custo de output relevante. O <strong>Response Auditor</strong> vem em segundo e custa quase três vezes o Copywriter que ele audita, porque relê o contexto inteiro a cada resposta.</p>
+    </div>
+    <div class="card">
+      <figure>
+        <div class="chips">
+          <span class="chip"><span class="sw" style="background:var(--accent)"></span>Custo total no período</span>
+        </div>
+        <svg class="chart" id="c-agentes" role="img" aria-label="Custo por agente: Checkpoint Manager 51,95 dólares; Response Auditor 22,39; Fluxo de abandono 17,16; Cobranças fixas 14,35; Integration Manager 10,93; Information Manager 9,72; Copywriter 7,76; Follow-up 8,70; Tools e transcrição 0,84."></svg>
+        <figcaption>Cada barra é o custo somado de input e output daquele agente entre 07/07 e 30/07. Passe o mouse para ver a divisão.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ O DEGRAU ============ -->
+  <section>
+    <div class="shead">
+      <p class="eyebrow">O efeito da otimização</p>
+      <h2>O degrau de 25 de julho</h2>
+      <p>A mudança aparece de um dia para o outro, e só no Checkpoint Manager: nenhum outro agente alterou o padrão de output. Ele escrevia mais de dois mil tokens por chamada e passou a escrever setenta.</p>
+    </div>
+    <div class="card">
+      <figure>
+        <div class="chips">
+          <span class="chip"><span class="sw" style="background:var(--accent)"></span>Tokens de output por chamada · Checkpoint Manager</span>
+        </div>
+        <svg class="chart" id="c-degrau" role="img" aria-label="Tokens de output por chamada do Checkpoint Manager, de 7 a 30 de julho: entre 1 586 e 2 699 até o dia 24, caindo para 73 no dia 25 e permanecendo entre 70 e 166 até o dia 30."></svg>
+        <figcaption>Série diária da campanha. A queda ocorre em <span class="num">25/07</span>, um sábado — ou seja, entrou no ar depois da sexta-feira <span class="num">24/07</span>.</figcaption>
+      </figure>
+    </div>
+
+    <div class="card">
+      <figure>
+        <h3>O que isso valeu em dinheiro</h3>
+        <div class="chips">
+          <span class="chip"><span class="sw" style="background:var(--accent)"></span>Custo médio por chamada de LLM · USD</span>
+        </div>
+        <svg class="chart" id="c-antesdepois" role="img" aria-label="Custo médio por chamada de LLM: 0,02634 dólares na janela de 21 a 24 de julho, contra 0,02110 na janela de 25 a 29 de julho, uma queda de 19,9 por cento."></svg>
+        <figcaption>Comparação entre janelas equivalentes, medida em custo por chamada para não confundir o efeito com o crescimento de volume. No mesmo intervalo as chamadas subiram de <span class="num">907</span> para <span class="num">1 274</span>, então <strong>a fatura em valor absoluto subiu</strong> — o que caiu foi o custo unitário.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ A ANOMALIA ============ -->
+  <section>
+    <div class="shead">
+      <p class="eyebrow">Achado para escalar à plataforma</p>
+      <h2>A conta do input não fecha</h2>
+      <p>Todos os agentes cobram exatamente <strong>USD 0,0025 por mil tokens de input</strong>, antes e depois da mudança. O Checkpoint Manager, a partir de 25/07, cobra <strong>0,00449</strong>. A tarifa cadastrada não mudou e nenhum outro agente se moveu — ou seja, ele está sendo cobrado como se tivesse consumido quase o dobro dos tokens que o próprio registro aponta.</p>
+    </div>
+    <div class="card">
+      <figure>
+        <div class="chips">
+          <span class="chip"><span class="sw" style="background:var(--accent)"></span>Tarifa padrão observada</span>
+          <span class="chip"><span class="sw" style="background:var(--critical)"></span>Fora do padrão</span>
+        </div>
+        <svg class="chart" id="c-taxa" role="img" aria-label="Custo efetivo por mil tokens de input: Information Manager, Copywriter, Response Auditor e Integration Manager todos em 0,0025 dólares, e o Checkpoint Manager depois de 25 de julho em 0,00449 dólares."></svg>
+        <figcaption>Custo efetivo por mil tokens de input, calculado dividindo o valor cobrado pelos tokens registrados na tabela <code>tokens</code>.</figcaption>
+      </figure>
+    </div>
+
+    <div class="callout">
+      <span class="t">O que isso custa</span>
+      <p>Na tarifa normal, o input do Checkpoint Manager nesses cinco dias custaria <span class="num">USD 4,77</span> em vez de <span class="num">USD 8,57</span>. São <strong class="num">USD 3,80 a mais em cinco dias</strong>, cerca de <strong class="num">R$ 115 por mês</strong> nesta campanha sozinha.</p>
+      <p>Sem essa distorção, a economia da otimização teria sido de <strong>31%</strong>, e não de 20%.</p>
+    </div>
+    <p>São duas explicações possíveis, e as duas precisam do time de plataforma: ou a cobrança está acima do consumo, ou o registro de tokens do agente quebrou junto com a otimização. Há um segundo sintoma que reforça a suspeita: no output, a quantidade cobrada virou <strong>zero</strong> e ainda assim há valor lançado — os setenta tokens arredondam para zero milhar.</p>
+  </section>
+
+  <!-- ============ TOKENS POR AGENTE ============ -->
+  <section>
+    <div class="shead">
+      <p class="eyebrow">Detalhe técnico</p>
+      <h2>Tokens por chamada, antes e depois</h2>
+      <p>O contexto encolheu em quase todos os agentes, efeito de o checkpoint ter parado de crescer a cada turno. Mas só o Checkpoint Manager mudou de patamar no output.</p>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <caption>Média de tokens por chamada · janelas 21–24/07 e 25–29/07 · organização inteira</caption>
+        <thead>
+          <tr><th>Agente</th><th>Input antes</th><th>Input depois</th><th>Δ input</th><th>Output antes</th><th>Output depois</th><th>Δ output</th></tr>
+        </thead>
+        <tbody id="t-tokens"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ TABELA ============ -->
+  <section>
+    <div class="shead">
+      <p class="eyebrow">Dados completos</p>
+      <h2>Custo por agente</h2>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <caption>Campanha SDR Lucas Firmino V2 · 07/07 a 30/07/2026 · valores em USD</caption>
+        <thead>
+          <tr><th>Agente</th><th>Input</th><th>Output</th><th>Total</th><th>Share</th><th>Chamadas</th></tr>
+        </thead>
+        <tbody id="t-agentes"></tbody>
+        <tfoot><tr><td>Total</td><td>101,92</td><td>27,54</td><td>143,80</td><td>100%</td><td>5 936</td></tr></tfoot>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p class="eyebrow">Método</p>
+    <p>Todos os números vêm do banco <strong>APP (db 3)</strong> via Metabase, somente leitura, pela cadeia <code>costs → fees → tokens</code>. O campo <code>fees.type</code> identifica o sub-agente e <code>fees.name</code> o modelo. A campanha é <code>ab66f06f-f1c2-4764-85c2-9f3c02515170</code>; a V1 encerrou em 08/07, sem custo sobreposto. Dois leads aparecem nas duas campanhas e foram excluídos do rateio.</p>
+    <p>Valores em dólar, convertidos a <span class="num">5,063</span>, o câmbio registrado nas próprias linhas de custo. A comparação antes/depois usa apenas as tarifas de token, em janelas de quatro e cinco dias, medida por chamada para neutralizar o crescimento de volume. Não há trace no LangSmith para esta campanha — nada aqui depende dele.</p>
+    <p><strong>Correção de data:</strong> a otimização foi referida como 29/07, que é uma quarta-feira. O degrau nos dados está em 25/07, sábado, logo após a sexta-feira 24/07.</p>
+  </footer>
+
+</div>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+(() => {
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (n, a = {}) => { const e = document.createElementNS(NS, n);
+    for (const k in a) e.setAttribute(k, a[k]); return e; };
+  const fmt = (v, d = 2) => v.toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d });
+  const int = v => v.toLocaleString("pt-BR");
+
+  const tip = document.getElementById("tip");
+  const show = (evt, html) => { tip.innerHTML = html; tip.classList.add("on");
+    tip.style.left = evt.clientX + "px"; tip.style.top = evt.clientY + "px"; };
+  const hide = () => tip.classList.remove("on");
+
+  /* ---------- dados verificados ---------- */
+  const AGENTES = [
+    { nome: "Checkpoint Manager",  chave: "MEMORY",              inp: 33.92, out: 18.03, total: 51.95, pct: 36.1, ch: 1162, em: true },
+    { nome: "Response Auditor",    chave: "GUARDRAIL_COPYWRITER", inp: 21.60, out: 0.79,  total: 22.39, pct: 15.6, ch: 688 },
+    { nome: "Fluxo de abandono",   chave: "ABANDONED",           inp: 13.62, out: 3.53,  total: 17.16, pct: 11.9, ch: 937 },
+    { nome: "Cobranças fixas",     chave: "mensagens · lead ativo", inp: null, out: null, total: 14.35, pct: 10.0, ch: null },
+    { nome: "Integration Manager", chave: "PLANNING",            inp: 10.58, out: 0.35,  total: 10.93, pct: 7.6,  ch: 396 },
+    { nome: "Information Manager", chave: "RETRIEVAL",           inp: 7.27,  out: 2.46,  total: 9.72,  pct: 6.8,  ch: 1789 },
+    { nome: "Copywriter",          chave: "RESPONSE",            inp: 7.24,  out: 0.52,  total: 7.76,  pct: 5.4,  ch: 367 },
+    { nome: "Follow-up · análise", chave: "FOLLOWUP_ANALYSIS",   inp: 4.14,  out: 1.29,  total: 5.43,  pct: 3.8,  ch: 485 },
+    { nome: "Follow-up · resposta",chave: "FOLLOWUP_RESPONSE",   inp: 2.79,  out: 0.48,  total: 3.27,  pct: 2.3,  ch: 41 },
+    { nome: "Tools",               chave: "TOOLS",               inp: 0.55,  out: 0.02,  total: 0.57,  pct: 0.4,  ch: 61 },
+    { nome: "Transcrição",         chave: "TRANSCRIPTION",       inp: 0.21,  out: 0.07,  total: 0.27,  pct: 0.2,  ch: 10 }
+  ];
+
+  const DIAS = [
+    ["07/07",0.169,11,1586],["08/07",8.327,360,2099],["09/07",17.404,746,2014],["10/07",8.290,393,1929],
+    ["11/07",11.330,480,2075],["12/07",2.728,106,1944],["13/07",2.711,133,1845],["14/07",1.482,53,1885],
+    ["15/07",5.293,229,2033],["16/07",3.706,144,2130],["17/07",3.952,179,1977],["18/07",7.197,286,2256],
+    ["19/07",3.296,135,2377],["20/07",5.643,219,2265],["21/07",8.402,245,2301],["22/07",4.792,190,2360],
+    ["23/07",10.850,412,2296],["24/07",1.761,60,2699],["25/07",6.145,233,73],["26/07",1.247,45,83],
+    ["27/07",8.919,390,71],["28/07",10.971,471,70],["29/07",7.420,359,166],["30/07",1.777,57,153]
+  ];
+
+  const TOKENS = [
+    { nome: "Checkpoint Manager", ia: 11122, id: 9302,  oa: 2341, od: 76,  em: true },
+    { nome: "Response Auditor",   ia: 15275, id: 13299, oa: 112,  od: 127 },
+    { nome: "Integration Manager",ia: 12613, id: 10955, oa: 92,   od: 100 },
+    { nome: "Copywriter",         ia: 11265, id: 7914,  oa: 163,  od: 154 },
+    { nome: "Information Manager",ia: 1694,  id: 1818,  oa: 206,  od: 146 }
+  ];
+
+  const TAXA = [
+    { nome: "Information Manager", v: 0.0025 }, { nome: "Copywriter", v: 0.0025 },
+    { nome: "Response Auditor", v: 0.0025 },    { nome: "Integration Manager", v: 0.0025 },
+    { nome: "Checkpoint Manager", v: 0.00449, alerta: true }
+  ];
+
+  /* ---------- 1. barras horizontais: custo por agente ---------- */
+  (() => {
+    const svg = document.getElementById("c-agentes");
+    const W = 760, LW = 168, RW = 62, BH = 22, GAP = 11;
+    const H = AGENTES.length * (BH + GAP) - GAP + 26;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const max = AGENTES[0].total, plot = W - LW - RW;
+    const x = v => (v / max) * plot;
+
+    [0, .25, .5, .75, 1].forEach(f => {
+      const g = el("g", { class: "grid" });
+      g.appendChild(el("line", { x1: LW + plot * f, x2: LW + plot * f, y1: 0, y2: H - 26 }));
+      svg.appendChild(g);
+      const t = el("text", { x: LW + plot * f, y: H - 10, "text-anchor": f === 0 ? "start" : (f === 1 ? "end" : "middle") });
+      t.textContent = fmt(max * f, 0); svg.appendChild(t);
+    });
+    AGENTES.forEach((a, i) => {
+      const y = i * (BH + GAP);
+      const lab = el("text", { x: LW - 12, y: y + BH / 2 + 4, "text-anchor": "end",
+                               class: a.em ? "lbl-em" : "lbl" });
+      lab.textContent = a.nome; svg.appendChild(lab);
+
+      const r = el("rect", { x: LW, y, width: Math.max(x(a.total), 2), height: BH, rx: 4,
+        fill: a.em ? "var(--accent)" : "var(--accent)", opacity: a.em ? 1 : .48 });
+      r.style.cursor = "crosshair";
+      const detalhe = a.inp === null
+        ? "mensagem enviada, recebida e lead ativo"
+        : `input <b>${fmt(a.inp)}</b> · output <b>${fmt(a.out)}</b>`;
+      const info = `${a.nome}<br>USD <b>${fmt(a.total)}</b> · ${fmt(a.pct, 1)}%<br>${detalhe}` +
+                   (a.ch ? `<br>${int(a.ch)} chamadas` : "");
+      r.addEventListener("mousemove", e => show(e, info));
+      r.addEventListener("mouseleave", hide);
+      svg.appendChild(r);
+
+      const v = el("text", { x: LW + x(a.total) + 9, y: y + BH / 2 + 4, class: "val" });
+      v.textContent = fmt(a.total); svg.appendChild(v);
+    });
+  })();
+
+  /* ---------- 2. linha: degrau do output ---------- */
+  (() => {
+    const svg = document.getElementById("c-degrau");
+    const W = 760, H = 260, ML = 46, MR = 16, MT = 26, MB = 40;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const pw = W - ML - MR, ph = H - MT - MB, max = 2800;
+    const x = i => ML + (i / (DIAS.length - 1)) * pw;
+    const y = v => MT + ph - (v / max) * ph;
+
+    [0, 700, 1400, 2100, 2800].forEach(v => {
+      const g = el("g", { class: "grid" });
+      g.appendChild(el("line", { x1: ML, x2: W - MR, y1: y(v), y2: y(v) }));
+      svg.appendChild(g);
+      const t = el("text", { x: ML - 9, y: y(v) + 4, "text-anchor": "end" });
+      t.textContent = int(v); svg.appendChild(t);
+    });
+
+    // marcador do degrau
+    const xi = 18; // 25/07
+    const band = el("rect", { x: x(xi) - 2, y: MT, width: W - MR - x(xi) + 2, height: ph,
+                              fill: "var(--accent-soft)", opacity: .55 });
+    svg.appendChild(band);
+    const vline = el("line", { x1: x(xi), x2: x(xi), y1: MT, y2: MT + ph,
+      stroke: "var(--accent)", "stroke-width": 1.5, "stroke-dasharray": "3 3" });
+    svg.appendChild(vline);
+    const ann = el("text", { x: x(xi) + 7, y: MT + 12, class: "val" });
+    ann.textContent = "25/07 — otimização"; svg.appendChild(ann);
+
+    const area = el("path", {
+      d: `M${x(0)},${y(0)} ` + DIAS.map((d, i) => `L${x(i)},${y(d[3])}`).join(" ") +
+         ` L${x(DIAS.length - 1)},${y(0)} Z`,
+      fill: "var(--accent)", opacity: .12 });
+    svg.appendChild(area);
+    const line = el("path", {
+      d: DIAS.map((d, i) => `${i ? "L" : "M"}${x(i)},${y(d[3])}`).join(" "),
+      fill: "none", stroke: "var(--accent)", "stroke-width": 2,
+      "stroke-linejoin": "round", "stroke-linecap": "round" });
+    svg.appendChild(line);
+
+    DIAS.forEach((d, i) => {
+      if (i % 3 === 0 || i === DIAS.length - 1) {
+        const t = el("text", { x: x(i), y: H - 14, "text-anchor": "middle" });
+        t.textContent = d[0]; svg.appendChild(t);
+      }
+      const last = i === DIAS.length - 1;
+      svg.appendChild(el("circle", { cx: x(i), cy: y(d[3]), r: last ? 4.5 : 3,
+        fill: last ? "var(--accent)" : "var(--surface)",
+        stroke: "var(--accent)", "stroke-width": 2 }));
+      const hit = el("circle", { cx: x(i), cy: y(d[3]), r: 14, fill: "transparent" });
+      hit.style.cursor = "crosshair";
+      hit.addEventListener("mousemove", e => show(e,
+        `${d[0]}<br>output <b>${int(d[3])}</b> tokens/chamada<br>gasto do dia USD <b>${fmt(d[1], 2)}</b><br>${int(d[2])} chamadas`));
+      hit.addEventListener("mouseleave", hide);
+      svg.appendChild(hit);
+    });
+  })();
+
+  /* ---------- 3. antes / depois ---------- */
+  (() => {
+    const svg = document.getElementById("c-antesdepois");
+    const W = 760, H = 132;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const LW = 168, RW = 96, plot = W - LW - RW, max = 0.0280;
+    const D = [
+      { k: "21 – 24/07 · antes", v: 0.02634, n: 907,  o: .48 },
+      { k: "25 – 29/07 · depois", v: 0.02110, n: 1274, o: 1 }
+    ];
+    D.forEach((d, i) => {
+      const y = 18 + i * 46, BH = 26;
+      const lab = el("text", { x: LW - 12, y: y + BH / 2 + 4, "text-anchor": "end",
+                               class: i ? "lbl-em" : "lbl" });
+      lab.textContent = d.k; svg.appendChild(lab);
+      const r = el("rect", { x: LW, y, width: (d.v / max) * plot, height: BH, rx: 4,
+                             fill: "var(--accent)", opacity: d.o });
+      r.style.cursor = "crosshair";
+      r.addEventListener("mousemove", e => show(e,
+        `${d.k}<br>USD <b>${fmt(d.v, 5)}</b> por chamada<br>${int(d.n)} chamadas na janela`));
+      r.addEventListener("mouseleave", hide);
+      svg.appendChild(r);
+      const v = el("text", { x: LW + (d.v / max) * plot + 9, y: y + BH / 2 + 4, class: "val" });
+      v.textContent = fmt(d.v, 5); svg.appendChild(v);
+    });
+    const dl = el("text", { x: LW + plot * (0.02110 / max) + 72, y: 18 + 46 + 13 + 4, class: "val" });
+    dl.setAttribute("fill", "var(--accent-deep)");
+    dl.textContent = "−19,9%"; svg.appendChild(dl);
+  })();
+
+  /* ---------- 4. taxa efetiva ---------- */
+  (() => {
+    const svg = document.getElementById("c-taxa");
+    const W = 760, LW = 168, RW = 152, BH = 22, GAP = 12;
+    const H = TAXA.length * (BH + GAP) - GAP + 8;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const plot = W - LW - RW, max = 0.005;
+    TAXA.forEach((t, i) => {
+      const y = i * (BH + GAP);
+      const lab = el("text", { x: LW - 12, y: y + BH / 2 + 4, "text-anchor": "end",
+                               class: t.alerta ? "lbl-em" : "lbl" });
+      lab.textContent = t.nome; svg.appendChild(lab);
+      const r = el("rect", { x: LW, y, width: (t.v / max) * plot, height: BH, rx: 4,
+        fill: t.alerta ? "var(--critical)" : "var(--accent)", opacity: t.alerta ? 1 : .55 });
+      r.style.cursor = "crosshair";
+      r.addEventListener("mousemove", e => show(e, `${t.nome}<br>USD <b>${fmt(t.v, 5)}</b> por mil tokens de input`
+        + (t.alerta ? "<br>1,8× a tarifa dos demais" : "")));
+      r.addEventListener("mouseleave", hide);
+      svg.appendChild(r);
+      const v = el("text", { x: LW + (t.v / max) * plot + 9, y: y + BH / 2 + 4, class: "val" });
+      if (t.alerta) v.setAttribute("fill", "var(--critical)");
+      v.textContent = fmt(t.v, 5) + (t.alerta ? "  ·  após 25/07" : ""); svg.appendChild(v);
+    });
+  })();
+
+  /* ---------- tabelas ---------- */
+  (() => {
+    const delta = (a, b) => { const p = ((b - a) / a) * 100;
+      return (p > 0 ? "+" : "") + fmt(p, 0) + "%"; };
+    document.getElementById("t-tokens").innerHTML = TOKENS.map(t => `
+      <tr class="${t.em ? "em" : ""}">
+        <td>${t.nome}</td><td>${int(t.ia)}</td><td>${int(t.id)}</td><td>${delta(t.ia, t.id)}</td>
+        <td>${int(t.oa)}</td><td>${int(t.od)}</td>
+        <td${t.em ? ' style="color:var(--accent-deep)"' : ""}>${delta(t.oa, t.od)}</td>
+      </tr>`).join("");
+
+    document.getElementById("t-agentes").innerHTML = AGENTES.map(a => `
+      <tr class="${a.em ? "em" : ""}">
+        <td>${a.nome}</td>
+        <td>${a.inp === null ? "—" : fmt(a.inp)}</td>
+        <td>${a.out === null ? "—" : fmt(a.out)}</td>
+        <td>${fmt(a.total)}</td><td>${fmt(a.pct, 1)}%</td>
+        <td>${a.ch ? int(a.ch) : "—"}</td>
+      </tr>`).join("");
+  })();
+})();
+</script>
+<script>
+(() => {
+  const root = document.documentElement, btn = document.getElementById("themebtn"),
+        lbl = document.getElementById("themelbl");
+  const store = { get(){ try { return localStorage.getItem("tema"); } catch(e){ return null; } },
+                  set(v){ try { localStorage.setItem("tema", v); } catch(e){} } };
+  const escuroPorPadrao = () => matchMedia("(prefers-color-scheme: dark)").matches;
+  const aplica = t => { root.setAttribute("data-theme", t);
+                        lbl.textContent = t === "dark" ? "Claro" : "Escuro"; };
+  aplica(store.get() || (escuroPorPadrao() ? "dark" : "light"));
+  btn.addEventListener("click", () => {
+    const t = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    aplica(t); store.set(t);
+  });
+})();
+</script>
+
+
+</body>
+</html>

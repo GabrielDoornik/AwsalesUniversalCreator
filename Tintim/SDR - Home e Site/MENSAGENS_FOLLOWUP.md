@@ -32,7 +32,7 @@ ENVIAR (SEND) quando:
 - O lead é agência ou gestor e parou antes de confirmar a dor ou o interesse no Programa de Parceiros.
 - Os horários da reunião foram oferecidos e o lead não escolheu nenhum.
 - O lead levantou objeção de agendar (falta de tempo, prefere por escrito, não gosta de call, precisa falar com o sócio) e não respondeu ao contorno.
-- O lead pediu para retomar depois, ou a Ana prometeu voltar.
+- O lead pediu para retomar depois, ou a Clara prometeu voltar.
 
 NÃO ENVIAR (SKIP) quando:
 - Houve recusa clara ou pedido para não ser mais contatado.
@@ -83,7 +83,7 @@ A demanda pede lembretes automáticos até o comparecimento, para reduzir no-sho
 Por isso as orientações acima mandam SKIP quando a reunião já está agendada: sem isso, o follow-up ficaria cutucando quem já marcou, com mensagem comercial fora de hora.
 
 Para o lembrete de comparecimento existem 3 caminhos, a decidir com o cliente:
-1. Agente Meeting Keeper como segundo agente do funil (casca nativa especializada em garantir presença em reunião já agendada). Se for esse, ele precisa se chamar Ana também, para o lead não sentir troca de atendente.
+1. Agente Meeting Keeper como segundo agente do funil (casca nativa especializada em garantir presença em reunião já agendada). Se for esse, ele precisa se chamar Clara também, para o lead não sentir troca de atendente.
 2. Lembretes nativos do próprio Cal.com (e-mail/agenda), sem passar pelo WhatsApp.
 3. Disparo agendado a partir do horário da reunião (usar o {{horario_reuniao}} e o {{link_reuniao}} que a tool de agendamento já devolve).
 

@@ -9,7 +9,7 @@ Esta NÃO é uma tool (a IA não chama). É a integração de **input** da campa
 - Quando um booking é criado, remarcado ou cancelado no Cal.com (event type Análise de Parceria IA, time Tintim Parcerias), o Cal dispara um webhook.
 - O n8n recebe, normaliza para o formato de evento de reunião da AWSales e registra na plataforma.
 - A AWSales passa a ter a reunião com seus dados de metadata, que a campanha Lembrete usa: `{{metadata.meeting.uid}}`, `{{metadata.meeting.start_time}}`, `{{metadata.meeting.location.url}}`.
-- Loop fechado: como as tools `@agendar_reuniao` e `@cancelar_reuniao` (a construir) provocam BOOKING_CREATED / BOOKING_CANCELLED no Cal, esses eventos voltam por aqui e atualizam/encerram a reunião na AWSales, reprogramando ou cancelando os lembretes automaticamente.
+- Loop fechado: como as tools `@agendar_reuniao` e `@cancelar_reuniao` (as duas já construídas) provocam BOOKING_CREATED / BOOKING_CANCELLED no Cal, esses eventos voltam por aqui e atualizam/encerram a reunião na AWSales, reprogramando ou cancelando os lembretes automaticamente.
 
 ## Dados fixos
 
@@ -53,4 +53,6 @@ Confirmar no painel da AWSales os tokens exatos dessas variáveis, conforme o ob
 
 - O webhook do Cal chega com `x-cal-signature-256: no-secret-provided` — sem assinatura. Para produção, configurar um secret no webhook do Cal e validar no n8n.
 - O webhook `integracao-cal` do n8n não tem auth própria.
+- O nó `Registra reunião AWSales` está sem `On Error: Continue` (o equivalente no fluxo kommo-cal tem). Se a AWSales devolver erro, a execução falha sem tratamento e a reunião não é registrada silenciosamente. Padronizar.
+- Nós com nome default a batizar: `Webhook1`. O nó Code no canvas é "Normaliza reunião" (com acento), igual ao `.js`.
 - Confirmar que a AWSales de fato materializa `{{metadata.meeting.uid}}` como variável da campanha (o normalizador já manda o uid; falta validar o lado plataforma / re-registrar a integração se o objeto de reunião ainda tiver sido criado com um payload antigo sem uid).

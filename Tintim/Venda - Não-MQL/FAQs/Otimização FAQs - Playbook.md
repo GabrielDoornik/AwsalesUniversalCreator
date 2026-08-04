@@ -16,7 +16,7 @@ Nenhuma.
 
 ## Ponto de atenção (não é edição, é para observar no teste)
 
-O prompt de extração de Playbook força "profundidade psicológica", então quase toda resposta abre diagnosticando um medo ("a emoção é insegurança", "há receio de sobrecarga", etc.). Isso é instrução ao agente sobre como LER a objeção, não texto que o lead vê, e as ações recomendadas são corretas (validar, uma pergunta, reframe ao mecanismo). Risco baixo. Só observar no teste se a Ana começa a psicologizar demais na fala (soar terapeuta com um dono de negócio ocupado). Se acontecer, ajusta-se pelo tom no checkpoint, não pela FAQ.
+O prompt de extração de Playbook força "profundidade psicológica", então quase toda resposta abre diagnosticando um medo ("a emoção é insegurança", "há receio de sobrecarga", etc.). Isso é instrução ao agente sobre como LER a objeção, não texto que o lead vê, e as ações recomendadas são corretas (validar, uma pergunta, reframe ao mecanismo). Risco baixo. Só observar no teste se a Clara começa a psicologizar demais na fala (soar terapeuta com um dono de negócio ocupado). Se acontecer, ajusta-se pelo tom no checkpoint, não pela FAQ.
 
 ## ATIVAR (todas as 15)
 

@@ -58,10 +58,12 @@ Cuidado conhecido: já aconteceu de o campo telefone ficar com a descrição do 
 Desenho:
 ```
 Webhook -> Prepara dados -> Busca lead por telefone -> Avalia busca -> Switch
-   |- achou     -> Move card ------------------------------------------------|
-   |- nao_achou -> Busca contato por telefone -> Monta body -> Cria card ----|-> Monta resposta -> Respond to Webhook
-   |- erro      -------------------------------------------------------------|
+   |- achou     -> Move card ------------------------------------------------|                    |-> Respond to Webhook
+   |- nao_achou -> Busca contato por telefone -> Monta body -> Cria card ----|-> Monta resposta -> |
+   |- erro      -------------------------------------------------------------|                    |-> Filtra handoff -> Chama kommo-cal
 ```
+
+O ramo `Filtra handoff -> Chama kommo-cal` não faz parte da tool: é o gatilho do handoff do não-MQL, que abre a campanha de Venda quando a etapa é "Oferta Enviada". Documentado em `CONFIG_HANDOFF_NAO_MQL.md`; código em `Atualizar Card/Filtra handoff.js`. Ele tem duas correções pendentes (ver Pendências no fim deste arquivo).
 
 ### 1. Webhook
 - POST, path `tintim-kommo-card`
@@ -134,10 +136,14 @@ Nota: no Move card e no Monta body usa-se `$('Prepara dados')` em vez de `$json`
 Recebe as três rotas. Nas rotas achou/nao_achou existe `id`; na rota erro não existe, e o ok sai false sozinho.
 Codigo canonico (conferido contra o export real do n8n em 2026-07-22): `Atualizar Card/Monta resposta.js`.
 
+Ele tem DUAS saídas: `Respond to Webhook` (a tool) e `Filtra handoff` (o ramo de handoff do não-MQL).
+
 ### 11. Respond to Webhook
 - Respond With: First Incoming Item
 
 Resposta para a IA: `{ "ok": true, "lead_id": 22796842, "etapa": "Oferta Enviada" }`
+
+Posição no canvas importa: com `executionOrder: v1` o n8n executa os ramos na ordem da posição (de cima para baixo). Hoje o `Filtra handoff` está em y 624 e o `Respond to Webhook` em y 816, então a cadeia de handoff roda ANTES de a tool responder. Ver Pendências.
 
 ---
 
@@ -164,6 +170,8 @@ O mapeamento da etapa depende do texto chegar com acento correto ("Qualificaçã
 
 ## Pendências conhecidas
 
+- Ramo de handoff, ordem de execução: subir o `Respond to Webhook` para uma posição acima do `Filtra handoff` (y menor que 624). Hoje a tool `@atualizar_card_no_crm` só responde depois de `Filtra handoff -> Chama kommo-cal -> kommo-cal -> AWSales` terminar, somando latência e risco de timeout justamente na etapa "Oferta Enviada".
+- Ramo de handoff, disparo indevido: o `Filtra handoff` só olha o `status_id` do `Prepara dados` e ignora o próprio input. Na rota `erro` da busca (401/500) ou se o `Cria card` falhar, o card não entra em Oferta Enviada mas o handoff dispara igual, abrindo a campanha de Venda para um lead sem card. Fix de uma linha: `if (!$input.first().json.ok) return [];`
 - O `resumo` é recebido mas não é gravado no card. Falta um nó de nota (POST `/api/v4/leads/{id}/notes`, body em array) depois do Monta resposta. Sem ele, o time da Tintim vê o card sem o contexto da qualificação.
 - Etapa desconhecida (ou com acento corrompido) vira `status_id: null` e a criação falha (Kommo 400). Vale validar no Prepara dados e devolver um erro explícito em vez de mandar null.
 - Telefone sem DDI (ex: `11999999999` em vez de `5511999999999`) pode não bater com o formato E.164 do Kommo e furar o dedup. A descrição do campo pede DDI; reforçar se aparecer.

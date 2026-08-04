@@ -30,7 +30,7 @@ Olá, tudo bem?
 
 Sua conta no Buscador Automático já está criada, mas o cadastro do seu perfil de viagens ainda não foi preenchido.
 
-É o passo que falta para concluir seu cadastro. São algumas perguntas sobre o seu jeito de viajar e leva cerca de cinco minutos.
+É bem rápido e é o que falta para concluir seu cadastro. São algumas perguntas para a equipe entender o seu perfil de viagem.
 
 Toque em Continuar que eu te envio o formulário.
 ```
@@ -73,49 +73,39 @@ Categoria Meta: UTILITY
 Nome sugerido: `falcao_onboarding2_perfil_pendente`
 Momento: quando o cliente não interagiu com a abertura, ou interagiu e não preencheu, e a janela de 24 horas já fechou.
 
-Cabeçalho (texto):
-```
-Perfil de viagens pendente
-```
+Texto do cliente, sem cabeçalho e sem rodapé.
 
 Corpo:
 ```
-Olá, tudo bem?
+Vi que você ainda não completou seu perfil... e por isso, você não conseguiu acessar o Buscador.
 
-Passando para lembrar: o cadastro do perfil de viagens do seu Buscador Automático continua pendente.
+Essa etapa é mais simples do que parece, e é importante para você ter acesso as passagens baratas que o Buscador mostra.
 
-São dezesseis perguntas de múltipla escolha, leva cerca de cinco minutos, e é o que falta para concluir seu cadastro.
+Te prometo que é bem rápido!
 
-Toque em Continuar que eu te envio o formulário.
+Consegue terminar agora de responder rapidinho as perguntas para você finalmente ver as passagens que você precisa com desconto?
 ```
 
-Rodapé:
+Botão (resposta rápida):
 ```
-Passo necessário para concluir seu cadastro
-```
-
-Botões (resposta rápida):
-```
-[ Continuar ]  [ Preciso de ajuda ]
+[ COMPLETAR MEU PERFIL ]
 ```
 
-### O que mudou em relação ao texto do cliente
+### Única alteração no texto do cliente
 
-O cliente escreveu dois templates encadeados, a e b, com o botão no segundo. Na AWSales isso vira um template só, com o botão nele.
+Saiu `{{first_name}}`, que abria a primeira frase. Nada mais foi tocado.
 
-Quatro coisas saíram, e três delas pelo mesmo motivo que derrubou o follow-up do Onboarding 1 em Marketing:
+O cliente escreveu dois textos encadeados, a e b. Viraram um template só, porque o botão vive no segundo e cada template é uma mensagem.
 
-"acesso as passagens baratas que o Buscador mostra" e "finalmente ver as passagens que você precisa com desconto" são linguagem de benefício. Utility precisa ser instrução seca sobre um passo pendente de algo que a pessoa já comprou. Foi exatamente esse tipo de frase que causou a reclassificação da outra campanha.
+### Riscos conhecidos, mantidos por decisão do cliente
 
-"Te prometo que é bem rápido" foi trocado pelo número real. São dezesseis perguntas e cerca de cinco minutos. Minimizar aumenta o abandono no meio do formulário, que é pior do que a pessoa adiar e preencher inteiro depois, porque quem para no meio não fica registrado.
+"Passagens baratas", "finalmente ver as passagens que você precisa com desconto" e "acesso as passagens" são linguagem de benefício. É o que mais pesa para a Meta classificar como Marketing em vez de Utility, e foi por aí que o follow-up do Onboarding 1 caiu. Se este voltar reprovado, começar removendo essas expressões.
 
-"e por isso, você não conseguiu acessar o Buscador" saiu porque provavelmente é falso para este público. Quem está nesta campanha já criou a conta e já entrou; é justamente por isso que ele chegou aqui. Afirmar que ele não conseguiu acessar erra na cara de quem está dentro. Se o cliente confirmar que o Buscador realmente trava sem o perfil preenchido, dá para reintroduzir a ideia, mas com a formulação correta, algo como "para liberar o uso completo".
+"E por isso, você não conseguiu acessar o Buscador" é uma afirmação sobre o cliente. Ela se sustenta se o Buscador realmente ficar bloqueado sem o perfil preenchido, o que a tela de abertura do formulário sugere ao dizer que a pessoa preenche para ser direcionada ao Buscador. Confirmar com o cliente. Se o bloqueio não for real, a frase erra na cara de quem já está usando a plataforma.
 
-A variável `{{first_name}}` saiu. Templates desta operação vão sem variável.
+O botão precisa ser resposta rápida, nunca URL. Botão de URL não devolve mensagem, não abre a janela e a IA nunca entra na conversa para mandar o formulário.
 
-### Atenção na submissão
-
-Este template é parecido com o de abertura da mesma campanha, e a Meta reprova duplicata. As diferenças que sustentam os dois são o cabeçalho, a formulação de pendência que continua, e a menção ao número de perguntas. Se um dos dois voltar como duplicado, o caminho é encurtar a abertura e deixar o número de perguntas só no follow-up.
+O texto do cliente traz "acesso as passagens" sem crase. Correção opcional, não alterei.
 
 ---
 

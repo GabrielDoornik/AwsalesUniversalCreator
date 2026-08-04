@@ -4,7 +4,7 @@ Objetivo: reduzir no-show da reunião do Programa de Parceiros.
 
 Regras:
 - Templates HSM (disparam fora da janela de 24h) — aprovar na Meta, categoria Utility.
-- Sem emoji e sem variáveis. O horário e o link vão no convite do Cal (e-mail + Google Agenda); a Ana passa os detalhes exatos na conversa quando o lead responde.
+- Sem emoji e sem variáveis. O horário e o link vão no convite do Cal (e-mail + Google Agenda); a Clara passa os detalhes exatos na conversa quando o lead responde.
 - Não incentivar cancelamento nem remarcação na abertura. O caminho de remarcar/cancelar é tratado pelo checkpoint só quando o lead diz que não consegue ir.
 
 ## 1. Abertura de janela (dispara na hora que a reunião é agendada)

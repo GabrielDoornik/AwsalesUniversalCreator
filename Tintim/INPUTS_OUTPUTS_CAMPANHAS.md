@@ -9,7 +9,7 @@ Organização Tintim na AWSales: `effffee8-1d6a-49e5-8c91-8309d1af6e4f`.
 | Campanha | Tipo | INPUT | OUTPUT (Evento de Conversão) | Status |
 |---|---|---|---|---|
 | SDR - Home e Site | Receptiva (inbound) | Lead chega pelo botão de WhatsApp do site (sem evento ativo) | CAL-INTEGRACAO / Reunião Programa de Parceiros (2153406) / Evento Agendado | Ativa |
-| Venda - Não-MQL | Ativa (abre com template) | KOMMO-NAO-MQL / SDR Tintim - Nao-MQL (`sdr-nao-mql`) / CUSTOM_ACTION | Vindi: assinatura paga (PENDENTE) | Input pronto; output pendente |
+| Venda - Não-MQL | Ativa (abre com template) | KOMMO-NAO-MQL / SDR Tintim - Nao-MQL (`sdr-nao-mql`) / CUSTOM_ACTION | OUTPUT-VENDAS / Vindi `subscription_created` | Input pronto; output construído no n8n, não liberado |
 | Lembrete - Comparecimento | Ativa (abertura + Sequência de Lembretes) | CAL-INTEGRACAO / Reunião Programa de Parceiros (2153406) / meeting_scheduled | Não tem evento de conversão (comparecimento não é detectável; cancelamento é tratado no nível da reunião) | Ativa |
 
 ## 1. SDR - Home e Site
@@ -38,13 +38,15 @@ Organização Tintim na AWSales: `effffee8-1d6a-49e5-8c91-8309d1af6e4f`.
           -> POST custom_action no endpoint kommo-nao-mql (source.id sdr-nao-mql)
             -> abre a campanha de Venda com o lead
   ```
-- Validado ponta a ponta em 2026-07-24 (retornou 201, payload custom_action correto).
-- OUTPUT (Evento de Conversão): assinatura criada na Vindi (`subscription_created`). EM CONSTRUÇÃO — endpoints prontos, aguardando o payload real da Vindi (24/07/2026).
+- Validado ponta a ponta em 2026-07-24 (retornou 201, payload custom_action correto). Doc reproduzível do handoff: `Integrações n8n/Kommo/CONFIG_HANDOFF_NAO_MQL.md`.
+- OUTPUT (Evento de Conversão): assinatura criada na Vindi (`subscription_created`). CONSTRUÍDO NO N8N, NÃO LIBERADO (auditoria de 30/07/2026). Doc completa: `Integrações n8n/Vindi/CONFIG_OUTPUT_VINDI.md`.
   - Checkout: Vindi (Plano Inicial e Plano Escala — ver `Insumos/Link de checkout/`).
-  - Plano: webhook de notificação da Vindi no evento de fatura paga -> n8n -> output da AWSales -> Venda para de vender; card -> "Venda ganha".
+  - Plano: webhook de notificação da Vindi no evento de assinatura criada -> n8n -> output da AWSales -> Venda para de vender; card -> "Venda ganha".
   - Evento escolhido: `subscription_created` (assinatura criada). Dispara uma vez, no signup — o `bill_paid`/fatura paga dispararia todo mês na renovação, por isso não serve. (Ressalva: assume checkout no cartão; com boleto a assinatura pode ser criada antes de pagar — refinar depois se preciso.)
-  - Endpoints prontos (24/07/2026): webhook n8n que recebe da Vindi = `https://n8n.nonprod.awsales.io/webhook/integracao-vindi`; endpoint de output da AWSales = `.../organizations/effffee8-1d6a-49e5-8c91-8309d1af6e4f/credentials/output-vendas`.
-  - Falta: (1) o Jorge ativar o webhook na Vindi apontando pro `integracao-vindi`; (2) capturar o payload real que a Vindi mandar; (3) montar o normalizer no fluxo n8n `integracao-vindi` (payload Vindi -> schema de output da AWSales) que posta no `output-vendas`; (4) setar o Evento de Conversão da Venda para a plataforma OUTPUT-VENDAS + evento subscription_created.
+  - Endpoints: webhook n8n que recebe da Vindi = `https://n8n.nonprod.awsales.io/webhook/integracao-vindi`; endpoint de output da AWSales = `.../organizations/effffee8-1d6a-49e5-8c91-8309d1af6e4f/credentials/output-vendas`.
+  - FEITO: (1) Jorge ativou o webhook na Vindi; (2) payload real capturado em 25/07/2026 (evento `subscription_created`, subscription id 77088492, gravado no pinData do Webhook4); (3) normalizer montado no fluxo `integracao-vindi` (Webhook4 -> Code in JavaScript -> HTTP Request).
+  - FALTA: (4) resolver o casamento do lead, que é BLOQUEADOR (ver abaixo); (5) setar o Evento de Conversão da Venda para a plataforma OUTPUT-VENDAS + evento subscription_created; (6) teste ponta a ponta.
+  - BLOQUEADOR (casamento do lead): o input e o output não têm nenhum campo em comum. O lead entra na Venda pelo `kommo-nao-mql` com telefone real e e-mail MOCKADO (`<telefone>@naoinformado.tintim.app`, porque o schema exige e-mail e o não-MQL não informou nenhum); o output da Vindi manda o e-mail REAL do comprador e `lead.phone` VAZIO. Casando por telefone, o output não tem; casando por e-mail, o do input é falso. Nos dois casos a campanha nunca encerra e a IA segue vendendo para quem já comprou. Conserto: preencher `lead.phone` no normalizer a partir do customer da Vindi e confirmar no painel qual campo é a chave de casamento.
   - O lado "perdido" (lead não responde / recusa) não precisa da Vindi — o follow-up encerra quando esgota as tentativas; card -> "Venda perdida".
 
 ## 3. Lembrete - Comparecimento
@@ -68,15 +70,19 @@ Organização Tintim na AWSales: `effffee8-1d6a-49e5-8c91-8309d1af6e4f`.
 - Endpoints de input/output da AWSales (base `.../organizations/effffee8-1d6a-49e5-8c91-8309d1af6e4f/credentials/`):
   - `cal-integracao` (reuniões: input do Lembrete, output do SDR)
   - `kommo-nao-mql` (handoff não-MQL: input da Venda)
+- Endpoint de output da AWSales: `output-vendas` (assinatura Vindi: output da Venda).
 - Webhooks n8n (base `https://n8n.nonprod.awsales.io/webhook/`):
   - `integracao-cal` — Cal.com -> AWSales (normaliza booking). Doc: `Integrações n8n/Cal.com/CONFIG_INTEGRACAO_CAL.md`.
   - `tintim-kommo-card` — tool @atualizar_card_no_crm (cria/move card) + ramo de handoff. Doc: `Integrações n8n/Kommo/CONFIG_TOOLS_KOMMO.md`.
-  - `kommo-cal` — recebe o handoff do tintim-kommo-card, normaliza e posta no kommo-nao-mql. (Nós: Webhook3 -> Normaliza handoff -> Registra na AWSales.)
+  - `kommo-cal` — recebe o handoff do tintim-kommo-card, normaliza e posta no kommo-nao-mql. (Nós: Webhook3 -> Normaliza handoff -> Registra na AWSales.) Doc: `Integrações n8n/Kommo/CONFIG_HANDOFF_NAO_MQL.md`.
+  - `integracao-vindi` — recebe a notificação da Vindi, filtra subscription_created e posta no output-vendas. (Nós: Webhook4 -> Code in JavaScript -> HTTP Request.) Doc: `Integrações n8n/Vindi/CONFIG_OUTPUT_VINDI.md`.
   - `tintim-cal-horarios`, `tintim-cal-agendar`, `tintim-cal-cancelar` — tools do Cal. Doc: `Integrações n8n/Cal.com/CONFIG_TOOLS_CAL.md`.
 
 ## Pendências
 
-- Venda: construir o OUTPUT (webhook Vindi de fatura paga -> n8n -> AWSales). Depende de acesso/config do painel Vindi do Tintim (Jorge).
+- Venda: liberar o OUTPUT. O fluxo n8n está construído e já recebeu payload real da Vindi; falta resolver o casamento do lead (bloqueador, ver seção 2) e setar o Evento de Conversão no painel.
 - Toda a integração roda no n8n `nonprod` — confirmar se as campanhas de produção não deveriam usar um n8n de produção (uma queda do nonprod derruba tudo).
 - Apagar o produto fantasma `AWSALES:effffee8-...` no cal-integracao.
-- Documentar os nós Code do fluxo kommo-cal (`Normaliza handoff`) e o ramo `Filtra handoff` do tintim-kommo-card em `.js`, no padrão dos outros.
+- Handoff do não-MQL: o `Filtra handoff` dispara mesmo quando a operação no CRM falhou (abre a Venda para lead sem card em Oferta Enviada) e está posicionado de forma que a cadeia de handoff roda antes de a tool responder à IA. Ver pendências em `Integrações n8n/Kommo/CONFIG_HANDOFF_NAO_MQL.md`.
+
+Feito em 30/07/2026: auditoria do canvas do n8n contra o repositório. Os 9 nós Code já versionados batem byte a byte; os 3 que faltavam (`Filtra handoff`, `Normaliza handoff`, normalizer da Vindi) foram documentados em `.js`, e os fluxos kommo-cal e integracao-vindi ganharam doc reproduzível.

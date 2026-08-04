@@ -11,7 +11,7 @@ Aprovada, sem edição nem remoção. Os guardrails contra os vieses do prompt d
 - Urgência sem escassez fictícia (custo de decidir no escuro, com os números do próprio lead).
 - Sem promessa de resultado: promessa central descrita como visibilidade/mensuração, "sem garantir aumento de vendas ou redução de CPL".
 - Redirect de MQL (agência/gestor 3+ clientes) para o Programa de Parceiros.
-- "Retome de onde a Ana parou": a FAQ de abertura não reinicia o pitch.
+- "Retome de onde a Clara parou": a FAQ de abertura não reinicia o pitch.
 
 ## REMOVER
 

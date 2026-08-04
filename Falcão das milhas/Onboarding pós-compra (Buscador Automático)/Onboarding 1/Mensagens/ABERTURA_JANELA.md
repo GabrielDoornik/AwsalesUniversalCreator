@@ -54,22 +54,22 @@ Categoria Meta: UTILITY
 Nome sugerido: `falcao_onboarding_pendencia_primeiro_acesso`
 Momento: 24 horas depois, apenas se o lead não interagiu com o Template 1 e o status segue E0.
 
-Versão 2, depois de a versão anterior ser classificada como Marketing pela Meta. Esta volta à estrutura que o cliente tinha desenhado.
+Versão 3, definida pelo cliente em 2026-07-28. É o texto original dele, sem as variáveis.
 
 Cabeçalho (texto):
 ```
-Cadastro de acesso pendente
+Alerta: Seu acesso pode expirar!
 ```
 
 Corpo:
 ```
 Olá, tudo bem?
 
-Sua compra do Buscador Automático foi confirmada, mas o seu primeiro acesso ainda não foi feito.
+Estou passando aqui pra te avisar que seu acesso ao Buscador Automático pode expirar se você não criar a sua conta agora.
 
-Para acessar e criar a sua conta, basta tocar em Continuar e seguir as instruções.
+É bem simples e rápido.
 
-É rápido, leva menos de dois minutos.
+Para fazer seu primeiro acesso e criar a sua conta no Buscador Automático, basta tocar em "Continuar" e seguir as instruções.
 ```
 
 Rodapé:
@@ -77,12 +77,12 @@ Rodapé:
 Passo necessário para acessar
 ```
 
-Botões (resposta rápida):
+Botão (resposta rápida):
 ```
-[ Continuar ]  [ Preciso de ajuda ]
+[ Continuar ]
 ```
 
-Sem variável e sem parâmetro. Texto puro.
+Sem variável e sem parâmetro. Um botão só, como o cliente desenhou.
 
 ### Por que a versão anterior caiu em Marketing
 
@@ -109,6 +109,53 @@ A versão condicional que evitava isso foi a que caiu em Marketing, porque condi
 ### Se cair de novo
 
 Nesta ordem: tirar o segundo botão e deixar só Continuar, exatamente como o cliente desenhou; depois encurtar o corpo para três linhas, cortando "É rápido, leva menos de dois minutos".
+
+---
+
+## Template 3 — Follow-up curto de primeiro acesso
+
+Categoria Meta: UTILITY
+Nome sugerido: `falcao_onboarding_primeiro_acesso_lembrete`
+Momento: primeiro toque após a abertura, quando o cliente não interagiu e o status segue E0.
+Base: texto do cliente, sem variáveis e sem a parte de urgência comercial.
+
+Sem cabeçalho e sem rodapé, como o cliente desenhou.
+
+Corpo:
+```
+Vi que você ainda não chegou a acessar o Buscador Automático...
+
+É importante você acessar agora, porque passagem boa não espera, e você pode perder uma boa oportunidade de emissão.
+
+É bem simples, para fazer o login, você vai colocar o e-mail que usou na compra, e depois criar sua senha.
+
+Basta tocar no botão abaixo, e fazer seu primeiro acesso:
+```
+
+Botões (resposta rápida):
+```
+[ ACESSAR BUSCADOR ]  [ Quero ajuda ]
+```
+
+### Única alteração no texto do cliente
+
+Saíram as duas variáveis, e só por impossibilidade técnica.
+
+`{{first_name}}` abria a frase e foi removido. A linha "Seu email de compra: {{email_compra}}" virou "o e-mail que usou na compra" dentro da frase seguinte.
+
+Motivo: quem recebe este template é justamente quem não interagiu, ou seja, com a janela fechada. Template não resolve variável de conversa; ela precisaria ser parâmetro preenchido no disparo, o que a plataforma não faz. O e-mail continua sendo entregue, só que na primeira mensagem nativa, logo depois do toque.
+
+O resto do texto é do cliente, incluindo a frase de urgência.
+
+### Riscos conhecidos, mantidos por decisão do cliente
+
+"Passagem boa não espera, e você pode perder uma boa oportunidade de emissão" é urgência comercial e promessa de oportunidade. É o tipo de frase que reclassificou o outro follow-up desta campanha como Marketing. Se este voltar reprovado, é por aí que se começa.
+
+Os botões precisam ser resposta rápida, nunca URL. Botão de URL não devolve mensagem, não abre a janela e a IA nunca entra na conversa. Consequência: quem toca em "ACESSAR BUSCADOR" recebe uma mensagem da IA com o link, e não cai direto no site.
+
+### Convivência com o Template 2
+
+São dois follow-ups da mesma campanha e a Meta reprova duplicata. Os ângulos são diferentes: este é o lembrete curto e prático do primeiro toque, o Template 2 é o alerta de expiração. Se um vier como duplicado, manter este e reescrever o outro.
 
 ---
 

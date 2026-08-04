@@ -116,7 +116,7 @@ Além do que já estava documentado (normalizar telefone em E.164 e o select do 
 Código canônico (conferido contra o export real do n8n em 2026-07-22): `Agendar Reunião/Monta confirmação.js`.
 
 Diferença do que estava documentado: a regex que classifica `dados_incompletos` NÃO inclui mais `no_show`. Hoje é `/booking field|required|invalid|phone|email|responses|not found/i`. Um erro do Cal contendo 'no_show' portanto cai em `horario_indisponivel`, não em `dados_incompletos`.
-Por que separar o motivo: antes, qualquer erro virava horario_indisponivel e o checkpoint mandava consultar horários de novo. Com campo obrigatório faltando isso vira laço infinito, porque repropor horário não conserta dado ausente. Agora dados_incompletos manda a Ana encaminhar para humano.
+Por que separar o motivo: antes, qualquer erro virava horario_indisponivel e o checkpoint mandava consultar horários de novo. Com campo obrigatório faltando isso vira laço infinito, porque repropor horário não conserta dado ausente. Agora dados_incompletos manda a Clara encaminhar para humano.
 
 5. Responde pra IA — nó Respond to Webhook, Respond With: First Incoming Item.
 
@@ -158,6 +158,8 @@ Recebe pedido (AWSales) -> Cancela no Cal.com -> Monta resposta -> Responde pra 
 3. Monta resposta — nó Code. Interpreta a resposta do Cal. Código canônico: `Cancelar Reunião/Monta resposta.js`.
 4. Responde pra IA — nó Respond to Webhook, Respond With: First Incoming Item.
 
+Atenção aos nomes reais no canvas (export de 2026-07-30): este fluxo ficou com os nomes default do n8n — `Webhook2`, `Cancela no Cal.com`, `Monta resposta1`, `Respond to Webhook1` — e sem sticky note de grupo. O `.js` está salvo como `Monta resposta.js` (nome bom); ao copiar, o nó de destino é o `Monta resposta1`. Renomear os nós no n8n para casar com esta doc.
+
 Respostas para a IA:
 - Sucesso: `{ ok: true }`
 - Já estava cancelada: `{ ok: true, ja_cancelada: true }` — idempotente. Cancelar um booking já cancelado devolve 400 no Cal ("has been cancelled already"), mas o objetivo já foi atingido, então tratamos como sucesso.
@@ -179,8 +181,8 @@ De `agendar_reuniao`:
 - `link_reuniao` <- `link_reuniao` (link da videochamada; enviar ao lead pelo WhatsApp)
 - `horario_reuniao` <- `inicio` (data/hora local já formatada, ex: 16/07/2026 às 10:30)
 - `id_reuniao` <- `uid` (id do booking; útil pra lembrete e pra gravar no Kommo)
-- `consultor_reuniao` <- `consultor` (NOVO 2026-07-20; nome do closer que o rodízio atribuiu, para a Ana dizer com quem é a reunião)
-- `motivo_falha_agendamento` <- `motivo` (NOVO 2026-07-20; horario_indisponivel ou dados_incompletos, para a Ana escolher entre repropor horário e escalar)
+- `consultor_reuniao` <- `consultor` (NOVO 2026-07-20; nome do closer que o rodízio atribuiu, para a Clara dizer com quem é a reunião)
+- `motivo_falha_agendamento` <- `motivo` (NOVO 2026-07-20; horario_indisponivel ou dados_incompletos, para a Clara escolher entre repropor horário e escalar)
 
 De `consultar_horarios_disponiveis`:
 - `horarios_disponiveis` <- `horarios` (lista de horários pra IA propor 2-3)

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Tintim — Como as campanhas estão configuradas</title>
+<style>
+  *,*::before,*::after { box-sizing:border-box; }
+  html,body { margin:0; padding:0; }
+
+  :root {
+    --ground:#F0F3F8; --surface:#FFFFFF; --zebra:#F7F9FD; --ink:#111317; --ink-2:#4A515C; --ink-3:#79818F;
+    --line:#D2DEEF; --line-soft:#E6EDF7; --azul:#1668E3; --azul-claro:#EAF1FB; --azul-escuro:#0B3A86;
+    --ok:#12764F; --ok-bg:#DFF3EA; --falta:#8A5A00; --falta-bg:#FCEFD4;
+    --sombra:0 1px 2px rgba(17,19,23,.05), 0 10px 28px -16px rgba(17,19,23,.18);
+    --mono:ui-monospace,"Cascadia Mono","SF Mono",Menlo,Consolas,monospace;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  }
+  @media (prefers-color-scheme:dark) {
+    :root { --ground:#0B0E13; --surface:#141920; --zebra:#171D25; --ink:#E9ECF2; --ink-2:#A2AAB8; --ink-3:#6E7686;
+      --line:#262E3A; --line-soft:#1E2530; --azul:#4A90F0; --azul-claro:#14243D; --azul-escuro:#7FB2F6;
+      --ok:#4FBF8F; --ok-bg:#12291F; --falta:#D9A441; --falta-bg:#2C2109;
+      --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7); }
+  }
+  :root[data-theme="light"] {
+    --ground:#F0F3F8; --surface:#FFFFFF; --zebra:#F7F9FD; --ink:#111317; --ink-2:#4A515C; --ink-3:#79818F;
+    --line:#D2DEEF; --line-soft:#E6EDF7; --azul:#1668E3; --azul-claro:#EAF1FB; --azul-escuro:#0B3A86;
+    --ok:#12764F; --ok-bg:#DFF3EA; --falta:#8A5A00; --falta-bg:#FCEFD4;
+    --sombra:0 1px 2px rgba(17,19,23,.05), 0 10px 28px -16px rgba(17,19,23,.18);
+  }
+  :root[data-theme="dark"] {
+    --ground:#0B0E13; --surface:#141920; --zebra:#171D25; --ink:#E9ECF2; --ink-2:#A2AAB8; --ink-3:#6E7686;
+    --line:#262E3A; --line-soft:#1E2530; --azul:#4A90F0; --azul-claro:#14243D; --azul-escuro:#7FB2F6;
+    --ok:#4FBF8F; --ok-bg:#12291F; --falta:#D9A441; --falta-bg:#2C2109;
+    --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+
+  body { background:var(--ground); color:var(--ink); font-family:var(--sans); line-height:1.5; }
+  .pg { max-width:1180px; margin:0 auto; padding:clamp(22px,4vw,48px) clamp(14px,3vw,26px) 60px;
+        display:flex; flex-direction:column; gap:clamp(22px,3vw,32px); }
+
+  .sel { font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); }
+  h1 { font-size:clamp(24px,3.6vw,34px); line-height:1.12; letter-spacing:-.024em; font-weight:800; margin:.3em 0 0; }
+  header { border-bottom:1px solid var(--line); padding-bottom:20px; }
+  header p { margin:12px 0 0; color:var(--ink-2); font-size:16.5px; max-width:62ch; }
+
+  .rolagem { overflow-x:auto; border:1px solid var(--line); border-radius:4px; background:var(--surface);
+             box-shadow:var(--sombra); }
+  table { border-collapse:collapse; width:100%; min-width:940px; }
+  th, td { text-align:left; vertical-align:top; padding:14px 16px; border-bottom:1px solid var(--line-soft);
+           border-right:1px solid var(--line-soft); }
+  th:last-child, td:last-child { border-right:0; }
+  thead th { background:var(--azul-claro); color:var(--ink); border-bottom:1px solid var(--line);
+             font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+             font-weight:700; white-space:nowrap; }
+  tbody tr:nth-child(even) { background:var(--zebra); }
+  tbody tr:last-child td { border-bottom:0; }
+  .n { font-family:var(--mono); color:var(--ink-3); font-size:13px; width:38px; text-align:center; }
+  .camp { font-weight:700; font-size:14.5px; width:190px; }
+  .camp span { display:block; font-weight:500; font-size:13px; color:var(--ink-2); margin-top:2px; }
+  td { font-size:14px; color:var(--ink); }
+  td small { display:block; color:var(--ink-3); font-size:12.5px; line-height:1.45; margin-top:2px; }
+  ul { margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:7px; }
+  li { padding-left:18px; position:relative; }
+  li::before { content:"✓"; position:absolute; left:0; color:var(--ok); font-weight:700; }
+  .mais { margin-top:9px; padding-top:9px; border-top:1px dashed var(--line); }
+
+  .conf { background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--azul);
+          border-radius:0 4px 4px 0; padding:18px 20px; display:flex; flex-direction:column; gap:13px;
+          box-shadow:var(--sombra); }
+  .conf h2 { font-size:16px; font-weight:750; margin:6px 0 0; }
+  ol { margin:0; padding-left:20px; display:flex; flex-direction:column; gap:10px; }
+  ol li { font-size:14.5px; padding-left:2px; color:var(--ink); }
+  ol li::before { content:none; }
+
+  footer { border-top:1px solid var(--line); padding-top:16px; font-size:12.5px; color:var(--ink-3); }
+  .tbtn { position:fixed; top:12px; right:12px; background:var(--surface); color:var(--ink-2);
+          border:1px solid var(--line); border-radius:3px; padding:6px 10px; cursor:pointer;
+          font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase; }
+  @media print { .tbtn { display:none; } :root { --ground:#fff; --sombra:none; }
+                 tr, .conf { break-inside:avoid; } table { min-width:0; font-size:11px; } }
+  @media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
+</style>
+</head>
+<body>
+<button class="tbtn" id="tb" type="button">Tema</button>
+
+<div class="pg">
+
+  <header>
+    <div class="sel">Tintim · IA no WhatsApp</div>
+    <h1>Como as campanhas estão configuradas</h1>
+    <p>O que faz a IA chamar o lead, o que faz ela parar, e o que ela consegue fazer hoje na conversa.</p>
+  </header>
+
+  <div class="rolagem">
+    <table>
+      <thead>
+        <tr>
+          <th class="n">#</th>
+          <th>Campanha</th>
+          <th>O que faz a IA chamar o lead</th>
+          <th>O que faz ela parar</th>
+          <th>O que ela consegue fazer hoje</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td class="n">1</td>
+          <td class="camp">SDR — Home e Site<span>Qualificar e agendar</span></td>
+          <td>O lead manda a primeira mensagem pelo botão de WhatsApp do site
+            <small>Campanha receptiva: a IA não abre conversa, ela responde.</small></td>
+          <td>A reunião é agendada
+            <small>O lead passa a receber os lembretes.</small>
+            <div class="mais">Ou: não é perfil de reunião
+              <small>A IA marca como não-MQL e entrega para a campanha de Venda.</small></div></td>
+          <td><ul>
+            <li>Qualifica o lead na conversa</li>
+            <li>Consulta os horários livres da agenda</li>
+            <li>Marca a reunião</li>
+            <li>Cancela e remarca quando o lead pede</li>
+            <li>Cria e move o card no Kommo</li>
+            <li>Faz follow-up quando o lead some</li>
+          </ul></td>
+        </tr>
+
+        <tr>
+          <td class="n">2a</td>
+          <td class="camp">Venda — não-MQL<span>Vindo do SDR</span></td>
+          <td>O SDR conversou, viu que não é perfil de reunião e passou o lead para cá</td>
+          <td>O lead não responde nem recusa até o fim do follow-up
+            <small>O card vai para “Venda perdida”.</small></td>
+          <td><ul>
+            <li>Abre a conversa com template aprovado</li>
+            <li>Responde produto, preço e objeções <small>pela base de conhecimento de vocês</small></li>
+            <li>Envia o link de checkout <small>Plano Inicial e Plano Escala</small></li>
+            <li>Move o card no Kommo conforme a conversa anda</li>
+            <li>Faz follow-up quando o lead some</li>
+          </ul></td>
+        </tr>
+
+        <tr>
+          <td class="n">2b</td>
+          <td class="camp">Venda — não-MQL<span>Direto do Kommo</span></td>
+          <td>O lead cai na coluna “Aguardando Contato”
+            <small>Trial e não-MQL de qualquer outra origem, sem ter falado com ninguém antes.</small></td>
+          <td>Igual ao 2a</td>
+          <td>Igual ao 2a</td>
+        </tr>
+
+        <tr>
+          <td class="n">3</td>
+          <td class="camp">Lembrete de reunião<span>Reduzir falta</span></td>
+          <td>A reunião é agendada
+            <small>Entra automaticamente, no momento do agendamento.</small></td>
+          <td>Sozinha, no horário da reunião
+            <small>Os lembretes são presos àquela reunião: se o lead cancela ou remarca, eles param ou se reprogramam sem ninguém mexer.</small></td>
+          <td><ul>
+            <li>Confirma o agendamento na hora</li>
+            <li>Lembra 8 horas antes</li>
+            <li>Lembra 1 hora antes</li>
+            <li>Responde o lead que escrever de volta</li>
+          </ul></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+  <footer>Tintim · configuração das campanhas — 31/07/2026</footer>
+</div>
+
+<script>
+(() => {
+  const r = document.documentElement, b = document.getElementById("tb");
+  const guarda = { ler(){ try { return localStorage.getItem("t"); } catch(e){ return null; } },
+                   gravar(v){ try { localStorage.setItem("t", v); } catch(e){} } };
+  const poe = t => { r.setAttribute("data-theme", t); b.textContent = t === "dark" ? "Claro" : "Escuro"; };
+  poe(guarda.ler() || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+  b.addEventListener("click", () => { const t = r.getAttribute("data-theme") === "dark" ? "light" : "dark";
+                                      poe(t); guarda.gravar(t); });
+})();
+</script>
+</body>
+</html>
