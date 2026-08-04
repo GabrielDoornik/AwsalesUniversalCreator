@@ -308,6 +308,28 @@ Três campanhas de onboarding que rodam DEPOIS da compra aprovada do Buscador Au
 
 **How to apply:** Se o usuário mencionar "onboarding do Falcão", "onboarding 1/2/3" ou "pós-compra do Buscador", ler PRIMEIRO `Falcão das milhas/Onboarding pós-compra (Buscador Automático)/CONTEXTO_ONBOARDINGS.md` — é o estado vivo (escopo de cada onboarding, fatos operacionais da base de Suporte, grade do que a AWSales consegue e não consegue fazer, pendências). Escopo dos três ainda pendente em 2026-07-27; o CS vai enviar prints/contexto.
 
+## Campanha Nayra Del Duca — Acelerador de Margem (estado vivo)
+
+Cliente: Nayra Del Duca (GTCON Brasil Contabilidade). Campanha "Acelerador de Margem" — onboarding + upsell pós-compra do Lucro Blindado. IA: Mariana. Pasta: `Nayra Del Duca/Acelerador de Margem/`.
+
+Ciclo de otimização em andamento (2026-07-31), foco em provas sociais. Cliente mandou um insumo mestre (`Insumos/INSUMOS - ACELERADOR DE MARGEM.docx`) com uma biblioteca de cases bem maior que a Base de Conhecimento atual, mais 4 PDFs de case de sucesso com identidade visual GTCON Brasil (`Insumos/Case de Sucesso - *.pdf`), cada um mapeado a um case específico do docx:
+- `Comércio de alimentosbebidasbar.pdf` → case "comércio de alimentos, bebidas e bar" (15 colaboradores, Simples R$36.680,51 → Lucro Real R$13.707,92)
+- `Empresa de Tecnologia.pdf` → case "empresa de tecnologia com produtos e serviços" (segregação produto/serviço, manutenção de computadores + comércio de equipamentos) — NÃO é o case "consultoria TI → desenvolvimento sob encomenda 15%→6%", que é outro case, só em texto
+- `Estúdio de fotografia corporativa.pdf` → case e-books/fotografia/treinamentos (imposto de uma receita de e-book caiu de R$1.600 para R$144)
+- `Fabricante de produtos de limpeza.pdf` → case indústria de limpeza (9,87% → 7,65%)
+
+**Regra inegociável (pedida pelo usuário em 2026-07-31): FAQs de case NUNCA levam o PDF inteiro nem variável de arquivo/mídia.** Os PDFs têm 9-13 páginas com tabela de tributo linha a linha (ICMS, PIS, COFINS, IRPJ, CSLL, INSS) de um cliente real — mesmo anonimizado por segmento, é dado financeiro sensível de terceiro. **Why:** a plataforma só suporta anexar imagem via FAQ, não PDF completo, e mandar o PDF pro lead vazaria detalhamento interno demais. **How to apply:** ao registrar FAQ de case na Base de Conhecimento, usar só o resumo em texto (número final, mecanismo usado), nunca a variável de arquivo. Se um dia o cliente quiser mandar imagem, só uma página recortada e explicitamente aprovada pela Nayra para uso externo — nunca decidir isso sozinho.
+
+**Conflito de números de autoridade pendente de confirmação com a cliente:** Base de Conhecimento Produto atual dizia "29 anos de experiência" e "R$85 milhões economizados em 2025"; o insumo mestre (que se autodeclara "informações institucionais aprovadas pela marca") diz "~30 anos", "+3 mil alunos" e "R$120 milhões em 2025", e nomeia a empresa GTCON Brasil Contabilidade (ausente na FAQ original). Já apliquei o número novo nos arquivos `.md` locais (Produto: FAQ de autoridade + FAQ de provas; Playbook: FAQ de ceticismo/golpe) como rascunho — **não subir pra a plataforma AWSales até a Nayra confirmar os números.**
+
+**Achado 2026-07-31 — duplicata na plataforma:** ao comparar o `.md` local com um export do neo.awsales.io (Base Playbook, 28 documentos), a FAQ "Como responder quando a pessoa diz que o curso está caro?" existe duplicada na plataforma: versão antiga (12/06, 45 usos, texto sem o exemplo da aluna R$500) e versão nova (28/07, 1 uso, com o exemplo). A antiga precisa ser apagada direto na plataforma — não é algo que dá pra resolver só editando o `.md` local.
+
+**Feito (2026-07-31):** Base de Conhecimento (Produto: FAQ de autoridade + FAQ de provas atualizadas, 6 FAQs novas de case; Playbook: objeção "está caro" reforçada com o case da aluna R$500, FAQ nova de mapeamento segmento→case, FAQ de ceticismo atualizada) e Checkpoint (Etapa 5 captura segmento do lead; Etapa 4 prioriza case por segmento; guardrails da Seção 3 expandidos; rodapé de variáveis corrigido pra descrever em vez de colar o link — `{{link_vendas}}` confirmado pelo cliente como o link certo de checkout).
+
+**Limite de plataforma descoberto:** cada FAQ da AWSales tem no máximo 1000 caracteres na resposta — checar isso ao redigir/editar qualquer FAQ desta campanha (e provavelmente das demais).
+
+**Ainda pendente:** apagar a duplicata da FAQ "está caro" na plataforma (ver achado acima) e confirmar com a Nayra os números de autoridade (30 anos / R$120mi / 3mil alunos) antes de considerar definitivo — já aplicados como rascunho nos `.md` locais.
+
 ## Cliente Way Group — funil VTD (estado vivo)
 
 **How to apply:** Se o usuário mencionar "Way group", "VTD", "Lucas Arruda", "FAS" ou "CNPJ gratuito", ler PRIMEIRO `Way group/MEMÓRIA - Way Group.md` (estado vivo e próximos passos) e `Way group/DADOS OPERACIONAIS - Way Group.md` (links, preços, contatos, funil, CRM, regras do agente SDR). Não recriar nada sem checar o que já existe nas pastas das campanhas.
