@@ -51,7 +51,10 @@
       "PowerShell(Get-ChildItem -Directory | Where-Object {$_.Name -notin @\\('.claude','Estágio','Estrutura','Prompts de extração','utilidade','Awsales Agentes'\\)} | ForEach-Object { Write-Output \\('### ' + $_.Name\\); Get-ChildItem $_.FullName -Directory -ErrorAction SilentlyContinue | ForEach-Object { Write-Output \\('  - ' + $_.Name\\) } })",
       "PowerShell(New-Item -ItemType Directory -Force \"Est�gio\\\\imagens\")",
       "PowerShell(Move-Item \"Est�gio\\\\unifei.png\" \"Est�gio\\\\imagens\\\\unifei.png\" -Force)",
-      "Bash(git status *)"
+      "Bash(git status *)",
+      "Bash(python3 -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(python -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(python -m pip install openpyxl --quiet)"
     ]
   }
 }

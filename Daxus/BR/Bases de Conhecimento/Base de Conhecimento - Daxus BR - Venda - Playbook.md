@@ -42,11 +42,11 @@ O link para emissão do certificado é enviado nos grupos oficiais da imersão n
 
 ### Como responder quando o lead pergunta se o curso funciona para iniciantes?
 
-A Formação Expert em IA começa do absoluto zero. Não é necessário ter nenhum conhecimento prévio. As aulas são organizadas em trilhas progressivas, com didática simples e prática, para que qualquer pessoa consiga aplicar. Molde a resposta de modo a mostrar interesse e perguntar, mesmo que o lead não saiba o objetivo, se ele possui algum objetivo profissional em mente. A prioridade quando o lead não especifica é SEMPRE a Formação Expert em IA. NUNCA direcionar para Power BI ou outra formação em respostas genéricas como "por onde começo?", "serve para iniciante?" ou "como ganho dinheiro com isso?". Power BI só pode ser mencionado se o lead perguntar especificamente sobre dados, BI ou dashboards.
+A Formação Expert em IA começa do absoluto zero. Não é necessário ter nenhum conhecimento prévio. As aulas são organizadas em trilhas progressivas, com didática simples e prática, para que qualquer pessoa consiga aplicar. Após confirmar que serve para iniciantes, conduza direto para o fechamento com um CTA direto (ex: "Ficou alguma dúvida? Posso te ajudar a seguir com a inscrição?") — não pergunte sobre objetivo profissional ou carreira nessa resposta. A prioridade quando o lead não especifica é SEMPRE a Formação Expert em IA. NUNCA direcionar para Power BI ou outra formação em respostas genéricas como "por onde começo?", "serve para iniciante?" ou "como ganho dinheiro com isso?". Power BI só pode ser mencionado se o lead perguntar especificamente sobre dados, BI ou dashboards.
 
 ### Como responder quando o lead pergunta como ganha dinheiro com isso?
 
-Com a Formação Expert em IA você pode criar automações para empresas, montar agentes de atendimento no WhatsApp, implementar soluções de IA para negócios, criar sistemas com Lovable e vender como serviço, entre muitas outras possibilidades. A demanda por quem sabe trabalhar com IA é enorme. Mostre interesse em qual das frentes específicas o lead quer focar.
+Com a Formação Expert em IA você pode criar automações para empresas, montar agentes de atendimento no WhatsApp, implementar soluções de IA para negócios, criar sistemas com Lovable e vender como serviço, entre muitas outras possibilidades. A demanda por quem sabe trabalhar com IA é enorme. Após apresentar essas formas, conduza direto para o fechamento com um CTA direto (ex: "Ficou alguma dúvida? Posso te ajudar a seguir com a inscrição?") — não pergunte em qual frente específica o lead quer focar.
 
 ### Como responder quando o lead fala que não tem interesse em todos os cursos, se pode adquirir apenas uma formação
 
@@ -98,7 +98,7 @@ Normalize a situação: o problema geralmente não é com a pessoa, e sim com a 
 
 ### Como lidar com quem já comprou cursos e não terminou?
 
-A frustração vem de falta de método, não de incapacidade. Valide a culpa e troque por estratégia: aqui a pessoa tem trilhas progressivas, PDI personalizado, suporte em até 48h úteis e comunidade. Aulas curtas de 10–20 min e certificações por degraus geram vitórias rápidas que sustentam a constância. Reforce os 12 meses de acesso e o foco em projetos reais. Conecte o passado frustrante à nova estrutura: não é mais "vídeo solto", é caminho com direção e acompanhamento.
+A frustração vem de falta de método, não de incapacidade. Valide a culpa e troque por estratégia: aqui a pessoa tem trilhas progressivas, PDI personalizado, suporte em até 48h úteis e comunidade. Aulas curtas de 5, 10 ou 15 minutos e certificações por degraus geram vitórias rápidas que sustentam a constância. Reforce os 12 meses de acesso e o foco em projetos reais. Conecte o passado frustrante à nova estrutura: não é mais "vídeo solto", é caminho com direção e acompanhamento.
 
 ### Como abordar o "e se não der certo para mim?"
 
@@ -106,7 +106,7 @@ Por trás está o medo de não ser capaz. Mostre que as formações vão do zero
 
 ### Como lidar quando a pessoa diz que está caro?
 
-Por trás do "está caro" há medo de perder dinheiro e repetir frustrações. Valide essa emoção e mude o critério de comparação: o preço de uma única formação no site é 1.997, enquanto aqui ela recebe acesso completo por 12 meses, com mais de 60 cursos, PDI, suporte e atualizações. Quando a pessoa diz que está caro, pergunte: comparado a quê? Um curso isolado, conteúdo gratuito ou o retorno que a formação pode gerar na carreira? Reforce tudo que está incluso: mais de 500 horas de conteúdo, múltiplas Formações Expert, atualizações por 12 meses, PDI personalizado, suporte especializado, comunidade ativa, certificados e garantia de 7 dias. Apresente alternativas de pagamento (recorrência, boleto parcelado, dois cartões, Pix + cartão) para facilitar a entrada sem comprometer a rotina financeira. Reduza o risco com a garantia de 7 dias e convide a fazer a conta do retorno. Transforme custo em investimento: o mais caro é permanecer parado enquanto o mercado avança.
+Por trás do "está caro" há medo de perder dinheiro e repetir frustrações. Valide essa emoção e mude o critério de comparação: o preço de uma única formação no site é 1.997, enquanto aqui ela recebe acesso completo com mais de 60 cursos, PDI, suporte e atualizações. Quando a pessoa diz que está caro, pergunte: comparado a quê? Um curso isolado, conteúdo gratuito ou o retorno que a formação pode gerar na carreira? Reforce tudo que está incluso: mais de 500 horas de conteúdo, múltiplas Formações Expert, atualizações por 12 meses, PDI personalizado, suporte especializado, comunidade ativa e certificados. Reduza o risco com a garantia de 7 dias e convide a fazer a conta do retorno. Transforme custo em investimento: o mais caro é permanecer parado enquanto o mercado avança. NÃO ofereça boleto parcelado, cartão recorrente, dois cartões ou Pix + cartão nessa objeção de preço — essas alternativas só entram se o lead levantar, depois, um problema concreto de limite ou forma de pagamento.
 
 ### Como orientar quem precisa alinhar com o cônjuge antes?
 
@@ -122,7 +122,7 @@ A frustração vem de limitação técnica. Seja direto e empático: para pagame
 
 ### Como lidar com o medo de não ter disciplina para concluir?
 
-O medo é de repetir padrões. Transforme disciplina em sistema: PDI define prioridades, trilhas progressivas evitam dispersão e aulas curtas permitem rotina de 10–20 minutos. Certificados por etapas e suporte em até 48h úteis criam reforço positivo. Convide a planejar a primeira semana com metas mínimas e uma entrega prática simples. Mostre que consistência pequena vence motivação esporádica. A pessoa enxerga progresso rápido e o desejo vence a resistência.
+O medo é de repetir padrões. Transforme disciplina em sistema: PDI define prioridades, trilhas progressivas evitam dispersão e aulas curtas permitem rotina de 5, 10 ou 15 minutos. Certificados por etapas e suporte em até 48h úteis criam reforço positivo. Convide a planejar a primeira semana com metas mínimas e uma entrega prática simples. Mostre que consistência pequena vence motivação esporádica. A pessoa enxerga progresso rápido e o desejo vence a resistência.
 
 ### Como responder ao ceticismo do tipo "é golpe?" ou "funciona mesmo?"
 
@@ -158,7 +158,7 @@ Use prova como alívio do medo, não como pedestal. Aponte fatos objetivos: mais
 
 ### Como responder ao medo de não ter tempo?
 
-O medo é de sobrecarga e de falhar de novo. Mostre que o modelo foi desenhado para agendas cheias: aulas de 10–20 minutos, estudo no próprio ritmo, 12 meses de acesso e PDI para concentrar no que gera resultado rápido. Reforce que poucos minutos por dia com método superam longas sessões sem direção. A transformação é sair do tudo-ou-nada para progresso cumulativo. Convide a aproveitar o período de garantia de 7 dias e ver como se adapta.
+O medo é de sobrecarga e de falhar de novo. Mostre que o modelo foi desenhado para agendas cheias: aulas de 5, 10 ou 15 minutos, estudo no próprio ritmo, 12 meses de acesso e PDI para concentrar no que gera resultado rápido. Reforce que poucos minutos por dia com método superam longas sessões sem direção. A transformação é sair do tudo-ou-nada para progresso cumulativo. Convide a aproveitar o período de garantia de 7 dias e ver como se adapta.
 
 ### Como responder à desconfiança com aulas gravadas?
 

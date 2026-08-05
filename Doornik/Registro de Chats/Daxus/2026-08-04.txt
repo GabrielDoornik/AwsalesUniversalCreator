@@ -1,0 +1,52 @@
+REGISTRO DE CHAT — Daxus BR | Venda Receptiva + Recuperação de Vendas
+Data: 04/08/2026
+
+CONTEXTO
+No dia anterior foi feita uma bateria de testes enviando cada mensagem de "Bateria de testes DAXUS BR.xlsx" para o agente. O cliente devolveu os ajustes necessários em "8° ajuste do BOT Br.xlsx" (aba "Erros", 33 casos com ID, pergunta do lead, resposta errada do bot, o que fez de errado e como deveria responder). Pedido: otimizar as Bases de Conhecimento (compartilhadas pelas duas campanhas) e os Checkpoints de Venda Receptiva e Recuperação de Vendas em cima desses 33 erros.
+
+INSUMOS LIDOS
+- 8° ajuste do BOT Br.xlsx (33 casos de erro, categorias PAGAMENTO/ACESSO/PLATAFORMA/OBJEÇÕES/DIRECIONAMENTO/FORMAÇÕES)
+- Bateria de testes DAXUS BR.xlsx (cruzado pelo ID pra confirmar categoria de cada caso)
+- Base de Conhecimento - Daxus BR - Venda - Produto.md
+- Base de Conhecimento - Daxus BR - Venda - Playbook.md
+- Checkpoint.md de Venda Receptiva
+- Checkpoint.md de Recuperação de Vendas
+
+PRINCIPAIS ACHADOS
+1. Boa parte dos erros de "CTA desviando pra descoberta de carreira" (BR-027, 028, 060, 066, 068, 069, 070, 072, 073, 074, 088, 092, 093, 097, 098, 118, 132) não era falha isolada do modelo: a regra que proíbe isso já existia no Checkpoint, mas enterrada como bullet dentro da Etapa 2, sem força de "regra crítica" — e duas FAQs do Playbook ("serve pra iniciante" e "como ganha dinheiro") literalmente instruíam o bot a perguntar sobre objetivo profissional/frente de interesse no fechamento.
+2. A oferta de aluno (BR-008, BR-015, BR-114) tinha dois problemas na origem: a FAQ de preço de aluno apresentava parcelado e à vista juntos, e o Checkpoint tinha um checkbox "solicitar e-mail de cadastro" que travava o envio do link mesmo com o lead já tendo se declarado aluno.
+3. Três FAQs do Playbook tinham a duração de aula errada ("10–20 min"), contradizendo a FAQ correta do Produto (5, 10 ou 15 min) — a base compartilhada estava inconsistente internamente.
+4. A FAQ "está caro" oferecia proativamente boleto parcelado/recorrência/dois cartões só por causa do preço, sem o lead ter levantado problema de limite — motivo do BR-049.
+5. Faltavam 3 FAQs de conteúdo que simplesmente não existiam na base (Cursos Express nomeados, certificado não ser graduação/pós, carteirinha de estudante) — não eram erro de comportamento, eram gap de conteúdo puro.
+6. Regra de clarificação "imersão ou plataforma?" pro tema certificado já previa exceção quando o lead especifica, mas o bot violou a exceção em pelo menos um caso (BR-030) — reforçado com exemplo concreto no Checkpoint.
+
+O QUE FOI APLICADO NOS ARQUIVOS
+
+Base de Conhecimento - Produto.md
+- "Qual é o prazo de pagamento da entrada do boleto parcelado e qual a data de vencimento?" — dias de vencimento só se o lead perguntar especificamente (BR-004)
+- "Quais os preços e condições para quem já é aluno?" — só parcelado (12x 83,09) por padrão, à vista só se pedido, e envio do link direto sem pedir e-mail (BR-008, BR-015, BR-114)
+- "Por quanto tempo a pessoa tem acesso e há opção vitalícia?" — reforçado SEMPRE mencionar que já existiu vitalício no passado (BR-016)
+- Nova FAQ "O curso já começou? Quando posso começar / tem data de início?" distinguindo curso pago (sem turma, acesso imediato) de imersão gratuita (BR-019)
+- "Há cursos de Power Automate, Power Apps e SharePoint?" — removida a pergunta final que puxava CTA de carreira (BR-098)
+- Nova FAQ "Quais são os Cursos Express disponíveis?" nomeando os 5 cursos (BR-096)
+- "A Daxus emite nota fiscal e quando ela é enviada?" — acrescentado que pode ser emitida no CPF ou CNPJ (BR-117)
+- Nova FAQ "O certificado é de graduação ou pós-graduação?" — resposta direta, sem depender de imersão x plataforma (BR-108)
+- Nova FAQ "Vocês emitem carteirinha de estudante?" — resposta direta, sem encaminhar pro suporte (BR-109)
+
+Base de Conhecimento - Playbook.md
+- "Como lidar quando a pessoa diz que está caro?" — removida a oferta proativa de boleto/recorrência/dois cartões/Pix+cartão nessa objeção (só entra se o lead levantar problema de limite depois); texto final ajustado pelo próprio Gabriel removendo também "por 12 meses" e "garantia de 7 dias" da lista de itens inclusos (BR-049)
+- Três FAQs corrigidas de "10–20 min" para "5, 10 ou 15 minutos": "já comprou cursos e não terminou", "medo de não ter disciplina" e "medo de não ter tempo" (BR-052)
+- "Serve para iniciantes?" — removida a instrução de perguntar sobre objetivo profissional; troca por CTA direto de fechamento (BR-074)
+- "Como ganha dinheiro com isso?" — removida a instrução de perguntar em qual frente quer focar; troca por CTA direto de fechamento (BR-070)
+
+Checkpoint.md (Venda Receptiva e Recuperação de Vendas — mesmas mudanças nos dois arquivos)
+- Nova seção "REGRA CRÍTICA: CTA Não Pode Ser Pergunta de Descoberta de Carreira", logo após a seção de CTA Obrigatório, com lista de frases proibidas e exemplo de fechamento correto
+- Etapa 1 — exceção: se a primeira mensagem/resposta do lead já sinalizar intenção clara de compra/retomada, pula o diagnóstico e vai direto pra Etapa 3 (BR-099)
+- Etapa 3 — checkbox "Aluno declarado: Sim" reescrito: apresenta direto o valor parcelado de aluno e envia o link, sem pedir e-mail nem perguntar forma de pagamento antes (BR-008, BR-015, BR-114)
+- Etapa 3 — nova regra crítica: método de pagamento confirmado sempre vem com o link na mesma mensagem, nunca só a pergunta "quer seguir?" (BR-003)
+- Bloco 2 — exceção adicional na regra de clarificação de certificado: perguntas sobre graduação/pós ou carteirinha respondem direto, sem perguntar imersão x plataforma; acrescentado exemplo concreto pro caso geral (BR-030, BR-108, BR-109)
+- Etapa Condicional Direcionamento Comercial — troubleshooting (outro navegador/aba anônima) antes de encaminhar pro suporte em problema técnico de acesso/link, reservando o fluxo de erro de pagamento pra quando for especificamente isso (BR-120)
+
+PENDÊNCIAS
+- Os PDFs de Bases de Conhecimento dentro de "Venda Receptiva/Bases de Conhecimento" e "Recuperação de Vendas/Bases de Conhecimento" ainda são as versões antigas — precisam ser regerados a partir dos .md atualizados e reenviados na plataforma AWSales, junto com os dois Checkpoints atualizados.
+- Nenhuma mudança foi aplicada ainda na plataforma neo.awsales.io — só nos arquivos locais desta pasta.

@@ -51,7 +51,7 @@ A imersão acontece de segunda a quinta-feira, com uma aula ao vivo por dia (4 a
 ### Qual é o prazo de pagamento da entrada do boleto parcelado e qual a data de vencimento?
 
 A entrada do boleto parcelado deve ser paga em até 1 dia útil após a geração. O ideal é orientar o lead a gerar o boleto apenas quando estiver pronto para pagar, para não perder o prazo.
-No boleto parcelado, o lead pode escolher o vencimento das parcelas para os dias: 01, 05, 10, 15 ou 20 de cada mês. Essa informação deve ser passada ao lead para que ele escolha a data mais conveniente.
+No boleto parcelado, o lead pode escolher o vencimento das parcelas para os dias 01, 05, 10, 15 ou 20 de cada mês — mas essa informação só deve ser passada se o lead perguntar especificamente sobre o dia de vencimento das parcelas. Em respostas gerais sobre como funciona o boleto parcelado, não mencionar os dias de vencimento.
 
 ### Como funciona o pagamento em dois cartões?
 
@@ -71,13 +71,17 @@ Enviar esse link diretamente ao lead.
 
 E enviar o link para conferência: https://www.daxus.com.br/treinamentos"
 
+### Quais são os Cursos Express disponíveis?
+
+A plataforma tem 5 Cursos Express, mais curtos e diretos que as Formações Expert: Power BI Descomplicado, Python Express, ChatGPT Descomplicado, PowerPoint na Prática e Noções de SQL. Você pode conferir o conteúdo detalhado de cada um aqui: https://www.daxus.com.br/treinamentos
+
 ### Posso adquirir apenas um curso? Não tenho interesse em todos.
 
 É possível adquirir cada formação individualmente pelo nosso site porém o valor de cada uma delas é de 1.997. É exatamente por isso que essa condição especial de acesso completo é tão vantajosa: você recebe acesso a todas as formações por um valor menor do que uma única formação separada. Pergunte sobre o interesse do lead, qual curso ele quer adquirir e tem mais interesse.
 
 ### Há cursos de Power Automate, Power Apps e SharePoint?
 
-Sim, a plataforma tem cursos específicos para as três ferramentas: Power Automate (automação de tarefas repetitivas conectando diferentes ferramentas), Power Apps (criação de aplicativos personalizados sem precisar programar) e SharePoint (gestão de documentos, fluxos de trabalho e intranets corporativas). Você já utiliza alguma delas no trabalho?
+Sim, a plataforma tem cursos específicos para as três ferramentas: Power Automate (automação de tarefas repetitivas conectando diferentes ferramentas), Power Apps (criação de aplicativos personalizados sem precisar programar) e SharePoint (gestão de documentos, fluxos de trabalho e intranets corporativas).
 
 ### Até quando as aulas da imersão ficam no Youtube?
 
@@ -140,7 +144,7 @@ A pessoa pode personalizar a forma de pagamento, dividindo entre dois cartões o
 
 ### Por quanto tempo a pessoa tem acesso e há opção vitalícia?
 
-Já existiu uma condição especial de acesso vitalício no passado, mas ela não está ativa no momento. Atualmente o modelo é de 12 meses de acesso completo, com atualizações sem custo durante esse período. Alunos ativos sempre têm condições especiais de renovação.
+SEMPRE informar que já existiu uma condição especial de acesso vitalício no passado, mas que ela não está ativa no momento — nunca responder apenas "não trabalhamos com o modelo vitalício" sem esse contexto, pois pode gerar conflito com leads que viram essa oferta antiga. Atualmente o modelo é de 12 meses de acesso completo, com atualizações sem custo durante esse período. Alunos ativos sempre têm condições especiais de renovação.
 
 ### Como funciona o suporte para dúvidas durante os estudos?
 
@@ -148,7 +152,7 @@ O suporte técnico é feito dentro da plataforma, via comentários abaixo das au
 
 ### Quais os preços e condições para quem já é aluno?
 
-Você não oferece a oferta de aluno proativamente, somente para os casos que o aluno disser explicitamente que já é aluno. Para alunos: Pix por 997; no cartão de crédito em 12x de 83,09 sem juros; ou via boleto parcelado/cartão recorrente com entrada de 117 + 11x de 96,64.
+Você não oferece a oferta de aluno proativamente, somente para os casos em que o aluno disser explicitamente que já é aluno. Ao apresentar a condição de aluno, informe SEMPRE primeiro e apenas o parcelado no cartão: 12x de 83,09 sem juros. O valor à vista no Pix (997) só deve ser mencionado se o lead perguntar especificamente sobre pagamento à vista ou Pix. Via boleto parcelado/cartão recorrente, a condição de aluno é entrada de 117 + 11x de 96,64 — mencionar apenas se o lead não conseguir pagar por cartão nem Pix. Assim que o lead confirmar que quer seguir com a condição apresentada, enviar o link de aluno correspondente diretamente, sem pedir e-mail de cadastro para "validar" antes.
 
 ### Como funciona o cartão de crédito recorrente (parcelamento inteligente)?
 
@@ -166,9 +170,21 @@ Ela recebe acesso completo à plataforma por 12 meses, com mais de 60 cursos, in
 
 Sim. A cada degrau concluído, a pessoa recebe certificados parciais e hoje existem mais de 60 disponíveis. Ao concluir todos os cursos de uma Formação Expert e ser aprovada na avaliação final, ela pode emitir um certificado reconhecido pelo MEC emitido pela universidade parceira UNIFATEC, que viabiliza essa certificação. Essa distinção deve ser clara na resposta para não gerar expectativa incorreta no lead.
 
+### O certificado é de graduação ou pós-graduação?
+
+Não, em nenhum caso — nem na imersão gratuita, nem nos cursos da plataforma paga — os certificados são de graduação ou pós-graduação. São certificados de cursos livres de capacitação profissional. Nas Formações Expert, ao concluir e ser aprovado na avaliação final, o certificado é reconhecido pelo MEC via parceria com a UNIFATEC, mas isso não muda a natureza de curso livre. Essa resposta vale independentemente de o lead estar falando da imersão ou da plataforma — não é necessário perguntar qual das duas antes de responder essa pergunta específica.
+
+### Vocês emitem carteirinha de estudante?
+
+Não emitimos carteirinha de estudante, pois nossos treinamentos são cursos livres de capacitação profissional, não cursos de graduação regulamentados pelo MEC nesse formato.
+
 ### As aulas são gravadas ou ao vivo e como funciona o calendário?
 
 Os cursos estão 100% gravados e disponíveis para acesso imediato, permitindo estudar no próprio ritmo. Além disso, há um encontro ao vivo por mês com especialistas convidados para aprofundamento e atualização. Não há necessidade de aguardar turma; a pessoa começa no mesmo dia da confirmação.
+
+### O curso já começou? Quando posso começar / tem data de início?
+
+Os cursos da plataforma paga são 100% gravados e não funcionam por turma: o acesso é liberado assim que o pagamento é confirmado, e a pessoa pode começar a estudar no mesmo dia. Não existe data de início nem espera de turma para os cursos pagos — isso vale só para a imersão gratuita, que tem calendário próprio (segunda a quinta, uma aula ao vivo por dia). Se o lead perguntar "quando o curso começa" sem mencionar imersão, a resposta é sobre o curso pago: acesso imediato após a confirmação do pagamento.
 
 ### Como funciona o Plano Família e qual é o desconto máximo?
 
@@ -180,7 +196,7 @@ No Lote VIP: Pix à vista por 1.152; boleto à vista por 1.152; cartão de créd
 
 ### A Daxus emite nota fiscal e quando ela é enviada?
 
-Sim. A nota fiscal é enviada ao e-mail de cadastro automaticamente em até 30 dias após a compra. Não mencionar a possibilidade de antecipação a não ser que o próprio lead pergunte especificamente sobre isso.
+Sim. A nota fiscal é enviada ao e-mail de cadastro automaticamente em até 30 dias após a compra, e pode ser emitida tanto no CPF quanto no CNPJ, conforme o dado informado pelo lead. Não mencionar a possibilidade de antecipação a não ser que o próprio lead pergunte especificamente sobre isso.
 
 ### Se o cartão da pessoa deu erro, ela perde a condição?
 
