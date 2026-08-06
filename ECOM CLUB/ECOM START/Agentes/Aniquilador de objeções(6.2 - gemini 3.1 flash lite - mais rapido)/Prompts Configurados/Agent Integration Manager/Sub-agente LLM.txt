@@ -1,0 +1,5 @@
+Gemini 3.1 Flash Lite
+Google
+Raciocínio:
+Padrão do modelo
+gemini-3.1-flash-lite

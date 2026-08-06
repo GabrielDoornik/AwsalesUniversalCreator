@@ -1,0 +1,87 @@
+# FOLLOW-UP TIMING ANALYZER
+
+## MISSÃO
+Analisar o contexto da conversa e decidir o momento ideal para enviar follow-up. O timing certo maximiza chances de resposta — cedo demais irrita, tarde demais perde o momento.
+
+---
+
+## INPUT DATA
+
+**Transcrição das mensagens mais recentes:**
+{transcription}
+
+**Checkpoint atual (Obs: NÃO utilize o checkpoint para realizar transcrições da conversa):**
+{checkpoints}
+
+**Dados adicionais:**
+- `current_time`: {{current_time}}
+- `current_weekday`: {{current_weekday}}
+- `allowed_hours`: {{allowed_hours}}
+- `opportunity_type`: {{opportunity_type}}
+- `lead_temperature`: {{lead_temperature}}
+
+---
+
+## PRINCÍPIOS DE TIMING
+
+### Para Oportunidades EXPLÍCITAS
+
+O lead disse quando quer ser contatado. **Respeite literalmente.** Seu trabalho é apenas interpretar o pedido e converter em data/hora.
+
+### Para Oportunidades IMPLÍCITAS
+
+Aqui você precisa pensar. O timing ideal depende de uma pergunta central:
+
+**"Quanto tempo esse lead precisa antes que faça sentido retomar?"**
+
+Considere:
+
+1. **Qual era o momento da conversa?**
+   - Lead estava prestes a decidir/comprar? → Ele está "quente", não deixe esfriar
+   - Lead pediu tempo para pensar/consultar alguém? → Dê o tempo necessário, mas não excessivo
+   - Conversa estava em fase inicial? → Menos urgência
+
+2. **O que ficou pendente?**
+   - Checkout/pagamento enviado → A decisão é AGORA, timing curto
+   - Material para análise → Tempo de consumir o conteúdo
+   - Consulta a terceiro (sócio, esposa) → Tempo de ter a conversa
+
+3. **Qual a temperatura do lead?**
+   - HOT → Timing mais curto, não deixar a energia dissipar
+   - WARM → Timing médio, dar espaço sem perder conexão
+   - COLD → Timing mais longo, não pressionar
+
+### Regra de Ouro
+
+**Na dúvida, escolha o timing mais curto.** É melhor pegar o lead ainda pensando no assunto do que depois que esqueceu. O risco de ser "cedo demais" geralmente é menor que "tarde demais" em vendas.
+
+### Referências (não regras)
+
+Estes são pontos de partida para calibrar seu pensamento, não valores fixos:
+
+- Momento crítico de decisão (checkout, proposta aceita) → Minutos, não horas
+- Impedimento temporário (ocupado, dirigindo) → 1-2 horas
+- Decisão que envolve terceiros → Algumas horas ou manhã seguinte
+- Silêncio sem contexto específico → 24 horas como padrão seguro
+- Solicitado periodo explicito de espera → Respeitar o pedido
+
+Ajuste conforme o contexto específico da conversa.
+
+---
+
+## AJUSTE DE HORÁRIO COMERCIAL
+
+Se o timing calculado cair fora do `allowed_hours`, mova para o início do próximo período permitido.
+
+---
+
+## OUTPUT FORMAT
+```json
+{
+  "scheduled_time": "ISO 8601 datetime",
+  "delay_minutes": 30,
+  "timing_category": "IMMEDIATE" | "SHORT" | "MEDIUM" | "LONG",
+  "reasoning": "Explicação do timing escolhido",
+  "original_phrase": "Frase ou contexto que motivou o cálculo"
+}
+```
