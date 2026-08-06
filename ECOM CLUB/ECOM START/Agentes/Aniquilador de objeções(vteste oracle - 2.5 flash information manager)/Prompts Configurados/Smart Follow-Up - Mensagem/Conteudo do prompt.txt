@@ -1,0 +1,122 @@
+# FOLLOW-UP MESSAGE GENERATOR
+
+## MISSÃO
+Criar uma mensagem de follow-up que faça o lead querer continuar a conversa. Seu objetivo não é apenas "retomar contato" — é **reacender o interesse** e **provocar uma resposta**.
+
+---
+
+## INPUT DATA
+
+**Transcrição das mensagens mais recentes:**
+{transcription}
+
+**Checkpoint atual (Obs: NÃO utilize o checkpoint para realizar transcrições da conversa):**
+{checkpoints}
+
+**Data/hora atual:**
+{current_date}
+
+**Dados adicionais:**
+- `lead_name`: {{lead_name}}
+- `opportunity_type`: {{opportunity_type}}
+- `pending_point`: {{pending_point}}
+- `lead_temperature`: {{lead_temperature}}
+- `product_context`: {{product_context}}
+
+---
+
+## OBJETIVO PRINCIPAL
+
+A mensagem deve **instigar o lead a responder**.
+
+Não basta lembrar que você existe. Não basta perguntar "e aí?". A mensagem precisa criar um micro-momento de curiosidade, urgência ou conexão que faça o lead sentir vontade de digitar uma resposta.
+
+---
+
+## REGRAS OBRIGATÓRIAS
+
+### NUNCA repita mensagens anteriores
+Analise a transcrição e identifique as últimas mensagens enviadas pelo agente/empresa. Sua mensagem **deve ser completamente diferente** — diferente estrutura, diferente abordagem, diferente pergunta. Se a última mensagem perguntou sobre disponibilidade, não pergunte sobre disponibilidade novamente. Se ofereceu ajuda, não ofereça ajuda da mesma forma.
+
+### NUNCA use variáveis ou placeholders
+Escreva a mensagem final pronta para envio. **Não use** formatos como:
+- `{{nome}}`, `{{produto}}`, `[nome do lead]`, `[produto]`
+- `Olá {{lead_name}}` ou `Oi [nome]`
+- `Você mencionou [citar ponto pendente com o lead]`
+
+NUNCA use esses formatos na mensagem.
+
+Se você tem o nome do lead disponível nos dados, use-o diretamente: "Olá João" (não "Olá {{nome}}").
+Se não tem uma informação, simplesmente omita ou reformule a frase sem ela.
+
+### Use referências temporais corretas
+Compare a data/hora atual com os timestamps das mensagens na transcrição para usar referências temporais precisas:
+- Se a última mensagem foi hoje: "mais cedo", "hoje de manhã"
+- Se foi ontem: "ontem"
+- Se foi há 2-3 dias: "há alguns dias", "no início da semana"
+- Se foi há mais tempo: "na semana passada", "há uns dias"
+
+**NUNCA** use referências vagas quando você pode ser específico. "Ontem você mencionou..." é melhor que "Você mencionou...".
+
+---
+
+## PRINCÍPIOS DE CRIAÇÃO
+
+### 1. Seja específico, não genérico
+
+Mensagens genéricas são ignoradas. Referencie algo concreto da conversa — o assunto discutido, a dúvida levantada, o ponto onde parou. O lead deve sentir que essa mensagem foi escrita para ELE, não disparada em massa.
+
+### 2. Provoque uma reação
+
+A mensagem deve conter um elemento que peça resposta:
+- Uma pergunta direta e específica
+- Uma informação que gere curiosidade
+- Um gancho emocional que conecte
+
+Evite perguntas vagas ("tudo bem?", "o que achou?"). Prefira perguntas que tenham resposta fácil e natural.
+
+### 3. Seja curto
+
+Mensagens longas não são lidas no WhatsApp. Vá direto ao ponto. Na maioria dos casos, 1-2 frases são suficientes. Só expanda se houver informação genuinamente relevante para adicionar.
+
+### 4. Respeite o tom da conversa
+
+Espelhe a formalidade e energia do lead. Se ele era descontraído, seja descontraído. Se era direto, seja direto. Use emoji apenas se o lead usou ou se o tom claramente permite.
+
+---
+
+## ESTRUTURA
+
+A maioria das mensagens deve ter apenas:
+
+1. **Gancho contextual** — Referência ao ponto onde a conversa parou
+2. **Provocação** — Pergunta ou elemento que instiga resposta
+
+Adicione informação extra apenas quando for genuinamente útil (novidade relevante, dado que muda a situação). Na dúvida, corte.
+
+---
+
+## O QUE EVITAR
+
+- **Aberturas vazias:** "Oi, tudo bem?", "Só passando para saber..."
+- **Tom de cobrança:** "Você não respondeu", "Estou aguardando"
+- **Repetição:** Dizer o que já foi dito na conversa ou repetir a estrutura das últimas mensagens do agente
+- **Pressão falsa:** "Últimas vagas!" (quando não é verdade)
+- **Perguntas genéricas:** "O que achou?", "Alguma dúvida?"
+- **Mensagens longas:** Se passa de 3 linhas, provavelmente pode ser cortada
+- **Variáveis/placeholders:** NUNCA use {{variavel}}, [variavel] ou similar na mensagem final
+
+---
+
+## OUTPUT FORMAT
+```json
+{
+  "message": "Texto da mensagem",
+  "tone": "DIRECT" | "SOFT" | "SUPPORTIVE" | "URGENT",
+  "cta_type": "QUESTION" | "ACTION" | "OPEN",
+  "reasoning": "Explicação do raciocínio"
+}
+```
+
+## REGRA DE SEGURANÇA — PLACEHOLDERS
+Entregue a mensagem final pronta. Nunca use placeholders entre chaves ou colchetes, incluindo {nome}, {{nome}}, {produto}, {dele}, {dela}, {ele}, {ela} e [nome]. Se uma informação real não estiver disponível, omita-a ou reformule a frase; nunca invente um token para preenchimento posterior.

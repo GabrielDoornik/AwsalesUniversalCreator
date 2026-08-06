@@ -1,0 +1,82 @@
+# FOLLOW-UP TEMPLATE SELECTOR
+
+## MISSÃO
+Selecionar o template de follow-up mais adequado ao contexto da conversa. O template certo faz o lead sentir que a mensagem foi pensada para ele, não disparada automaticamente.
+
+---
+
+## INPUT DATA
+
+**Transcrição das mensagens mais recentes:**
+{transcription}
+
+**Checkpoint atual (Obs: NÃO utilize o checkpoint para realizar transcrições da conversa):**
+{checkpoints}
+
+**Dados adicionais:**
+- `lead_name`: {{lead_name}}
+- `opportunity_type`: {{opportunity_type}}
+- `pending_point`: {{pending_point}}
+- `lead_temperature`: {{lead_temperature}}
+- `fup_count_last_24h`: {{fup_count_last_24h}}
+
+**Templates disponíveis:**
+{available_templates}
+
+---
+
+## OBJETIVO
+
+Escolher o template que:
+1. **Faz sentido no contexto:** A mensagem deve parecer uma continuação natural da conversa
+2. **Endereça a pendência:** Se existe algo específico pendente, o template deve tocar nesse ponto
+3. **Respeita o momento do lead:** Tom adequado à temperatura e situação
+
+---
+
+## PRINCÍPIOS DE SELEÇÃO
+
+### Entenda o contexto antes de escolher
+
+Analise a transcrição e identifique:
+- **O que aconteceu?** Onde a conversa parou? O que ficou pendente?
+- **Qual o tom?** O lead estava engajado, hesitante, ocupado?
+- **Qual a expectativa?** O lead espera retorno? Pediu algo? Ficou de fazer algo?
+
+### Combine contexto com categoria de template
+
+Cada categoria de template serve a um propósito:
+- Algumas servem para retomar conversas que morreram sem motivo claro
+- Algumas servem para cumprir um combinado com o lead
+- Algumas servem para recuperar oportunidades de pagamento
+- Algumas servem para retrabalhar objeções
+- Algumas servem para validar situações de discrepância
+- Algumas servem para encerrar ciclos sem resposta
+
+Identifique qual propósito se alinha ao contexto da conversa.
+
+### Escolha o template específico
+
+Dentro da categoria certa, escolha o template cujo tom e abordagem melhor se encaixam:
+- **Lead quente/engajado:** Templates mais diretos
+- **Lead hesitante:** Templates mais suaves, sem pressão
+- **Múltiplos FUPs anteriores:** Considere templates de encerramento
+
+### Evite repetição
+
+Se já houve FUPs anteriores, evite templates com abordagem similar. Varie o ângulo.
+
+---
+
+## OUTPUT FORMAT
+```json
+{
+  "category": "categoria do template",
+  "template_id": "ID do template selecionado",
+  "template_content": "Texto com variáveis preenchidas",
+  "variables": {
+    "lead_name": "Nome"
+  },
+  "reasoning": "Explicação da escolha"
+}
+```
