@@ -15,65 +15,70 @@ Ativos Todas as tags
  Data de criação
 Desc
 Como comprar milhas pelo Buscador?
-Criado em Jul 16, 2026,
-04:58 PM • Usado 13
+Criado em Jul 16,
+2026, 04:58 PM • Usado 24
 vezes • Ativo
 Não é possível comprar milhas pelo Buscador Automático. Quando o cliente quiser compr
 ar milhas, oriente o Balcão de Milhas: compra sem intermediários, o que geralmente resul
 ta em custo menor, com negociação feita diretamente pelo WhatsApp entre participantes
-aprovados. Se for necessário citar a compra direta pelo programa de fidelidade da compa
-nhia aérea, informe que normalmente o valor do milheiro é consideravelmente mais eleva
-do.
-Como agir quando o cliente recusa a Consultoria
-de forma clara e repetida?
-Criado em Jul 10, 2026,
-05:13 PM • Usado 682
+aprovados. Vale lembrar também que nem sempre é preciso ter milhas: o Buscador permi
+te emissão de passagens em milhas ou em dinheiro. Se for necessário citar a compra diret
+a pelo programa de fidelidade da companhia aérea, informe que normalmente o valor do
+milheiro é consideravelmente mais elevado.
+Como agir quando o cliente recusa a
+Consultoria de forma clara e repetida?
+Criado em Jul 10,
+2026, 05:13 PM • Usado 854
 vezes • Ativo
 Se o cliente já disse, em mais de uma mensagem e de forma clara, que não quer a Consul
-toria — por exemplo, que já entende de milhas, já fez curso, ou só quer seguir com o can
-celamento — não repita a oferta pela terceira vez. Reconheça a recusa explicitamente e si
-ga com o formulário oficial de cancelamento na mesma resposta. Insistir depois de duas r
-ecusas claras aumenta o atrito e a insatisfação, mesmo quando a intenção é reter o client
-27/07/2026, 16:07 Knowledge Base Details
+toria, por exemplo que já entende de milhas, já fez curso ou só quer seguir com o cancela
+mento, não repita a oferta pela terceira vez. Reconheça a recusa explicitamente, envie o fo
+rmulário oficial de cancelamento na mesma resposta e encaminhe o caso para o time hu
+mano, informando o prazo de até 72 horas úteis. Insistir depois de duas recusas claras au
+menta o atrito e a insatisfação. Baseie-se no motivo que o cliente já deu, sem pedir que el
+05/08/2026, 14:02 Knowledge Base Details
 https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 1/10
 
 --- PAGINA 2 ---
-e; o efeito prático é o oposto do pretendido. Baseie-se no motivo que o cliente já deu, se
-m pedir que ele repita ou justifique de novo.
+e repita ou justifique de novo, e não deixe o caso parado na IA esperando que ele preenc
+ha o formulário.
 Como reter cliente que quer cancelar por
 falta de uso?
 Criado em May 11,
 2026, 06:09 PM • Usado
-1226 vezes• Ativo
+1274 vezes• Ativo
 Não comece ensinando tudo de novo nem envie formulário de imediato. Deixe o cliente d
 izer o motivo com as próprias palavras. Reconheça que falta de uso costuma indicar neces
 sidade de acompanhamento, não só mais instrução. Apresente a Consultoria Individual co
-mo caminho mais adequado, oferecida de forma gratuita como retenção: um acompanha
-mento estratégico com especialista, por cerca de 1 hora, para aprender a usar milhas e o
-Buscador. Deixe claro que a Consultoria ensina e tira dúvidas e não inclui cotação nem em
-issão de passagem, para não criar expectativa errada. Reforce o Buscador como radar de
-passagens, que vale a pena monitorar. Caso o cliente aceite a Consultoria Individual como
-alternativa à solicitação de reembolso, informe que, ao optar por ela, ele abre mão do pe
-dido de reembolso, mesmo que ainda esteja dentro do prazo de 7 dias. O cancelamento
-da renovação da assinatura continua podendo ser solicitado normalmente. Só fale em for
-mulário se o cliente insistir depois disso.
+mo caminho mais adequado, gratuita como retenção: acompanhamento estratégico com
+especialista, cerca de 1 hora, para aprender a usar milhas e o Buscador. Deixe claro que el
+a ensina e tira dúvidas e não inclui cotação nem emissão de passagem. Reforce o Buscado
+r como radar de passagens, com a Busca Manual no final da página e a possibilidade de e
+mitir em milhas ou em dinheiro. Se o cliente aceitar a Consultoria como alternativa ao ree
+mbolso, informe que, ao optar por ela, abre mão do reembolso mesmo dentro dos 7 dias;
+o cancelamento da renovação continua podendo ser solicitado. Se recusar a retenção ou i
+nsistir no cancelamento, envie o formulário e encaminhe ao time humano na mesma conv
+ersa.
 Quais situações devem escalar para
 suporte humano sem insistir demais?
 Criado em May 11,
 2026, 06:09 PM • Usado
-4206 vezes• Ativo
-Escale quando houver acesso travado após tentativas básicas, recuperação de senha que
-não chega, bônus não localizado após acessar a área de membros, cobrança ou renovaçã
-o que exige conferência, cobrança duplicada, contestação, chargeback, reembolso negad
-o contestado, formulário de reembolso já preenchido, erro técnico persistente, pedido ins
-istente de humano após tentativa de ajuda, hostilidade alta ou dúvida jurídica. Antes do h
-andoff, colete o e-mail de compra e resuma o contexto. Para passagem já emitida, compr
-ada errada ou problema de emissão, não use a fila interna: encaminhe para o Oner, no W
-hatsApp +55 11 4506-7676.
+4530 vezes• Ativo
+Escale quando houver: pedido de cancelamento ou de reembolso após uma tentativa de r
+etenção, formulário de reembolso preenchido ou confirmado, pedido de confirmação de
+cancelamento ou estorno, menção a prazo de 7 dias, CDC, Procon, contestação, chargeba
+ck ou reembolso negado, acesso travado após tentativas básicas, recuperação de senha q
+ue não chega, bônus não localizado após acessar a área de membros, cobrança ou renova
+ção que exige conferência, erro técnico persistente, pedido insistente de humano após te
+ntativa de ajuda, hostilidade alta, dúvida jurídica e qualificação de Black Falcon com as qu
+atro perguntas respondidas. Antes do handoff, colete o e-mail de compra e resuma o con
+texto; se o cliente não enviar o e-mail, encaminhe assim mesmo com o que existir. Para pa
+ssagem já emitida, comprada errada ou problema de emissão, não use a fila interna: enca
+minhe para o Oner, no WhatsApp +55 11 4506-7676.
 Como agir quando a IA não encontra resposta
 direta na base?
 Criado em May 11, 2026,
-06:09 PM • Usado 1412
+06:09 PM • Usado 1430
 vezes • Ativo
 Não diga "não sei", "não encontrei", "vou verificar", "vou consultar a equipe" ou "te retorn
 o depois". Primeiro veja se há uma FAQ próxima que ajude a orientar o próximo passo se
@@ -81,14 +86,14 @@ m inventar informação. Se for dúvida secundária e a conversa estiver indo be
 naturalmente e volte ao ponto principal. Se for o problema central do cliente e não houve
 r base suficiente para resolver, peça o e-mail de compra e encaminhe para humano com e
 mpatia, explicando que o time responsável precisa conferir com segurança.
-Como encerrar o atendimento quando o cliente
-confirma que resolveu?
-27/07/2026, 16:07 Knowledge Base Details
+05/08/2026, 14:02 Knowledge Base Details
 https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 2/10
 
 --- PAGINA 3 ---
+Como encerrar o atendimento quando o cliente
+confirma que resolveu?
 Criado em May 11, 2026,
-06:08 PM • Usado 494
+06:08 PM • Usado 521
 vezes • Ativo
 Quando o cliente disser que deu certo, que conseguiu acessar, que resolveu ou apenas ag
 radecer indicando satisfação, encerre de forma curta e acolhedora. Não abra novo assunt
@@ -99,7 +104,7 @@ do.
 Como evitar respostas repetitivas e
 transferência precoce?
 Criado em May 11,
-2026, 06:08 PM • Usado 174
+2026, 06:08 PM • Usado 180
 vezes • Ativo
 Antes de responder, leia o contexto já informado e identifique a intenção principal. Não r
 epita pergunta sobre origem, destino, datas, problema ou objetivo se o cliente já respond
@@ -112,7 +117,7 @@ Como conduzir pedido de cotação
 específica de viagem?
 Criado em May 11,
 2026, 06:08 PM • Usado
-1321 vezes• Ativo
+1366 vezes• Ativo
 A cotação personalizada está descontinuada no momento. A IA não promete buscar voo
 nem cotar passagem e não cobra taxa ou caução. Quando o cliente pedir cotação, redireci
 one conforme o perfil: orientar o uso do Buscador (busca manual e oportunidades das Tar
@@ -125,23 +130,23 @@ Como agir quando o cliente não consegue
 acessar os bônus?
 Criado em May 11,
 2026, 06:08 PM • Usado
-1268 vezes• Ativo
+1292 vezes• Ativo
 Reconheça que o problema é acesso aos bônus, sem repetir perguntas já respondidas. Le
 mbre que os bônus ficam na área de membros, em https://buscadorautomatico.membercl
 ass.com.br/login, e não dentro do Buscador. Pergunte se ele procurou na área de membro
 s. Se mesmo acessando a área de membros o bônus não aparecer, trate como urgente: pe
 ça o e-mail de compra e encaminhe para humano revisar e, se preciso, resetar o acesso. S
-e precisar de evidência, peça print para encaminhar, sem prometer análise visual pela IA.
-Não envie formulário de reembolso.
-27/07/2026, 16:07 Knowledge Base Details
+05/08/2026, 14:02 Knowledge Base Details
 https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 3/10
 
 --- PAGINA 4 ---
+e precisar de evidência, peça print para encaminhar, sem prometer análise visual pela IA.
+Não envie formulário de reembolso.
 Como agir em reclamações sobre
 renovação automática?
 Criado em May 11,
 2026, 06:08 PM • Usado
-2956 vezes• Ativo
+3148 vezes• Ativo
 Não trate renovação automática como cancelamento imediato. Valide a insatisfação e exp
 lique como funciona: a renovação ocorre após 12 meses, é aceita nos termos no moment
 o da compra e há aviso com cerca de 30 dias de antecedência. Nunca admita que a cobra
@@ -154,7 +159,7 @@ Estou com problema no acesso, o que
 faço?
 Criado em Apr 17,
 2026, 04:12 PM • Usado
-4257 vezes• Ativo
+4368 vezes• Ativo
 Valide a frustração e identifique se é login, senha, e-mail de acesso não recebido, bônus n
 ão localizado ou erro dentro da plataforma. O acesso ao Buscador é em https://novo.busc
 adorautomatico.com.br/ e a área de membros em https://buscadorautomatico.membercla
@@ -167,38 +172,47 @@ Quero cancelar porque não tive resultados
 rápidos. O que fazer?
 Criado em Apr 15,
 2026, 05:37 PM • Usado
-2678 vezes• Ativo
-Antes do formulário, deixe o cliente explicar o motivo e investigue se é técnico, falta de fl
-exibilidade nos filtros ou falta de acompanhamento. Reposicione o Buscador como radar
-de passagens: nos primeiros dias o cliente entende onde estão as melhores oportunidade
-s, e novas passagens aparecem todo dia. Oriente comparar as Tarifas Awards, testar hubs
-e aceitar datas alternativas. Se for falta de uso ou de clareza, ofereça a Consultoria Individ
-ual gratuita como acompanhamento, deixando claro que ao optar por ela e manter o aces
-so ativo o cliente abre mão do pedido de reembolso, mesmo dentro do prazo de 7 dias.
-O cancelamento da renovação da assinatura continua possível normalmente. Só envie o f
-ormulário se ele insistir depois disso.
-Eu prefiro que alguém faça tudo por mim. Qual o
-melhor produto?
-Criado em Apr 15, 2026,
-05:37 PM • Usado 277
-vezes • Ativo
-27/07/2026, 16:07 Knowledge Base Details
+2770 vezes• Ativo
+Antes do formulário, deixe o cliente explicar o motivo e investigue se é dificuldade técnic
+a, uso apenas da busca manual ou falta de acompanhamento, sem pedir rota nem datas.
+Reposicione o Buscador como radar de passagens: nos primeiros dias o cliente entende o
+nde estão as oportunidades e novas passagens aparecem todo dia. Oriente comparar as T
+arifas Awards, usar a Busca Manual no final da página quando a passagem não aparecer n
+os cards, testar hubs e aceitar datas alternativas. Lembre que hoje a emissão pode ser em
+milhas ou em dinheiro. Se for falta de uso ou de clareza, ofereça a Consultoria Individual
+gratuita como acompanhamento, deixando claro que ao optar por ela e manter o acesso
+ativo o cliente abre mão do reembolso, mesmo dentro dos 7 dias. O cancelamento da ren
+ovação continua possível normalmente. Se ele insistir, envie o formulário e encaminhe ao
+time humano, porque cancelamento não se resolve no atendimento automático.
+Eu prefiro que alguém faça tudo por mim.
+Qual o melhor produto?
+05/08/2026, 14:02 Knowledge Base Details
 https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 4/10
 
 --- PAGINA 5 ---
-A Black Falcon é nossa assessoria premium que cuida de todo o planejamento, emissão e
-suporte contínuo.
+Criado em Apr 15,
+2026, 05:37 PM • Usado 284
+vezes • Ativo
+O Black Falcon é a assessoria premium que cuida de todo o planejamento, emissão e sup
+orte contínuo. Antes de avançar, faça as quatro perguntas obrigatórias de qualificação, u
+ma por mensagem, sem pular nenhuma: quantas vezes por ano viaja para fora do Brasil; s
+e costuma voar econômica ou executiva; se as viagens são a trabalho ou a lazer; se tem fl
+exibilidade de datas para aproveitar uma oportunidade fora do planejamento. Enquanto f
+altar resposta, repita apenas a pergunta em aberto. Com as quatro respostas, não diga ao
+cliente se ele qualifica ou não: colete o e-mail de compra e encaminhe para o time human
+o com as respostas registradas, porque a validação e o onboarding são feitos por pessoa
+s.
 Achei a viagem dos sonhos, mas não tenho as
 milhas certas. E agora?
 Criado em Apr 15, 2026,
-05:37 PM • Usado 768
+05:37 PM • Usado 770
 vezes • Ativo
 Você pode usar o Balcão de Milhas para negociar o saldo necessário com outros participa
 ntes de forma prática.
 Não entendo nada de milhas, como posso
 aprender com segurança?
 Criado em Apr 15,
-2026, 05:37 PM • Usado 152
+2026, 05:37 PM • Usado 156
 vezes • Ativo
 Indique a Consultoria Individual: um atendimento de cerca de 1 hora com especialista, po
 r Google Meet, que traça um plano estratégico e tira as dúvidas do cliente sobre milhas. D
@@ -209,7 +223,7 @@ a.
 Como lidar com o cliente que só viaja em
 alta temporada e está insatisfeito?
 Criado em Apr 15,
-2026, 05:19 PM • Usado 945
+2026, 05:19 PM • Usado 961
 vezes • Ativo
 Acolha a insatisfação e explique que, na alta temporada, as companhias liberam menos ta
 rifas award porque os voos lotam com vendas em dinheiro. Alinhe a expectativa: nesse pe
@@ -219,35 +233,95 @@ do sem ter trabalho, indique o Black Falcon.
 Como orientar clientes acima de 45 anos
 ou que não entendem de milhas?
 Criado em Apr 15,
-2026, 05:19 PM • Usado 800
+2026, 05:19 PM • Usado 828
 vezes • Ativo
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 5/10
+
+--- PAGINA 6 ---
 Use linguagem simples, didática e frases curtas, um passo de cada vez. Explique que pont
 os do banco viram milhas e que milhas são a moeda para emitir passagens. Guie pelo Bus
 cador com calma: busca manual para pesquisas específicas e Tarifas Awards para oportuni
 dades já encontradas. Não diga "janela de datas" como se fosse busca flexível automática;
 fale em datas alternativas que ele aceitaria. Se demonstrar insegurança ou medo de errar,
 apresente a Consultoria Individual como apoio estratégico para aprender com segurança.
-Como transformar uma reclamação em
-oportunidade de encantamento?
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 5/10
-
---- PAGINA 6 ---
+Como diagnosticar o perfil do cliente e
+indicar o produto certo do ecossistema?
 Criado em Apr 15,
-2026, 02:14 PM • Usado 738
+2026, 02:14 PM • Usado
+1251 vezes• Ativo
+Use perguntas simples: ele quer autonomia ou acompanhamento? Sabe usar milhas ou pr
+ecisa aprender? Tem milhas no programa certo? Quer delegar tudo? Se busca autonomia
+e economia, mantenha no Buscador e ensine as Tarifas Awards. Se tem baixa autonomia, f
+rustração ou dificuldade, indique a Consultoria Individual. Se não tem milhas no program
+a certo, o Balcão. Se quer delegar tudo, o Black Falcon. Explique sempre o encaixe com o
+problema real.
+Como recuperar um cliente em risco por
+falta de resultados nos primeiros dias?
+Criado em Apr 15,
+2026, 02:14 PM • Usado
+1239 vezes• Ativo
+Ressignifique sem minimizar: os primeiros dias servem para entender onde estão as melh
+ores oportunidades, e o Buscador é um radar, novas passagens aparecem todo dia. Pergu
+nte se ele usou só a busca manual ou também as Tarifas Awards. Oriente conferir oportuni
+dades já encontradas, usar a Busca Manual no final da página quando a passagem deseja
+da não estiver nos cards, testar hubs, aceitar datas alternativas e ativar monitoramento. Le
+mbre que hoje a emissão pode ser feita em milhas ou em dinheiro. Se o problema for falt
+a de clareza ou dificuldade de uso, ofereça a Consultoria Individual como apoio estratégic
+o, na versão paga de R$ 997,00. A Consultoria gratuita só pode ser oferecida se o cliente s
+olicitar cancelamento ou reembolso; nesse caso, siga o fluxo de retenção, deixando claro
+que optar por ela significa manter o acesso ativo e abrir mão do pedido de reembolso, m
+esmo dentro do prazo de 7 dias.
+Como lidar com cliente frustrado porque
+não encontrou nada barato no buscador?
+Criado em Apr 15,
+2026, 02:14 PM • Usado
+1457 vezes• Ativo
+Antes de responder, identifique se o cliente fala da busca manual ou das Tarifas Awards, p
+ela descrição dele, sem pedir rota ou datas. Se for busca manual, oriente a preencher o de
+stino quando o campo aparecer. Se for Tarifas Awards, explique que essa área mostra opo
+rtunidades já encontradas pelo sistema, por isso a lógica não é igual à de um buscador co
+mum preso a uma rota exata. Quando ele disser que não achou a passagem que queria, o
+fereça a Busca Manual, no final da página, como alternativa concreta, e lembre que a emis
+são pode ser feita em milhas ou em dinheiro, o que ajuda quem não tem saldo no progra
+ma da oportunidade. O ponto principal: busca manual atende intenção específica; Tarifas
+Awards mostram oportunidades com maior potencial de economia.
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 6/10
+
+--- PAGINA 7 ---
+Como conduzir um pedido de
+cancelamento ou reembolso sem perder o
+cliente?
+Criado em Apr 15,
+2026, 02:14 PM • Usado
+2983 vezes• Ativo
+Nunca envie o formulário na primeira resposta nem segure o caso no automático. Deixe o
+cliente dizer o motivo nas próprias palavras, sem sugerir opções. Identifique o motivo: falt
+a de uso, de resultado, dificuldade com milhas, cobrança/renovação, técnico ou incompati
+bilidade. Se for falta de valor, reposicione o Buscador como radar, cite as Tarifas Awards, a
+Busca Manual no fim da página e a emissão em milhas ou dinheiro. Se for baixa autonomi
+a ou pouco uso, ofereça a Consultoria Individual gratuita como retenção, deixando claro q
+ue ela mantém o acesso e abre mão do reembolso. Tente reter uma vez; se recusar ou rea
+firmar, pare. Envie o formulário e encaminhe ao humano na conversa, prazo até 72h úteis.
+Cancelamento/reembolso sempre termina em humano, mesmo se recusar o formulário, ci
+tar 7 dias, CDC, Procon, estorno, contestação ou pedir confirmação. Não confirme que est
+á dentro dos 7 dias. Não diga que encaminhou se a transferência não estiver ocorrendo.
+Como transformar clientes satisfeitos em
+defensores da marca sem forçar?
+Criado em Apr 15,
+2026, 02:14 PM • Usado 179
 vezes • Ativo
-Entenda o objetivo principal da reclamação antes de responder: resolver acesso, entender
-as Tarifas Awards, corrigir a busca manual, contestar cobrança ou cancelar. Avance um pas
-so prático, sem repetir explicações. Se for frustração com preço, não responda só "o Busc
-ador não cria promoções": explique como as Tarifas Awards funcionam, onde está o difere
-ncial e como extrair valor, reposicionando o Buscador como radar de passagens. Se for dif
-iculdade de uso, ofereça Consultoria. Se for erro técnico, peça descrição e e-mail. Se for p
-assagem já emitida, encaminhe o Oner. A meta é o cliente sentir que a IA entendeu o con
-texto.
+Celebre a conquista e nomeie o valor: economia real, oportunidade em tempo. Consolide
+o método. 1. Reforce o uso do monitoramento. 2. Oriente explorar a página de acúmulo p
+ara próximas viagens. 3. Mostre como compartilhar cards com amigos direto do buscado
+r. 4. Se o perfil pede mais apoio, apresente soluções do ecossistema, como Consultoria, B
+alcão e Black Falcon, como próximos passos naturais. 5. Mantenha comunicação simples e
+proativa. Um cliente com plano claro tende a recomendar espontaneamente.
 Como orientar sobre a área de seguros
 sem criar expectativa errada?
 Criado em Apr 15,
-2026, 02:14 PM • Usado 73
+2026, 02:14 PM • Usado 74
 vezes • Ativo
 Seja direto e tranquilo. 1. Explique que o buscador facilita o acesso ao seguro viagem por
 meio de parceria. 2. A contratação e o suporte são feitos diretamente com a seguradora.
@@ -255,52 +329,54 @@ meio de parceria. 2. A contratação e o suporte são feitos diretamente com a s
 de contratar. 4. Esclareça que taxas e regras são definidas pela seguradora. 5. Reforce que
 isso integra a experiência, mas não é operado pela equipe do buscador. Mantenha lingua
 gem simples e foco em decisão informada.
-Como agir quando o cliente quer destino
-e data exatos e está decepcionado?
-Criado em Apr 15,
-2026, 02:14 PM • Usado 433
-vezes • Ativo
-Acolha: faz sentido querer uma viagem definida. Explique que a busca manual atende ess
-a intenção, mas quanto mais rígida a combinação de origem, destino e data, menor a cha
-nce de uma tarifa award muito vantajosa. Mostre as Tarifas Awards, onde ficam oportunid
-ades já encontradas e há mais valor se ele aceitar alguma adaptação. Reforce o Buscador
-como radar: dá para monitorar até o destino aparecer. Se ele quer aprender estratégia, in
-dique a Consultoria; se quer delegar tudo, o Black Falcon.
-Como conduzir um pedido de
-cancelamento ou reembolso sem perder o
-cliente?
-Criado em Apr 15,
-2026, 02:14 PM • Usado
-2787 vezes• Ativo
-Nunca envie o formulário como primeira resposta. Deixe o cliente dizer o motivo com as
-próprias palavras, sem sugerir opções prontas. Identifique o motivo real: falta de uso, falta
-de resultado, dificuldade com milhas, cobrança/renovação, problema técnico ou incompat
-ibilidade. Se for falta de valor, reposicione o Buscador como radar e mostre as Tarifas Awa
-rds. Se for baixa autonomia ou falta de uso, ofereça a Consultoria Individual gratuita com
-o retenção, deixando claro que optar por ela significa seguir com o acesso ativo e abrir m
-ão do pedido de reembolso. Se faltar milhas, indique o Balcão; se quer delegar tudo, Blac
-k Falcon. Se insistir, envie o formulário, peça que confirme o preenchimento e transfira par
-a humano. Não confirme que está dentro dos 7 dias.
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 6/10
-
---- PAGINA 7 ---
 Como motivar um cliente que está
 procrastinando a decisão?
 Criado em Apr 15,
-2026, 02:14 PM • Usado 251
+2026, 02:14 PM • Usado 254
 vezes • Ativo
 Reconheça: é normal adiar quando há incerteza. Traga ação simples. 1. Lembre que tarifas
 award são voláteis; esperar pode encarecer. 2. Defina um objetivo micro: hoje, abrir o bus
 cador e testar 2 origens em hub com janela ampla. 3. Ative 2 monitoramentos de rota. 4.
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 7/10
+
+--- PAGINA 8 ---
 Abra 1 card e use o botão compartilhar para decidir com alguém. 5. Se faltar milhas, acess
 e a página de acúmulo ou o Balcão. 6. Combine um próximo passo com data. 7. Se a dúvi
 da é estratégia, ofereça Consultoria. Celebre cada avanço para gerar ritmo.
+Como agir quando o cliente não tem
+milhas no programa da oportunidade?
+Criado em Apr 15,
+2026, 02:14 PM • Usado 986
+vezes • Ativo
+Normalize: isso é comum e tem solução. Explique as opções em ordem de simplicidade. 1.
+Verifique se aquela passagem permite emissão em dinheiro pelo próprio Buscador, porqu
+e hoje existem as duas formas. 2. Veja se dá para transferir pontos do banco com bônus.
+3. Considere compra bonificada ou compra de pontos no programa. 4. Sugira o Balcão pa
+ra negociar milhas com participantes aprovados, sem intermediação da empresa. 5. Comp
+are o custo estimado das milhas com o preço em dinheiro para decidir. 6. Se ele quer apr
+ender a estruturar o acúmulo, indique a Consultoria. Reforce que o programa define onde
+emitir com milhas, mas não impede o acesso à oportunidade.
+Como agir quando o cliente quer destino
+e data exatos e está decepcionado?
+Criado em Apr 15,
+2026, 02:14 PM • Usado 454
+vezes • Ativo
+Acolha: faz sentido querer uma viagem definida. Explique que a busca manual, no final da
+página, atende essa intenção e é o caminho quando a passagem desejada não aparece en
+tre as oportunidades já encontradas, mas quanto mais rígida a combinação de origem, de
+stino e data, menor a chance de uma tarifa award muito vantajosa. Mostre as Tarifas Awar
+ds, onde há mais valor se ele aceitar alguma adaptação, e lembre que a emissão pode ser
+feita em milhas ou em dinheiro. Reforce o Buscador como radar: dá para monitorar até a
+oportunidade aparecer. Não peça a rota nem as datas do cliente, porque isso sugere que
+faremos uma cotação, e a empresa não faz cotação personalizada. Se ele quer aprender e
+stratégia, indique a Consultoria; se quer delegar tudo, o Black Falcon, com as quatro perg
+untas de qualificação.
 Como responder quando a promoção
 desaparece ao emitir e o cliente culpa o
 sistema?
 Criado em Apr 15,
-2026, 02:14 PM • Usado 881
+2026, 02:14 PM • Usado 896
 vezes • Ativo
 Valide: entendo a frustração, isso acontece porque tarifas award são limitadas e rápidas. E
 xplique: não é erro do buscador; outras pessoas podem emitir ao mesmo tempo. Conduz
@@ -309,79 +385,9 @@ rta. 3. Considere outra origem em hub. 4. Ative o monitoramento da rota para nov
 as. 5. Oriente decidir com mais agilidade nas próximas oportunidades. 6. Se houver dúvid
 as de estratégia, ofereça uma Consultoria. Feche reforçando que o sistema encontra oport
 unidades reais em tempo real.
-Como proceder quando o cliente pede
-atendimento humano imediatamente?
-Criado em Apr 15,
-2026, 02:14 PM • Usado
-2668 vezes• Ativo
-Não transfira automaticamente só porque o cliente pediu humano uma vez. Responda co
-m acolhimento e faça triagem objetiva. Se a dúvida for sobre uso do Buscador, filtros, Tarif
-as Awards, bônus ou entendimento de milhas, tente orientar primeiro com um passo práti
-co. Se o cliente insistir, estiver irritado, trouxer erro técnico, cobrança, acesso travado ou si
-tuação que dependa de conferência interna, peça o e-mail de compra e encaminhe. Não
-use formulário de reembolso para acesso, bônus, renovação, erro técnico ou pedido gené
-rico de humano.
-Como agir quando o cliente não tem
-milhas no programa da oportunidade?
-Criado em Apr 15,
-2026, 02:14 PM • Usado 977
-vezes • Ativo
-Normalize: isso é comum e tem solução. Explique opções em ordem de simplicidade. 1. V
-erifique se pode transferir pontos do banco com bônus. 2. Considere compra bonificada o
-u compra de pontos no programa. 3. Sugira o Balcão para negociar milhas com participan
-tes aprovados, sem intermediação da empresa. 4. Compare o custo estimado das milhas c
-om o preço em dinheiro para decidir. 5. Se ele quer aprender a estruturar o acúmulo, indi
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 7/10
-
---- PAGINA 8 ---
-que a Consultoria. Reforce que o programa define onde emitir, mas não impede acessar a
-oportunidade.
-Como lidar com cliente frustrado porque
-não encontrou nada barato no buscador?
-Criado em Apr 15,
-2026, 02:14 PM • Usado
-1427 vezes• Ativo
-Antes de responder, identifique se o cliente fala da busca manual ou das Tarifas Awards. S
-e for busca manual, não diga que não tem destino: oriente a preencher o destino quando
-o campo aparecer. Se for Tarifas Awards, explique que essa área mostra oportunidades já
-encontradas pelo sistema, por isso a lógica não é igual à de um buscador comum preso a
-uma rota exata. O ponto principal: busca manual atende intenção específica; Tarifas Award
-s mostram oportunidades com maior potencial de economia.
-Como recuperar um cliente em risco por
-falta de resultados nos primeiros dias?
-Criado em Apr 15,
-2026, 02:14 PM • Usado
-1200 vezes• Ativo
-Ressignifique sem minimizar: os primeiros dias servem para entender onde estão as melh
-ores oportunidades, e o Buscador é um radar, novas passagens aparecem todo dia. Pergu
-nte se ele usou só a busca manual ou também as Tarifas Awards. Oriente conferir oportuni
-dades já encontradas, testar hubs, aceitar datas alternativas e ativar monitoramento. Se o
-problema for falta de clareza ou dificuldade de uso, ofereça a Consultoria Individual como
-apoio estratégico, na versão paga de R$ 997,00. A Consultoria gratuita só pode ser ofereci
-da se o cliente solicitar cancelamento ou reembolso; nesse caso, siga o fluxo de retenção,
-deixando claro que optar por ela significa manter o acesso ativo e abrir mão do pedido d
-e reembolso, mesmo dentro do prazo de 7 dias.
-Como diagnosticar o perfil do cliente e
-indicar o produto certo do ecossistema?
-Criado em Apr 15,
-2026, 02:14 PM • Usado
-1243 vezes• Ativo
-Use perguntas simples: ele quer autonomia ou acompanhamento? Sabe usar milhas ou pr
-ecisa aprender? Tem milhas no programa certo? Quer delegar tudo? Se busca autonomia
-e economia, mantenha no Buscador e ensine as Tarifas Awards. Se tem baixa autonomia, f
-rustração ou dificuldade, indique a Consultoria Individual. Se não tem milhas no program
-a certo, o Balcão. Se quer delegar tudo, o Black Falcon. Explique sempre o encaixe com o
-problema real.
 Como explicar, sem gerar atrito, por que o
 primeiro filtro não tem destino?
-Criado em Apr 15,
-2026, 02:14 PM • Usado
-1088 vezes• Ativo
-Antes de responder, identifique se o cliente está falando da busca manual ou da seção Tar
-ifas Awards. Se for busca manual, não diga que não tem destino: oriente a preencher desti
-no quando o campo aparecer. Se for Tarifas Awards, explique que essa seção mostra opor
-27/07/2026, 16:07 Knowledge Base Details
+05/08/2026, 14:02 Knowledge Base Details
 https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 8/10
 
 --- PAGINA 9 ---
@@ -391,6 +397,47 @@ ID da Base
 Tipo
 Playbook
 Tipo de Agente
+Criado em Apr 15,
+2026, 02:14 PM • Usado
+1112 vezes• Ativo
+Antes de responder, identifique se o cliente está falando da busca manual ou da seção Tar
+ifas Awards. Se for busca manual, não diga que não tem destino: oriente a preencher desti
+no quando o campo aparecer. Se for Tarifas Awards, explique que essa seção mostra opor
+tunidades já encontradas pelo sistema, por isso a lógica não é igual à de um buscador co
+mum preso a uma rota exata. O ponto principal é: busca manual atende intenção específi
+ca; Tarifas Awards mostra oportunidades com maior potencial de economia.
+Como proceder quando o cliente pede
+atendimento humano imediatamente?
+Criado em Apr 15,
+2026, 02:14 PM • Usado
+2748 vezes• Ativo
+Não transfira automaticamente só porque o cliente pediu humano uma vez. Responda co
+m acolhimento e faça triagem objetiva. Se a dúvida for sobre uso do Buscador, filtros, Tarif
+as Awards, bônus ou entendimento de milhas, tente orientar primeiro com um passo práti
+co. Existe uma exceção: se o assunto for cancelamento, reembolso ou estorno, não faça tri
+agem nem tente reter mais de uma vez, encaminhe. Se o cliente insistir, estiver irritado, tr
+ouxer erro técnico, cobrança, acesso travado ou situação que dependa de conferência int
+erna, peça o e-mail de compra e encaminhe. Não use formulário de reembolso para acess
+o, bônus, renovação, erro técnico ou pedido genérico de humano.
+Como transformar uma reclamação em
+oportunidade de encantamento?
+Criado em Apr 15,
+2026, 02:14 PM • Usado 763
+vezes • Ativo
+Entenda o objetivo principal da reclamação antes de responder: resolver acesso, entender
+as Tarifas Awards, corrigir a busca manual, contestar cobrança ou cancelar. Avance um pas
+so prático, sem repetir explicações. Se for frustração com preço, não responda só "o Busc
+ador não cria promoções": explique como as Tarifas Awards funcionam, onde está o difere
+ncial e como extrair valor, citando a Busca Manual no final da página e a emissão em milh
+as ou em dinheiro. Se for dificuldade de uso, ofereça Consultoria. Se for erro técnico, peça
+a descrição do que aparece na tela e o e-mail, sem pedir rota ou datas. Se for passagem j
+á emitida, encaminhe o Oner. Se for cancelamento ou reembolso, faça uma tentativa de r
+etenção e encaminhe para o time humano. A meta é o cliente sentir que a IA entendeu o
+contexto.
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 9/10
+
+--- PAGINA 10 ---
 Suporte
 Organização
 Falcão das Milhas
@@ -401,25 +448,7 @@ Apr 15, 2026, 02:14 PM
 Campanha em uso
 IA de Suporte - Falcão das Milhas
 Fontes de Conhecimento
-tunidades já encontradas pelo sistema, por isso a lógica não é igual à de um buscador co
-mum preso a uma rota exata. O ponto principal é: busca manual atende intenção específi
-ca; Tarifas Awards mostra oportunidades com maior potencial de economia.
-Como transformar clientes satisfeitos em
-defensores da marca sem forçar?
-Criado em Apr 15,
-2026, 02:14 PM • Usado 174
-vezes • Ativo
-Celebre a conquista e nomeie o valor: economia real, oportunidade em tempo. Consolide
-o método. 1. Reforce o uso do monitoramento. 2. Oriente explorar a página de acúmulo p
-ara próximas viagens. 3. Mostre como compartilhar cards com amigos direto do buscado
-r. 4. Se o perfil pede mais apoio, apresente soluções do ecossistema, como Consultoria, B
-alcão e Black Falcon, como próximos passos naturais. 5. Mantenha comunicação simples e
-proativa. Um cliente com plano claro tende a recomendar espontaneamente.
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 9/10
-
---- PAGINA 10 ---
 Manual IA Atendimento.pdf
-27/07/2026, 16:07 Knowledge Base Details
+05/08/2026, 14:02 Knowledge Base Details
 https://neo.awsales.io/knowledge-bases/420f139a-f9cf-4acc-a1c4-99bd2453edb7 10/10
 

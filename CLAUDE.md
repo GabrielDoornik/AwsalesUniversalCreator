@@ -28,6 +28,8 @@ Respostas curtas e objetivas. Nada de textão a cada interação: o usuário tra
 
 **How to apply:** entregar o que foi pedido, dizer o essencial em poucas linhas e parar. Sem recapitular o que já foi combinado, sem repetir no chat o conteúdo que já está no arquivo, sem seções e tabelas quando bastam 3 linhas. Explicação longa só quando o usuário pedir o porquê de alguma coisa. Pedido em 2026-07-27.
 
+Formato exato para pendências e recomendações, pedido em 2026-08-05: uma linha por ação, no padrão "fazer X, porque [motivo em meia linha]". Nada de diagnóstico antes da ação, nada de tabela de evidência, nada de perguntar se pode explicar. O usuário lê a ação e decide; se quiser o porquê longo, ele pergunta. Ao entregar artefato, dizer só o que foi substituído e onde: "substituí o checkpoint da campanha X e as FAQs da campanha Y".
+
 ## Orquestração real dos agentes AWSales
 
 O checkpoint é o artefato mais decisivo porque funciona como roteador da cadeia inteira, não apenas como script de etapas.
@@ -308,6 +310,30 @@ Três campanhas de onboarding que rodam DEPOIS da compra aprovada do Buscador Au
 
 **How to apply:** Se o usuário mencionar "onboarding do Falcão", "onboarding 1/2/3" ou "pós-compra do Buscador", ler PRIMEIRO `Falcão das milhas/Onboarding pós-compra (Buscador Automático)/CONTEXTO_ONBOARDINGS.md` — é o estado vivo (escopo de cada onboarding, fatos operacionais da base de Suporte, grade do que a AWSales consegue e não consegue fazer, pendências). Escopo dos três ainda pendente em 2026-07-27; o CS vai enviar prints/contexto.
 
+### Bateria de redução de handoff (estado vivo desde 2026-08-05)
+
+Otimização das 4 campanhas (Suporte + Onb1/2/3) a partir de 161 tickets de handoff no recorte 01-04/08. **Ler `Falcão das milhas/Onboarding pós-compra (Buscador Automático)/Anotações da otimização/ESTADO_OTIMIZACAO.md` antes de tocar em qualquer uma delas** — tem o que já subiu e está verificado em produção, o que caiu por terra e não deve ser refeito, o que está em stand by, as 8 investigações abertas (I0 a I7) e os baselines para a recontagem de 7 dias.
+
+Leva 1 fechada em 2026-08-05: checkpoints das 4 campanhas, 6 FAQs novas na base de Suporte, variáveis `link_formulario_perfil` e `Nome_do_agente`, template UTILITY novo na Onb3, gatilho renomeado para `CANCELAMENTO` e "Respeitar horário de atendimento" ligado no Suporte. Em stand by: item 3 (cinco minutos na Onb2) e item 7 (aprovação do cliente).
+
+## Painel AWSales — armadilhas verificadas no banco
+
+Descobertas em 2026-08-05 na conta Falcão, mas valem para qualquer cliente.
+
+**O editor de checkpoint corrompe markdown ao salvar.** Três coisas: apaga `- [ ]` virando `- ` simples, autolinka `metadata.email` para `[metadata.email](http://metadata.email)`, e renumera `1)` para `1.`. A perda da caixa `- [ ]` é a grave, porque é o slot onde o Checkpoint Manager grava estado (medido: ele marcava caixa em 294 de 297 turnos da Onb3). Colar a partir de um `.txt` preserva tudo; colar de preview renderizado destrói. **Sempre conferir depois de subir:** `SELECT (length(checkpoint)-length(replace(checkpoint,'- [ ]','')))/5 caixas FROM campaigns WHERE id='...'`. O autolink é cosmético e pode ser ignorado — a plataforma resolve a variável mesmo assim.
+
+**O rótulo do handoff sai do NOME do gatilho personalizado, não do critério.** Um gatilho tem só 5 campos em toda a base (`id`, `name`, `status`, `prompt`, `enabled`); não existe campo de lista de rótulos. Se o cliente reclamar de rótulo bagunçado no painel, renomeie o gatilho para o rótulo desejado em caixa alta. Instrução de rótulo dentro do critério não funciona e só gasta token.
+
+**O template de abertura é configurado por gatilho de input, não por campanha.** Em "Configuração Avançada de Eventos" cada evento tem seu próprio template. Trocar em um não troca nos outros — verificar qual evento realmente abre as janelas antes de comemorar a troca (`SELECT event_id, count(*) FROM conversion_window WHERE campaign_id=... GROUP BY 1` no db 3).
+
+**Os ids de campanha são DIFERENTES entre o db 7 (NEO) e o db 3 (APP).** Só o id da organização é o mesmo. Achar o par pelo nome antes de cruzar os dois bancos.
+
+**A configuração de input/output das campanhas vive no db 3**, em `campaigns_objects_events` (`trigger_type` INPUT/OUTPUT, `event_id`) mais `events`, `objects` e `sub_objects`. O db 7 não tem tabela de gatilho de campanha. Para saber o que de fato abriu as janelas, `conversion_window.event_id`.
+
+**`only_transfer_during_available_hours`** é a chave de `handoff_config` do toggle "Respeitar horário de atendimento da equipe", e o comportamento dele foi medido em 2026-08-05, não suposto: **ele SUPRIME o handoff fora do horário, não enfileira para depois.** Numa campanha que roda com ele ligado, no dia em que a equipe não atende os tickets caem de ~87 para 8, e dos 60 tickets criados na primeira hora do expediente todos tinham a última mensagem do lead 2,1 minutos antes, nenhum com intervalo maior que 2h. Fora do horário a IA segue atendendo; o caso que exige humano só vira ticket quando a pessoa escreve de novo dentro da janela. O horário vem de `organization_teams.availability_weekdays` e `availability_schedule`, e se a campanha tiver uma segunda equipe de destino com horário nulo a restrição vaza.
+
+**Pré-requisito antes de ligar esse toggle em qualquer campanha:** o checkpoint precisa de um ramo para "não posso transferir agora". Todo checkpoint de suporte bem escrito proíbe a IA afirmar que encaminhou quando a transferência não está acontecendo naquela resposta — e com o toggle ligado, fora do horário ela nunca está. Sem regra mandando informar o horário do time em vez de afirmar encaminhamento, a IA mente ou trava. Caso real: ligado e revertido no mesmo dia no Suporte do Falcão, por decisão do cliente, que preferiu ticket aberto sem operador a caso sem ticket.
+
 ## Campanha Nayra Del Duca — Acelerador de Margem (estado vivo)
 
 Cliente: Nayra Del Duca (GTCON Brasil Contabilidade). Campanha "Acelerador de Margem" — onboarding + upsell pós-compra do Lucro Blindado. IA: Mariana. Pasta: `Nayra Del Duca/Acelerador de Margem/`.
@@ -378,6 +404,21 @@ Campanhas do legado (Falcão/Onboarding, verificado em 2026-07-29) **não têm t
 **O achado que presta** vem de cruzar a transcrição com o checkpoint da campanha (o `.md` na pasta do cliente): regra escrita × comportamento real, citando a frase da IA e a regra violada. Foi assim que saíram os 6 achados do Onboarding do Falcão em 2026-07-29.
 
 **Chaves:** este repositório é PÚBLICO. As chaves vieram embutidas nos scripts do zip original e foram retiradas do código — moram em `.env.local` (gitignorado). Nunca colar chave em arquivo versionado. `build/` também é gitignorado: contém transcrição real de lead (PII).
+
+## Otimização de campanha com handoff — o dado está no db 7
+
+Toda a camada de Intervenção Humana, CSAT e Optimization Hub vive no banco **NEO (db 7)**, não no APP (db 3). Se o pedido for otimizar campanha de suporte, onboarding ou qualquer uma com transbordo, ler PRIMEIRO `Estrutura/INTERVENCAO_HUMANA_E_CSAT.md` — a Parte II (seções 13-18) tem o mapa de tabelas, os gotchas, uma bateria de 9 queries prontas, o método de 6 passos e um caso trabalhado. Verificado contra o banco em 2026-08-05.
+
+As três tabelas que resolvem: `handoff_snapshots` (a foto do momento do transbordo: o que o lead perguntou, o que a base devolveu, qual check do Auditor disparou, o checkpoint vigente), `tactical_analysis` (uma linha por conversa, com **`rag_missing_info`** — a lista literal do que faltou na base) e `improvement_suggestions` (FAQs e regras de checkpoint que a plataforma já redigiu, com `common_human_solution` dizendo o que o operador humano fez diferente da IA).
+
+Três coisas que o banco desmente e que se descobrem caro:
+- **"IA não soube responder" quase nunca é falta de FAQ.** Em campanha real, 78% dos `AI_DONT_KNOW` tinham a base devolvendo conteúdo com score alto. A causa é FAQ escrita como política sem o fato dentro, ou gate do checkpoint. Escrever FAQ nova nesses casos não muda nada.
+- **`rag_accuracy` não prevê transbordo** (0,861 com handoff, 0,855 sem). Não usar score de RAG como diagnóstico.
+- **As 2.574 sugestões do Optimization Hub estão 100% em `PENDING_APPROVAL`**, em toda a base, desde maio/2026. Nunca foram puxadas. Em qualquer campanha com semanas de operação já existe lista pronta esperando.
+
+Gotchas que quebram query: o db 7 usa `timestamp with time zone` e **não** leva o `- INTERVAL '3 hours'` que o db 3 exige; `handoff_reason` é texto livre com caixa inconsistente (agregar sempre com `upper()`); `handoff_snapshots.checkpoint_variables` contém o checkpoint inteiro, não variáveis; `checkpoint_current_step` está vazio em 100% das linhas; join de `handoff_tickets` com `handoff_assignments` infla a contagem; as três tabelas `optimization_hub_*` estão vazias.
+
+`campaigns.checkpoint` (db 7) é o checkpoint VIVO da plataforma — dá para conferir se o `.md` local está em sincronia antes de otimizar em cima dele.
 
 ## Ambientes n8n da AWSales
 

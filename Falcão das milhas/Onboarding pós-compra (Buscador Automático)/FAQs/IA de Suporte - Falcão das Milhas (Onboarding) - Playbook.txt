@@ -1,9 +1,9 @@
 --- PAGINA 1 ---
 IA de Suporte - Falcão das Milhas (Onboarding)
-Playbook11 documentos Editar
+Playbook14 documentos Editar
 Busca Semântica
 Buscar
-Documentos (11)Selecionar Todos Adicionar Documento
+Documentos (14)Selecionar Todos Adicionar Documento
 Status Tags Ordenar por
 Ordem
 Limpar filtros
@@ -13,101 +13,60 @@ Buscar documentos por co
 Ativos Todas as tags
  Data de criação
 Desc
-Estou com problema no acesso, o que faço?
+Como agir quando o cliente começou o
+formulário de perfil de viagens e parou no meio?
 Criado em Jul 27, 2026,
-04:59 PM • Usado 0
+06:59 PM • Usado 40
 vezes • Ativo
-Valide a frustração e identifique se é login, senha, e-mail de acesso não recebido, bônus n
-ão localizado ou erro dentro da plataforma. O acesso ao Buscador é em https://novo.busc
-adorautomatico.com.br/ e a área de membros em https://buscadorautomatico.membercla
-ss.com.br/login; lembre que o app não funciona, use o link. Para login ou senha, oriente
-"Esqueci minha senha" e checar caixa de entrada, spam e lixo eletrônico do e-mail da com
-pra. Para erro de carregamento, oriente limpar cache, aba anônima, outro navegador e dis
-positivo. Se não resolver, peça o e-mail da compra, informe que o acesso será resetado pe
-lo time e encaminhe. A IA não reseta. Não envie formulário.
-Quais situações devem escalar para suporte
-humano sem insistir demais?
-Criado em Jul 27, 2026,
-04:59 PM • Usado 0
+Não recomece a explicação do zero e não reenvie o link como primeira resposta, porque i
+sso ignora o esforço que a pessoa já fez e costuma soar automático. Pergunte em que po
+nto ela travou e resolva aquele ponto específico. Se travou por não saber responder uma
+pergunta, oriente a responder o mais próximo da realidade e seguir, porque a informação
+serve para direcionar e não é compromisso. Se travou por erro de tela, oriente atualizar a
+página, testar outro navegador ou o computador, uma coisa por vez. Só depois de destra
+var é que o link volta. Atenção: como os campos de nome, e-mail e telefone ficam no fim
+do formulário, quem para no meio não fica registrado, então a conversa é a única forma d
+e recuperar essa pessoa.
+Como agir quando o cliente diz que o
+formulário de perfil de viagens é longo ou
+que vai preencher depois?
+Criado em Jul 27,
+2026, 06:59 PM• Usado 70
 vezes • Ativo
-Escale quando houver acesso travado após tentativas básicas, recuperação de senha que
-não chega, bônus não localizado após acessar a área de membros, cobrança ou renovaçã
-o que exige conferência, cobrança duplicada, contestação, chargeback, reembolso negad
-o contestado, formulário de reembolso já preenchido, erro técnico persistente, pedido ins
-istente de humano após tentativa de ajuda, hostilidade alta ou dúvida jurídica. Antes do h
-andoff, colete o e-mail de compra e resuma o contexto. Para passagem já emitida, compr
-ada errada ou problema de emissão, não use a fila interna: encaminhe para o Oner, no W
-hatsApp +55 11 4506-7676.
-Como agir quando a IA não encontra resposta
-direta na base?
-Criado em Jul 27, 2026,
-04:59 PM • Usado 0
-vezes • Ativo
-27/07/2026, 18:10 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 1/4
+Reconheça sem entrar em negociação sobre o tamanho. Diga em uma frase que é bem rá
+pido, que serve para a equipe entender o perfil de viagem dele e que dá para responder p
+elo celular. Nunca diga quantos minutos leva nem quantas perguntas são, mesmo que ele
+pergunte direto: número assusta antes de a pessoa começar e derruba o preenchimento.
+Quanto mais a conversa gira em torno do tamanho, maior a chance de desistência, então
+não alimente o assunto. Se ele disser que faz depois, aceite na hora: deixe o link registrad
+o em uma frase e encerre. Nunca peça que ele avise, confirme ou mande um ok depois de
+preencher, porque isso transforma uma tarefa em duas e o sistema já registra o envio sozi
+nho. Não repita o pedido com outras palavras na mesma conversa e não use urgência qu
+e não existe, porque não há prazo real para preencher. Se ele adiar uma segunda vez, enc
+erre com cordialidade em vez de insistir uma terceira.
+05/08/2026, 14:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 1/5
 
 --- PAGINA 2 ---
-Não diga "não sei", "não encontrei", "vou verificar", "vou consultar a equipe" ou "te retorn
-o depois". Primeiro veja se há uma FAQ próxima que ajude a orientar o próximo passo se
-m inventar informação. Se for dúvida secundária e a conversa estiver indo bem, contorne
-naturalmente e volte ao ponto principal. Se for o problema central do cliente e não houve
-r base suficiente para resolver, peça o e-mail de compra e encaminhe para humano com e
-mpatia, explicando que o time responsável precisa conferir com segurança.
-Como encerrar o atendimento quando o cliente
-confirma que resolveu?
+Como agir quando o cliente desconfia do
+formulário de perfil de viagens ou acha que é
+golpe?
 Criado em Jul 27, 2026,
-04:59 PM • Usado 0
+06:59 PM • Usado 36
 vezes • Ativo
-Quando o cliente disser que deu certo, que conseguiu acessar, que resolveu ou apenas ag
-radecer indicando satisfação, encerre de forma curta e acolhedora. Não abra novo assunt
-o, não tente vender outro produto, não prolongue a conversa e não prometa acompanha
-mento futuro. Use uma frase simples, como: "Que bom que deu certo. Qualquer dúvida, é
-só me chamar por aqui." Se ainda houver dúvida, pergunte apenas qual ponto ficou faltan
-do.
-Como agir quando o cliente não consegue
-acessar os bônus?
-Criado em Jul 27, 2026,
-04:59 PM • Usado 0
-vezes • Ativo
-Reconheça que o problema é acesso aos bônus, sem repetir perguntas já respondidas. Le
-mbre que os bônus ficam na área de membros, em https://buscadorautomatico.membercl
-ass.com.br/login, e não dentro do Buscador. Pergunte se ele procurou na área de membro
-s. Se mesmo acessando a área de membros o bônus não aparecer, trate como urgente: pe
-ça o e-mail de compra e encaminhe para humano revisar e, se preciso, resetar o acesso. S
-e precisar de evidência, peça print para encaminhar, sem prometer análise visual pela IA.
-Não envie formulário de reembolso.
-Como proceder quando o cliente pede
-atendimento humano imediatamente?
-Criado em Jul 27, 2026,
-04:59 PM • Usado 0
-vezes • Ativo
-Não transfira automaticamente só porque o cliente pediu humano uma vez. Responda co
-m acolhimento e faça triagem objetiva. Se a dúvida for sobre uso do Buscador, filtros, Tarif
-as Awards, bônus ou entendimento de milhas, tente orientar primeiro com um passo práti
-co. Se o cliente insistir, estiver irritado, trouxer erro técnico, cobrança, acesso travado ou si
-tuação que dependa de conferência interna, peça o e-mail de compra e encaminhe. Não
-use formulário de reembolso para acesso, bônus, renovação, erro técnico ou pedido gené
-rico de humano.
-Como recuperar um cliente em risco por
-falta de resultados nos primeiros dias?
-Criado em Jul 27,2026, 04:59 PM• Usado 0vezes • Ativo
-Ressignifique sem minimizar: os primeiros dias servem para entender onde estão as melh
-ores oportunidades, e o Buscador funciona como um radar, com passagens novas aparec
-endo todo dia. Antes de qualquer coisa, descubra o que ele já fez: entrou e olhou só a bu
-sca manual, ou também as Tarifas Awards? A maior parte da frustração inicial vem de usar
-só a busca manual com origem, destino e data muito fechados. Oriente a comparar as op
-ortunidades já encontradas, testar hubs como GRU, GIG e VCP, aceitar datas alternativas e
-ativar o monitoramento da rota. Peça que ele tente uma coisa só e volte para contar o res
-ultado. Não trate como pedido de cancelamento, não fale em reembolso e não ofereça o
-utro produto: nesta etapa o objetivo é ensinar a usar.
-27/07/2026, 18:10 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 2/4
-
---- PAGINA 3 ---
+Priorize transparência sobre persuasão. Num público 45 mais, perguntas sobre cartão e g
+asto acionam alarme de golpe, e insistir no benefício reforça a suspeita em vez de dissolv
+er. Comece validando: faz sentido desconfiar. Depois diga o que o formulário NÃO pede,
+que costuma acalmar mais do que qualquer argumento: nunca número de cartão, código
+de segurança, senha, CPF nem dado bancário. Em seguida dê o motivo verdadeiro das per
+guntas, que é entender a capacidade de acúmulo de pontos. Só então ofereça o link de n
+ovo, sem pressionar. Não prometa política de privacidade nem destino dos dados que nã
+o esteja na base. Se a acusação de golpe persistir depois da explicação, não discuta: colet
+e o e-mail de compra e encaminhe para humano.
 Como orientar clientes acima de 45 anos
 ou que não entendem de milhas?
 Criado em Jul 27,
-2026, 04:59 PM• Usado 0
+2026, 04:59 PM• Usado 37
 vezes • Ativo
 Use linguagem simples, frases curtas e um passo de cada vez. Confirme se o passo anterio
 r deu certo antes de dar o próximo e nunca mande dois caminhos na mesma mensagem.
@@ -119,10 +78,38 @@ nual para pesquisas específicas e Tarifas Awards para as oportunidades já enco
 o diga janela de datas como se fosse busca automática; fale em datas alternativas que ela
 aceitaria. Se demonstrar medo de errar, tranquilize e siga um passo por vez, sem oferecer
 outro produto.
+Como recuperar um cliente em risco por
+falta de resultados nos primeiros dias?
+Criado em Jul 27,
+2026, 04:59 PM• Usado 24
+vezes • Ativo
+Ressignifique sem minimizar: os primeiros dias servem para entender onde estão as melh
+ores oportunidades, e o Buscador funciona como um radar, com passagens novas aparec
+endo todo dia. Antes de qualquer coisa, descubra o que ele já fez: entrou e olhou só a bu
+sca manual, ou também as Tarifas Awards? A maior parte da frustração inicial vem de usar
+só a busca manual com origem, destino e data muito fechados. Oriente a comparar as op
+ortunidades já encontradas, testar hubs como GRU, GIG e VCP, aceitar datas alternativas e
+ativar o monitoramento da rota. Peça que ele tente uma coisa só e volte para contar o res
+ultado. Não trate como pedido de cancelamento, não fale em reembolso e não ofereça outro produto: nesta etapa o objetivo é ensinar a usar.
+Como agir quando a IA não encontra resposta
+direta na base?
+Criado em Jul 27, 2026, 04:59
+PM • Usado 1
+vez • Ativo
+Não diga "não sei", "não encontrei", "vou verificar", "vou consultar a equipe" ou "te retorn
+o depois". Primeiro veja se há uma FAQ próxima que ajude a orientar o próximo passo se
+m inventar informação. Se for dúvida secundária e a conversa estiver indo bem, contorne
+naturalmente e volte ao ponto principal. Se for o problema central do cliente e não houve
+r base suficiente para resolver, peça o e-mail de compra e encaminhe para humano com e
+mpatia, explicando que o time responsável precisa conferir com segurança.
+05/08/2026, 14:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 2/5
+
+--- PAGINA 3 ---
 Como evitar respostas repetitivas e
 transferência precoce?
 Criado em Jul 27,
-2026, 04:59 PM• Usado 0
+2026, 04:59 PM• Usado 10
 vezes • Ativo
 Antes de responder, leia o contexto já informado e identifique a intenção principal. Não r
 epita pergunta sobre e-mail, mensagem de erro, etapa ou objetivo se o cliente já respond
@@ -133,35 +120,49 @@ o próximo passo lógico previsto na base; nunca repita o mesmo teste com outras
 s. Só transfira quando depender de ação interna, erro técnico real, pedido insistente após
 tentativa de ajuda ou risco alto. Antes do handoff, peça o e-mail de compra completo e o
 nome completo.
-Como motivar um cliente que está
-procrastinando a decisão?
-Criado em Jul 27,
-2026, 04:59 PM• Usado 0
+Como proceder quando o cliente pede
+atendimento humano imediatamente?
+Criado em Jul 27, 2026,
+04:59 PM • Usado 19
 vezes • Ativo
-Reconheça: é normal adiar quando parece trabalhoso. Reduza o pedido em vez de aumen
-tar o argumento. 1. Deixe claro que o primeiro acesso leva menos de dois minutos e é só
-usar o e-mail da compra e criar a senha. 2. Peça um único passo agora, entrar e avisar que
-entrou, em vez de descrever tudo que ele vai fazer depois. 3. Lembre que o Buscador já te
-m oportunidades mapeadas hoje e que elas mudam todo dia, então o custo de adiar é re
-al. 4. Se ele disser que faz depois, aceite sem insistir, deixe o caminho registrado em uma f
-rase e combine que ele avisa quando entrar. 5. Se voltar dizendo que travou, trate como b
-arreira técnica, não como falta de vontade. Não pressione, não repita o mesmo pedido com outras palavras e não ofereça outro produto.
+Não transfira automaticamente só porque o cliente pediu humano uma vez. Responda co
+m acolhimento e faça triagem objetiva. Se a dúvida for sobre uso do Buscador, filtros, Tarif
+as Awards, bônus ou entendimento de milhas, tente orientar primeiro com um passo práti
+co. Se o cliente insistir, estiver irritado, trouxer erro técnico, cobrança, acesso travado ou si
+tuação que dependa de conferência interna, peça o e-mail de compra e encaminhe. Não
+use formulário de reembolso para acesso, bônus, renovação, erro técnico ou pedido gené
+rico de humano.
+Como agir quando o cliente não consegue
+acessar os bônus?
+Criado em Jul 27, 2026,
+04:59 PM • Usado 9
+vezes • Ativo
+Reconheça que o problema é acesso aos bônus, sem repetir perguntas já respondidas. Le
+mbre que os bônus ficam na área de membros, em https://buscadorautomatico.membercl
+ass.com.br/login, e não dentro do Buscador. Pergunte se ele procurou na área de membro
+s. Se mesmo acessando a área de membros o bônus não aparecer, trate como urgente: pe
+ça o e-mail de compra e encaminhe para humano revisar e, se preciso, resetar o acesso. S
+e precisar de evidência, peça print para encaminhar, sem prometer análise visual pela IA.
+Não envie formulário de reembolso.
 Como transformar uma reclamação em
 oportunidade de encantamento?
 Criado em Jul 27,
-2026, 04:59 PM• Usado 0
+2026, 04:59 PM• Usado 18
 vezes • Ativo
 Entenda o objetivo real da reclamação antes de responder: resolver acesso, achar os bônu
-s, entender as Tarifas Awards ou corrigir a busca manual. Avance um passo prático em vez
-de repetir explicação. Se for frustração com preço, não responda apenas que o Buscador
+s, entender as Tarifas Awards ou corrigir a busca manual. Avance um passo prático em vezde repetir explicação. Se for frustração com preço, não responda apenas que o Buscador
 não cria promoções: explique como as Tarifas Awards funcionam, onde está o diferencial e
 como extrair valor, reposicionando o Buscador como radar de passagens. Se for dificuldad
 e de uso, guie um passo por vez e confirme o resultado antes de seguir. Se for erro técnic
 o, peça a mensagem exata que aparece na tela e o e-mail de compra. Se for passagem já
 emitida, encaminhe para o time especializado conforme a FAQ. A meta é o cliente sentir q
 ue a IA entendeu o contexto, não receber uma oferta.
-27/07/2026, 18:10 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 3/4
+Estou com problema no acesso, o que faço?
+Criado em Jul 27, 2026,
+04:59 PM • Usado 73
+vezes • Ativo
+05/08/2026, 14:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 3/5
 
 --- PAGINA 4 ---
 Informações
@@ -170,6 +171,55 @@ ID da Base
 Tipo
 Playbook
 Tipo de Agente
+Valide a frustração e identifique se é login, senha, e-mail de acesso não recebido, bônus n
+ão localizado ou erro dentro da plataforma. O acesso ao Buscador é em https://novo.busc
+adorautomatico.com.br/ e a área de membros em https://buscadorautomatico.membercla
+ss.com.br/login; lembre que o app não funciona, use o link. Para login ou senha, oriente
+"Esqueci minha senha" e checar caixa de entrada, spam e lixo eletrônico do e-mail da com
+pra. Para erro de carregamento, oriente limpar cache, aba anônima, outro navegador e dis
+positivo. Se não resolver, peça o e-mail da compra, informe que o acesso será resetado pe
+lo time e encaminhe. A IA não reseta. Não envie formulário.
+Como encerrar o atendimento quando o cliente
+confirma que resolveu?
+Criado em Jul 27, 2026,
+04:59 PM • Usado 21
+vezes • Ativo
+Quando o cliente disser que deu certo, que conseguiu acessar, que resolveu ou apenas ag
+radecer indicando satisfação, encerre de forma curta e acolhedora. Não abra novo assunt
+o, não tente vender outro produto, não prolongue a conversa e não prometa acompanha
+mento futuro. Use uma frase simples, como: "Que bom que deu certo. Qualquer dúvida, é
+só me chamar por aqui." Se ainda houver dúvida, pergunte apenas qual ponto ficou faltan
+do.
+Como motivar um cliente que está
+procrastinando a decisão?
+Criado em Jul 27,
+2026, 04:59 PM• Usado 42
+vezes • Ativo
+Reconheça: é normal adiar quando parece trabalhoso. Reduza o pedido em vez de aumen
+tar o argumento. 1. Deixe claro que o primeiro acesso leva menos de dois minutos e é só
+usar o e-mail da compra e criar a senha. 2. Peça um único passo agora, entrar e avisar que
+entrou, em vez de descrever tudo que ele vai fazer depois. 3. Lembre que o Buscador já te
+m oportunidades mapeadas hoje e que elas mudam todo dia, então o custo de adiar é re
+al. 4. Se ele disser que faz depois, aceite sem insistir, deixe o caminho registrado em uma f
+rase e combine que ele avisa quando entrar. 5. Se voltar dizendo que travou, trate como b
+arreira técnica, não como falta de vontade. Não pressione, não repita o mesmo pedido co
+m outras palavras e não ofereça outro produto.
+Quais situações devem escalar para suporte
+humano sem insistir demais?
+Criado em Jul 27, 2026,
+04:59 PM • Usado 62
+vezes • Ativo
+Escale quando houver acesso travado após tentativas básicas, recuperação de senha que
+não chega, bônus não localizado após acessar a área de membros, cobrança ou renovaçã
+o que exige conferência, cobrança duplicada, contestação, chargeback, reembolso negad
+o contestado, formulário de reembolso já preenchido, erro técnico persistente, pedido insistente de humano após tentativa de ajuda, hostilidade alta ou dúvida jurídica. Antes do h
+andoff, colete o e-mail de compra e resuma o contexto. Para passagem já emitida, compr
+ada errada ou problema de emissão, não use a fila interna: encaminhe para o Oner, no W
+hatsApp +55 11 4506-7676.
+05/08/2026, 14:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 4/5
+
+--- PAGINA 5 ---
 Suporte
 Organização
 Falcão das Milhas
@@ -177,7 +227,11 @@ Criado em
 Jul 27, 2026, 04:59 PM
 Última atualização
 Jul 27, 2026, 04:59 PM
+Campanhas em uso
+Harpya | Onboarding 3
+Harpya | Onboarding 2
+Harpya | Onboarding 1
 Fontes de Conhecimento
-27/07/2026, 18:10 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 4/4
+05/08/2026, 14:04 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/4aedb65e-52cf-4be3-84ff-9507d00a01bb 5/5
 

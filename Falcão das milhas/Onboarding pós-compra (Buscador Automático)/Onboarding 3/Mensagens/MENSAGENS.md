@@ -1,7 +1,7 @@
 # Onboarding 3 — Mensagens
 
 Campanha disparada pelo envio do formulário de perfil (output do Onboarding 2).
-Data: 2026-07-29.
+Criado em 2026-07-29. Conferido contra a produção em 2026-08-05.
 
 Só existem duas mensagens configuradas na plataforma: a abertura de janela e o follow-up de inatividade. Todo o resto da conversa é a IA respondendo, e por isso vive no checkpoint, não aqui.
 
@@ -11,25 +11,53 @@ Decisão: um único follow-up, de inatividade. A retentativa de 1 hora do board,
 
 ## 1. Abertura de janela (template)
 
-Nome sugerido: `falcao_onboarding3_presente`
+Existem duas versões aprovadas na conta. A v2 é a que vale e ainda não entrou no ar.
+
+### v2, vigente a partir de agora
+
+Nome na plataforma: `onbiarding_03_2` (id interno 25268, ref Meta `1709289596944299`)
+Status: APROVADO. Categoria: UTILITY. Aprovado em 05/08/2026 13:52.
 Momento: assim que o formulário de perfil é enviado.
 Sem cabeçalho e sem rodapé.
 
 Corpo:
 ```
-Agora sim, está tudo pronto para você começar a usar o Buscador Automático...
+Seu perfil no Buscador Automático foi concluído.
 
-PRESENTE GRATUITO: Por ter completado o seu perfil, você acaba de ganhar um presente exclusivo!
+Um presente gratuito está disponível na sua conta
 ```
 
 Botão (resposta rápida):
 ```
-[ RESGATAR MEU PRESENTE ]
+[ Ver presente ]
 ```
 
-Alteração em relação ao texto do cliente: saiu `{{first_name}}`, que abria a frase.
+Conseguiu ser UTILITY porque saiu o hype: nada de "presente exclusivo", nada de caixa alta e nada de ênfase. O texto virou constatação de um passo concluído mais a existência de um item disponível, que é a forma que a Meta aceita.
 
-Atenção na categoria: este texto quase certamente será classificado como MARKETING, não UTILITY. Anúncio de presente e brinde é promoção por definição, e não é um passo pendente de uma transação. Submeter direto como Marketing evita uma rodada perdida de reprovação. Insistir em Utility exigiria descaracterizar o texto que o cliente pediu.
+Pendência de painel: em 05/08 às 14:39 a campanha ainda estava disparando a v1. Trocar o template da campanha para a v2. Enquanto a troca não acontecer, o asterisco continua saindo na conversa.
+
+Ressalva de copy, para acompanhar: "disponível na sua conta" pode fazer o cliente ir procurar o presente dentro da plataforma, onde não tem nada. O presente é entregue na conversa. O checkpoint já trata isso na Seção 6, mas se aparecer volume de "entrei e não achei", o ajuste é no texto do template.
+
+### v1, a ser substituída
+
+Nome na plataforma: `onboarding_3` (id interno 24096, ref Meta `1588838962833447`)
+Status: APROVADO. Categoria: MARKETING. Criado em 29/07/2026. 203 disparos até 05/08.
+
+Corpo, exatamente como sai em produção:
+```
+Agora sim, está tudo pronto para você começar a usar o Buscador Automático...
+
+*PRESENTE GRATUITO:* Por ter completado o seu perfil, você acaba de ganhar um presente exclusivo!
+```
+
+Botão (resposta rápida):
+```
+[ RESGATAR PRESENTE ]
+```
+
+Dois pontos que esta versão criou e que a v2 resolve. O asterisco: o template sai com negrito de WhatsApp, a IA espelhava a formatação e o checkpoint proíbe asterisco, o que gerou reprovação do auditor. E a categoria Marketing, que era o motivo de o fluxo não estar 100% coberto por copy de utilidade.
+
+Alteração feita em relação ao texto do cliente, nas duas versões: saiu `{{first_name}}`, que abria a frase.
 
 ---
 
@@ -59,6 +87,10 @@ As mensagens a, b e c do board, e o fechamento, são resposta da IA dentro da ja
 - Os três passos (tocar no link, encaminhar a mensagem ao amigo, o amigo criar a conta gratuitamente) estão na Seção 3 e, com o texto literal, na Etapa 2.
 - O envio do convite acontece pela variável `{{link_convite_amigo}}`, entregue pela IA na Etapa 2.
 - O fechamento, com a sugestão de acompanhar se o amigo conseguiu acessar, está na Etapa 4.
+
+Mudança em 05/08/2026, a partir da análise de handoff: as três mensagens da Etapa 2 viraram uma só, com o mesmo texto e na mesma ordem. O modelo gera uma resposta por turno, então na prática ele já mandava tudo junto, o auditor reprovava, tentava cinco vezes e escalava para humano. Eram 45% dos encaminhamentos da campanha, com o conteúdo certo. Uma mensagem única vale mais do que cinco tentativas barradas.
+
+No mesmo passo saiu a abertura da antiga Mensagem 1 ("Você acabou de ganhar o direito de presentear aquele seu amigo que também ama viajar..."). O anúncio do presente já está no template de abertura, e a Etapa 1 do checkpoint não repete. O bloco agora começa em "Agora, você pode adicionar ele de graça no Buscador."
 
 Texto original do cliente, guardado apenas como referência do que a IA precisa comunicar:
 

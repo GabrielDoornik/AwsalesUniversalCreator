@@ -1,0 +1,160 @@
+[09:56, 05/08/2026] Lucas Cardoso Awsales: No onboarding tem bem mais espaço. 77% dos encaminhamentos são evitáveis, e a gente corta 85% disso. O que cai na fila de vocês vira um terço do que é hoje.
+
+São 2 causas, e as 2 são ajuste de checkpoint e de copy. Nada estrutural.
+
+1. Formato de entrega da mensagem do presente. (45% dos encaminhamentos dessa campanha)
+
+O checkpoint pede a entrega num formato que hoje não está saindo redondo, e nosso controle de qualidade segura o caso pra revisão humana em vez de deixar sair torto. É ajuste de checkpoint, sobe hoje, sem mexer no texto de vocês.
+
+2. Na campanha do cadastro de perfil, tem duas orientações opostas sobre tempo no ar. (75% dos encaminhamentos dessa campanha)
+
+Em 29/07 vocês pediram pra IA não citar duração do formulário, e o checkpoint seguiu isso. Só que a mensagem de abertura continua dizendo "leva cerca de cinco minutos".
+
+Aí a pessoa lê os cinco minutos na abertura, entra na conversa e pergunta quanto tempo leva. A IA fica sem saída: repetir quebra a regra do checkpoint, não repetir contradiz a mensagem que a marca acabou de mandar. O caso vai pra revisão humana.
+
+@~Joao Fergon quer que mude a abertura ou a orientação pra IA??
+[10:00, 05/08/2026] +55 31 8476-6891: Bom dia pessoal tudo bem??
+
+Terminamos o pente-fino do Suporte e dos 3 onboardings. Peguei os 4 últimos dias e abri todos os casos que foram pra atendimento humano, um por um, cruzando cada um com o roteiro da campanha e a base de conhecimento.
+
+Resultado: dá pra cortar 41% dos encaminhamentos, e quase tudo é ajuste do nosso lado. Mas o quadro é bem diferente entre Suporte e Onboarding, então vou separar.
+Otimo!
+[10:00, 05/08/2026] +55 31 8476-6891: O Suporte tá saudável. 85% do que ele encaminha é coisa que TEM que ir pra humano:
+
+70% é pedido de cancelamento, reembolso ou estorno. Isso vai pra humano por regra, foi definido assim e continua assim.
+15% é ação que só o time de vocês executa: reset de acesso, liberação de bônus, caso jurídico. A IA orienta tudo que pode e passa a bola porque a ação é dentro do sistema de vocês.
+Sobra 14% otimizável, e desses a gente pega 90%.
+
+É uma causa só: o link do formulário de perfil de viagens ainda não está cadastrado na campanha de Suporte. Como o onboarding é novo, o Suporte foi montado antes desse formulário existir. Então quando o cliente escreve perguntando dele, a IA encaminha em vez de resolver na hora. Cadastrado o link, ela entrega na conversa. Já vamos 
+Ok
+[10:00, 05/08/2026] Lucas Cardoso Awsales: Um segundo joao antes dos seus pontos….
+[10:01, 05/08/2026] Lucas Cardoso Awsales: só finalizar aqui toda a analise que tem mais coisa… kkkk
+[10:01, 05/08/2026] +55 31 8476-6891: ok
+[10:08, 05/08/2026] Lucas Cardoso Awsales: Sobre aqueles 15% do Suporte que hoje precisam de alguém do time: boa parte disso a gente resolve na conversa também. Preciso de 2 coisas de vocês pra isso, e tem uma terceira que não é de handoff, é mais uma dúvida mesmo.
+
+1. O time técnico consegue liberar uma forma da IA disparar o reset de acesso?
+
+Quando o cliente não recebe o e-mail de redefinição de senha, a IA orienta tudo que pode e no fim precisa acionar alguém, porque não tem permissão de mexer no cadastro. Podendo disparar o reset, resolve na conversa em segundos. São uns 10% dos casos que chegam pra vocês hoje. Se for complicado do lado técnico, me fala que penso em outro caminho.
+
+2. Qual o prazo real de resposta da fila de cancelamento e da liberação de bônus?
+
+Vi casos de pessoas que pediram no dia 29 e voltaram no dia 4 perguntando do andamento. Cada retorno desses entra como caso novo, então vira atendimento repetido pro time. Com o prazo certo, a IA alinha na hora do encaminhamento e a pessoa não precisa voltar.
+
+3. O Buscador fica bloqueado quando a pessoa não preenche o perfil de viagens?
+
+Pergunto porque o follow-up de perfil pendente diz pro cliente "e por isso, você não conseguiu acessar o Buscador". Se bloqueia mesmo, esse é o argumento mais forte que a gente tem e vou usar em todos os pontos da jornada.
+[10:09, 05/08/2026] Lucas Cardoso Awsales: Além disso sobre os seguintes temas: copys de utilidade, aprovação do nome no meta e métricas até o momento:
+[10:13, 05/08/2026] Lucas Cardoso Awsales: 1- Acabamos de conseguir aprovar a ultima copy de utildiade que estava pendente. Agora 100% do fluxo está coberto.
+2- Forçamos mais uma vez a atualização do nome de exibição do número, mas a Meta continua retornando "em análise". Não tem nada pendente do nosso lado, é fila de aprovação deles. Assim que sair eu aviso aqui.
+[10:22, 05/08/2026] Lucas Cardoso Awsales: 3- Sobre métricas: a média diária de conversas no Suporte caiu 44% em agosto comparado com julho, olhando só dia útil pra não distorcer com fim de semana.
+
+Pode ser efeito dos onboardings absorvendo parte da demanda antes de chegar no Suporte, o que seria ótimo, mas ainda não atribuiria a eles. Agosto tem só 4 dias fechados e a queda começou na semana de 20/07, antes dos onboardings ganharem volume. Vou acompanhar por mais duas ou três semanas antes de cravar.
+[10:27, 05/08/2026] Lucas Cardoso Awsales: Sobre as métricas, para conseguirmos medir o impacto, precisaríamos de uma baseline para comparação.
+
+Vocês têm a métrica de primeiro acesso de antes da entrada da Awsales?
+
+O mesmo vale para a taxa de reembolso e para a taxa de preenchimento dos formulários. Conseguimos levantar esses números do período anterior?
+
+Além disso, como poderíamos puxar os números de indicações geradas? Imagino que precisaríamos cruzar os leads impactados pelo Onboarding 03 com a base de pessoas indicadas que realmente receberam o presente.
+
+E, por fim, hoje não temos uma métrica de comparação para esse funil do presente, certo? É a primeira vez que esse fluxo está rodando?
+[10:29, 05/08/2026] Lucas Cardoso Awsales: Além disso, um último ponto: começamos a rodar o fluxo de fato 100% ontem, por conta do problema na integração do primeiro acesso. Já as copys de utilidade ficaram 100% ativas apenas hoje.
+
+Por isso, acredito que nossa metrificação deveria começar oficialmente a partir de amanhã, considerando também os ajustes que vamos realizar hoje. Concordam?
+[10:30, 05/08/2026] +55 31 8476-6891: Tem mais algum ponto?
+[10:34, 05/08/2026] Lucas Cardoso Awsales: Agora foi tudo…
+[13:36, 05/08/2026] +55 31 8476-6891: No onboarding tem bem mais espaço. 77% dos encaminhamentos são evitáveis, e a gente corta 85% disso. O que cai na fila de vocês vira um terço do que é hoje.
+
+São 2 causas, e as 2 são ajuste de checkpoint e de copy. Nada estrutural.
+
+Formato de entrega da mensagem do presente. (45% dos encaminhamentos dessa campanha)
+
+O checkpoint pede a entrega num formato que hoje não está saindo redondo, e nosso controle de qualidade segura o caso pra revisão humana em vez de deixar sair torto. É ajuste de checkpoint, sobe hoje, sem mexer no texto de vocês.
+
+Na campanha do cadastro de perfil, tem duas orientações opostas sobre tempo no ar. (75% dos encaminhamentos dessa campanha)
+
+Em 29/07 vocês pediram pra IA não citar duração do formulário, e o checkpoint seguiu isso. 
+Muda a abertura. Não precisa dizer que demora 5 minutos. E se alguém perguntar, é só dizer que é "bem rapidinho". São poucas perguntas só pra entender o estilo de viagem que o cliente costuma fazer.
+[13:37, 05/08/2026] +55 31 8476-6891: Sobre aqueles 15% do Suporte que hoje precisam de alguém do time: boa parte disso a gente resolve na conversa também. Preciso de 2 coisas de vocês pra isso, e tem uma terceira que não é de handoff, é mais uma dúvida mesmo.
+
+O time técnico consegue liberar uma forma da IA disparar o reset de acesso?
+
+Quando o cliente não recebe o e-mail de redefinição de senha, a IA orienta tudo que pode e no fim precisa acionar alguém, porque não tem permissão de mexer no cadastro. Podendo disparar o reset, resolve na conversa em segundos. São uns 10% dos casos que chegam pra vocês hoje. Se for complicado do lado técnico, me fala que penso em outro caminho.
+
+Qual o prazo real de resposta da fila de cancelamento e da liberação de bônus?
+
+Vi casos de pessoas que pediram no d
+Muito provável que consiga. @~Gustavo me diz se é possível executar o ponto 01.
+
+Sobre o ponto 01, bastaria a IA identificar o email de compra (e de alguma forma, conseguir adicionar uma senha padrão "viajar". E mandar pro cliente e para o nosso sistema)
+[13:39, 05/08/2026] +55 31 8476-6891: Sobre aqueles 15% do Suporte que hoje precisam de alguém do time: boa parte disso a gente resolve na conversa também. Preciso de 2 coisas de vocês pra isso, e tem uma terceira que não é de handoff, é mais uma dúvida mesmo.
+
+O time técnico consegue liberar uma forma da IA disparar o reset de acesso?
+
+Quando o cliente não recebe o e-mail de redefinição de senha, a IA orienta tudo que pode e no fim precisa acionar alguém, porque não tem permissão de mexer no cadastro. Podendo disparar o reset, resolve na conversa em segundos. São uns 10% dos casos que chegam pra vocês hoje. Se for complicado do lado técnico, me fala que penso em outro caminho.
+
+Qual o prazo real de resposta da fila de cancelamento e da liberação de bônus?
+
+Vi casos de pessoas que pediram no d
+Sobre o ponto 02. A @~Nicole Dreyer | Harpya vai saber te responder
+[13:40, 05/08/2026] +55 31 8476-6891: Sobre aqueles 15% do Suporte que hoje precisam de alguém do time: boa parte disso a gente resolve na conversa também. Preciso de 2 coisas de vocês pra isso, e tem uma terceira que não é de handoff, é mais uma dúvida mesmo.
+
+O time técnico consegue liberar uma forma da IA disparar o reset de acesso?
+
+Quando o cliente não recebe o e-mail de redefinição de senha, a IA orienta tudo que pode e no fim precisa acionar alguém, porque não tem permissão de mexer no cadastro. Podendo disparar o reset, resolve na conversa em segundos. São uns 10% dos casos que chegam pra vocês hoje. Se for complicado do lado técnico, me fala que penso em outro caminho.
+
+Qual o prazo real de resposta da fila de cancelamento e da liberação de bônus?
+
+Vi casos de pessoas que pediram no d
+Sobre o ponto 03: Não, ele faz o login, mas ai aparece um pop-up (que ele não consegue pular) com o forms embedado. Ou seja, ele faz o login, mas só tem acesso mesmo as passagens no Buscador se responder as perguntas
+[13:41, 05/08/2026] +55 31 8476-6891: 1- Acabamos de conseguir aprovar a ultima copy de utildiade que estava pendente. Agora 100% do fluxo está coberto.
+2- Forçamos mais uma vez a atualização do nome de exibição do número, mas a Meta continua retornando "em análise". Não tem nada pendente do nosso lado, é fila de aprovação deles. Assim que sair eu aviso aqui.
+1. Boa!!!
+2. Ok, dependendo, acredito que deveríamos tentar ou outro nome, ou outra conta na Waba
+[13:45, 05/08/2026] +55 31 7177-1474: Sobre o ponto 02. A @~Nicole Dreyer | Harpya vai saber te responder
+2. Quando o cancelamento é solicitado no dia da compra, a gente cancela a assinatura e solicita retorno dentro de 15 dias para o reembolso. 
+A liberação do bônus é feita no momento da compra.
+[13:50, 05/08/2026] +55 31 8476-6891: Sobre as métricas, para conseguirmos medir o impacto, precisaríamos de uma baseline para comparação.
+
+Vocês têm a métrica de primeiro acesso de antes da entrada da Awsales?
+
+O mesmo vale para a taxa de reembolso e para a taxa de preenchimento dos formulários. Conseguimos levantar esses números do período anterior?
+
+Além disso, como poderíamos puxar os números de indicações geradas? Imagino que precisaríamos cruzar os leads impactados pelo Onboarding 03 com a base de pessoas indicadas que realmente receberam o presente.
+
+E, por fim, hoje não temos uma métrica de comparação para esse funil do presente, certo? É a primeira vez que esse fluxo está rodando?
+Temos aqui uma ideia de "preenchimento de forms"
+[13:50, 05/08/2026] +55 31 8476-6891: Sobre as métricas, para conseguirmos medir o impacto, precisaríamos de uma baseline para comparação.
+
+Vocês têm a métrica de primeiro acesso de antes da entrada da Awsales?
+
+O mesmo vale para a taxa de reembolso e para a taxa de preenchimento dos formulários. Conseguimos levantar esses números do período anterior?
+
+Além disso, como poderíamos puxar os números de indicações geradas? Imagino que precisaríamos cruzar os leads impactados pelo Onboarding 03 com a base de pessoas indicadas que realmente receberam o presente.
+
+E, por fim, hoje não temos uma métrica de comparação para esse funil do presente, certo? É a primeira vez que esse fluxo está rodando?
+E taxa de reembolso tbm
+[13:51, 05/08/2026] +55 31 8476-6891: Sobre as métricas, para conseguirmos medir o impacto, precisaríamos de uma baseline para comparação.
+
+Vocês têm a métrica de primeiro acesso de antes da entrada da Awsales?
+
+O mesmo vale para a taxa de reembolso e para a taxa de preenchimento dos formulários. Conseguimos levantar esses números do período anterior?
+
+Além disso, como poderíamos puxar os números de indicações geradas? Imagino que precisaríamos cruzar os leads impactados pelo Onboarding 03 com a base de pessoas indicadas que realmente receberam o presente.
+
+E, por fim, hoje não temos uma métrica de comparação para esse funil do presente, certo? É a primeira vez que esse fluxo está rodando?
+Poderia ser via UTM. Já falei para o @~Gustavo me dizer como isso funcionaria. Porque os parâmetros não estão passando do link de cadastro para o forms
+[13:51, 05/08/2026] +55 31 8476-6891: Sobre as métricas, para conseguirmos medir o impacto, precisaríamos de uma baseline para comparação.
+
+Vocês têm a métrica de primeiro acesso de antes da entrada da Awsales?
+
+O mesmo vale para a taxa de reembolso e para a taxa de preenchimento dos formulários. Conseguimos levantar esses números do período anterior?
+
+Além disso, como poderíamos puxar os números de indicações geradas? Imagino que precisaríamos cruzar os leads impactados pelo Onboarding 03 com a base de pessoas indicadas que realmente receberam o presente.
+
+E, por fim, hoje não temos uma métrica de comparação para esse funil do presente, certo? É a primeira vez que esse fluxo está rodando?
+Nós mesmos fazíamos a automação no Many. Mas nada metrificado em si. O que temos de métrica é preenchimento de forms, e taxa de reembolso.
+[13:52, 05/08/2026] +55 31 8476-6891: Além disso, um último ponto: começamos a rodar o fluxo de fato 100% ontem, por conta do problema na integração do primeiro acesso. Já as copys de utilidade ficaram 100% ativas apenas hoje.
+
+Por isso, acredito que nossa metrificação deveria começar oficialmente a partir de amanhã, considerando também os ajustes que vamos realizar hoje. Concordam?
+Nossa metrificação já começou a partir do momento que começamos a rodar, agora é observar se melhoramos em relação a essa v1 do fluxo

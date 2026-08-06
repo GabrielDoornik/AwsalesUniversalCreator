@@ -15,31 +15,32 @@ Ativos Todas as tags
  Data de criação
 Desc
 Como explicar o prazo de cancelamento e
-reembolso sem prometer elegibilidade nem
-confirmar os 7 dias?
-Criado em Jul 10, 2026,
-05:12 PM • Usado 738
+reembolso sem prometer elegibilidade
+nem confirmar os 7 dias?
+Criado em Jul 10,
+2026, 05:12 PM • Usado 892
 vezes • Ativo
 Separe a linha do tempo em etapas, sem dar um prazo único. 1) Preenchimento do formu
 lário oficial abre o pedido. 2) Análise pelo time responsável, até 72 horas úteis, de segund
 a a sexta, das 09h às 18h. 3) Confirmação do cancelamento, se aprovado. 4) Processament
 o financeiro do estorno, quando aplicável: Pix costuma refletir mais rápido; cartão de crédi
 to depende da operadora e do ciclo de fatura, podendo levar mais de um fechamento. So
-bre a garantia de 7 dias (CDC): pode mencionar que existe — dentro de 7 dias há reembol
-so, fora do prazo o cancelamento segue sem reembolso integral. Nunca confirme se aque
-le cliente específico está dentro ou fora do prazo; isso é conferência do time humano. Se
-perguntar sobre Pix, cartão ou garantia, direcione para o fluxo específico daquele meio de
-pagamento.
+bre a garantia de 7 dias (CDC): pode mencionar que existe, dentro de 7 dias há reembols
+o, fora do prazo o cancelamento segue sem reembolso integral. Nunca confirme se aquel
+e cliente específico está dentro ou fora do prazo; isso é conferência do time humano. Expl
+icar o prazo não substitui a transferência: depois de explicar, encaminhe o caso para o tim
+e responsável, porque nenhum pedido de cancelamento ou reembolso é concluído dentr
+o do atendimento automático.
 Como interpretar os resultados do Buscador
 quando aparecem companhia operadora,
 conexão ou tarifa award?
-Criado em Jul 10, 2026,
-05:11 PM • Usado 19
-vezes • Ativo
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 1/14
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 1/15
 
 --- PAGINA 2 ---
+Criado em Jul 10, 2026,
+05:11 PM • Usado 22
+vezes • Ativo
 Explique a leitura do resultado em ordem. Primeiro, confirme se rota e data batem com o
 que o cliente pesquisou. Depois, o tipo de voo: direto ou com conexão, e a companhia op
 eradora daquele trecho — por causa das alianças aéreas, a companhia que opera o voo p
@@ -54,7 +55,7 @@ Como orientar quando o cliente está preso na
 área de membros ou numa tela mobile e não
 consegue chegar ao Buscador?
 Criado em Jul 10, 2026,
-05:11 PM • Usado 134
+05:11 PM • Usado 166
 vezes • Ativo
 O Buscador fica dentro da área de membros, não é um endereço separado. Se o cliente di
 z que não acha o Buscador, é navegação, não acesso. Primeiro confirme se ele está no cel
@@ -69,7 +70,7 @@ Como interpretar cada mensagem de erro de
 acesso e qual o próximo passo certo, sem repetir
 testes genéricos?
 Criado em Jul 10, 2026,
-05:10 PM • Usado 444
+05:10 PM • Usado 556
 vezes • Ativo
 Antes de orientar, identifique a mensagem de erro exata. "E-mail não cadastrado" ou "Err
 or signing in": confirme se o e-mail é exatamente o da compra, sem espaço ou erro de di
@@ -84,14 +85,14 @@ completo e encaminhe, sem repetir o mesmo teste.
 Mapa de produtos para a IA reconhecer seriam
 quais?
 Criado em Jun 25, 2026,
-03:16 PM • Usado 22
+03:16 PM • Usado 28
 vezes • Ativo
-Produtos ativos à venda: Buscador Automático, Balcão de Milhas, Consultoria Individual e
-Black Falcon. Produtos que não estão mais à venda, mas a IA deve reconhecer para tirar d
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 2/14
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 2/15
 
 --- PAGINA 3 ---
+Produtos ativos à venda: Buscador Automático, Balcão de Milhas, Consultoria Individual e
+Black Falcon. Produtos que não estão mais à venda, mas a IA deve reconhecer para tirar d
 úvida de quem já comprou: Super Combo Vitalício (promoção relâmpago encerrada) e Co
 mbo Hawk Lab mais Balcão. Produto em desenvolvimento, sempre encaminhar para hum
 ano se citado: Combo Reserva Barato. Produto descontinuado, nunca indicar nem mencio
@@ -100,7 +101,7 @@ o, acesso ou cobrança de qualquer combo, coletar o e-mail de compra e encaminha
 humano.
 O que está incluso no Super Combo Vitalício?
 Criado em Jun 25, 2026,
-03:14 PM • Usado 18
+03:14 PM • Usado 23
 vezes • Ativo
 O Super Combo Vitalício foi uma promoção relâmpago e não está mais disponível para c
 ompra. Para quem adquiriu, ele reúne acesso ao Buscador Automático, ao Balcão de Milh
@@ -113,7 +114,7 @@ de compra e encaminhe para o time conferir. A IA não vende nem reabre essa prom
 Comprei ou emiti a passagem e não acho minha
 reserva. O que faço?
 Criado em Jun 16, 2026,
-10:04 PM • Usado 66
+10:04 PM • Usado 68
 vezes • Ativo
 A reserva geralmente fica disponível no site da companhia aérea responsável pela emissã
 o, e não no site do Buscador. Confira no site da companhia usando os dados da emissão.
@@ -123,7 +124,7 @@ lizador, print e e-mail da emissão.
 Perdi o celular ou ele foi roubado e perdi o
 acesso. O que faço?
 Criado em Jun 16, 2026,
-10:03 PM • Usado 281
+10:03 PM • Usado 294
 vezes • Ativo
 No Buscador existe a opção "Esqueci minha senha". Acesse https://novo.buscadorautoma
 tico.com.br/, clique nessa opção e você recebe um e-mail de redefinição de senha no e-m
@@ -132,23 +133,23 @@ e passe o e-mail usado na compra que eu encaminho para o time resetar o acesso.
 Tem grupo de promoções? Como faço
 para entrar?
 Criado em Jun 16,
-2026, 10:03 PM • Usado 87
+2026, 10:03 PM • Usado 96
 vezes • Ativo
 Sim! O Buscador inclui dois grupos bônus gratuitos no WhatsApp, e é só entrar pelo link:
 • Alerta de passagens: https://chat.whatsapp.com/Ig7XvXUWjxC1qNLuSfRGuz
-• Alerta de promoções de acúmulo: https://chat.whatsapp.com/Dry5XbApkRWKBWBtGQ2
-WfF
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 3/14
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 3/15
 
 --- PAGINA 4 ---
+• Alerta de promoções de acúmulo: https://chat.whatsapp.com/Dry5XbApkRWKBWBtGQ2
+WfF
 Importante: se o cliente mencionar o grupo Alerta Prioritário, esse é um produto pago e n
 ão faz parte dos bônus gratuitos. Caso ele tenha dúvida sobre a cobrança desse item, peç
 a o e-mail usado na compra e encaminhe para o time conferir.
 Quais bônus ou benefícios vêm junto com
 o Buscador? (ouvi falar em 8 benefícios)
 Criado em Jun 16,
-2026, 10:03 PM • Usado 46
+2026, 10:03 PM • Usado 50
 vezes • Ativo
 O Buscador Automático vem com bônus, que funcionam como um overdelivery. Na área
 de membros ficam os cursos e planilhas, os itens que alguns clientes chamam de 8 benefí
@@ -158,17 +159,20 @@ grupos. Oriente o cliente a entrar na área de membros para ver os materiais. Se
 nus não aparecer mesmo acessando a área de membros, trate como urgente, peça o e-m
 ail da compra e encaminhe para humano. Atenção: o grupo Alerta Prioritário é pago e nã
 o faz parte dos bônus gratuitos.
-O que responder quando o cliente pede para falar
-com uma pessoa?
-Criado em May 15, 2026,
-05:35 PM • Usado 960
-vezes • Ativo
+O que responder quando o cliente pede
+para falar com uma pessoa?
+Criado em May 15,
+2026, 05:35 PM • Usado
+1051 vezes• Ativo
 Claro. Antes disso, posso tentar resolver com uma orientação objetiva por aqui. Qual é o
-ponto principal: acesso, uso do Buscador, cobrança, cancelamento ou viagem específica?
+ponto principal: acesso, uso do Buscador, cobrança ou cancelamento? Se o cliente já disse
+que quer cancelar, pedir reembolso ou falar sobre estorno, não faça essa triagem: esse ca
+so é sempre de atendimento humano, então encaminhe direto, informando o prazo de at
+é 72 horas úteis.
 Quero que vocês cotem uma viagem
 específica. O que preciso informar?
 Criado em May 15,
-2026, 05:34 PM • Usado 760
+2026, 05:34 PM • Usado 768
 vezes • Ativo
 No momento não estamos fazendo cotação personalizada de viagem. Explique os caminh
 os conforme o perfil: o próprio cliente pode procurar no Buscador, usando a busca manua
@@ -181,24 +185,24 @@ sentido para ele.
 O que fazer quando não encontrei meu
 bônus ou benefício?
 Criado em May 15,
-2026, 05:34 PM • Usado 429
+2026, 05:34 PM • Usado 451
 vezes • Ativo
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 4/15
+
+--- PAGINA 5 ---
 Os bônus ficam na área de membros, em https://buscadorautomatico.memberclass.com.b
 r/login, e não dentro do Buscador, que é uma coisa separada (o Buscador fica dentro da á
 rea de membros). Oriente o cliente a entrar na área de membros e procurar os bônus por
 lá. Confirme qual bônus ou material ele procura antes de tratar como problema genérico
 de login. Se mesmo acessando a área de membros o bônus não aparecer, trate como urg
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 4/14
-
---- PAGINA 5 ---
 ente: peça o e-mail usado na compra e encaminhe para o time humano revisar e, se preci
 so, resetar o acesso. Não envie formulário de reembolso.
 Não consigo acessar ou criar minha conta.
 O que faço?
 Criado em May 15,
-2026, 05:33 PM • Usado 992
-vezes • Ativo
+2026, 05:33 PM • Usado
+1004 vezes• Ativo
 Primeiro tente acessar usando exatamente o e-mail da compra, em https://novo.buscador
 automatico.com.br/. Se for senha, use "Esqueci minha senha" e confira caixa de entrada, s
 pam e lixo eletrônico. Se aparecer "Error signing in", confira se o e-mail está digitado corr
@@ -210,59 +214,71 @@ O que fazer quando fui cobrado ou houve
 renovação da assinatura?
 Criado em May 15,
 2026, 05:33 PM • Usado
-2605 vezes• Ativo
+2719 vezes• Ativo
 Entendo a preocupação. A renovação ocorre após 12 meses da contratação, é aceita nos t
 ermos no momento da compra e enviamos um aviso com cerca de 30 dias de antecedênc
 ia. Só para eu te direcionar: você quer entender a cobrança, ajustar a assinatura ou seguir
 com cancelamento? Se for cobrança duplicada, contestação no cartão, chargeback ou sus
 peita de fraude, me passe o e-mail da compra que encaminho para o time responsável co
 nferir. Não trate como pedido de cancelamento sem o cliente pedir.
-Já preenchi o formulário de reembolso. E agora?
-Criado em May 15, 2026,
-05:33 PM • Usado 2119
-vezes • Ativo
-Depois do envio, o pedido segue para análise pelo fluxo oficial. Eu não consigo confirmar
-aprovação, elegibilidade ou prazo por aqui. Se a sua dúvida é apenas se o envio foi feito,
-basta aguardar a análise. Se houve cobrança duplicada, contestação, erro no formulário o
-u urgência específica, me diga o que aconteceu.
+Já preenchi o formulário de reembolso. E
+agora?
+Criado em May 15,
+2026, 05:33 PM • Usado
+2295 vezes• Ativo
+Formulário enviado é o gatilho para o atendimento humano, não o fim do atendimento. A
+ssim que o cliente confirmar o preenchimento, encaminhe o caso para o time responsável
+na mesma resposta, com o e-mail de compra e o motivo informado. Confirme ao cliente q
+ue o pedido foi encaminhado e informe o prazo de até 72 horas úteis, de segunda a sext
+a, das 09h às 18h. Não peça para o cliente aguardar sem encaminhar, não afirme que o ca
+so já está com a equipe se a transferência não estiver sendo feita e não confirme aprovaç
+ão, elegibilidade ou prazo de estorno. Se o cliente voltar depois perguntando pelo status,
+isso também é atendimento humano: encaminhe em vez de repetir o prazo.
 O que fazer quando quero cancelar
 porque não encontrei as passagens que
 queria?
-Criado em May 15,
-2026, 05:32 PM • Usado
-1743 vezes• Ativo
-Entendo. Antes de seguir com cancelamento, vale lembrar que o Buscador funciona como
-um radar de passagens: pode não haver promoção para aquele destino numa data especí
-fica naquele momento, mas novas passagens aparecem todos os dias e dá para monitorar
-até o destino desejado aparecer. O ideal é filtrar por destino, não por origem, e comparar
-as oportunidades das Tarifas Awards. Quer me dizer a rota e o período para eu te orientar
-no melhor ajuste antes de qualquer decisão?
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 5/14
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 5/15
 
 --- PAGINA 6 ---
+Criado em May 15,
+2026, 05:32 PM • Usado
+1788 vezes• Ativo
+Entendo. Antes de seguir com cancelamento, vale lembrar que o Buscador funciona como
+um radar de passagens: pode não haver promoção para um destino específico naquele m
+omento, mas novas passagens aparecem todos os dias e dá para monitorar até a oportuni
+dade surgir. Se a passagem desejada não apareceu entre as oportunidades já mapeadas,
+use a Busca Manual, que fica no final da página: ela serve justamente para procurar o que
+não está nos cards. Vale lembrar também que hoje a emissão pode ser feita em milhas ou
+em dinheiro, o que amplia as opções de quem não tem saldo no programa da oportunida
+de. O ideal é filtrar por destino, não por origem, e comparar as oportunidades das Tarifas
+Awards. Não peça ao cliente a rota nem as datas: oriente o caminho dentro da ferrament
+a, porque a empresa não faz cotação personalizada.
 Como faço para aumentar as chances de
 encontrar passagens melhores?
 Criado em May 15, 2026,
-05:30 PM • Usado 778
+05:30 PM • Usado 815
 vezes • Ativo
 O que mais ajuda é flexibilizar a busca. Teste datas próximas, aeroportos maiores como G
 RU, GIG ou VCP, diferentes programas de milhas e compare a busca manual com Tarifas A
 wards. Em milhas, disponibilidade muda bastante, então uma rota muito fechada pode li
 mitar os resultados.
-Trava quando tento selecionar uma tarifa. O que
-faço?
-Criado em May 15, 2026,
-05:30 PM • Usado 814
+Trava quando tento selecionar uma tarifa.
+O que faço?
+Criado em May 15,
+2026, 05:30 PM • Usado 823
 vezes • Ativo
-Pode ser que a disponibilidade tenha mudado no momento da seleção. Primeiro tente atu
-alizar a busca e testar uma data próxima. Se continuar travando, me diga rota, data, progr
-ama de milhas e qual card você tentou selecionar. Com isso dá para entender se é disponi
-bilidade ou se precisa de suporte técnico.
+Pode ser que a disponibilidade tenha mudado no momento da seleção, o que é comum e
+m tarifas com milhas. Primeiro atualize a página e tente novamente. Se continuar travand
+o, me diga o que aparece na tela: mensagem de erro, tela em branco, botão que não resp
+onde ou carregamento infinito, e em qual área aconteceu, busca manual ou oportunidade
+s. Com essa descrição dá para separar disponibilidade de erro técnico. Não peça rota nem
+datas para diagnosticar, porque isso passa a impressão de que faremos uma cotação. Se
+persistir, peça o e-mail de compra e encaminhe para o time conferir.
 A tarifa apareceu no Buscador, mas sumiu ou
 mudou. Isso é erro?
 Criado em May 15, 2026,
-05:30 PM • Usado 124
+05:30 PM • Usado 125
 vezes • Ativo
 Nem sempre é erro. Tarifas com milhas são dinâmicas e podem mudar conforme disponib
 ilidade no programa, companhia ou parceiro. O Buscador mostra oportunidades encontra
@@ -271,23 +287,26 @@ izar a busca, testar datas próximas ou conferir outro programa de milhas.
 Não encontrei boas oportunidades no
 Buscador. O produto não funciona para
 mim?
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 6/15
+
+--- PAGINA 7 ---
 Criado em May 15,
-2026, 05:29 PM • Usado 552
+2026, 05:29 PM • Usado 568
 vezes • Ativo
 Entendo a frustração. Antes de concluir isso, vale conferir se você olhou apenas a busca m
 anual ou também a área de Tarifas Awards. O Buscador funciona como um radar de passa
 gens: o maior valor costuma estar nas oportunidades já mapeadas, especialmente quando
-você aceita datas próximas, aeroportos alternativos e programas diferentes. Novas passag
-ens aparecem todos os dias. Você chegou a comparar pela área de Tarifas Awards?
+você aceita datas próximas, aeroportos alternativos e programas diferentes. Se a passage
+m que você procura não apareceu nos cards, a Busca Manual, no final da página, é a alter
+nativa para procurar diretamente. E hoje a emissão pode ser feita em milhas ou em dinhei
+ro, então falta de saldo no programa não impede a viagem. Novas passagens aparecem t
+odos os dias. Você chegou a comparar pela área de Tarifas Awards?
 O Buscador é igual ao Skyscanner, Google
 Flights ou buscadores comuns?
 Criado em May 15,
-2026, 05:29 PM • Usado 113
+2026, 05:29 PM • Usado 119
 vezes • Ativo
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 6/14
-
---- PAGINA 7 ---
 Não. A busca manual pode parecer parecida porque você informa origem, destino e data,
 mas o diferencial está nas Tarifas Awards, a área que reúne oportunidades com milhas e r
 otas mapeadas que nem sempre aparecem numa busca comum. Para avaliar melhor o Bu
@@ -297,7 +316,7 @@ recuperação de senha não funciona. O que
 faço?
 Criado em May 15,
 2026, 05:23 PM • Usado
-1993 vezes• Ativo
+2058 vezes• Ativo
 Entendo a dificuldade. Primeiro tente "Esqueci minha senha" em https://novo.buscadoraut
 omatico.com.br/ usando o mesmo e-mail da compra e confira caixa de entrada, spam e lix
 o eletrônico. Se o e-mail de redefinição não chegar nem no spam, o acesso precisa ser res
@@ -307,19 +326,26 @@ ntexto.
 Posso comprar passagem pagando em
 dinheiro?
 Criado em May 13,
-2026, 02:02 PM • Usado 503
+2026, 02:02 PM • Usado 513
 vezes • Ativo
-Hoje a opção de comprar pagando em dinheiro (a antiga "Emitir com a Falcão") não está
-disponível no Buscador. A gente removeu por enquanto porque estávamos tendo proble
-mas pontuais de emissão com alguns programas de milhas. As oportunidades do Buscad
-or são emitidas com milhas, e a emissão é concluída no site da companhia ou parceiro. Se
-a sua dúvida for sobre uma passagem já emitida ou um problema na emissão, me avisa q
-ue te direciono para o time certo.
+Sim. O Buscador Automático permite emissão de passagens tanto em milhas quanto em d
+inheiro. Quem não tem milhas, não tem saldo no programa da oportunidade ou não quer
+usar milhas naquela viagem consegue seguir pela opção em dinheiro. Nas oportunidades
+já encontradas pelo sistema e na busca manual, confira o que está indicado em cada resul
+tado antes de seguir para a emissão, porque a disponibilidade varia por rota, data e comp
+anhia. A emissão é concluída no ambiente da companhia aérea ou do parceiro, onde valor
+es, taxas e regras finais são confirmados. Se a dúvida for sobre uma passagem já emitida
+ou um problema na emissão, o caso é do time especializado, o Oner, pelo WhatsApp +55
+11 4506-7676.
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 7/15
+
+--- PAGINA 8 ---
 Como orientar quando o cliente relata
 erro 404 na área de membros?
 Criado em May 11,
 2026, 05:58 PM • Usado
-2305 vezes• Ativo
+2341 vezes• Ativo
 Valide o problema e pergunte em qual link, botão ou tela o cliente clicou antes do erro 40
 4. O acesso oficial do Buscador é https://novo.buscadorautomatico.com.br/ e a área de m
 embros é https://buscadorautomatico.memberclass.com.br/login; confira se ele está usan
@@ -327,26 +353,23 @@ do o link correto. Oriente uma tentativa simples: atualizar a página, limpar ca
 a anônima, outro navegador e outro dispositivo. Se persistir, peça o e-mail usado na com
 pra e encaminhe para o time humano com o contexto. Não envie formulário de reembols
 o e não prometa reset ou ajuste de acesso pela IA.
-Como explicar mudança na exibição de preços ou
-quantidade de milhas no Buscador?
-Criado em May 11, 2026,
-05:57 PM • Usado 133
+Como explicar mudança na exibição de
+preços ou quantidade de milhas no
+Buscador?
+Criado em May 11,
+2026, 05:57 PM • Usado 137
 vezes • Ativo
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 7/14
-
---- PAGINA 8 ---
 Valide a dúvida e explique que tarifas award são dinâmicas. O Buscador organiza oportuni
 dades encontradas, mas a disponibilidade, taxas, quantidade de milhas e valor final são co
 nfirmados no site da companhia aérea ou parceiro no momento da emissão. Não afirme q
-ue é erro sem evidência. Peça ao cliente a rota, o card ou a promoção consultada e uma d
-escrição do que mudou. Oriente verificar se a oportunidade ainda está disponível, olhar c
-ards mais recentes e comparar outras datas da mesma promoção. Se depender de confer
-ência, coletar e-mail de compra e encaminhar humano.
+ue é erro sem evidência. Para entender o caso, peça a descrição do que mudou na tela e e
+m qual área o cliente estava, sem pedir rota nem datas. Oriente verificar se a oportunidad
+e ainda está disponível e olhar cards mais recentes. Se depender de conferência, colete o
+e-mail de compra e encaminhe para humano.
 Como orientar quando o Buscador apresenta erro
 técnico ou tela não carrega?
 Criado em May 11, 2026,
-05:57 PM • Usado 2492
+05:57 PM • Usado 2542
 vezes • Ativo
 Oriente um protocolo simples antes de encaminhar humano: 1. Verificar a conexão de inte
 rnet. 2. Atualizar a página. 3. Limpar cache do navegador. 4. Tentar em aba anônima. 5. Te
@@ -358,17 +381,21 @@ Como orientar quando o cliente comprou
 passagem errada ou precisa de suporte de
 passagem emitida?
 Criado em May 11,
-2026, 05:57 PM • Usado 545
+2026, 05:57 PM • Usado 547
 vezes • Ativo
 Esse caso não é dúvida comum do Buscador. Valide a preocupação e encaminhe para o ti
 me especializado em passagens, o Oner, pelo WhatsApp +55 11 4506-7676. Oriente o clie
 nte a já enviar, ao chamar o Oner, o localizador da reserva, o print do erro ou problema e
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 8/15
+
+--- PAGINA 9 ---
 o e-mail usado na emissão, porque isso agiliza a análise. Não tente resolver a emissão pel
 a IA e não prometa correção, alteração ou reembolso de passagem.
 Como orientar cliente que compara o
 Buscador com Skyscanner?
 Criado em May 11,
-2026, 05:57 PM • Usado 148
+2026, 05:57 PM • Usado 158
 vezes • Ativo
 Primeiro descubra se o cliente está usando apenas a busca manual. Se sim, explique que e
 la pode se parecer com buscadores comuns quando origem, destino e data estão muito f
@@ -380,12 +407,8 @@ exata.
 Onde encontro as melhores tarifas no
 Buscador?
 Criado em Apr 17,
-2026, 05:02 PM • Usado 487
+2026, 05:02 PM • Usado 490
 vezes • Ativo
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 8/14
-
---- PAGINA 9 ---
 Oriente que o maior valor do Buscador costuma estar nas Tarifas Awards, a área com opor
 tunidades já encontradas pelo sistema. Explique que a busca manual serve para pesquisas
 mais específicas, mas pode trazer preços parecidos com buscadores comuns quando orig
@@ -394,32 +417,36 @@ cam disponíveis nos cards, na área de Tarifas Awards. A Busca Manual fica no f
 Oriente o cliente a comparar as oportunidades já disponíveis nos cards.
 O que é o Buscador Automático?
 Criado em Apr 17,
-2026, 04:47 PM • Usado 934
+2026, 04:47 PM • Usado 965
 vezes • Ativo
-O Buscador Automático é uma plataforma online para encontrar passagens promocionais
-com emissão por milhas ou realizar buscas manualmente. Diariamente, novas passagens s
-ão cadastradas e comunicadas no grupo bônus de WhatsApp. É ótimo para quem quer au
-tonomia e gosta de buscar economia por conta própria. Ele tem a busca manual, para pes
-quisas mais específicas, e a área de Tarifas Awards, com oportunidades já encontradas pel
-o sistema. O Buscador não emite passagens, não altera preços e não cria promoções: ele
-organiza oportunidades reais e direciona o cliente para a companhia ou parceiro na hora
-de emitir. O acesso é feito pela área de membros, em https://buscadorautomatico.membe
-rclass.com.br/login, e o Buscador fica dentro dela.
+O Buscador Automático é uma plataforma online para encontrar passagens promocionais,
+com emissão em milhas ou em dinheiro, além da busca manual para pesquisas específica
+s. Diariamente, novas passagens são cadastradas e comunicadas no grupo bônus de What
+sApp. É ótimo para quem quer autonomia e gosta de buscar economia por conta própria.
+Ele tem a área de Tarifas Awards, com oportunidades já encontradas pelo sistema, e a bus
+ca manual, que fica no final da página. O Buscador não altera preços e não cria promoçõe
+s: ele organiza oportunidades reais e direciona o cliente para a companhia ou parceiro na
+hora de emitir. O acesso é feito pela área de membros, em https://buscadorautomatico.m
+emberclass.com.br/login, e o Buscador fica dentro dela.
 Como orientar sobre a escolha da origem
 e o papel dos hubs?
 Criado em Apr 15,
-2026, 05:26 PM • Usado 489
+2026, 05:26 PM • Usado 512
 vezes • Ativo
 Explique que hubs como São Paulo (GRU), São Paulo (VCP, em menor escala) e Rio de Jan
 eiro (GIG) concentram mais rotas e aumentam as chances de encontrar tarifas award. Se o
 cliente sai de uma cidade menor e não encontra oportunidades, oriente a testar saídas po
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 9/15
+
+--- PAGINA 10 ---
 r esses hubs e avaliar se compensa comprar o trecho doméstico separadamente. Em vez d
 e prometer busca flexível automática, diga que aceitar datas alternativas ou períodos com
 maior disponibilidade pode aumentar as chances de economia.
 Qual a diferença entre Alta e Baixa Temporada
 para encontrar passagens?
 Criado em Apr 15, 2026,
-05:21 PM • Usado 293
+05:21 PM • Usado 295
 vezes • Ativo
 Na Alta Temporada (férias e feriados), a demanda é alta e as companhias não precisam of
 erecer descontos, resultando em menos tarifas award e preços maiores. Na Baixa Tempora
@@ -432,16 +459,12 @@ Criado em Apr 15, 2026,
 vezes • Ativo
 São passagens emitidas com milhas que as companhias liberam em "blocos de disponibili
 dade". Elas existem para preencher assentos que poderiam sobrar, por isso são mais barat
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 9/14
-
---- PAGINA 10 ---
 as. Elas são escassas, dinâmicas e temporárias; se o voo tem muita demanda, a companhia
 não libera essas vagas.
 O que são Alianças Aéreas (Star Alliance,
 Oneworld, SkyTeam) e como funcionam?
 Criado em Apr 15,
-2026, 05:20 PM • Usado 239
+2026, 05:20 PM • Usado 240
 vezes • Ativo
 São grupos globais onde as companhias compartilham voos e disponibilidade de milhas. I
 sso permite que você use milhas de um programa (como a Smiles) para voar em uma par
@@ -451,7 +474,7 @@ upos se não for perguntado.
 Por que o primeiro filtro não tem destino
 e como devo explicar isso ao cliente?
 Criado em Apr 15,
-2026, 02:15 PM • Usado 385
+2026, 02:15 PM • Usado 389
 vezes • Ativo
 Use esta explicação apenas quando a dúvida for sobre a área de oportunidades ou Tarifas
 Awards, não sobre a busca manual. Na busca manual, o destino deve ser preenchido quan
@@ -460,89 +483,115 @@ preso a uma combinação exata: mostram oportunidades já encontradas pelo siste
 m base em disponibilidade real de tarifas award. Se o cliente quer uma rota específica, po
 de usar a busca manual. Se quer maior chance de economia, deve analisar as oportunidad
 es das Tarifas Awards.
-Como explico o campo Programa de
-Milhas e o que fazer se o cliente não tem
-saldo nele?
-Criado em Apr 15,
-2026, 02:15 PM • Usado 952
-vezes • Ativo
-Diga que cada promoção está vinculada a um programa específico (ex.: Smiles, LATAM Pa
-ss, TudoAzul). Se o cliente não tem milhas naquele programa, há caminhos: 1. Usar o Balc
-ão de Milhas, a orientação padrão: compra sem intermediários, custo geralmente menor e
-negociação direta pelo WhatsApp. 2. Transferir pontos do banco aproveitando bônus qua
-ndo houver. 3. Comprar milhas diretamente no programa de fidelidade, lembrando que n
-ormalmente o valor do milheiro é consideravelmente mais elevado. Reforce que não é po
-ssível comprar milhas pelo Buscador Automático. 4. Estimar o custo por mil milhas para av
-aliar se a emissão compensa.
-Quando e como indicar o Balcão de
-Milhas ao cliente?
-Criado em Apr 15,
-2026, 02:15 PM • Usado 756
-vezes • Ativo
-Indique quando o cliente achou a passagem mas não tem milhas no programa certo, ou q
-uando diz que não possui milhas. Explique o fluxo completo: o cliente passa por uma anál
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 10/14
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 10/15
 
 --- PAGINA 11 ---
-ise da equipe, assina o contrato em https://app.clicksign.com/fluxia/970a37b3-7f08-4945-
-ae55-4716448dd992, envia os documentos para o e-mail balcaodasmilhas@falcaodasmilh
-as.com.br e, depois de aprovado, é adicionado ao grupo de WhatsApp, onde negocia mil
-has com participantes aprovados, com segurança. A negociação acontece entre os partici
-pantes, sem intermediação direta da empresa.
-Como orientar o cliente a usar a busca
-manual?
+Quando indicar o Black Falcon ao cliente?
 Criado em Apr 15,
-2026, 02:15 PM • Usado 879
+2026, 02:15 PM • Usado 440
 vezes • Ativo
-A Busca Manual fica no final do site Explique que a busca manual serve para uma pesquis
-a mais específica. Oriente o cliente a preencher todos os campos exigidos pela tela: orige
-m, destino, data ou período, quantidade de passageiros, classe e programa de milhas, qua
-ndo aparecerem. Depois alinhe a expectativa: quanto mais específica a combinação, meno
-r a chance de aparecer uma tarifa award muito vantajosa. Se os preços ficarem parecidos
-com Skyscanner ou outros buscadores, oriente a comparar a área de Tarifas Awards, onde
-ficam as oportunidades já encontradas pelo sistema.
+Indique o Black Falcon quando o cliente quer delegar tudo, do planejamento às emissões,
+hotéis, ingressos e suporte contínuo. Antes de qualquer próximo passo, a qualificação te
+m quatro perguntas obrigatórias, uma por mensagem, e nenhuma pode ser pulada ou de
+duzida do contexto: 1. Em média, quantas vezes por ano você viaja para fora do Brasil? 2.
+Nessas viagens, você costuma voar mais de classe econômica ou executiva? 3. Suas viage
+ns são, em sua maioria, a trabalho ou a lazer? 4. Você tem flexibilidade de datas, por exem
+plo aproveitar uma oportunidade muito vantajosa fora do planejamento inicial? Enquanto
+faltar qualquer resposta, faça a pergunta que ficou em aberto em vez de avançar. Com as
+quatro respostas, não comunique aprovação, recusa nem perfil ideal ao cliente: colete o e
+-mail de compra e encaminhe para o time humano com as quatro respostas registradas, p
+orque a qualificação final e o onboarding são feitos por pessoas. Não prometa cotação ne
+m busca de voo pela IA.
+Como funciona a área de seguros na
+plataforma?
+Criado em Apr 15,
+2026, 02:15 PM • Usado 24
+vezes • Ativo
+Explique que a plataforma disponibiliza ofertas de seguros, especialmente seguro viagem,
+via parceira seguradora. 1. O cliente acessa a área de seguros e escolhe o plano. 2. É direci
+onado ao site da seguradora para contratar. 3. Cobertura, condições e suporte pós-compr
+a são da seguradora, não do buscador. Reforce que isso integra a experiência e facilita a c
+ompra, mas o atendimento sobre o seguro é direto com a seguradora.
+O que o cliente deve fazer se a tarifa sumir
+no site da companhia?
+Criado em Apr 15,
+2026, 02:15 PM • Usado 502
+vezes • Ativo
+Explique que isso não significa erro do Buscador. As tarifas award são limitadas e podem s
+er emitidas por outras pessoas ou retiradas pela companhia rapidamente. O Buscador mo
+stra oportunidades reais encontradas no mercado, mas a emissão e a disponibilidade final
+são confirmadas no site da companhia. Oriente o cliente a verificar outras datas disponíve
+is na mesma promoção, priorizar cards mais recentes, ativar monitoramento da rota e agir
+com mais rapidez nas próximas oportunidades. Se o caso envolver passagem já comprada
+ou erro de emissão, encaminhe para o suporte especializado com e-mail de compra.
+Como proceder quando o cliente pede
+cancelamento ou reembolso?
+Criado em Apr 15,
+2026, 02:15 PM • Usado
+6812 vezes• Ativo
+Deixe o cliente explicar o motivo com as próprias palavras, sem sugerir opções. Depois: 1.
+Valide o motivo real. 2. Explique o Buscador como radar de passagens, lembrando que hoj
+e emite em milhas ou em dinheiro. 3. Cite alternativas: busca manual no final da página,
+monitoramento e acúmulo. 4. Se for falta de uso ou resultado, ofereça grátis a Consultoria
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 11/15
+
+--- PAGINA 12 ---
+Individual como alternativa ao reembolso, deixando claro que, ao aceitá-la e manter o ace
+sso, abre mão do reembolso mesmo dentro dos 7 dias (o cancelamento da renovação seg
+ue disponível). 5. Sem milhas, emite em dinheiro pelo Buscador ou usa o Balcão; para dele
+gar, Black Falcon. 6. Se insistir, envie o formulário. Retenção é tentada uma vez; da segund
+a recusa, não insista. 7. Cancelamento ou reembolso sempre termina em humano. Encami
+nhe ao time quando reafirmar o pedido, confirmar o formulário, citar 7 dias, CDC, Procon,
+estorno ou contestação, ou pedir confirmação. Nunca diga que encaminhou sem encamin
+har.
 Como o cliente pode não perder
 oportunidades usando o monitoramento?
 Criado em Apr 15,
-2026, 02:15 PM • Usado 599
+2026, 02:15 PM • Usado 610
 vezes • Ativo
 Explique que o monitoramento avisa quando surgem novas oportunidades na rota de inte
 resse. Oriente de forma geral: dentro de uma promoção ou rota, ative o monitoramento p
 ara receber os avisos e, ao ser avisado, acesse rápido porque as tarifas award são concorri
 das e temporárias. Como existem duas versões do Buscador em uso, não afirme a posição
-exata do botão na tela. Se o cliente disser que não encontra a opção, oriente uma vez de f
-orma geral e, se ainda assim não localizar, peça o e-mail de compra e encaminhe para o ti
-me conferir, sem repetir a instrução várias vezes.
+exata do botão na tela e não peça ao cliente a rota que ele quer monitorar. Se o cliente di
+sser que não encontra a opção, oriente uma vez de forma geral e, se ainda assim não loca
+lizar, peça o e-mail de compra e encaminhe para o time conferir, sem repetir a instrução v
+árias vezes.
 Onde o cliente encontra promoções de
 acúmulo de pontos e como utilizar?
 Criado em Apr 15,
-2026, 02:15 PM • Usado 292
+2026, 02:15 PM • Usado 294
 vezes • Ativo
 Oriente a acessar a página de acúmulo de pontos e milhas. Lá ele vê promoções como tra
 nsferência bonificada, compra bonificada, compra de pontos e clubes. O passo a passo é s
 imples: 1. Escolher a promoção desejada. 2. Abrir os detalhes e confirmar condições. 3. Se
 r redirecionado ao site do parceiro para concluir a ação. Explique que o buscador organiz
 a e direciona; a operação é feita no parceiro e as regras finais valem no site externo.
-Como explico ao cliente o que é e o que
-não é o Buscador Automático?
+Como orientar o cliente a usar a busca
+manual?
 Criado em Apr 15,
-2026, 02:15 PM • Usado 307
+2026, 02:15 PM • Usado 948
 vezes • Ativo
-Diga que o Buscador monitora tarifas award (passagens com milhas) em tempo real e mo
-stra oportunidades reais do mercado. Ele não cria promoções, não altera preços e não em
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 11/14
+A Busca Manual fica no final do site e é a alternativa quando a passagem desejada não ap
+arece entre as oportunidades já encontradas pelo sistema. Sempre que o cliente disser qu
+e não achou a passagem que queria, ofereça a Busca Manual antes de tratar o caso como
+limitação do produto. Oriente a preencher todos os campos exigidos pela tela: origem, de
+stino, data ou período, quantidade de passageiros, classe e programa de milhas, quando
+aparecerem. Esses campos são preenchidos pelo próprio cliente na plataforma; não peça
+esses dados no atendimento. Depois alinhe a expectativa: quanto mais específica a combi
+nação, menor a chance de aparecer uma tarifa award muito vantajosa. Se os preços ficare
+m parecidos com Skyscanner ou outros buscadores, oriente a comparar a área de Tarifas
+Awards, onde ficam as oportunidades já encontradas pelo sistema.
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 12/15
 
---- PAGINA 12 ---
-ite passagens. 1. O cliente usa os filtros para achar oportunidades. 2. Ao escolher uma pro
-moção, é redirecionado para a companhia aérea para emitir. 3. Valores podem mudar rápi
-do porque a disponibilidade é limitada e dinâmica. Reforce que flexibilidade de datas e or
-igem aumenta as chances de economia.
+--- PAGINA 13 ---
 Como funcionam os cards de promoção e
 a emissão da passagem?
 Criado em Apr 15,
-2026, 02:15 PM • Usado 661
+2026, 02:15 PM • Usado 682
 vezes • Ativo
 Explique que os cards aparecem na seção Tarifas Awards e representam oportunidades já
 encontradas pelo sistema. No card, o cliente vê informações da oportunidade e há quanto
@@ -551,22 +600,11 @@ ageiros e detalhes exibidos pela promoção. Ao seguir para emissão, o cliente 
 o para a companhia aérea ou parceiro responsável. Taxas, bagagem, regras tarifárias e dis
 ponibilidade final são confirmadas fora do Buscador. Se a passagem já foi comprada ou h
 ouve erro de emissão, coletar e-mail de compra e encaminhar suporte especializado.
-Quando indicar o Black Falcon ao cliente?
-Criado em Apr 15,
-2026, 02:15 PM • Usado 433
-vezes • Ativo
-Indique o Black Falcon quando o cliente quer delegar tudo, do planejamento às emissões,
-hotéis, ingressos e suporte contínuo. Antes de indicar, qualifique com quatro perguntas, u
-ma por vez: quantas vezes por ano viaja para fora do Brasil; costuma voar econômica ou e
-xecutiva; viaja a lazer ou a trabalho; tem flexibilidade de datas. O perfil ideal é duas ou ma
-is viagens por ano, executiva, a lazer e com flexibilidade. Se qualificar, explique que o time
-comercial marca um onboarding para validar. Não prometa cotação nem busca de voo pe
-la IA.
 Como o cliente realiza a primeira busca no
 filtro principal do buscador?
 Criado em Apr 15,
 2026, 02:15 PM • Usado
-1012 vezes• Ativo
+1018 vezes• Ativo
 Antes de orientar, identifique se o cliente está na área de Tarifas Awards ou na Busca Man
 ual. A busca principal do site é a de Tarifas Awards: em ambas as versões do Buscador, as
 oportunidades já encontradas pelo sistema ficam disponíveis nos cards. A Busca Manual fi
@@ -579,13 +617,9 @@ busca flexível automática; use "datas alternativas que você aceitaria" ou "pe
 você pode viajar.
 Quando indicar a Consultoria Individual e
 como posicioná-la?
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 12/14
-
---- PAGINA 13 ---
 Criado em Apr 15,
 2026, 02:15 PM • Usado
-1032 vezes• Ativo
+1051 vezes• Ativo
 Indique a Consultoria Individual para clientes que querem aprender com segurança, têm
 baixa autonomia, não entendem milhas, estão frustrados com o Buscador ou pensam em
 cancelar por falta de uso. Posicione como um atendimento de cerca de 1 hora, por Googl
@@ -597,42 +631,11 @@ o cliente já investiu no Buscador, informe que pode haver a possibilidade de ap
 se valor na Consultoria, mediante confirmação do time. Não prometa aprovação. A versão
 gratuita da Consultoria existe apenas como retenção para clientes que solicitaram cancela
 mento ou reembolso. Fora desse cenário, o valor é de R$ 997,00.
-Como funciona a área de seguros na
-plataforma?
-Criado em Apr 15,
-2026, 02:15 PM • Usado 24
-vezes • Ativo
-Explique que a plataforma disponibiliza ofertas de seguros, especialmente seguro viagem,
-via parceira seguradora. 1. O cliente acessa a área de seguros e escolhe o plano. 2. É direci
-onado ao site da seguradora para contratar. 3. Cobertura, condições e suporte pós-compr
-a são da seguradora, não do buscador. Reforce que isso integra a experiência e facilita a c
-ompra, mas o atendimento sobre o seguro é direto com a seguradora.
-Como proceder quando o cliente pede
-cancelamento ou reembolso?
-Criado em Apr 15,
-2026, 02:15 PM • Usado
-6469 vezes• Ativo
-Deixe o cliente explicar o motivo com as próprias palavras, sem sugerir opções prontas. D
-epois conduza: 1. Entenda e valide o motivo real. 2. Explique o Buscador como um radar d
-e passagens e reforce seu valor. 3. Apresente alternativas (monitoramento, datas flexíveis
-e página de acúmulo). 4. Se for falta de uso ou resultado, ofereça gratuitamente a Consult
-oria Individual como alternativa ao reembolso, deixando claro que, ao aceitá-la e manter
-o acesso ativo, o cliente abre mão do reembolso, mesmo dentro dos 7 dias (o cancelamen
-to da renovação continua disponível). 5. Se não tiver milhas, indique o Balcão; se quiser d
-elegar tudo, Black Falcon. 6. Só se insistir após a retenção, envie o formulário de cancelam
-ento. 7. Peça que confirme o preenchimento e transfira para um humano.
-O que o cliente deve fazer se a tarifa sumir
-no site da companhia?
-Criado em Apr 15,
-2026, 02:15 PM • Usado 496
-vezes • Ativo
-Explique que isso não significa erro do Buscador. As tarifas award são limitadas e podem s
-er emitidas por outras pessoas ou retiradas pela companhia rapidamente. O Buscador mo
-stra oportunidades reais encontradas no mercado, mas a emissão e a disponibilidade final
-são confirmadas no site da companhia. Oriente o cliente a verificar outras datas disponíve
-is na mesma promoção, priorizar cards mais recentes, ativar monitoramento da rota e agir
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 13/14
+Como explico o campo Programa de
+Milhas e o que fazer se o cliente não tem
+saldo nele?
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 13/15
 
 --- PAGINA 14 ---
 Informações
@@ -642,6 +645,46 @@ Tipo
 Produto
 Tipo de Agente
 Suporte
+Criado em Apr 15,
+2026, 02:15 PM • Usado 956
+vezes • Ativo
+Diga que cada promoção com milhas está vinculada a um programa específico (ex.: Smile
+s, LATAM Pass, TudoAzul). Se o cliente não tem milhas naquele programa, há caminhos: 1.
+Emitir em dinheiro pelo próprio Buscador, quando a opção estiver disponível para aquela
+passagem. 2. Usar o Balcão de Milhas, com compra sem intermediários, custo geralmente
+menor e negociação direta pelo WhatsApp. 3. Transferir pontos do banco aproveitando b
+ônus quando houver. 4. Comprar milhas diretamente no programa de fidelidade, lembran
+do que normalmente o valor do milheiro é consideravelmente mais elevado. Reforce que
+não é possível comprar milhas pelo Buscador Automático.
+Quando e como indicar o Balcão de
+Milhas ao cliente?
+Criado em Apr 15,
+2026, 02:15 PM • Usado 769
+vezes • Ativo
+Indique quando o cliente achou a passagem mas não tem milhas no programa certo, ou q
+uando diz que não possui milhas. Explique o fluxo completo: o cliente passa por uma anál
+ise da equipe, assina o contrato em https://app.clicksign.com/fluxia/970a37b3-7f08-4945-
+ae55-4716448dd992, envia os documentos para o e-mail balcaodasmilhas@falcaodasmilh
+as.com.br e, depois de aprovado, é adicionado ao grupo de WhatsApp, onde negocia mil
+has com participantes aprovados, com segurança. A negociação acontece entre os partici
+pantes, sem intermediação direta da empresa.
+Como explico ao cliente o que é e o que
+não é o Buscador Automático?
+Criado em Apr 15,
+2026, 02:15 PM • Usado 314
+vezes • Ativo
+Diga que o Buscador monitora oportunidades reais de passagens em tempo real, com em
+issão em milhas ou em dinheiro. Ele não cria promoções e não altera preços. 1. O cliente u
+sa os filtros para achar oportunidades. 2. Ao escolher uma promoção, é redirecionado par
+a a companhia aérea ou parceiro para emitir. 3. Valores podem mudar rápido porque a dis
+ponibilidade é limitada e dinâmica. Reforce que flexibilidade de datas e de origem aumen
+ta as chances de economia, sem pedir ao cliente a rota ou as datas que ele pretende viaja
+r. A busca é sempre feita por ele dentro da plataforma; a empresa não faz cotação person
+alizada.
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 14/15
+
+--- PAGINA 15 ---
 Organização
 Falcão das Milhas
 Criado em
@@ -652,8 +695,6 @@ Campanha em uso
 IA de Suporte - Falcão das Milhas
 Fontes de Conhecimento
 Manual IA Atendimento.pdf
-com mais rapidez nas próximas oportunidades. Se o caso envolver passagem já comprada
-ou erro de emissão, encaminhe para o suporte especializado com e-mail de compra.
-27/07/2026, 16:07 Knowledge Base Details
-https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 14/14
+05/08/2026, 14:02 Knowledge Base Details
+https://neo.awsales.io/knowledge-bases/8a977399-f9fa-4ba9-a318-483d93ae1eb5 15/15
 
